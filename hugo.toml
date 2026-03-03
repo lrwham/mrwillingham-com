@@ -1,0 +1,10 @@
+baseURL = 'https://mrwillingham.com/'
+languageCode = 'en-us'
+title = "Mr. Willingham's Classes"
+theme = 'ananke'
+
+[taxonomies]
+  tag = "tags"
+  unit = "units"
+  standard = "standards"
+  resource = "resources"
