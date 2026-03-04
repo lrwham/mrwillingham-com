@@ -1,25 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Title }}</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-</head>
-
-<body class="min-h-screen bg-slate-900 text-white">
-  <div class="max-w-3xl mx-auto px-4 py-12">
-    <a href="../" class="text-slate-400 hover:text-white text-sm">&larr; Back to Daily Instructions</a>
-    <h1 class="text-3xl font-bold mt-4 mb-1">{{ .Title }}</h1>
-    <p class="text-slate-400 mb-8">{{ .Date.Format "Monday, January 2, 2006" }}</p>
-    <div class="prose prose-invert max-w-none">
-      {{ .Content }}
+  <body class="min-h-screen bg-slate-900 text-white">
+    <div class="max-w-3xl mx-auto px-4 py-12">
+      <a href="../" class="text-slate-400 hover:text-white text-sm"
+        >&larr; Back to Daily Instructions</a
+      >
+      <h1 class="text-3xl font-bold mt-4 mb-1">{{ .Title }}</h1>
+      {{ if ne .Params.show_date false }}
+      <p class="text-slate-400 mb-8">
+        {{ .Date.Format "Monday, January 2, 2006" }}
+      </p>
+      {{ end }}
+      <div class="prose prose-invert max-w-none">{{ .Content }}</div>
     </div>
-  </div>
-  <div class="text-slate-500 mt-12 text-sm text-center">
-    Copyright © 2026 Lawton Willingham. All rights reserved.
-  </div>
-</body>
-
+    <div class="text-slate-500 mt-12 text-sm text-center">
+      Copyright © 2026 Lawton Willingham. All rights reserved.
+    </div>
+  </body>
 </html>
