@@ -6,7 +6,7 @@ description: "Podcast Unit: The expectations for writing and formatting a podcas
 units: ["Podcast"]
 tags: ["brainstorming", "scripting", "recording"]
 resources: ["Soundtrap", "Microphone", "Audio Interface"]
-_build:
+build:
   list: never
   render: always
 ---

@@ -3,7 +3,7 @@ date: 2026-03-04
 show_date: false
 title: "Sample Podcast Script"
 description: "Practice recording script for 'The Sound Zone' podcast"
-_build:
+build:
   list: never
   render: always
 ---
