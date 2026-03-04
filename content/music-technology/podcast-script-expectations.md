@@ -10,7 +10,6 @@ _build:
   list: never
   render: always
 ---
-# Podcast Script Expectations
 ## Originality:
 Each student must write their own podcast script. The script must be entirely original, and students are not allowed to use AI or any other automated writing tools to generate any portion of the script.
 ## Topic:
