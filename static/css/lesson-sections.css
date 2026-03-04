@@ -41,7 +41,6 @@
 }
 .objectives-header {
   background-color: rgba(237, 228, 255, 0.1);
-  color: #ebdeff;
 }
 
 /* ── Warmup: Amber/Orange ── */
@@ -51,7 +50,6 @@
 }
 .warmup-header {
   background-color: rgba(254, 243, 199, 0.1);
-  color: #b45309;
 }
 
 /* ── Work Session: Blue ── */
@@ -61,7 +59,6 @@
 }
 .worksession-header {
   background-color: rgba(219, 234, 254, 0.1);
-  color: #1d4ed8;
 }
 
 /* ── Closing: Green ── */
@@ -71,5 +68,4 @@
 }
 .closing-header {
   background-color: rgba(220, 252, 231, 0.1);
-  color: #15803d;
 }
