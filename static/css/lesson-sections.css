@@ -36,40 +36,40 @@
 
 /* ── Objectives: Purple ── */
 .lesson-objectives {
-  background-color: rgba(243, 232, 255, 0.3);
+  background-color: rgba(243, 232, 255, 0.1);
   border-color: #7c3aed;
 }
 .objectives-header {
-  background-color: rgba(237, 228, 255, 0.3);
+  background-color: rgba(237, 228, 255, 0.1);
   color: #5b21b6;
 }
 
 /* ── Warmup: Amber/Orange ── */
 .lesson-warmup {
-  background-color: rgba(255, 247, 237, 0.3);
+  background-color: rgba(255, 247, 237, 0.1);
   border-color: #f59e0b;
 }
 .warmup-header {
-  background-color: rgba(254, 243, 199, 0.3);
+  background-color: rgba(254, 243, 199, 0.1);
   color: #b45309;
 }
 
 /* ── Work Session: Blue ── */
 .lesson-worksession {
-  background-color: rgba(239, 246, 255, 0.3);
+  background-color: rgba(239, 246, 255, 0.1);
   border-color: #3b82f6;
 }
 .worksession-header {
-  background-color: rgba(219, 234, 254, 0.3);
+  background-color: rgba(219, 234, 254, 0.1);
   color: #1d4ed8;
 }
 
 /* ── Closing: Green ── */
 .lesson-closing {
-  background-color: rgba(240, 253, 244, 0.3);
+  background-color: rgba(240, 253, 244, 0.1);
   border-color: #22c55e;
 }
 .closing-header {
-  background-color: rgba(220, 252, 231, 0.3);
+  background-color: rgba(220, 252, 231, 0.1);
   color: #15803d;
 }
