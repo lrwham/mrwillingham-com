@@ -1,0 +1,75 @@
+/* ── Shared Section Styles ── */
+.lesson-section {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 5px solid;
+  overflow: hidden;
+}
+
+.lesson-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+.lesson-section-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.lesson-section-icon {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.lesson-section-body {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.lesson-section-body ul {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem;
+}
+
+/* ── Objectives: Purple ── */
+.lesson-objectives {
+  background-color: #f3e8ff;
+  border-color: #7c3aed;
+}
+.objectives-header {
+  background-color: #ede4ff;
+  color: #5b21b6;
+}
+
+/* ── Warmup: Amber/Orange ── */
+.lesson-warmup {
+  background-color: #fff7ed;
+  border-color: #f59e0b;
+}
+.warmup-header {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+/* ── Work Session: Blue ── */
+.lesson-worksession {
+  background-color: #eff6ff;
+  border-color: #3b82f6;
+}
+.worksession-header {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+/* ── Closing: Green ── */
+.lesson-closing {
+  background-color: #f0fdf4;
+  border-color: #22c55e;
+}
+.closing-header {
+  background-color: #dcfce7;
+  color: #15803d;
+}
