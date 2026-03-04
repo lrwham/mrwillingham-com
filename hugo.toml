@@ -8,3 +8,6 @@ theme = 'ananke'
   unit = "units"
   standard = "standards"
   resource = "resources"
+
+[params]
+  custom_css = ["css/lesson-sections.css"]
