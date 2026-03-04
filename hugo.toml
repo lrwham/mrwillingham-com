@@ -11,3 +11,8 @@ theme = 'ananke'
 
 [params]
   custom_css = ["css/lesson-sections.css"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
