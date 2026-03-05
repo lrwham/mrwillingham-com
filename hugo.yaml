@@ -46,4 +46,4 @@ params:
   footer:
     displayPoweredBy: false
 
-  displayUpdatedDate: false
+  displayUpdatedDate: true
