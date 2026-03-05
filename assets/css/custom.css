@@ -77,11 +77,11 @@
 /* ── Checkpoint: Red ── */
 .lesson-checkpoint {
   background-color: rgba(255, 235, 238, 0.1);
-  border-color: #ef4444;
+  border-color: #ef4444aa;
 }
 
 .checkpoint-header {
-  background-color: rgba(255, 205, 210, 0.1);
+  background-color: rgba(255, 205, 210, 0.05);
 }
 
 /* ── Recent Lessons Cards ── */
@@ -100,7 +100,9 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
   text-decoration: none !important;
   color: inherit !important;
-  transition: background-color 0.15s, border-color 0.15s;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
 }
 
 .recent-lesson-card:hover {
