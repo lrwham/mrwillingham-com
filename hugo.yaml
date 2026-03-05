@@ -17,7 +17,7 @@ menu:
       name: Music Technology
       pageRef: /music-technology
       weight: 1
-    - indentifier: computer-programming
+    - identifier: computer-programming
       name: Computer Programming
       pageRef: /computer-programming
       weight: 2
