@@ -74,6 +74,16 @@
   background-color: rgba(220, 252, 231, 0.1);
 }
 
+/* ── Checkpoint: Red ── */
+.lesson-checkpoint {
+  background-color: rgba(255, 235, 238, 0.1);
+  border-color: #ef4444;
+}
+
+.checkpoint-header {
+  background-color: rgba(255, 205, 210, 0.1);
+}
+
 /* ── Recent Lessons Cards ── */
 .recent-lessons {
   display: flex;
