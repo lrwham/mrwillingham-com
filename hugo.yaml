@@ -23,6 +23,14 @@ menu:
       weight: 3
       params:
         type: search
+    - name: Music Tech Vocabulary
+      pageRef: /music-technology/vocabulary
+      weight: 1
+      parent: /music-technology
+    - name: Computer Programming Vocabulary
+      pageRef: /computer-programming/vocabulary
+      weight: 1
+      parent: /computer-programming
 
 markup:
   goldmark:
