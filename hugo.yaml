@@ -1,0 +1,48 @@
+baseURL: https://mrwillingham.com/
+languageCode: en-us
+title: "Mr. Willingham's Classes"
+theme: hextra
+
+enableGitInfo: true
+
+taxonomies:
+  tag: tags
+  unit: units
+  standard: standards
+  resource: resources
+
+menu:
+  main:
+    - name: Music Technology
+      pageRef: /music-technology
+      weight: 1
+    - name: Computer Programming
+      pageRef: /computer-programming
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  theme:
+    default: dark
+    displayToggle: true
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  page:
+    width: normal
+
+  footer:
+    displayPoweredBy: false
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"

@@ -1,14 +1,12 @@
 ---
 title: "Podcast Script Expectations"
 date: 2026-03-04
-show_date: false
 description: "Podcast Unit: The expectations for writing and formatting a podcast script."
 units: ["Podcast"]
 tags: ["brainstorming", "scripting", "recording"]
 resources: ["Soundtrap", "Microphone", "Audio Interface"]
-build:
-  list: never
-  render: always
+sidebar:
+  exclude: true
 ---
 ## Originality:
 Each student must write their own podcast script. The script must be entirely original, and students are not allowed to use AI or any other automated writing tools to generate any portion of the script.
