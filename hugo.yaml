@@ -13,10 +13,12 @@ taxonomies:
 
 menu:
   main:
-    - name: Music Technology
+    - indentifier: music-technology
+      name: Music Technology
       pageRef: /music-technology
       weight: 1
-    - name: Computer Programming
+    - indentifier: computer-programming
+      name: Computer Programming
       pageRef: /computer-programming
       weight: 2
     - name: Search
@@ -26,11 +28,11 @@ menu:
     - name: Music Tech Vocabulary
       pageRef: /music-technology/vocabulary
       weight: 1
-      parent: /music-technology
+      parent: music-technology
     - name: Computer Programming Vocabulary
       pageRef: /computer-programming/vocabulary
       weight: 1
-      parent: /computer-programming
+      parent: computer-programming
 
 markup:
   goldmark:
