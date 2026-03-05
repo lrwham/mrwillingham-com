@@ -13,7 +13,7 @@ taxonomies:
 
 menu:
   main:
-    - indentifier: music-technology
+    - identifier: music-technology
       name: Music Technology
       pageRef: /music-technology
       weight: 1
