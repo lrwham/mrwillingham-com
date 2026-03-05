@@ -54,5 +54,4 @@ params:
   footer:
     displayPoweredBy: false
 
-  displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  displayUpdatedDate: false
