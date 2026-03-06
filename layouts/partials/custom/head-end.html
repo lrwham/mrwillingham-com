@@ -11,3 +11,14 @@
   });
 </script>
 {{ end }}
+
+{{ if eq (getenv "HUGO_ENV") "dev" }}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var ribbon = document.createElement("div");
+    ribbon.textContent = "DEV";
+    ribbon.style.cssText = "position:fixed;top:12px;right:-40px;background:#ef4444;color:#fff;padding:4px 50px;font-size:12px;font-weight:700;transform:rotate(45deg);z-index:9999;box-shadow:0 2px 4px rgba(0,0,0,0.3);";
+    document.body.appendChild(ribbon);
+  });
+</script>
+{{ end }}
