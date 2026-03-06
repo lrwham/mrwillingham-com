@@ -38,6 +38,16 @@ Yesterday, we created the following artwork. Check yours... Use the `Paint a Spr
 1. optional - I have created a background for the game.
 {{< /checkpoint >}}
 
+The code for the ball is the following.
+```scratch
+when green flag clicked
+go to x: 0 y: 0
+point in direction random(0, 360)
+forever
+  move 10 steps
+  if on edge, bounce
+```
+
 {{< /warmup >}}
 
 {{< worksession "in progress" >}}
