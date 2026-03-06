@@ -1,7 +1,7 @@
 ---
 title: "Vocabulary"
 subtitle: "Vocabulary"
-draft: false
+draft: true
 weight: 1
 ---
 
