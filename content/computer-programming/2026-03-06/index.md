@@ -29,9 +29,9 @@ Yesterday, we created the following artwork. Check yours... Use the `Paint a Spr
 1. A vertical rectangle for player 1's paddle.
 1. A vertical rectangle for player 2's paddle.
 
-![The Ball](ball.svg)
-![Player 1's Paddle](player1.svg)
-![Player 2's Paddle](player2.svg)
+| The Ball | Player 1's Paddle | Player 2's Paddle |
+| --- | --- | --- |
+| ![The Ball](ball.svg) | ![Player 1's Paddle](player1.svg) | ![Player 2's Paddle](player2.svg) |
 
 {{< /warmup >}}
 
