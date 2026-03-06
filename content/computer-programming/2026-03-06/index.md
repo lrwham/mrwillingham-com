@@ -1,6 +1,7 @@
 ---
 title: "Day 36 - In Progress"
 subtitle: "In Progress"
+scratchblocks: true
 date: 2026-03-06
 day_number: 36
 tags:
