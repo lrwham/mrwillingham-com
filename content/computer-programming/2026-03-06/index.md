@@ -91,4 +91,4 @@ We'll work together to add the following features to our game:
 {{< closing "Discuss the Group Project" >}}
 On Monday, you will pick your groups.
 We'll discuss some of the project now, but we'll have more time to discuss it on Monday.
-{{< /closing >}}fgnfdgj
+{{< /closing >}}
