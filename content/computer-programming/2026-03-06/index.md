@@ -22,6 +22,10 @@ draft: false
   {{< /objectives >}}
 
 {{< warmup "Check your work from yesterday" >}}
+There are two checkpoints in today's warmup. **Complete both.**
+
+If you need your Scratch account details, see Mr. Willingham.
+
 Yesterday, we created the following artwork. Check yours... Use the `Paint a Sprite` tool to make them if needed...
 
 ![Paint a Sprite](paint-sprite.png)
