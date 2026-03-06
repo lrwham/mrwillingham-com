@@ -48,6 +48,28 @@ forever
   if on edge, bounce
 ```
 
+The code for one of the paddles is the following.
+```scratch
+when [w] key pressed
+change y by (10)
+
+when [s] key pressed
+change y by (-10)
+```
+
+The code for the second paddle is the same, but with different keys.
+```scratch
+when [up arrow] key pressed
+change y by (10)
+
+when [down arrow] key pressed
+change y by (-10)
+```
+
+{{< checkpoint "2. Code" >}}
+1. I have confirmed all of the code is correct.
+{{< /checkpoint >}}
+
 {{< /warmup >}}
 
 {{< worksession "in progress" >}}
