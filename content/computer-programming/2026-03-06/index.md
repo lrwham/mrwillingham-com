@@ -41,10 +41,10 @@ Yesterday, we created the following artwork. Check yours... Use the `Paint a Spr
 The code for the ball is the following.
 ```scratch
 when green flag clicked
-go to x: 0 y: 0
-point in direction random(0, 360)
+go to x: (0) y: (0)
+point in direction (pick random(0)  to (360))
 forever
-  move 10 steps
+  move (10) steps
   if on edge, bounce
 ```
 
