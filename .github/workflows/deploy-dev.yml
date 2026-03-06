@@ -18,4 +18,4 @@ jobs:
             cd /var/www/dev.mrwillingham.com
             git pull origin dev
             git submodule update --init --recursive
-            hugo --minify --baseURL "https://dev.mrwillingham.com/"
+            hugo --minify --buildFuture --buildDrafts --baseURL "https://dev.mrwillingham.com/"
