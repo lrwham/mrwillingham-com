@@ -33,6 +33,11 @@ Yesterday, we created the following artwork. Check yours... Use the `Paint a Spr
 | --- | --- | --- |
 | ![The Ball](ball.svg) | ![Player 1's Paddle](player1.svg) | ![Player 2's Paddle](player2.svg) |
 
+{{< checkpoint "1. Artwork" >}}
+1. I have confirmed all of the artwork is correct.
+1. optional - I have created a background for the game.
+{{< /checkpoint >}}
+
 {{< /warmup >}}
 
 {{< worksession "in progress" >}}
