@@ -13,7 +13,7 @@ resources:
   - Scratch
 draft: false
 ---
-
+Friday, March 6, 2026
 {{< objectives >}}
 
 - I can create artwork in Scratch using primitive tools like lines, circles, and rectangles.
