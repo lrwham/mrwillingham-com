@@ -73,15 +73,19 @@ change y by (-10)
 
 {{< /warmup >}}
 
-{{< worksession "in progress" >}}
-still working on this...
-```scratch
-when green flag clicked
-say "This isn't ready yet!" for 2 seconds
-hide
-```
+{{< worksession "Bounce off Paddles and Scoring" >}}
+
+We'll work together to add the following features to our game:
+- The ball bounces off the paddles.
+- A player scores a point when the ball goes past the opponent's paddle.
+
+{{< checkpoint "Work Session" >}}
+1. I have added code to make the ball bounce off the paddles.
+1. I have added code to keep track of the score for each player.
+{{< /checkpoint >}}
 {{< /worksession >}}
 
-{{< closing "in progress" >}}
-...
+{{< closing "Discuss the Group Project" >}}
+On Monday, you will pick your groups.
+We'll discuss some of the project now, but we'll have more time to discuss it on Monday.
 {{< /closing >}}fgnfdgj
