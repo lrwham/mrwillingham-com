@@ -1,11 +1,9 @@
 ---
 title: "Week 1: Introduction to Scratch"
-date: 2026-03-16
-lastmod: 2026-03-20
-cascade:
-  type: docs
 draft: false
 toc: false
+cascade:
+  type: docs
 ---
 
 ## Weekly Schedule
