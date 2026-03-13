@@ -9,7 +9,7 @@ resources: [""]
 toc: false
 ---
 
-Thursday, March 12th, 2026
+# Thursday, March 12th, 2026
 
 {{< warmup "Edpuzzle Video" >}}
 
