@@ -119,5 +119,11 @@ Don't listen until you finish!
 
 </div>
 
+<div>
+
+<video controls src="https://cdn.mrwillingham.com/6th-example.mov"></video>
+
+</div>
+
 </div>
 {{< /worksession >}}
