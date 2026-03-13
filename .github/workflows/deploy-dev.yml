@@ -15,6 +15,9 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            sudo rm -rf /var/www/dev.mrwillingham.com
+            sudo git clone https://github.com/lrwham/mrwillingham-com.git /var/www/dev.mrwillingham.com
+            sudo chown -R ubuntu:ubuntu /var/www/dev.mrwillingham.com
             cd /var/www/dev.mrwillingham.com
             git fetch origin dev
             git checkout dev
