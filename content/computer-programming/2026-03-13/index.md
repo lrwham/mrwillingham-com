@@ -8,7 +8,7 @@ tags:
 units:
   - game-design
 standards:
-resources:
+lesson_resources:
   - Scratch
 draft: false
 toc: false
