@@ -9,7 +9,7 @@ resources: ["Soundtrap"]
 toc: false
 ---
 
-Wednesday, March 11th, 2026
+# Wednesday, March 11th, 2026
 
 {{< objectives >}}
 
