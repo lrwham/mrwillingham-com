@@ -1,0 +1,90 @@
+---
+title: "Day 38 - Podcast Recording"
+date: 2026-03-09
+description: "Podcast Unit: Record the entire show using appropriate techniques and equipment."
+day_number: 38
+units: ["Podcast"]
+tags: ["microphones", "recording", "Soundtrap"]
+resources: ["Soundtrap"]
+toc: false
+---
+
+Monday, March 9th, 2026
+{{< objectives >}}
+
+- I can set up a microphone and recording software to record a podcast.
+- I can record a podcast using appropriate techniques.
+
+{{< /objectives >}}
+
+{{< warmup "Review Your Script" >}}
+
+Reread your entire script. If your script has large chunks of text (paragraphs), break those up into smaller lines. This will make it easier to read when you record your podcast.
+
+Confirm the following before we begin recording:
+
+- Your sound effect annotations are included in your script (e.g., [Insert Applause Sound Effect Here]).
+- Your intro music track is ready in Soundtrap.
+  {{< checkpoint "Warmup" >}}
+- [x] My script is broken into short, readable lines.
+- [x] My sound effects are labeled in my script.
+- [x] My intro music is ready in Soundtrap.
+
+{{< /checkpoint >}}
+
+{{< /warmup >}}
+
+{{< worksession "Record the Script" >}}
+
+We will first review the setup procedures. We will take turns recording our scripts. Record the podcast on your own computer. Your partner can help you with the setup and provide feedback on your recording, but you should be the one doing the actual recording.
+
+- [x] Microphone connected to audio interface with XLR cable.
+- [x] Gain knob turned up to an appropriate level (not too quiet, not too loud).
+- [x] Microphone positioned correctly (6 inches from mouth).
+- [x] Soundtrap project opened with a new track created for recording.
+- [x] Volume calibration completed in Soundtrap.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <figure style="border: 2px solid #ccc; padding: 1rem;">
+    <img src="new-project-popup.png" alt="Start a Podcast Project">
+    <figcaption>Start a new podcast project in Soundtrap.</figcaption>
+  </figure>
+  <figure style="border: 2px solid #ccc; padding: 1rem;">
+    <img src="add-microphone-track.png" alt="Create a New Microphone Track">
+    <figcaption>Create a new microphone track for recording.</figcaption>
+  </figure>
+  <figure style="border: 2px solid #ccc; padding: 1rem;">
+    <img src="choose-audio-interface.png" alt="Select the Presonus AudioBox iTwo as the interface">
+    <figcaption>Select the Presonus AudioBox iTwo as the audio interface.</figcaption>
+  </figure>
+  <figure style="border: 2px solid #ccc; padding: 1rem;">
+    <img src="calibrate-volume.png" alt="Volume Calibration">
+    <figcaption>Complete the volume calibration process. Talk continuously to ensure levels are appropriate.</figcaption>
+  </figure>
+</div>
+
+### Recording Tips
+
+- Record your script **one section at a time**. Do not try to record the entire episode in one take.
+- If you make a mistake, **continue recording, be silent for 3 seconds, then re-read the line**. Do not stop the recording. We will cut out the mistake when we edit tomorrow. 3 seconds of silence will give us a clear marker to find the mistake later.
+- Speak clearly and at a steady pace. Avoid rushing through your lines.
+- Stay close to the microphone and try not to move around while recording.
+
+### When You Finish Recording
+
+If you finish recording before the end of class, **listen back** to your recording. Re-record any sections that sound unclear, too quiet, or rushed. Your goal is to have a clean recording ready for editing tomorrow.
+{{< checkpoint "Work Session" >}}
+
+- [x] I have recorded my entire script.
+- [x] I have listened back and re-recorded any sections that need improvement.
+
+{{< /checkpoint >}}
+{{< /worksession >}}
+
+{{< closing "Next Steps" >}}
+Here is the plan for the rest of the week:
+
+- **Tomorrow (Tuesday):** Edit your podcast. This includes cutting out mistakes, adding your intro music, and adding sound effects.
+- **Wednesday:** Publish your episode and share it with the class.
+
+{{< /closing >}}
