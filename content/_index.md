@@ -19,3 +19,5 @@ Select your class to get started.
 {{< cards >}}
 {{< card link="scratch" title="Q4 - Programming with Scratch" subtitle="Daily Instructions" >}}
 {{< /cards >}}
+
+### Past Classes
