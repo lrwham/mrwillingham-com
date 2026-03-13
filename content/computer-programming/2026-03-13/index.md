@@ -14,6 +14,8 @@ draft: false
 toc: false
 ---
 
+# Friday, March 13, 2026
+
 ## Group Worksession
 
 Take 20 minutes to wrap up. Then we will pass around the box art and share our games with each other.
