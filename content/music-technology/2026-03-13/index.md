@@ -57,4 +57,30 @@ Download this [ZIP archive](https://cdn.mrwillingham.com/RocketLeague.zip). Extr
 3. Modulation => Chorus
    - This will add a shimmering, doubling effect to your sound.
 
+---
+
+# Share It
+
+This is optional, but if you make something even half interesting, share it.
+
+Export it as an MP3 file. Then [turn it in here](https://forms.cloud.microsoft/r/BvaQ6jGvPy)
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0;">
+
+<div>
+
+1. Click the "Share" menu in GarageBand.
+2. Choose "Export Song to Disk..."
+3. Choose "MP3" as the format and export your file.
+
+</div>
+
+<div>
+
+![share menu](share-menu.png)
+![export song](export-song.png)
+![mp3 format](mp3-format.png)
+
+</div>
+
 {{< /worksession >}}
