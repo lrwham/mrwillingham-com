@@ -1,4 +1,4 @@
-name: Deploy to EC2 (dev)
+name: Deploy Development to EC2 (dev.mrwillingham.com)
 
 on:
   push:
@@ -16,6 +16,8 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /var/www/dev.mrwillingham.com
-            git pull origin dev
+            git fetch origin dev
+            git checkout dev
+            git reset --hard origin/dev
             git submodule update --init --recursive
             HUGO_ENV=dev hugo --minify --buildFuture --buildDrafts --baseURL "https://dev.mrwillingham.com/"
