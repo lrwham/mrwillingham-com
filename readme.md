@@ -14,7 +14,7 @@ To make a new page `hugo new content music-technology/dayxx.md`. The archetype i
 
 # Github Actions Setup
 
-## Generate Keys on Server
+Generate keys on the server that will host the website. Then add the username, host IP, and SSH key as secrets in the Github action config.
 
 ### Generate New Keys
 
