@@ -95,6 +95,10 @@ Export it as an MP3 file. Then [turn it in here](https://forms.cloud.microsoft/r
 
 # Examples
 
+## STOP
+
+Don't listen until you finish!
+
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0;">
 
 <div>
