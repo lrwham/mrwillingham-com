@@ -1,0 +1,15 @@
+{{/* Usage: {{< recent-lessons count=5>}} */}} {{ $count := .Get "count" | default 5 }} {{ $pages := where .Page.CurrentSection.Pages.ByDate.Reverse "Params.day_number" "!=" nil }} {{ $pages = first (int $count) $pages }}
+
+<div class="recent-lessons">
+  {{ range $pages }}
+  <a href="{{ .RelPermalink }}" class="recent-lesson-card">
+    <div class="recent-lesson-date">{{ .Date.Format "Monday, January 2" }}</div>
+    <div class="recent-lesson-title">{{ .Title }}</div>
+    {{ with .Params.subtitle }}
+    <div class="recent-lesson-subtitle">{{ . }}</div>
+    {{ end }} {{ with .Params.tags }}
+    <div class="recent-lesson-tags">{{ range . }}<span class="recent-lesson-tag">{{ . }}</span>{{ end }}</div>
+    {{ end }}
+  </a>
+  {{ end }}
+</div>

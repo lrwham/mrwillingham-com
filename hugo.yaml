@@ -1,0 +1,59 @@
+baseURL: https://mrwillingham.com/
+languageCode: en-us
+title: "Mr. Willingham's Classes"
+theme: hextra
+
+enableGitInfo: true
+
+frontmatter:
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+taxonomies:
+  tag: tags
+  unit: units
+  standard: standards
+  resource: resources
+
+menu:
+  main:
+    - identifier: troubleshooting
+      name: Troubleshooting
+      pageRef: /troubleshooting
+      weight: 1
+    - identifier: music-technology
+      name: Music Technology
+      pageRef: /music-technology
+      weight: 2
+    - identifier: computer-programming
+      name: Computer Programming
+      pageRef: /computer-programming
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  theme:
+    default: dark
+    displayToggle: true
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  page:
+    width: normal
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true

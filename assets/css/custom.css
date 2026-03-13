@@ -1,0 +1,197 @@
+/* ── Shared Section Styles ── */
+.lesson-section {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 5px solid;
+  overflow: hidden;
+}
+
+.lesson-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+.lesson-section-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.lesson-section-icon {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.lesson-section-body {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.lesson-section-body ul {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem;
+}
+
+/* ── Objectives: Purple ── */
+.lesson-objectives {
+  background-color: rgba(243, 232, 255, 0.1);
+  border-color: #7c3aed;
+}
+
+.objectives-header {
+  background-color: rgba(237, 228, 255, 0.1);
+}
+
+/* ── Warmup: Amber/Orange ── */
+.lesson-warmup {
+  background-color: rgba(255, 247, 237, 0.1);
+  border-color: #f59e0b;
+}
+
+.warmup-header {
+  background-color: rgba(254, 243, 199, 0.1);
+}
+
+/* ── Work Session: Blue ── */
+.lesson-worksession {
+  background-color: rgba(239, 246, 255, 0.1);
+  border-color: #3b82f6;
+}
+
+.worksession-header {
+  background-color: rgba(219, 234, 254, 0.1);
+}
+
+/* ── Closing: Green ── */
+.lesson-closing {
+  background-color: rgba(240, 253, 244, 0.1);
+  border-color: #22c55e;
+}
+
+.closing-header {
+  background-color: rgba(220, 252, 231, 0.1);
+}
+
+/* ── Checkpoint: Red ── */
+.lesson-checkpoint {
+  background-color: rgba(255, 235, 238, 0.1);
+  border-color: #ef4444aa;
+}
+
+.checkpoint-header {
+  background-color: rgba(255, 205, 210, 0.05);
+}
+
+/* ── Recent Lessons Cards ── */
+.recent-lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.recent-lesson-card {
+  display: block;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
+}
+
+.recent-lesson-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+:root .recent-lesson-card {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+:root .recent-lesson-card:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.dark .recent-lesson-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.dark .recent-lesson-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.recent-lesson-date {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-bottom: 0.25rem;
+}
+
+.recent-lesson-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.recent-lesson-subtitle {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 0.2rem;
+}
+
+.recent-lesson-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.recent-lesson-tag {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background-color: rgba(99, 102, 241, 0.15);
+  color: rgb(129, 140, 248);
+}
+
+/* ── Alert: Red ── */
+.alert-container {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 5px solid;
+  overflow: hidden;
+  background-color: rgba(255, 235, 238, 0.1);
+  border-color: #ef4444;
+}
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: rgba(255, 205, 210, 0.1);
+}
+
+.alert-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.alert-body {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.alert-body ul {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem;
+}

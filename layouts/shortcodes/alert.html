@@ -1,0 +1,7 @@
+{{/* Usage: {{< alert "Title">}} Content... {{</alert>}} */}}
+<div class="alert-container">
+  <div class="alert-header">
+    <h2>{{ .Get 0 }}</h2>
+  </div>
+  <div class="alert-body">{{ .Inner | markdownify }}</div>
+</div>

@@ -1,0 +1,7 @@
+{{/* Usage: {{< closing "Title Here" >}} Content... {{< /closing >}} */}}
+<div class="lesson-section lesson-closing">
+  <div class="lesson-section-header closing-header">
+    <h2>Closing: {{ .Get 0 }}</h2>
+  </div>
+  <div class="lesson-section-body">{{ .Inner | markdownify }}</div>
+</div>
