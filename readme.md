@@ -1,6 +1,6 @@
 # Add Content
 
-To make a new page `hugo new content music-technology/dayxx.md`. The archetype includes the front matter.
+To make a new page `hugo new content music-technology/dayxx.md`. The archetype includes the front matter..
 
 # Serve Local Development Site
 
