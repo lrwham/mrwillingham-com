@@ -7,7 +7,10 @@ cascade:
 
 6th-8th Grade Music Technology — Daily Instructions
 
+## Today's Lessons
+
+{{< todays-lesson >}}
+
 ## Recent Lessons
 
 {{< recent-lessons count=5 >}}
-

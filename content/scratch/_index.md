@@ -8,6 +8,10 @@ draft: false
 
 6th-8th Grade Computer Programming with Scratch
 
+## Today's Lessons
+
+{{< todays-lesson >}}
+
 ## Recent Lessons
 
 {{< recent-lessons count=5 >}}
