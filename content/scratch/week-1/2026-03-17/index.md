@@ -16,7 +16,7 @@ tags:
   - Bugs
 resources:
   - Code.org
-draft: true
+draft: false
 toc: false
 scratchblocks: false
 weight: 2
