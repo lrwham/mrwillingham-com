@@ -22,20 +22,16 @@ Take 20 minutes to wrap up. Then we will pass around the box art and share our g
 
 Open [this form](https://forms.cloud.microsoft/r/VyR0PxZ4am) to share your mockup.
 
-## First Periods Mockups
+## First Period Mockups
 
-[game](https://scratch.mit.edu/projects/1290236259/editor/)
+[game 1](https://scratch.mit.edu/projects/1289705541/)
 
-[game](https://scratch.mit.edu/projects/1289697474/)
+[game 2](https://scratch.mit.edu/projects/1288729417)
 
-[game](https://scratch.mit.edu/projects/1288677840/editor)
+[game 3](https://scratch.mit.edu/projects/1290747705)
 
-[game](https://scratch.mit.edu/projects/1289705541/editor)
+[game 4](https://scratch.mit.edu/projects/1290747807)
 
-[game](https://scratch.mit.edu/projects/1288729417)
+[game 5](https://scratch.mit.edu/projects/1289958821/)
 
-[game](https://scratch.mit.edu/projects/1289694502)
-
-[game](https://scratch.mit.edu/projects/1290747705)
-
-[game](https://scratch.mit.edu/projects/1290747807)
+[game 6](https://scratch.mit.edu/projects/1290750738/)
