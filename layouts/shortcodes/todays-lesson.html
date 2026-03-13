@@ -1,0 +1,15 @@
+{{/* Usage: {{< todays-lesson >}} */}} {{ $today := now.Format "2006-01-02" }} {{ $pages := where .Page.CurrentSection.Pages "Params.day_number" "!=" nil }} {{ $found := false }} {{ range $pages }} {{ if eq (.Date.Format "2006-01-02") $today }} {{ $found = true }}
+<div class="recent-lesson">
+  <a href="{{ .RelPermalink }}" class="recent-lesson-card">
+    <div class="recent-lesson-date">{{ .Date.Format "Monday, January 2" }}</div>
+    <div class="recent-lesson-title">{{ .Title }}</div>
+    {{ with .Params.subtitle }}
+    <div class="recent-lesson-subtitle">{{ . }}</div>
+    {{ end }} {{ with .Params.tags }}
+    <div class="recent-lesson-tags">{{ range . }}<span class="recent-lesson-tag">{{ . }}</span>{{ end }}</div>
+    {{ end }}
+  </a>
+</div>
+{{ end }} {{ end }} {{ if not $found }}
+<div class="recent-lesson-none">No Lesson for Today</div>
+{{ end }}
