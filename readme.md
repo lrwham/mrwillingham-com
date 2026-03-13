@@ -11,3 +11,27 @@ To make a new page `hugo new content music-technology/dayxx.md`. The archetype i
 # Install GIT Submodules for Themes
 
 `git submodule update --init --recursive`
+
+# Github Actions Setup
+
+## Generate Keys on Server
+
+### Generate New Keys
+
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/deploy_key -N ""
+```
+
+### Authorize Keys
+
+```bash
+cat ~/.ssh/deploy_key.pub >> ~/.ssh/authorized_keys
+```
+
+### Copy & Paste Secret Key
+
+Manually and copy & paste
+
+```bash
+cat ~/.ssh/deploy_key
+```
