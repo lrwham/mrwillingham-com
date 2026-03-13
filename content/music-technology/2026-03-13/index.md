@@ -95,4 +95,6 @@ Export it as an MP3 file. Then [turn it in here](https://forms.cloud.microsoft/r
 
 <video controls src="https://cdn.mrwillingham.com/Example1.mov"></video>
 
+<video controls src="https://cdn.mrwillingham.com/Example2.mov"></video>
+
 {{< /worksession >}}
