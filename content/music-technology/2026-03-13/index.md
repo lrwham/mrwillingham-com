@@ -78,8 +78,16 @@ Export it as an MP3 file. Then [turn it in here](https://forms.cloud.microsoft/r
 <div>
 
 ![share menu](share-menu.png)
+
+> Click the share menu.
+
 ![export song](export-song.png)
+
+> Choose "Export Song to Disk..."
+
 ![mp3 format](mp3-format.png)
+
+> Choose "MP3" as the format and export your file.
 
 </div>
 
