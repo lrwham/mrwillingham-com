@@ -1,7 +1,7 @@
 ---
 title: "Day 3: Motion & Sequences"
 date: 2026-03-18
-description: ""
+description: "Use motion blocks and the green flag event to build sequences, and work with multiple sprites."
 day_number: 3
 units:
   - "Intro to Scratch"
@@ -155,6 +155,6 @@ You'll need to answer the questions on CTLS at the end of class. Consider questi
 ## Standards
 
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences and algorithms.
-- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including flowcharting and/or storyboarding, coding, debugging, user interfaces, usability, variables, lists, loops, conditionals, programming language, and events.
+- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, user interfaces, programming language, and events.
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
 - [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Develop an event driven program.

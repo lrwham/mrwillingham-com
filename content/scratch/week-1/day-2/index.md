@@ -1,7 +1,7 @@
 ---
 title: "Day 2: Sequencing & Debugging"
 date: 2026-03-17
-description: ""
+description: "Practice sequencing and debugging with Code.org's Programming with Angry Birds lesson."
 day_number: 2
 units:
   - "Intro to Scratch"

@@ -1,7 +1,7 @@
 ---
 title: "Day 1: Intro to Scratch"
 date: 2026-03-16
-description: ""
+description: "Login to Scratch, learn class procedures, and explore the art tools by painting a backdrop."
 day_number: 1
 units:
   - "Intro to Scratch"

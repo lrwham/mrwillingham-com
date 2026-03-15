@@ -1,7 +1,7 @@
 ---
 title: "Day 5: Loops"
 date: 2026-03-20
-description: ""
+description: "Learn about loops using the forever and repeat blocks, and create sprite animations."
 day_number: 5
 units:
   - "Intro to Scratch"
