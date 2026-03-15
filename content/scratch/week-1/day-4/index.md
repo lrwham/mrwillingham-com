@@ -1,7 +1,7 @@
 ---
 title: "Day 4: User Input as Events"
 date: 2026-03-19
-description: ""
+description: "Use keyboard input events to control a sprite and build an interactive maze game."
 day_number: 4
 units:
   - "Intro to Scratch"
@@ -103,6 +103,6 @@ Tomorrow we will learn about **loops** — a way to make code repeat automatical
 ## Standards
 
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences and algorithms.
-- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, debugging, user interfaces, usability, variables, lists, loops, conditionals, programming language, and events.
+- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, user interfaces, programming language, and events.
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
 - [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Develop an event driven program.

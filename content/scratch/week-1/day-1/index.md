@@ -1,7 +1,7 @@
 ---
 title: "Day 1: Intro to Scratch"
 date: 2026-03-16
-description: ""
+description: "Login to Scratch, learn class procedures, and explore the art tools by painting a backdrop."
 day_number: 1
 units:
   - "Intro to Scratch"
@@ -22,6 +22,7 @@ weight: 1
 
 {{< objectives >}}
 
+- I can follow class procedures.
 - I can make a Scratch project.
 - I can use Scratch blocks to make a sprite move.
 - I can use the art tools to paint a backdrop.
@@ -47,7 +48,20 @@ Then, click "Create" to start a new project. Choose the tutorial titled "Getting
 
 {{< /warmup >}}
 
-{{< worksession "Scratch Art Tools" >}}
+{{< worksession "Part 1: Class Procedures" >}}
+
+Mr. Willingham will cover the usual first day procedural stuff first...
+
+1. Safety Drill Procedures
+1. Hall/bathroom passes
+1. Care of the equipment
+1. Assigned seats
+1. Grades and late policy
+1. Overview of the class
+
+{{< /worksession>}}
+
+{{< worksession "Part 2: Scratch Art Tools" >}}
 
 We'll walk through the art tools in Scratch together. When making apps in Scratch, making them looked good is all about using the art tools effectively. Code is important, but the art tools are just as important. So, let's learn how to use them!
 
@@ -125,9 +139,11 @@ Hold (or don't hold) the shift key while using to draw perfect shapes.
 
 {{< /worksession >}}
 
-{{< closing "Class Procedures" >}}
+{{< closing "Exit Ticket" >}}
 
-In this class, our goal is to learn the programming skills necessary to make a full game by the end of the nine weeks. Each student will group up or work alone in the last two weeks of the class to produce a final project.
+Using the CTLS discussion post, answer the following question.
+
+**What is one advantage of using the primitive shape tools (line, circle, rectangle) instead of drawing freehand with the paintbrush?**
 
 {{< /closing >}}
 
