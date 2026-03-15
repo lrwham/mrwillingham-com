@@ -6,6 +6,7 @@ description: "Practice recording script for 'The Sound Zone' podcast"
 sidebar:
   exclude: true
 toc: false
+draft: true
 ---
 
 **"The Sound Zone"** — Practice Recording Script
@@ -27,37 +28,37 @@ Use this script to **practice recording in GarageBand**. Read through the script
 
 ## The Script
 
-*[Insert upbeat intro music]*
+_[Insert upbeat intro music]_
 
-**Host:** *(Enthusiastic)* "Hey there, science fans! Welcome to 'The Sound Zone'—the podcast where we explore the vibrations that make our world buzz! I'm your host, **{NAME}**. Today, we're going to dive into the fascinating world of sound waves!"
+**Host:** _(Enthusiastic)_ "Hey there, science fans! Welcome to 'The Sound Zone'—the podcast where we explore the vibrations that make our world buzz! I'm your host, **{NAME}**. Today, we're going to dive into the fascinating world of sound waves!"
 
-*[Pause for effect]*
+_[Pause for effect]_
 
 **Host:** "Have you ever wondered how your voice travels across a room or how music reaches your ears? It's all thanks to sound waves! So, let's get started."
 
-*[Say this in a curious tone]*
+_[Say this in a curious tone]_
 
 **Host:** "First things first—a simple wave has a repeating pattern with a specific frequency and amplitude. Think of it like a roller coaster: the frequency is how many hills you go over in a certain time, and the amplitude is how high those hills are!"
 
 **Host:** "But here's the catch—a sound wave needs a medium through which it is transmitted. That means it needs something like air, water, or even a solid object to travel. Without a medium, sound has nowhere to go!"
 
-*[Say this in a higher-pitched voice]*
+_[Say this in a higher-pitched voice]_
 
 **Host:** "Imagine shouting in outer space... no one can hear you scream!"
 
-*[Back to normal voice]*
+_[Back to normal voice]_
 
 **Host:** "That's because space is a vacuum—there's no air to carry the sound waves. Now, let's talk about how sound waves move. To start with, something must disturb the air. Hit a drum with a stick and the drum will vibrate. The surface of the drum is moving up and down creating compressions and rarefactions."
 
-*[Insert a soft 'whoosh' sound effect]*
+_[Insert a soft 'whoosh' sound effect]_
 
 **Host:** "During compression, particles in the medium are pushed together, increasing their density. In rarefaction, they're spread apart, decreasing the density. This back-and-forth motion is what allows sound to travel."
 
-*[Add an enthusiastic tone]*
+_[Add an enthusiastic tone]_
 
 **Host:** "Want a real-world example? Let's look at how speakers work! Inside a speaker, there's a permanent magnet and an electromagnet. The electromagnet in a speaker is called the voice coil. The voice coil switches on and off rapidly, causing the speaker to move in and out as the voice coil is attracted to and then repelled by the permanent magnet."
 
-*[Say this with excitement]*
+_[Say this with excitement]_
 
 **Host:** "When the speaker moves outward, it pushes the air molecules together—creating an area of compression. When it moves inward, it pulls the air molecules apart causing rarefaction. This rapid pushing and pulling of air creates sound waves that our ears can detect!"
 
@@ -65,7 +66,7 @@ Use this script to **practice recording in GarageBand**. Read through the script
 
 **Host:** "Now, sound waves can do some pretty cool tricks! One of them is reflection. That's when a sound wave bounces off a surface and comes back to you. Ever shouted and heard your own voice echo a moment later? That's reflection!"
 
-*📢 [Create an echo effect]*
+_📢 [Create an echo effect]_
 
 **Host:** "'Hello... hello... hello...' Pretty neat, right?"
 
@@ -73,36 +74,36 @@ Use this script to **practice recording in GarageBand**. Read through the script
 
 **Host:** "Then there's diffraction. This allows sound waves to bend around obstacles and spread out after passing through small openings. That's why you can hear someone talking even if they're around a corner and you can't see them!"
 
-*[Say this with excitement]*
+_[Say this with excitement]_
 
 **Host:** "But wait, there's more! Sound waves can also be transmitted through materials. When the sound hits a wall, some of the sound is absorbed, but some of it is transmitted through the wall to the other side."
 
-*[Insert a distant train sound]*
+_[Insert a distant train sound]_
 
 **Host:** "Some materials absorb sound. Music studios have foam on the walls—to absorb sound."
 
 **Host:** "Now, let's talk about the speed of sound. In air, it travels at about 343 meters per second. 1,481 meters per second in water and at 5,120 meters per second in iron. Can you think of a situation where sound might travel through the water?"
 
-*[Play whale sounds]*
+_[Play whale sounds]_
 
 **Host:** "That's right! Whales use sound to communicate underwater. They can hear each other from miles away! I wonder when you might hear a sound passing through iron?"
 
-*[Play train sounds]*
+_[Play train sounds]_
 
-*[Say this at a faster pace]*
+_[Say this at a faster pace]_
 
 **Host:** "The frequency of a sound wave determines its pitch. High frequency means a high pitch—like a flute. Low frequency means a low pitch—like a string bass."
 
-*[Play a flute sound followed by a bass sound]*
+_[Play a flute sound followed by a bass sound]_
 
 **Host:** "Amplitude affects how loud the sound is. Bigger amplitude means louder sound! It's like the height of ocean waves—the taller the wave, the more energy it has."
 
-*[Play a drum soft, medium, then loud]*
+_[Play a drum soft, medium, then loud]_
 
 **Host:** "So, the next time you're listening to your favorite song or hearing a bird chirp, remember all these amazing properties of sound waves at work!"
 
-*[Insert closing music]*
+_[Insert closing music]_
 
 **Host:** "Thanks for tuning into 'The Sound Zone'! Keep your ears open and stay curious. Until next time, this is **{NAME}** signing off!"
 
-*[End of podcast]*
+_[End of podcast]_
