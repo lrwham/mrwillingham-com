@@ -36,7 +36,7 @@ Complete the entire work session. It is graded.
 
 {{< worksession "Code.org Lesson 1: Programming with Angry Birds" >}}
 
-Login to [Clever.com](https://clever.com/in/ccsd) and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
+Login to [Clever.com](https://clever.com) and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
 
 #### Didn't finish in class?
 

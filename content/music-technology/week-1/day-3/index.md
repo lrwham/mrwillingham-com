@@ -33,7 +33,7 @@ Watch the Edpuzzle video on how to set up the microphone and audio interface for
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
-[Go to Clever.com](https://clever.com/in/ccsd)
+[Go to Clever.com](https://clever.com)
 
 **Step 2:** Find and click on the **Edpuzzle** icon in your Clever dashboard.
 
