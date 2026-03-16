@@ -53,14 +53,16 @@ Do this every day.
 - How to move your selfie to OneDrive
 - How to upload your picture to the About Me form
 
-**Step 3:** Follow along with the video to complete the **first two questions** of the About Me form (your name and selfie).
+**Step 3:** Follow along with the video to complete the **first seven questions** of the About Me form.
 
-[Open About Me Form](https://forms.office.com/Pages/ResponsePage.aspx?id=-x3OL5-ROEmquMR_D8kYLaF8AO3iXm9Ho39KOx_GABVUOE1SWDY3UjhPWldRU1AxSVo0WjZTRU9OOSQlQCNjPTEu)
+Stop 🛑 when you get to the section about hyperlinks and screenshots.
+
+[Open About Me Form](https://forms.office.com/r/KUY3wCsirJ)
 
 {{< checkpoint "Warmup" >}}
 
 - [x] I have watched the Edpuzzle video.
-- [x] I have uploaded my selfie to the About Me form.
+- [x] I have started the About Me form.
 
 {{< /checkpoint >}}
 
@@ -71,6 +73,7 @@ Do this every day.
 After the warmup, Mr. Willingham will walk you through:
 
 - Setting your desktop wallpaper
+- Finding the URL for an activity you care about and sharing it as a hyperlink in the About Me form
 - Additional computer tips and settings
 - Opening GarageBand and adjusting your volume
 - Completing the **rest of the About Me form**
@@ -78,15 +81,23 @@ After the warmup, Mr. Willingham will walk you through:
 {{< checkpoint "Work Session" >}}
 
 - [x] I have set my desktop wallpaper.
-- [x] I have opened GarageBand and adjusted my volume.
+- [x] I have shared a hyperlink in the About Me form.
 - [x] I have completed the entire About Me form.
 
 {{< /checkpoint >}}
 
 {{< /worksession >}}
 
-{{< closing "Next Steps" >}}
+{{< closing "Class Procedures" >}}
 
-Tomorrow we will start learning how to use GarageBand, starting with **loops** — short snippets of music you can combine to create songs.
+Mr. Willingham will go over the following procedures:
+
+1. Substitute teacher procedures
+1. Safety Drill Procedures
+1. Hall/bathroom passes
+1. Care of the equipment
+1. Assigned seats
+1. Grades and late policy
+1. Overview of the class
 
 {{< /closing >}}

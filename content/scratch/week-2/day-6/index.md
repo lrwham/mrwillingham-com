@@ -21,116 +21,153 @@ weight: 1
 
 {{< objectives >}}
 
-- I can make a Scratch project.
-- I can use Scratch blocks to make a sprite move.
-- I can use the art tools to paint a backdrop.
+- I can explain what a `loop` is and why it is useful.
+- I can use the `forever` block to make code repeat continuously.
+- I can use the `repeat` block to make code repeat a specific number of times.
 
 {{< /objectives >}}
 
-{{< warmup "Intro to Scratch" >}}
+{{< warmup "Week 1 Review" >}}
 
-Go to [scratch.mit.edu](https://scratch.mit.edu) and login with the information Mr. Willingham gives you.
+Think about what you've learned this week. Be ready to answer these questions out loud when called on:
 
-Then, click "Create" to start a new project. Choose the tutorial titled "Getting Started". Watch the video and follow along with the instructions in the tutorial.
-
-![Tutorials Button](tutorials.png)
-![Getting Started Tutorial](getting-started.png)
+1. What is a **sequence**?
+2. What is an **event**? Give an example of an event block in Scratch.
+3. What happens if your blocks are in the wrong order?
 
 {{< checkpoint "Warmup" >}}
 
-- [x] I have logged in to Scratch
-- [x] I have completed the video in the "Getting Started" tutorial
-- [x] I completed the steps following the video in the "Getting Started" tutorial
+- [x] I am ready to answer the review questions.
 
 {{< /checkpoint >}}
 
 {{< /warmup >}}
 
-{{< worksession "Scratch Art Tools" >}}
+{{< worksession "Part 1: What is a Loop?" >}}
 
-We'll walk through the art tools in Scratch together. When making apps in Scratch, making them looked good is all about using the art tools effectively. Code is important, but the art tools are just as important. So, let's learn how to use them!
+A **loop** is a way to make the computer repeat instructions. Instead of copying and pasting the same blocks over and over, you wrap them in a loop block and let Scratch do the repeating for you.
 
-We'll use all of the following to paint a backdrop for today's Scratch project.
+Scratch has two main loop blocks:
 
-#### Color Selection
+```scratch
+forever
+end
+```
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-<div>
+The `forever` block repeats the blocks inside it **non-stop** until you press the stop button.
 
-1. Color slider
-1. Saturation slider
-1. Brightness slider
-1. Color picker
+```scratch
+repeat (10)
+end
+```
 
-</div>
-<div>
+The `repeat` block repeats the blocks inside it a **specific number of times**, then stops.
 
-<figure>
-<img src="color-tools.png" alt="Color Tools" style="max-width: 5rem;">
-<figcaption>Color Tools</figcaption>
-</figure>
-</div>
-</div>
+### Try It: Without a Loop
 
-#### Primitive Shapes
+Build this program. Click the green flag to run it.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-<div>
+```scratch
+when green flag clicked
+move (10) steps
+wait (0.5) seconds
+move (10) steps
+wait (0.5) seconds
+move (10) steps
+wait (0.5) seconds
+move (10) steps
+wait (0.5) seconds
+```
 
-Hold (or don't hold) the shift key while using to draw perfect shapes.
+That's a lot of repeated blocks just to move four times. Now let's use a loop.
 
-1. Line tool
-1. Circle tool
-1. Rectangle tool
+### Try It: With a Loop
 
-</div>
-<div>
-<figure>
-<img src="primitives.png" alt="Primitive Shape Tools" style="max-width: 5rem;">
-<figcaption>Primitive Shape Tools</figcaption>
-</figure>
-</div>
-</div>
+Replace all of that with this:
 
-#### Other Tools
+```scratch
+when green flag clicked
+repeat (4)
+move (10) steps
+wait (0.5) seconds
+end
+```
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-<div>
+Same result, way less code. That's the power of loops.
 
-1. Paintbrush tool
-1. Fill tool
-1. Select tool
-1. Text tool
-1. Reshape
-1. Eraser
+{{< checkpoint "Part 1" >}}
 
-</div>
-<div>
-<figure>
-<img src="other.png" alt="Other Tools" style="max-width: 5rem;">
-<figcaption>Other Tools</figcaption>
-</figure>
-</div>
-</div>
-
-{{< checkpoint "Work Session" >}}
-
-- [x] I have used the art tools to paint a backdrop.
-- [x] I understand the advantage of using the primitive shapes over painting freehand.
-- [x] I understand how to use the color picker tool to select colors.
-- [x] I understand how to use the color, saturation, and brightness sliders to select colors.
+- [x] I built the program without a loop and ran it.
+- [x] I rebuilt it using a `repeat` block and got the same result.
+- [x] I can explain in my own words why loops are useful.
 
 {{< /checkpoint >}}
 
 {{< /worksession >}}
 
-{{< closing "Class Procedures" >}}
+{{< worksession "Part 2: Animation with Loops" >}}
 
-In this class, our goal is to learn the programming skills necessary to make a full game by the end of the nine weeks. Each student will group up or work alone in the last two weeks of the class to produce a final project.
+Loops are the key to animation in Scratch. By combining loops with `next costume` and motion blocks, you can make a sprite look like it's walking, flying, or doing anything you want.
+
+### Your Task
+
+1. Choose a sprite from the library that has **multiple costumes** (most animal and character sprites do). Click on the "Costumes" tab to check.
+2. Build a program that animates the sprite walking across the stage using a loop:
+
+```scratch
+when green flag clicked
+repeat (20)
+move (5) steps
+next costume
+wait (0.1) seconds
+end
+```
+
+3. Try changing the values. What happens if you increase the repeat count? Speed up the wait time? Change the step size?
+
+### Challenge
+
+Make your sprite walk to one side of the stage, then walk back to where it started. You'll need two loops — one for each direction. Use a negative number in `move` to go left.
+
+```scratch
+when green flag clicked
+repeat (20)
+move (5) steps
+next costume
+wait (0.1) seconds
+end
+repeat (20)
+move (-5) steps
+next costume
+wait (0.1) seconds
+end
+```
+
+{{< checkpoint "Part 2" >}}
+
+- [x] I chose a sprite with multiple costumes.
+- [x] My sprite animates across the stage using a loop with `next costume`.
+- [x] **Bonus**: My sprite walks to one side and then walks back.
+
+{{< /checkpoint >}}
+
+{{< /worksession >}}
+
+{{< closing "Week 1 Complete" >}}
+
+This week you learned:
+
+- How to use the Scratch editor and art tools
+- **Sequences** — code runs in order, top to bottom
+- **Events** — blocks that start code when something happens (green flag, key press)
+- **Loops** — blocks that repeat code automatically
+
+Next week, we'll learn about **conditionals** — how to make your programs make decisions.
 
 {{< /closing >}}
 
 ## Standards
 
-- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, user interfaces, usability, and programming language.
+- [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences, algorithms, and iteration (loops).
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
+- [**MS-CS-FCP.4.8**](/scratch/description/#ms-cs-fcp4) — Create a computer program that implements a loop.
