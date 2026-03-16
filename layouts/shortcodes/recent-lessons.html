@@ -1,5 +1,4 @@
-{{/* Usage: {{< recent-lessons count=5 >}} */}} {{ $count := .Get "count" | default 5 }} {{ $today := now.Format "2006-01-02" }} {{ $allPages := where .Page.CurrentSection.RegularPagesRecursive.ByDate.Reverse "Params.day_number" "!=" nil }} {{ $pages := slice }} {{ range $allPages }} {{ if ne (.Date.Format
-"2006-01-02") $today }} {{ $pages = $pages | append . }} {{ end }} {{ end }} {{ $pages = first (int $count) $pages }}
+{{/* Usage: {{< recent-lessons count=5 >}} */}} {{ $count := .Get "count" | default 5 }} {{ $today := now.Format "2006-01-02" }} {{ $allPages := where .Page.CurrentSection.RegularPagesRecursive.ByDate.Reverse "Params.day_number" "!=" nil }} {{ $pages := slice }} {{ range $allPages }} {{ if and (ne (.Date.Format "2006-01-02") $today) (.Date.Before now) }} {{ $pages = $pages | append . }} {{ end }} {{ end }} {{ $pages = first (int $count) $pages }}
 
 <div class="recent-lessons">
   {{ range $pages }}
