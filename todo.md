@@ -7,10 +7,10 @@
 
 ## Platform Setup
 
-- [ ] Setup CTLS Classes
-- [ ] Add week 1 checklist to class board
-- [ ] Setup Code.org accounts
-- [ ] Verify Code.org accounts have progress cleared
+- [x] Setup CTLS Classes
+- [x] Add week 1 checklist to class board
+- [x] Setup Code.org accounts
+- [ ] **waiting on confirmation** Verify Code.org accounts have progress cleared
 - [ ] Create Scratch accounts (before Wed 3/18)
 - [x] Setup Edpuzzle Classes
 - [ ] Setup Flocabulary Classes
@@ -18,13 +18,12 @@
 
 ## Edpuzzle Videos to Make
 
-- [ ] Assign About Me Edpuzzle video (Mon 3/16, both courses)
+- [x] Assign About Me Edpuzzle video (Mon 3/16, both courses)
 - [ ] Make Edpuzzle video: "User Input as Events" (Scratch Fri 3/20)
 - [ ] Make Edpuzzle video: "Microphone Setup" (Music Tech Wed 3/18)
 
 ## Assignments to Post on External Platforms
 
-- [ ] Assign Code.org "Programming with Angry Birds" (Scratch Tue 3/17)
 - [ ] Assign Flocabulary "Sound Waves" lesson (Music Tech Tue 3/17)
 
 ## CTLS Discussion Posts
