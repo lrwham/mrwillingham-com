@@ -45,7 +45,7 @@ Do this every day.
 
 **Step 1:** Log in to Edpuzzle through Clever.
 
-[Go to Clever.com](https://clever.com/in/ccsd)
+[Go to Clever.com](https://clever.com)
 
 **Step 2:** Watch the tutorial video that will teach you:
 

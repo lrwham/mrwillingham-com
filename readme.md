@@ -164,7 +164,7 @@ Used as needed in daily lessons or elsewhere.
 Paired. Takes a `text` named parameter for the label. Inner content is the URL. Renders a styled link button that opens in a new tab.
 
 ```markdown
-{{</* button text="Go to Clever" */>}}https://clever.com/in/ccsd{{</* /button */>}}
+{{</* button text="Go to Clever" */>}}https://clever.com{{</* /button */>}}
 ```
 
 ### `todays-lesson`

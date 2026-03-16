@@ -32,7 +32,7 @@ Today we'll use **Soundtrap**, an online DAW (Digital Audio Workstation), to cre
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
-[Go to Clever.com](https://clever.com/in/ccsd)
+[Go to Clever.com](https://clever.com)
 
 **Step 2:** Find and click on the **Soundtrap** icon in your Clever dashboard.
 

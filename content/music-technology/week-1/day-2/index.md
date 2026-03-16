@@ -37,7 +37,7 @@ Complete the entire work session. It is graded.
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
-[Go to Clever.com](https://clever.com/in/ccsd)
+[Go to Clever.com](https://clever.com)
 
 **Step 2:** Find and click on the **Flocabulary** icon in your Clever dashboard.
 
