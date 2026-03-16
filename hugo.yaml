@@ -4,6 +4,7 @@ title: "Mr. Willingham's Classes"
 theme: hextra
 
 enableGitInfo: true
+cleanDestinationDir: true
 
 frontmatter: lastmod = ["lastmod", ":git", "date", "publishDate"]
 
