@@ -25,7 +25,6 @@
 
 - [ ] Assign Code.org "Programming with Angry Birds" (Scratch Tue 3/17)
 - [ ] Assign Flocabulary "Sound Waves" lesson (Music Tech Tue 3/17)
-- [ ] Assign BrainPOP "Reading Music" lesson (Music Tech Thu 3/19)
 
 ## CTLS Discussion Posts
 

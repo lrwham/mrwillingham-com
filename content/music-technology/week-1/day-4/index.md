@@ -1,7 +1,7 @@
 ---
 title: "Day 4: Podcast Brainstorm"
 date: 2026-03-19
-description: "Complete a BrainPOP lesson on reading music, then brainstorm podcast topics and write two intros."
+description: "Brainstorm podcast topics across multiple categories, then write two podcast intros."
 day_number: 4
 weight: 4
 units:
@@ -9,9 +9,7 @@ units:
 tags:
   - Podcast
   - Brainstorming
-  - Music Reading
-resources:
-  - BrainPOP
+resources: []
 draft: false
 toc: false
 ---
@@ -20,28 +18,25 @@ toc: false
 
 {{< objectives >}}
 
-- I can identify the key components of music reading: pitch, rhythm, clef, staff, line, and space.
 - I can brainstorm podcast topics across multiple categories.
 - I can write a podcast intro that includes a hook, my name, a podcast name, the topic, and a preview.
 
 {{< /objectives >}}
 
-{{< warmup "BrainPOP — Reading Music" >}}
+{{< warmup "What Makes a Good Podcast?" >}}
 
-**Step 1:** Navigate to Clever.com and log in with your school credentials.
+Think about a podcast, YouTube video, or show you enjoy listening to. What makes it interesting? Write down your answers to these three questions:
 
-[Go to Clever.com](https://clever.com/in/ccsd)
+1. What is it about? (the topic)
+2. Why do you keep listening? (what hooks you)
+3. What makes the host good at talking about it? (delivery, personality, knowledge)
 
-**Step 2:** Click on the BrainPOP app.
-
-**Step 3:** Complete the lesson about reading music.
-
-The quiz at the end of the BrainPOP is a **daily grade**.
+Be ready to share one of your answers with the class.
 
 {{< checkpoint "Warmup" >}}
 
-- [x] I have completed the BrainPOP lesson on reading music.
-- [x] I have completed the quiz at the end of the lesson.
+- [x] I have answered all three questions.
+- [x] I am ready to share one answer with the class.
 
 {{< /checkpoint >}}
 
