@@ -17,6 +17,20 @@ toc: false
 
 # Monday, March 16th, 2026
 
+{{< alert "30 minutes classes due to testing">}}
+Classes are shorter today due to testing. We will focus on getting everyone logged in, setting up OneDrive for file storage, and completing the About Me form. We will also briefly open GarageBand and make sure you can adjust your volume and other settings.
+{{< /alert >}}
+
+{{< alert "Read All the Instructions Daily" >}}
+Your instructions will be posted here daily. Before beginning **any** work, read everything.
+
+You will always start with the **objectives** and the **warmup**.
+
+Before starting the **warmup** activity, read the objectives and the whole warmup. After finishing the warmup activity, read the whole work session. You may be able to start the work session on your own some days. Other days, you may need to wait for Mr. Willingham.
+
+Do this every day.
+{{< /alert >}}
+
 {{< objectives >}}
 
 - I can login and operate a Mac computer.
