@@ -36,10 +36,10 @@ weight: 4
 
 {{< warmup "Yesterday's Backdrop" >}}
 
-You practiced sequencing and debugging on Code.org yesterday. Today, we will continue learning about sequencing and debugging, but in Scratch.
+You practiced sequencing and debugging on Code.org Tuesday. Today, we will continue learning about sequencing and debugging, but in Scratch.
 
 1. Go to [scratch.mit.edu](https://scratch.mit.edu) and login.
-2. Open the project you created on day 1 with your painted backdrop.
+2. Open the project you created with your painted backdrop.
 3. If you don't have one, create a new project and paint a quick backdrop using the art tools we learned.
 
 Take a moment to look at the **Motion** category in the block palette (the blue blocks). Try dragging a few motion blocks into the code area and clicking on them to see what they do.
