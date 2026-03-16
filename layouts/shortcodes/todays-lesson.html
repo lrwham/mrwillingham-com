@@ -1,4 +1,4 @@
-{{/* Usage: {{< todays-lesson >}} */}} {{ $today := now.Format "2006-01-02" }} {{ $pages := where .Page.CurrentSection.Pages "Params.day_number" "!=" nil }} {{ $found := false }} {{ range $pages }} {{ if eq (.Date.Format "2006-01-02") $today }} {{ $found = true }}
+{{/* Usage: {{< todays-lesson >}} */}} {{ $today := now.Format "2006-01-02" }} {{ $pages := where .Page.CurrentSection.RegularPagesRecursive "Params.day_number" "!=" nil }} {{ $found := false }} {{ range $pages }} {{ if eq (.Date.Format "2006-01-02") $today }} {{ $found = true }}
 <div class="recent-lesson">
   <a href="{{ .RelPermalink }}" class="recent-lesson-card">
     <div class="recent-lesson-date">{{ .Date.Format "Monday, January 2" }}</div>

@@ -1,7 +1,7 @@
 ---
-title: "Day 4: User Input as Events"
+title: "Day 4: Motion & Sequences"
 date: 2026-03-19
-description: "Use keyboard input events to control a sprite and build an interactive maze game."
+description: "Use motion blocks and the green flag event to build sequences, and work with multiple sprites."
 day_number: 4
 units:
   - "Intro to Scratch"
@@ -16,7 +16,6 @@ tags:
   - Motion
   - Sequences
   - Events
-  - User Input
 resources: []
 draft: false
 toc: false
@@ -28,75 +27,128 @@ weight: 4
 
 {{< objectives >}}
 
-- I can use `user input` as events to trigger behavior in my Scratch projects.
-- I can make my Scratch projects interactive by responding to keyboard input.
+- I can use the `when green flag clicked` block to start my program.
+- I can make a sprite move using motion blocks.
+- I can build a sequence of blocks that runs in order.
+- I can have multiple sprites doing different things at the same time.
 
 {{< /objectives >}}
 
-{{< warmup "User Input as Events" >}}
+{{< warmup "Yesterday's Backdrop" >}}
 
-Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
+You practiced sequencing and debugging on Code.org yesterday. Today, we will continue learning about sequencing and debugging, but in Scratch.
 
-Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to access the video.
+1. Go to [scratch.mit.edu](https://scratch.mit.edu) and login.
+2. Open the project you created on day 1 with your painted backdrop.
+3. If you don't have one, create a new project and paint a quick backdrop using the art tools we learned.
+
+Take a moment to look at the **Motion** category in the block palette (the blue blocks). Try dragging a few motion blocks into the code area and clicking on them to see what they do.
 
 {{< checkpoint "Warmup" >}}
 
-- [x] I have watched the Edpuzzle video on user input.
+- [x] I have logged in to Scratch and opened my project from day 1.
+- [x] I have tried clicking on at least two motion blocks to see what they do.
 
 {{< /checkpoint >}}
 
 {{< /warmup >}}
 
-{{< worksession "Navigate a Maze" >}}
+{{< worksession "Part 1: Motion & Sequences" >}}
 
-You will create a maze game in Scratch where the player controls a sprite using the keyboard. The goal is to navigate through the maze without touching the walls.
+### What is a `Sequence`?
 
-### Step 1: Set Up the Maze
+A **sequence** is a set of instructions that run in order, one after the other. In Scratch, we build sequences by snapping blocks together from top to bottom. The computer follows our instructions exactly in the order we give them.
 
-1. Start a new Scratch project.
-2. Create a new sprite to serve as the maze walls. Use the **line tool** and **rectangle tool** to draw your maze layout. Make sure the paths are wide enough for a small sprite to fit through.
-3. Choose a small sprite from the library to be the player (or draw your own).
-4. Position the player sprite at the start of the maze.
+### The Green Flag - an `Event`
 
-### Step 2: Add Keyboard Controls
+Every Scratch program needs a starting point. The `when green flag clicked` block (found in the **Events** category) tells Scratch: _"Start running the blocks below me when the user clicks the green flag."_
 
-Use `when key pressed` event blocks to make the player move. You need four of them — one for each arrow key.
+Without this block, your code won't run on its own — you'd have to click each block by hand.
+
+### Your Task
+
+Build a program that does the following **in sequence** when the green flag is clicked:
+
+1. **Glide** the sprite to one spot on the stage.
+2. **Say** something for 2 seconds.
+3. **Glide** the sprite to a different spot.
+4. **Say** something else for 2 seconds.
+5. **Glide** the sprite back to where it started.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 
 ```scratch
-when [up arrow v] key pressed
-change y by (10)
-
-when [down arrow v] key pressed
-change y by (-10)
-
-when [left arrow v] key pressed
-change x by (-10)
-
-when [right arrow v] key pressed
-change x by (10)
+when green flag clicked
 ```
 
-Test your controls. Click the green flag, then press the arrow keys. Your sprite should move around the stage.
+```scratch
+glide (1) secs to x: [ ] y: [ ]
+```
 
-### Step 3: Play Test
+```scratch
+say [ ] for (2) seconds
+```
 
-Try navigating your maze. If the paths are too narrow or the sprite moves too fast, adjust your maze drawing or change the movement values (try `5` instead of `10`).
+</div>
 
-{{< checkpoint "Work Session" >}}
+{{< checkpoint "Part 1" >}}
 
-- [x] I have created a maze sprite using the drawing tools.
-- [x] I have added a player sprite.
-- [x] I have used `when key pressed` event blocks to make the player move with the arrow keys.
-- [x] I can navigate through my maze using the keyboard.
-- [x] **Bonus**: I have added a second player character with separate keyboard controls (e.g., WASD) for a two-player maze game.
+- [x] My program starts with a `when green flag clicked` block.
+- [x] My sprite moves to at least two different positions using `glide` blocks.
+- [x] My sprite says something using `say` blocks.
+- [x] My blocks are snapped together in a sequence that runs in order.
 
 {{< /checkpoint >}}
 
 {{< /worksession >}}
 
-{{< closing "Next Steps" >}}
+{{< worksession "Part 2: Sprites and The Stage" >}}
 
-Tomorrow we will learn about **loops** — a way to make code repeat automatically. Loops are one of the most powerful tools in programming. Instead of writing the same blocks over and over, you can tell Scratch to repeat them for you.
+Each sprite is its own independent codable object in Scratch. This means you can have multiple sprites each with unique behavior.
+
+The Stage can also have its own code. You can change the appearance of the stage by changing the backdrop.
+
+### Your Task
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
+1. Create a new sprite by clicking on the `Choose a Sprite` button. Choose one from the library.
+1. Give this second sprite its own code. Follow the same steps as in part 1, but for this second sprite. When you run the code, both sprites should be doing their own thing at the same time!
+1. **Bonus** On the stage, add two new backdrops. Choose from the library.
+1. **Bonus** Add code to the Stage that changes the backdrop when the green flag is clicked.
+
+<div>
+<figure>
+<img src="choose-sprite.png" alt="Choose a Sprite Button" style="max-width: 10rem;">
+<figcaption>Choose a Sprite Button</figcaption>
+</figure>
+<figure>
+<img src="choose-backdrop.png" alt="Choose a Backdrop Button" style="max-width: 10rem;">
+<figcaption>Choose a Backdrop Button</figcaption>
+</figure>
+</div>
+
+</div>
+
+{{< checkpoint "Part 2" >}}
+
+- [x] I have created a second sprite.
+- [x] I have added code to the second sprite that runs when the green flag is clicked.
+- [x] When I click the green flag, both sprites are doing something at the same time.
+
+{{< /checkpoint >}}
+
+{{< /worksession >}}
+
+{{< closing "Exit Ticket" >}}
+
+You'll need to answer the questions on CTLS at the end of class. Consider questions like the following (including material from last class).
+
+- What is a sequence?
+- Why do we need the `when green flag clicked` block?
+- How do you make a sprite move in Scratch?
+- What could happen if you had the right code, but in the wrong `sequence`?
+- How can you have multiple sprites doing different things at the same time in Scratch?
 
 {{< /closing >}}
 
