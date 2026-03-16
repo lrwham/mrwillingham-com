@@ -11,7 +11,7 @@ tags:
   - Scripting
   - Writing
 resources: []
-draft: false
+draft: true
 toc: false
 ---
 
