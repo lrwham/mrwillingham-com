@@ -5,13 +5,14 @@ description: "Login and operate Mac computers, complete the About Me form, and s
 day_number: 1
 weight: 1
 units:
-  - "Intro to GarageBand"
+  - "Podcasts"
 tags:
   - Mac
   - OneDrive
   - GarageBand
 resources:
   - Edpuzzle
+draft: false
 toc: false
 ---
 

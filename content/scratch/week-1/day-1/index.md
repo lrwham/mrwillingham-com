@@ -77,7 +77,7 @@ After the warmup, Mr. Willingham will walk you through:
 - Setting your desktop wallpaper
 - Finding the URL for an activity you care about and sharing it as a hyperlink in the About Me form
 - Additional computer tips and settings
-- Opening GarageBand and adjusting your volume
+- Opening Scratch and checking the volume
 - Completing the **rest of the About Me form**
 
 {{< checkpoint "Work Session" >}}
