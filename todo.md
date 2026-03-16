@@ -11,6 +11,7 @@
 - [ ] Add week 1 checklist to class board
 - [ ] Setup Code.org accounts
 - [ ] Verify Code.org accounts have progress cleared
+- [ ] Create Scratch accounts (before Wed 3/18)
 - [x] Setup Edpuzzle Classes
 - [ ] Setup Flocabulary Classes
 - [ ] Setup BrainPop Classes
