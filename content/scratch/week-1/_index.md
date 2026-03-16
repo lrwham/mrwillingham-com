@@ -11,11 +11,11 @@ weight: 3
 
 | Day | Date     | Topic                                 | Summary                                                                                                                                |
 | --- | -------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Mon 3/16 | [Computer Lab Basics](2026-03-16/)    | Login and operate Mac computers, complete the About Me form, and set up OneDrive for file storage.                                     |
-| 2   | Tue 3/17 | [Sequencing & Debugging](2026-03-17/) | Complete the Code.org "Programming with Angry Birds" lesson on sequencing and debugging. _(Independent work — Mr. Willingham is out.)_ |
-| 3   | Wed 3/18 | [Intro to Scratch](2026-03-18/)       | Login to Scratch, complete the Getting Started tutorial, and learn the art tools (color picker, shapes, paintbrush).                   |
-| 4   | Thu 3/19 | [Motion & Sequences](2026-03-19/)     | Use the green flag event, motion blocks, and sequences to program sprites. Add a second sprite with its own code.                      |
-| 5   | Fri 3/20 | [User Input as Events](2026-03-20/)   | Watch an Edpuzzle video on user input, then build a maze game controlled with the arrow keys.                                          |
+| 1   | Mon 3/16 | [Computer Lab Basics](day-1/)    | Login and operate Mac computers, complete the About Me form, and set up OneDrive for file storage.                                     |
+| 2   | Tue 3/17 | [Sequencing & Debugging](day-2/) | Complete the Code.org "Programming with Angry Birds" lesson on sequencing and debugging. _(Independent work — Mr. Willingham is out.)_ |
+| 3   | Wed 3/18 | [Intro to Scratch](day-3/)       | Login to Scratch, complete the Getting Started tutorial, and learn the art tools (color picker, shapes, paintbrush).                   |
+| 4   | Thu 3/19 | [Motion & Sequences](day-4/)     | Use the green flag event, motion blocks, and sequences to program sprites. Add a second sprite with its own code.                      |
+| 5   | Fri 3/20 | [User Input as Events](day-5/)   | Watch an Edpuzzle video on user input, then build a maze game controlled with the arrow keys.                                          |
 
 {{< alert "Graded Assignments" >}}
 
