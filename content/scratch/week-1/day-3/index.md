@@ -1,7 +1,7 @@
 ---
 title: "Day 3: Intro to Scratch"
 date: 2026-03-18
-description: "Login to Scratch, learn class procedures, and explore the art tools by painting a backdrop."
+description: "Login to Scratch, complete the Getting Started tutorial, and explore the art tools by painting a backdrop."
 day_number: 3
 units:
   - "Intro to Scratch"

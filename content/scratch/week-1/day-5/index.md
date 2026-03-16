@@ -1,7 +1,7 @@
 ---
 title: "Day 5: User Input as Events"
 date: 2026-03-20
-description: "Use keyboard input events to control a sprite and build an interactive maze game."
+description: "Watch an Edpuzzle video on user input, then build an interactive maze game controlled with the arrow keys."
 day_number: 5
 units:
   - "Intro to Scratch"
