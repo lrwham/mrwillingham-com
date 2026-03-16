@@ -17,14 +17,15 @@ tags:
   - Sequences
   - Events
   - User Input
-resources: []
+resources:
+  - Edpuzzle
 draft: false
 toc: false
 scratchblocks: true
 weight: 5
 ---
 
-# Thursday, March 19th, 2026
+# Friday, March 20th, 2026
 
 {{< objectives >}}
 

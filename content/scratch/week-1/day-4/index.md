@@ -23,7 +23,7 @@ scratchblocks: true
 weight: 4
 ---
 
-# Wednesday, March 18th, 2026
+# Thursday, March 19th, 2026
 
 {{< objectives >}}
 

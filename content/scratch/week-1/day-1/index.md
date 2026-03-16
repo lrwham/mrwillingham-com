@@ -12,7 +12,9 @@ tags:
   - Scratch
 resources:
   - Edpuzzle
+draft: false
 toc: false
+scratchblocks: false
 ---
 
 # Monday, March 16th, 2026

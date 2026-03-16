@@ -15,10 +15,11 @@ tags:
 resources: []
 draft: false
 toc: false
+scratchblocks: false
 weight: 3
 ---
 
-# Monday, March 16th, 2026
+# Wednesday, March 18th, 2026
 
 {{< objectives >}}
 
