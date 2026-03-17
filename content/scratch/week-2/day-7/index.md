@@ -1,16 +1,19 @@
 ---
-title: "Day 7: ..."
+title: "Day 7: Flocabulary — Coding: Conditionals"
 date: 2026-03-24
-description: ""
+description: "Complete the Flocabulary lesson on Coding: Conditionals, including the video, vocab game, quiz, and read & respond activities."
 day_number: 7
 units:
-  - None
+  - Conditionals
 standards:
-  - None
+  - MS-CS-FCP.3.2
 tags:
-  - None
+  - conditionals
+  - flocabulary
+  - vocabulary
+  - substitute
 resources:
-  - None
+  - Flocabulary
 draft: true
 toc: false
 scratchblocks: false
@@ -21,8 +24,9 @@ weight: 2
 
 {{< objectives >}}
 
-- I can place instructions in the correct sequence to complete a maze.
-- I can write code independently using blocks on Code.org.
+- I can define what a conditional statement is and how it works.
+- I can explain the structure of an `if`, `else if`, `else` conditional.
+- I can answer questions about conditionals using a reading passage.
 
 {{< /objectives >}}
 
@@ -30,23 +34,32 @@ weight: 2
 
 You will work silently and alone today while Mr. Willingham is out.
 
-Complete the entire work session. It is graded.
+Complete the entire Flocabulary lesson. It is graded.
 
 {{< /warmup >}}
 
-{{< worksession "Code.org Lesson 1: Programming with Angry Birds" >}}
+{{< worksession "Flocabulary — Coding: Conditionals" >}}
 
-Login to [Clever.com](https://clever.com) and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
+Login to [Clever.com](https://clever.com) and click on the **Flocabulary** icon. Open the **Coding: Conditionals** lesson assigned to you.
+
+Complete **all** of the following activities in order:
+
+1. **Video** — Watch the full video on conditionals.
+2. **Vocab Cards** — Review the vocabulary terms.
+3. **Vocab Game** — Play the vocabulary game.
+4. **Break It Down** — Answer the break-it-down questions.
+5. **Read & Respond** — Read the passages and answer all 10 questions.
+6. **Quiz** — Complete the 10-question quiz.
 
 #### Didn't finish in class?
 
-Yes, it is homework. You need to finish it on your own time. It is due Friday, March 20th, 2026.
+Yes, it is homework. You need to finish it on your own time. It is due **Friday, March 27th, 2026**.
 
-After Friday, it is late and will lose 20 points per day until it reaches 0 points on Wednesday, March 25th, 2026.
+After Friday, it is late and will lose **20 points per day** until it reaches **0 points on Wednesday, April 1st, 2026**.
 
-{{< checkpoint "Code.org Lesson 1: Programming with Angry Birds" >}}
+{{< checkpoint "Flocabulary — Coding: Conditionals" >}}
 
-- [x] I have completed all of the levels in the `Programming with Angry Birds` lesson on Code.org **OR** I will do so for homework.
+- [x] I have completed all of the activities in the Flocabulary **Coding: Conditionals** lesson **OR** I will do so for homework.
 
 {{< /checkpoint >}}
 
@@ -56,11 +69,14 @@ After Friday, it is late and will lose 20 points per day until it reaches 0 poin
 
 ### If you finish early...
 
-#### Go to the next lesson on Code.org and continue working.
+#### Try the **Lyric Lab** activity in the Flocabulary lesson to write your own lyrics about conditionals.
+
+#### Pick a level on Code.org and work at your own pace.
 
 {{< checkpoint "Finished Early" >}}
 
-- [x] I have started the next lesson on Code.org.
+- [x] I have started the Lyric Lab activity.
+- [x] I have started working on Code.org.
 
 {{< /checkpoint >}}
 
@@ -69,5 +85,3 @@ After Friday, it is late and will lose 20 points per day until it reaches 0 poin
 ## Standards
 
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences and algorithms.
-- [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
-- [**MS-CS-FCP.4.10**](/scratch/description/#ms-cs-fcp4) — Debug a program with an error.
