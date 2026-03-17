@@ -37,11 +37,25 @@ You will work silently and alone today while Mr. Willingham is out.
 
 Complete the entire work session. It is graded.
 
+If you need help getting the sound to work on your computer check the troubleshooting page.
+
+{{< button text="Toubleshooting">}}
+
+/troubleshooting
+
+{{< /button >}}
+
 {{< /warmup >}}
 
 {{< worksession "Code.org Lesson 1: Programming with Angry Birds" >}}
 
 Login to [Clever.com](https://clever.com) and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
+
+{{< button text="Go to Clever.com">}}
+
+https://clever.com
+
+{{< /button >}}
 
 #### Didn't finish in class?
 
