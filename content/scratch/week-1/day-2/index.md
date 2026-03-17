@@ -49,7 +49,7 @@ If you need help getting the sound to work on your computer check the troublesho
 
 {{< /alert >}}
 
-{{< warmup "BrainPop Computers" >}}
+{{< warmup "BrainPop Computer Programming" >}}
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
