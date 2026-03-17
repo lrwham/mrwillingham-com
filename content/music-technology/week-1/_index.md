@@ -16,14 +16,14 @@ In this unit, you will create your own podcast episode from start to finish. You
 | Day | Date     | Topic                                        | Summary                                                                                               |
 | --- | -------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | 1   | Mon 3/16 | [Computer Lab Basics](day-1/)                | Login to Mac, set up OneDrive, take a selfie with Photo Booth, and complete the About Me form.        |
-| 2   | Tue 3/17 | [Sound Waves](day-2/)                        | Complete the Flocabulary sound waves lesson. _(Independent work — Mr. Willingham is out.)_            |
+| 2   | Tue 3/17 | [Sound Waves](day-2/)                        | Complete the BrainPop sound waves lesson. _(Independent work — Mr. Willingham is out.)_               |
 | 3   | Wed 3/18 | [Microphone Setup & Sound Check](day-3/)     | Watch a video on microphone setup, then practice recording a sound check in GarageBand.               |
 | 4   | Thu 3/19 | [Podcast Brainstorm](day-4/)                 | Brainstorm podcast topics across multiple categories, then write two podcast intros.                   |
 | 5   | Fri 3/20 | [Record & Choose Your Topic](day-5/)         | Record both podcast intros, practice basic editing in GarageBand, and choose a final topic.           |
 
 {{< alert "Graded Assignments" >}}
 
-- **Flocabulary — Sound Waves** (Tuesday) — Complete all activities including the quiz. The quiz is a daily grade.
+- **BrainPop — Sound Waves** (Tuesday) — Complete all activities including the quiz. The quiz is a daily grade.
 - **Edpuzzle — Microphone Setup** (Wednesday) — Watch and answer all questions in the video.
 
 {{< /alert >}}

@@ -12,7 +12,7 @@
     {{DAY_N}}             Day number: 1, 2, 3, 4, 5
     {{DATE_N}}            e.g. "Mon 3/16"
     {{LINK_N}}            Full URL to lesson page on mrwillingham.com
-    {{TOPIC_N}}           e.g. "Computer Lab Basics"
+    {{TOPIC_N}}           e.g. "Click here => Computer Lab Basics"
     {{SUMMARY_N}}         One-sentence summary of the day
     {{GRADED_ITEM}}       e.g. "<strong>Flocabulary — Sound Waves</strong> (Tuesday) — ..."
     {{NEXT_WEEK_PREVIEW}} e.g. "Next week you will..." (delete block if n/a)
@@ -30,88 +30,84 @@
     Body text:       #1a1a1a / #333 / #555
 -->
 
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; color: #1a1a1a;">
-
-  <h2 style="margin: 0 0 8px 0; font-size: 22px; color: #1a237e;">{{COURSE_NAME}} — Week {{WEEK_NUMBER}}</h2>
+<div style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif; max-width: 800px; margin: 0 auto; color: #1a1a1a">
+  <h2 style="margin: 0 0 8px 0; font-size: 22px; color: #1a237e">{{COURSE_NAME}} — Week {{WEEK_NUMBER}}</h2>
   <!-- Delete the unit line below if not applicable -->
-  <h3 style="margin: 0 0 4px 0; font-size: 17px; font-weight: normal; color: #555;">Unit: {{UNIT_NAME}}</h3>
+  <h3 style="margin: 0 0 4px 0; font-size: 17px; font-weight: normal; color: #555">Unit: {{UNIT_NAME}}</h3>
 
   <!-- Delete the summary paragraph below if not applicable -->
-  <p style="margin: 8px 0 16px 0; font-size: 14px; line-height: 1.5; color: #333;">
-    {{UNIT_SUMMARY}}
-  </p>
+  <p style="margin: 8px 0 16px 0; font-size: 14px; line-height: 1.5; color: #333">{{UNIT_SUMMARY}}</p>
 
-  <table style="width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.4;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.4">
     <thead>
-      <tr style="background-color: #1a237e; color: #ffffff;">
-        <th style="padding: 10px 12px; text-align: left; width: 40px;">Day</th>
-        <th style="padding: 10px 12px; text-align: left; width: 80px;">Date</th>
-        <th style="padding: 10px 12px; text-align: left; width: 220px;">Topic</th>
-        <th style="padding: 10px 12px; text-align: left;">Summary</th>
+      <tr style="background-color: #1a237e; color: #ffffff">
+        <th style="padding: 10px 12px; text-align: left; width: 40px">Day</th>
+        <th style="padding: 10px 12px; text-align: left; width: 80px">Date</th>
+        <th style="padding: 10px 12px; text-align: left; width: 220px">Topic</th>
+        <th style="padding: 10px 12px; text-align: left">Summary</th>
       </tr>
     </thead>
     <tbody>
       <!-- Row 1 (odd — striped) -->
-      <tr style="background-color: #f5f5f5;">
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DAY_1}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DATE_1}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">
-          <a href="{{LINK_1}}" style="color: #1a237e; text-decoration: none; font-weight: 600;" target="_blank" rel="noopener">{{TOPIC_1}}</a>
+      <tr style="background-color: #f5f5f5">
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DAY_1}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DATE_1}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">
+          <a href="{{LINK_1}}" style="color: #1a237e; text-decoration: none; font-weight: 600" target="_blank" rel="noopener">Click here => {{TOPIC_1}}</a>
         </td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{SUMMARY_1}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{SUMMARY_1}}</td>
       </tr>
       <!-- Row 2 (even — no stripe) -->
       <tr>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DAY_2}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DATE_2}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">
-          <a href="{{LINK_2}}" style="color: #1a237e; text-decoration: none; font-weight: 600;" target="_blank" rel="noopener">{{TOPIC_2}}</a>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DAY_2}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DATE_2}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">
+          <a href="{{LINK_2}}" style="color: #1a237e; text-decoration: none; font-weight: 600" target="_blank" rel="noopener">Click here => {{TOPIC_2}}</a>
         </td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{SUMMARY_2}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{SUMMARY_2}}</td>
       </tr>
       <!-- Row 3 (odd — striped) -->
-      <tr style="background-color: #f5f5f5;">
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DAY_3}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DATE_3}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">
-          <a href="{{LINK_3}}" style="color: #1a237e; text-decoration: none; font-weight: 600;" target="_blank" rel="noopener">{{TOPIC_3}}</a>
+      <tr style="background-color: #f5f5f5">
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DAY_3}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DATE_3}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">
+          <a href="{{LINK_3}}" style="color: #1a237e; text-decoration: none; font-weight: 600" target="_blank" rel="noopener">Click here => {{TOPIC_3}}</a>
         </td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{SUMMARY_3}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{SUMMARY_3}}</td>
       </tr>
       <!-- Row 4 (even — no stripe) -->
       <tr>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DAY_4}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DATE_4}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">
-          <a href="{{LINK_4}}" style="color: #1a237e; text-decoration: none; font-weight: 600;" target="_blank" rel="noopener">{{TOPIC_4}}</a>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DAY_4}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DATE_4}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">
+          <a href="{{LINK_4}}" style="color: #1a237e; text-decoration: none; font-weight: 600" target="_blank" rel="noopener">Click here => {{TOPIC_4}}</a>
         </td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{SUMMARY_4}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{SUMMARY_4}}</td>
       </tr>
       <!-- Row 5 (odd — striped) -->
-      <tr style="background-color: #f5f5f5;">
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DAY_5}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{DATE_5}}</td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">
-          <a href="{{LINK_5}}" style="color: #1a237e; text-decoration: none; font-weight: 600;" target="_blank" rel="noopener">{{TOPIC_5}}</a>
+      <tr style="background-color: #f5f5f5">
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DAY_5}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{DATE_5}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">
+          <a href="{{LINK_5}}" style="color: #1a237e; text-decoration: none; font-weight: 600" target="_blank" rel="noopener">Click here => {{TOPIC_5}}</a>
         </td>
-        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd;">{{SUMMARY_5}}</td>
+        <td style="padding: 10px 12px; border-bottom: 1px solid #ddd">{{SUMMARY_5}}</td>
       </tr>
     </tbody>
   </table>
 
   <!-- Graded Assignments — delete this block if none this week -->
-  <div style="margin-top: 16px; padding: 12px 16px; background-color: #fff3e0; border-left: 4px solid #f57c00; font-size: 14px; line-height: 1.5;">
-    <strong style="color: #e65100;">Graded Assignments</strong>
-    <ul style="margin: 8px 0 0 0; padding-left: 20px;">
-      <li style="margin-bottom: 4px;">{{GRADED_ITEM}}</li>
+  <div style="margin-top: 16px; padding: 12px 16px; background-color: #fff3e0; border-left: 4px solid #f57c00; font-size: 14px; line-height: 1.5">
+    <strong style="color: #e65100">Graded Assignments</strong>
+    <ul style="margin: 8px 0 0 0; padding-left: 20px">
+      <li style="margin-bottom: 4px">{{GRADED_ITEM}}</li>
       <!-- Add or remove <li> elements as needed -->
     </ul>
   </div>
 
   <!-- Next Week Preview — delete this block if not applicable -->
-  <div style="margin-top: 12px; padding: 12px 16px; background-color: #e8eaf6; border-left: 4px solid #1a237e; font-size: 14px; line-height: 1.5;">
-    <strong style="color: #1a237e;">Next Week Preview</strong><br>
+  <div style="margin-top: 12px; padding: 12px 16px; background-color: #e8eaf6; border-left: 4px solid #1a237e; font-size: 14px; line-height: 1.5">
+    <strong style="color: #1a237e">Next Week Preview</strong><br />
     {{NEXT_WEEK_PREVIEW}}
   </div>
-
 </div>
