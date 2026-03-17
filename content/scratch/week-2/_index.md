@@ -1,5 +1,5 @@
 ---
-title: "Week 2: ..."
+title: "Week 2: Conditionals & Control Flow"
 draft: true
 toc: false
 cascade:
@@ -7,19 +7,22 @@ cascade:
 weight: 4
 ---
 
+## Unit: Conditionals & Control Flow
+
+This week you will learn how programs make decisions using conditionals. You'll add keyboard controls and wall detection to your maze game, practice conditional logic in Scratch and on paper with flow diagrams, and discover how computers use boolean logic — true and false — to choose what to do next.
+
 ## Weekly Schedule
 
-| Day | Date     | Topic                                 | Summary                                                                                                                                |
-| --- | -------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 6   | Mon 3/23 | [Intro to Scratch](2026-03-16/)       | Login to Scratch, complete the Getting Started tutorial, and learn the art tools (color picker, shapes, paintbrush).                   |
-| 7   | Tue 3/24 | [Sequencing & Debugging](2026-03-17/) | Complete the Code.org "Programming with Angry Birds" lesson on sequencing and debugging. _(Independent work — Mr. Willingham is out.)_ |
-| 8   | Wed 3/25 | [Motion & Sequences](2026-03-18/)     | Use the green flag event, motion blocks, and sequences to program sprites. Add a second sprite with its own code.                      |
-| 9   | Thu 3/26 | [User Input as Events](2026-03-19/)   | Watch an Edpuzzle video on user input, then build a maze game controlled with the arrow keys.                                          |
-| 10  | Fri 3/27 | [Loops](2026-03-20/)                  | Learn `repeat` and `forever` loops. Use loops with `next costume` to animate a sprite walking across the stage.                        |
+| Day | Date     | Topic                                     | Summary                                                                                                                                |
+| --- | -------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 6   | Mon 3/23 | [User Input & Conditionals](day-6/)       | Watch an Edpuzzle on user input, add keyboard controls to your maze, and use conditionals to make sprites bounce off walls.             |
+| 7   | Tue 3/24 | [Conditionals Practice](day-7/)           | Practice using `if` and `if-else` blocks in Scratch to make sprites respond to different conditions.                                   |
+| 8   | Wed 3/25 | [Flow Diagrams](day-8/)                   | Complete an offline flow diagram activity to map out conditional logic using yes/no decisions on paper.                                 |
+| 9   | Thu 3/26 | [Boolean Logic](day-9/)                   | Learn how computers use true and false values to make decisions, and apply boolean logic in Scratch.                                   |
+| 10  | Fri 3/27 | [Week 2 Wrap-Up](day-10/)                 | Review conditionals, boolean logic, and control flow. Finish any incomplete work and reflect on what you've learned.                    |
 
 {{< alert "Graded Assignments" >}}
 
-- **Code.org — Programming with Angry Birds** (assigned Tuesday, due Friday 3/20) — Complete all 11 levels plus bonus levels. Late work loses 20 points per day after Friday.
-- **Edpuzzle — User Input as Events** (Thursday) — Watch and answer all questions in the video.
+- **Edpuzzle — User Input as Events** (Monday) — Watch and answer all questions in the video.
 
 {{< /alert >}}
