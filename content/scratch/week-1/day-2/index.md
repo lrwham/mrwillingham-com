@@ -14,8 +14,10 @@ tags:
   - Programming with Angry Birds
   - Sequences
   - Bugs
+  - BrainPop
 resources:
   - Code.org
+  - BrainPop
 draft: false
 toc: false
 scratchblocks: false
@@ -31,7 +33,7 @@ weight: 2
 
 {{< /objectives >}}
 
-{{< warmup "Mr. Willingham is Out Today" >}}
+{{< alert "Mr. Willingham is Out Today" >}}
 
 You will work silently and alone today while Mr. Willingham is out.
 
@@ -44,6 +46,28 @@ If you need help getting the sound to work on your computer check the troublesho
 /troubleshooting
 
 {{< /button >}}
+
+{{< /alert >}}
+
+{{< warmup "BrainPop Computers" >}}
+
+**Step 1:** Go to Clever and log in with your school credentials.
+
+{{< button text="Go to Clever.com">}}
+https://clever.com
+
+{{< /button >}}
+
+**Step 2:** Find and click on the **BrainPop** icon in your Clever dashboard.
+
+**Step 3:** Complete the **Computer Programming** lesson.
+
+{{< checkpoint "Warmup" >}}
+
+- [x] I have completed the Computer Programming video on BrainPop.
+- [x] I have completed the Quiz on BrainPop.
+
+{{< /checkpoint >}}
 
 {{< /warmup >}}
 

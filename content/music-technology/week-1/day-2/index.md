@@ -1,17 +1,17 @@
 ---
 title: "Day 2: Sound Waves"
 date: 2026-03-17
-description: "Complete the Flocabulary sound waves lesson to build a foundation for recording and sound."
+description: "Complete the BrainPop sound waves lesson to build a foundation for recording and sound."
 day_number: 2
 weight: 2
 units:
   - "Podcasts"
 tags:
   - Sound Waves
-  - Flocabulary
+  - BrainPop
   - GarageBand
 resources:
-  - Flocabulary
+  - BrainPop
 draft: false
 toc: false
 ---
@@ -41,7 +41,7 @@ If you need help getting the sound to work on your computer check the troublesho
 
 {{< /warmup >}}
 
-{{< worksession "Flocabulary — Sound Waves" >}}
+{{< worksession "BrainPop — Sound Waves" >}}
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
@@ -51,27 +51,16 @@ https://clever.com
 
 {{< /button >}}
 
-**Step 2:** Find and click on the **Flocabulary** icon in your Clever dashboard.
+**Step 2:** Find and click on the **BrainPop** icon in your Clever dashboard.
 
-**Step 3:** Complete the **Sound Waves** lesson. This includes:
-
-1. **Video** — Watch the video on sound waves.
-1. **Vocab Cards** — Review the vocabulary cards.
-1. **Vocab Game** — Play the vocabulary game.
-1. **Break It Down** — Complete the Break It Down activity.
-1. **Read & Respond** — Complete the Read & Respond activity.
-1. **Quiz** — Take the quiz. This is a **daily grade**.
-1. **Lyric Lab** — Complete the Lyric Lab activity.
+**Step 3:** Complete the **Sound Waves** lesson.
 
 Complete all seven activities in order.
 
 {{< checkpoint "Work Session" >}}
 
 - [x] I have watched the Sound Waves video.
-- [x] I have completed the Vocab Cards and Vocab Game.
-- [x] I have completed Break It Down and Read & Respond.
-- [x] I have taken the quiz.
-- [x] I have completed the Lyric Lab.
+- [x] I have completed the Vocab Builder and Quiz.
 
 {{< /checkpoint >}}
 
