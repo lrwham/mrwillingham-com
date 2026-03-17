@@ -1,7 +1,7 @@
 ---
-title: "Day 5: User Input as Events"
+title: "Day 5: Maze Design"
 date: 2026-03-20
-description: "Watch an Edpuzzle video on user input, then build an interactive maze game controlled with the arrow keys."
+description: "Analyze example mazes, design a maze on graph paper with a partner, then build the artwork in Scratch."
 day_number: 5
 units:
   - "Intro to Scratch"
@@ -9,19 +9,17 @@ standards:
   - MS-CS-FCP.3.2
   - MS-CS-FCP.4.1
   - MS-CS-FCP.4.5
-  - MS-CS-FCP.4.6
 tags:
   - Scratch
   - Programming
-  - Motion
-  - Sequences
-  - Events
-  - User Input
+  - Design
+  - Art Tools
+  - Collaboration
 resources:
-  - Edpuzzle
+  - Graph paper (2 sheets per student)
 draft: false
 toc: false
-scratchblocks: true
+scratchblocks: false
 weight: 5
 ---
 
@@ -29,67 +27,101 @@ weight: 5
 
 {{< objectives >}}
 
-- I can use `user input` as events to trigger behavior in my Scratch projects.
-- I can make my Scratch projects interactive by responding to keyboard input.
+- I can design a maze that meets specific constraints (wide paths, clear start and finish, at least one dead end, solvable).
+- I can give useful feedback on a partner's maze design.
+- I can recreate a maze design in Scratch using the drawing tools.
 
 {{< /objectives >}}
 
-{{< warmup "User Input as Events" >}}
+{{< warmup "Maze Analysis" >}}
 
-Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
+Look at the example mazes here. Respond to the following questions using the discussion post on CTLS:
 
-Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to access the video.
+1. Which maze is the **easiest**? Which is the **hardest**? Why?
+2. What makes a maze **fun** to play? What makes it **frustrating**?
+3. How wide do the paths need to be for a small character to fit through?
+
+### Design Rules
+
+When you design your own maze, it must follow these rules:
+
+- **60 squares wide × 45 squares tall** — this matches the shape of the Scratch stage.
+- **Paths at least 2 squares wide** — so a sprite can fit through without touching the walls.
+- **Clear start and finish** — mark them with an **S** and **F**.
+- **At least one dead end** — to make the maze challenging.
+- **Must be solvable** — there has to be at least one path from start to finish.
 
 {{< checkpoint "Warmup" >}}
 
-- [x] I have watched the Edpuzzle video on user input.
+- [x] I discussed the example mazes on CTLS.
+- [x] I understand the design rules.
 
 {{< /checkpoint >}}
 
 {{< /warmup >}}
 
-{{< worksession "Navigate a Maze" >}}
+{{< worksession "Part 1: Design Your Maze" >}}
 
-You will create a maze game in Scratch where the player controls a sprite using the keyboard. The goal is to navigate through the maze without touching the walls.
+You will design a maze on graph paper, then swap it with a partner for feedback. After that, you will build your partner's maze in Scratch.
 
-### Step 1: Set Up the Maze
+Mr. Willingham will hand out **two sheets of graph paper** — one for your design, and one as a backup. You may choose one partner to work with. You are designing your maze for your partner to build, so make sure to follow the design rules and create a clear, solvable maze.
+
+### Phase 1: Design (~8 minutes)
+
+Sketch your maze on graph paper. Follow the design rules from the warmup:
+
+1. Count out a **60 × 45** grid on your paper and mark the edges.
+2. Draw your maze walls inside the grid. Use a pencil so you can erase.
+3. Mark the **start (S)** and **finish (F)**.
+4. Include **at least one dead end**.
+5. Trace the solution path lightly to make sure it works.
+
+### Phase 2: Swap & Review (~3 minutes)
+
+Trade mazes with your partner. Using a pencil, trace a path from start to finish on their maze:
+
+- Can you solve it?
+- Are the paths wide enough (at least 2 squares)?
+- Write **one piece of feedback** on the back of the paper (for example: "widen the corner near the top left" or "add another dead end to make it harder").
+
+### Phase 3: Return
+
+End with your partner's maze. **This is the maze you will build in Scratch.**
+
+{{< checkpoint "Design" >}}
+
+- [x] My maze follows all the design rules (60×45, wide paths, start/finish, dead end, solvable).
+- [x] I reviewed my partner's maze and discussed feedback.
+- [x] I have my partner's maze ready to build.
+
+{{< /checkpoint >}}
+
+{{< /worksession >}}
+
+{{< worksession "Part 2: Draw Your Maze in Scratch" >}}
+
+Now open Scratch and recreate your **partner's** maze design using the drawing tools.
+
+### Step 1: Set Up the Maze Sprite
 
 1. Start a new Scratch project.
-2. Create a new sprite to serve as the maze walls. Use the **line tool** and **rectangle tool** to draw your maze layout. Make sure the paths are wide enough for a small sprite to fit through.
-3. Choose a small sprite from the library to be the player (or draw your own).
-4. Position the player sprite at the start of the maze.
+2. Create a new sprite to serve as the maze walls.
+3. Use the **line tool** and **rectangle tool** to draw the maze, following your partner's graph paper design as closely as possible.
+4. Pick one color for all the walls — you'll need this to be consistent for next class.
 
-### Step 2: Add Keyboard Controls
+### Step 2: Add the Player
 
-Use `when key pressed` event blocks to make the player move. You need four of them — one for each arrow key.
+1. Choose a small sprite from the library to be the player (or draw your own).
+2. You can adjust the size of the sprite as needed.
+3. Position the player sprite at the **start** of the maze.
 
-```scratch
-when [up arrow v] key pressed
-change y by (10)
+That's it for today. On Monday, you'll add keyboard controls and make the maze playable.
 
-when [down arrow v] key pressed
-change y by (-10)
+{{< checkpoint "Draw Your Maze" >}}
 
-when [left arrow v] key pressed
-change x by (-10)
-
-when [right arrow v] key pressed
-change x by (10)
-```
-
-Test your controls. Click the green flag, then press the arrow keys. Your sprite should move around the stage.
-
-### Step 3: Play Test
-
-Try navigating your maze. If the paths are too narrow or the sprite moves too fast, adjust your maze drawing or change the movement values (try `5` instead of `10`).
-
-{{< checkpoint "Work Session" >}}
-
-- [x] I have created a maze sprite using the drawing tools.
-- [x] I have added a player sprite.
-- [x] I have used `when key pressed` event blocks to make the player move with the arrow keys.
-- [x] I can navigate through my maze using the keyboard.
-- [x] **Bonus**: I have added a second player character with separate keyboard controls (e.g., WASD) for a two-player maze game.
+- [x] I created a maze sprite in Scratch that matches my partner's design.
+- [x] All walls are drawn in the same color.
+- [x] I added a player sprite and placed it at the start.
 
 {{< /checkpoint >}}
 
@@ -97,7 +129,7 @@ Try navigating your maze. If the paths are too narrow or the sprite moves too fa
 
 {{< closing "Next Steps" >}}
 
-Tomorrow we will learn about **loops** — a way to make code repeat automatically. Loops are one of the most powerful tools in programming. Instead of writing the same blocks over and over, you can tell Scratch to repeat them for you.
+On Monday, you'll learn how to make your sprite move with the **arrow keys** and respond when it touches the maze walls. Your maze will become a real, playable game.
 
 {{< /closing >}}
 
@@ -106,4 +138,3 @@ Tomorrow we will learn about **loops** — a way to make code repeat automatical
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences and algorithms.
 - [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, user interfaces, programming language, and events.
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
-- [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Develop an event driven program.

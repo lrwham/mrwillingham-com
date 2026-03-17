@@ -1,5 +1,5 @@
 ---
-title: "Day 5: Record & Choose Your Topic"
+title: "Day 5: Practice Recording & Choose Your Topic"
 date: 2026-03-20
 description: "Record both podcast intros in GarageBand, practice basic editing, and choose a final topic."
 day_number: 5

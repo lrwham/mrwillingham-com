@@ -1,19 +1,26 @@
 ---
-title: "Day 6: ..."
+title: "Day 6: User Input & Conditionals"
 date: 2026-03-23
-description: ""
+description: "Watch an Edpuzzle on user input, add keyboard controls to your maze, and learn about conditionals by making sprites bounce off walls."
 day_number: 6
 units:
-  - None
+  - "Intro to Scratch"
 standards:
-  - None
+  - MS-CS-FCP.3.2
+  - MS-CS-FCP.4.1
+  - MS-CS-FCP.4.5
+  - MS-CS-FCP.4.6
 tags:
-  - None
+  - Scratch
+  - Programming
+  - Events
+  - User Input
+  - Conditionals
 resources:
-  - None
+  - Edpuzzle
 draft: true
 toc: false
-scratchblocks: false
+scratchblocks: true
 weight: 1
 ---
 
@@ -21,153 +28,122 @@ weight: 1
 
 {{< objectives >}}
 
-- I can explain what a `loop` is and why it is useful.
-- I can use the `forever` block to make code repeat continuously.
-- I can use the `repeat` block to make code repeat a specific number of times.
+- I can use `user input` as events to trigger behavior in my Scratch projects.
+- I can make my Scratch projects interactive by responding to keyboard input.
+- I can use an `if` block to detect when a sprite is touching a color.
 
 {{< /objectives >}}
 
-{{< warmup "Week 1 Review" >}}
+{{< warmup "User Input as Events" >}}
 
-Think about what you've learned this week. Be ready to answer these questions out loud when called on:
+Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
 
-1. What is a **sequence**?
-2. What is an **event**? Give an example of an event block in Scratch.
-3. What happens if your blocks are in the wrong order?
+Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to access the video.
 
 {{< checkpoint "Warmup" >}}
 
-- [x] I am ready to answer the review questions.
+- [x] I have watched the Edpuzzle video on user input.
 
 {{< /checkpoint >}}
 
 {{< /warmup >}}
 
-{{< worksession "Part 1: What is a Loop?" >}}
+{{< worksession "Add Controls to Your Maze" >}}
 
-A **loop** is a way to make the computer repeat instructions. Instead of copying and pasting the same blocks over and over, you wrap them in a loop block and let Scratch do the repeating for you.
+Open the maze project you built last Friday. Today you will make it playable by adding keyboard controls.
 
-Scratch has two main loop blocks:
+### Step 1: Add Keyboard Controls
 
-```scratch
-forever
-end
-```
-
-The `forever` block repeats the blocks inside it **non-stop** until you press the stop button.
+Click on your **player sprite** and add these blocks. You need four `when key pressed` event blocks — one for each arrow key.
 
 ```scratch
-repeat (10)
-end
+when [up arrow v] key pressed
+change y by (10)
+
+when [down arrow v] key pressed
+change y by (-10)
+
+when [left arrow v] key pressed
+change x by (-10)
+
+when [right arrow v] key pressed
+change x by (10)
 ```
 
-The `repeat` block repeats the blocks inside it a **specific number of times**, then stops.
+### Step 2: Play Test
 
-### Try It: Without a Loop
+Click the green flag, then press the arrow keys. Your sprite should move around the stage.
 
-Build this program. Click the green flag to run it.
+- Can you navigate from start to finish?
+- If the paths are too narrow or the sprite moves too fast, adjust your maze drawing or change the movement values (try `5` instead of `10`).
 
-```scratch
-when green flag clicked
-move (10) steps
-wait (0.5) seconds
-move (10) steps
-wait (0.5) seconds
-move (10) steps
-wait (0.5) seconds
-move (10) steps
-wait (0.5) seconds
-```
+{{< checkpoint "Controls" >}}
 
-That's a lot of repeated blocks just to move four times. Now let's use a loop.
-
-### Try It: With a Loop
-
-Replace all of that with this:
-
-```scratch
-when green flag clicked
-repeat (4)
-move (10) steps
-wait (0.5) seconds
-end
-```
-
-Same result, way less code. That's the power of loops.
-
-{{< checkpoint "Part 1" >}}
-
-- [x] I built the program without a loop and ran it.
-- [x] I rebuilt it using a `repeat` block and got the same result.
-- [x] I can explain in my own words why loops are useful.
+- [x] I added `when key pressed` blocks for all four arrow keys.
+- [x] I can navigate through the maze using the keyboard.
 
 {{< /checkpoint >}}
 
 {{< /worksession >}}
 
-{{< worksession "Part 2: Animation with Loops" >}}
+{{< worksession "Bouncing Off Walls" >}}
 
-Loops are the key to animation in Scratch. By combining loops with `next costume` and motion blocks, you can make a sprite look like it's walking, flying, or doing anything you want.
+Right now your sprite can walk straight through the walls. Let's fix that using a **conditional** — a block that checks whether something is true and responds.
 
-### Your Task
+### The `if touching color` Block
 
-1. Choose a sprite from the library that has **multiple costumes** (most animal and character sprites do). Click on the "Costumes" tab to check.
-2. Build a program that animates the sprite walking across the stage using a loop:
+Scratch can detect when a sprite is touching a specific color on the stage. Since you drew all your maze walls in the same color, you can use this to detect wall collisions.
+
+### Step 1: Add Wall Detection
+
+Add this code to your player sprite. It runs **forever**, constantly checking if the sprite is touching the wall color:
 
 ```scratch
 when green flag clicked
-repeat (20)
-move (5) steps
-next costume
-wait (0.1) seconds
+forever
+if <touching color (#000000)?> then
+go to x: (-200) y: (150)
+end
 end
 ```
 
-3. Try changing the values. What happens if you increase the repeat count? Speed up the wait time? Change the step size?
+**Important:** Click the color swatch in the `touching color` block, then use the **eyedropper tool** to pick the exact color of your maze walls.
+
+Set the `go to` coordinates to your maze's **start position**. To find the right numbers, drag your sprite to the start and look at the x and y values below the stage.
+
+### Step 2: Test It
+
+Click the green flag and navigate the maze. When your sprite touches a wall, it should snap back to the start.
 
 ### Challenge
 
-Make your sprite walk to one side of the stage, then walk back to where it started. You'll need two loops — one for each direction. Use a negative number in `move` to go left.
+Instead of going back to the start, try making the sprite **undo** its last move when it touches a wall. Hint: you'll need to move the sprite in the opposite direction by the same amount.
 
-```scratch
-when green flag clicked
-repeat (20)
-move (5) steps
-next costume
-wait (0.1) seconds
-end
-repeat (20)
-move (-5) steps
-next costume
-wait (0.1) seconds
-end
-```
+{{< checkpoint "Conditionals" >}}
 
-{{< checkpoint "Part 2" >}}
-
-- [x] I chose a sprite with multiple costumes.
-- [x] My sprite animates across the stage using a loop with `next costume`.
-- [x] **Bonus**: My sprite walks to one side and then walks back.
+- [x] I added a `forever` loop with an `if touching color` block.
+- [x] I used the eyedropper to pick my wall color.
+- [x] When my sprite touches a wall, it goes back to the start.
+- [x] **Bonus:** My sprite undoes its last move instead of resetting to start.
 
 {{< /checkpoint >}}
 
 {{< /worksession >}}
 
-{{< closing "Week 1 Complete" >}}
+{{< closing "What You Learned Today" >}}
 
-This week you learned:
+Today you learned two powerful new ideas:
 
-- How to use the Scratch editor and art tools
-- **Sequences** — code runs in order, top to bottom
-- **Events** — blocks that start code when something happens (green flag, key press)
-- **Loops** — blocks that repeat code automatically
+- **User input events** — `when key pressed` blocks let your program respond to the player's actions.
+- **Conditionals** — `if` blocks let your program make decisions based on what's happening in the project.
 
-Next week, we'll learn about **conditionals** — how to make your programs make decisions.
+These two ideas together make games possible. Events let the player _do_ things, and conditionals let the game _react_ to what happens.
 
 {{< /closing >}}
 
 ## Standards
 
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences, algorithms, and iteration (loops).
+- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, user interfaces, programming language, and events.
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
-- [**MS-CS-FCP.4.8**](/scratch/description/#ms-cs-fcp4) — Create a computer program that implements a loop.
+- [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Develop an event driven program.
