@@ -31,13 +31,25 @@ You will work silently and alone today while Mr. Willingham is out.
 
 Complete the entire work session. It is graded.
 
+If you need help getting the sound to work on your computer check the troubleshooting page.
+
+{{< button text="Toubleshooting">}}
+
+/troubleshooting
+
+{{< /button >}}
+
 {{< /warmup >}}
 
 {{< worksession "Flocabulary — Sound Waves" >}}
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
-[Go to Clever.com](https://clever.com)
+{{< button text="Go to Clever.com">}}
+
+https://clever.com
+
+{{< /button >}}
 
 **Step 2:** Find and click on the **Flocabulary** icon in your Clever dashboard.
 
