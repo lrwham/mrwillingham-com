@@ -19,7 +19,7 @@ scratchblocks: false
 weight: 3
 ---
 
-# Wednesday, March 18th, 2026
+**Wednesday, March 18th, 2026**
 
 {{< objectives >}}
 
@@ -34,7 +34,9 @@ weight: 3
 
 Go to [scratch.mit.edu](https://scratch.mit.edu) and login with the information Mr. Willingham gives you.
 
-Then, click "Create" to start a new project. Choose the tutorial titled "Getting Started". Watch the video and follow along with the instructions in the tutorial.
+Mr. Willingham has created an account for you to use during this class. The account name and password are deliberately random and not personally identifiable to protect your privacy.
+
+After logging in, click "Create" to start a new project. Choose the tutorial titled "Getting Started". Watch the video and follow along with the instructions in the tutorial.
 
 ![Tutorials Button](tutorials.png)
 ![Getting Started Tutorial](getting-started.png)
@@ -55,30 +57,29 @@ We'll walk through the art tools in Scratch together. When making apps in Scratc
 
 We'll use all of the following to paint a backdrop for today's Scratch project.
 
-#### Color Selection
+**Click on each tab to learn about the different tools.**
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-<div>
+{{< tabs >}}
+
+{{< tab name="Color Selection" >}}
+
+#### Color Selection
 
 1. Color slider
 1. Saturation slider
 1. Brightness slider
 1. Color picker
 
-</div>
-<div>
-
 <figure>
 <img src="color-tools.png" alt="Color Tools" style="max-width: 5rem;">
 <figcaption>Color Tools</figcaption>
 </figure>
-</div>
-</div>
+
+{{< /tab >}}
+
+{{< tab name="Primitive Shapes" >}}
 
 #### Primitive Shapes
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-<div>
 
 Hold (or don't hold) the shift key while using to draw perfect shapes.
 
@@ -86,19 +87,16 @@ Hold (or don't hold) the shift key while using to draw perfect shapes.
 1. Circle tool
 1. Rectangle tool
 
-</div>
-<div>
 <figure>
 <img src="primitives.png" alt="Primitive Shape Tools" style="max-width: 5rem;">
 <figcaption>Primitive Shape Tools</figcaption>
 </figure>
-</div>
-</div>
+
+{{< /tab >}}
+
+{{< tab name="Other Tools" >}}
 
 #### Other Tools
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-<div>
 
 1. Paintbrush tool
 1. Fill tool
@@ -107,14 +105,24 @@ Hold (or don't hold) the shift key while using to draw perfect shapes.
 1. Reshape
 1. Eraser
 
-</div>
-<div>
 <figure>
 <img src="other.png" alt="Other Tools" style="max-width: 5rem;">
 <figcaption>Other Tools</figcaption>
 </figure>
-</div>
-</div>
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+---
+
+#### Art Challenges
+
+Some challenges to try out with the art tools:
+
+- Paint a castle using the rectangle and circle tools only
+- Paint a landscape (trees, mountains, etc.) using the line tool only
+- Paint a vehicle using the brush tool only
 
 {{< checkpoint "Work Session" >}}
 
