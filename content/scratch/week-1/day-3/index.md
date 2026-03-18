@@ -38,7 +38,7 @@ Mr. Willingham has created an account for you to use during this class. The acco
 
 Check your school email for the login information. If you don't see an email from Mr. Willingham, check your spam and trash folder.
 
-Access your school email using [office.com](https://office.com) and logging in with your school email and password.
+Access your school email using <a href="https://office.com" target="_blank" alt="Office 365">Office 365 {{< icon "office365" >}}</a> and logging in with your school email and password.
 
 After logging into <a href="https://scratch.mit.edu" target="_blank" alt="Scratch">Scratch {{< icon "scratch" >}}</a>, click "Create" to start a new project. Choose the tutorial titled "Getting Started". Watch the video and follow along with the instructions in the tutorial.
 
