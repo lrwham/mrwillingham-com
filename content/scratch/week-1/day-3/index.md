@@ -32,9 +32,7 @@ weight: 3
 
 {{< warmup "Intro to Scratch" >}}
 
-Go to [scratch.mit.edu](https://scratch.mit.edu) and login with the information Mr. Willingham gives you.
-
-Mr. Willingham has created an account for you to use during this class. The account name and password are deliberately random and not personally identifiable to protect your privacy.
+Mr. Willingham has created an account on Scratch {{< icon "scratch" >}} for you to use during this class. The account name and password are deliberately random and not personally identifiable to protect your privacy.
 
 Check your school email for the login information. If you don't see an email from Mr. Willingham, check your spam and trash folder.
 
@@ -71,10 +69,12 @@ We'll use all of the following to paint a backdrop for today's Scratch project.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 <div>
+
 1. Color slider
 1. Saturation slider
 1. Brightness slider
 1. Color picker
+
 </div>
 <div>
 <figure>
