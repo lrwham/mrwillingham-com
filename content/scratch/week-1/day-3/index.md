@@ -40,7 +40,7 @@ Check your school email for the login information. If you don't see an email fro
 
 Access your school email using [office.com](https://office.com) and logging in with your school email and password.
 
-After logging into Scratch {{< icon "scratch" >}}, click "Create" to start a new project. Choose the tutorial titled "Getting Started". Watch the video and follow along with the instructions in the tutorial.
+After logging into <a href="https://scratch.mit.edu" target="_blank" alt="Scratch">Scratch {{< icon "scratch" >}}</a>, click "Create" to start a new project. Choose the tutorial titled "Getting Started". Watch the video and follow along with the instructions in the tutorial.
 
 ![Tutorials Button](tutorials.png)
 ![Getting Started Tutorial](getting-started.png)
