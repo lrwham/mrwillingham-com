@@ -17,7 +17,7 @@ toc: false
 scratchblocks: false
 ---
 
-# Monday, March 16th, 2026
+{{< icon "calendar" >}} **Monday, March 16th, 2026**
 
 {{< alert "30 minutes classes due to testing">}}
 Classes are shorter today due to testing. We will focus on getting everyone logged in, setting up OneDrive for file storage, and completing the About Me form. We will also briefly open Scratch and make sure you can adjust your volume and other settings.
