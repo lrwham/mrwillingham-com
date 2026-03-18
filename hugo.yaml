@@ -57,3 +57,5 @@ params:
     width: normal
 
   displayUpdatedDate: true
+
+enableInlineShortcodes: true
