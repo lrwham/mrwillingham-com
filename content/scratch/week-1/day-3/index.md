@@ -69,15 +69,20 @@ We'll use all of the following to paint a backdrop for today's Scratch project.
 
 #### Color Selection
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
 1. Color slider
 1. Saturation slider
 1. Brightness slider
 1. Color picker
-
+</div>
+<div>
 <figure>
 <img src="color-tools.png" alt="Color Tools" style="max-width: 5rem;">
 <figcaption>Color Tools</figcaption>
 </figure>
+</div>
+</div>
 
 {{< /tab >}}
 
@@ -85,22 +90,35 @@ We'll use all of the following to paint a backdrop for today's Scratch project.
 
 #### Primitive Shapes
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
+<div>
 Hold (or don't hold) the shift key while using to draw perfect shapes.
 
 1. Line tool
 1. Circle tool
 1. Rectangle tool
 
+</div>
+
+<div>
+
 <figure>
 <img src="primitives.png" alt="Primitive Shape Tools" style="max-width: 5rem;">
 <figcaption>Primitive Shape Tools</figcaption>
 </figure>
+</div>
+</div>
 
 {{< /tab >}}
 
 {{< tab name="Other Tools" >}}
 
 #### Other Tools
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
+<div>
 
 1. Paintbrush tool
 1. Fill tool
@@ -109,10 +127,16 @@ Hold (or don't hold) the shift key while using to draw perfect shapes.
 1. Reshape
 1. Eraser
 
+</div>
+<div>
+
 <figure>
 <img src="other.png" alt="Other Tools" style="max-width: 5rem;">
 <figcaption>Other Tools</figcaption>
 </figure>
+
+</div>
+</div>
 
 {{< /tab >}}
 
