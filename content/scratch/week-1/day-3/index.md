@@ -69,10 +69,12 @@ We'll use all of the following to paint a backdrop for today's Scratch project.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 <div>
+
 1. Color slider
 1. Saturation slider
 1. Brightness slider
 1. Color picker
+
 </div>
 <div>
 <figure>
