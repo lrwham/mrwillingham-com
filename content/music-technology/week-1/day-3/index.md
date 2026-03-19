@@ -88,6 +88,6 @@ Once your setup is complete:
 
 Now that you know how to set up and record, we're almost ready to start working on podcasts. You'll get to **pick your own topic**, write a script, and record your own podcast episode using the equipment you practiced with today. We'll share the finished podcasts with the class.
 
-Tomorrow we'll start with a BrainPOP lesson on **reading music**, then you'll **brainstorm podcast topics** and write two intros.
+Tomorrow you'll **brainstorm podcast topics** and write two intros.
 
 {{< /closing >}}

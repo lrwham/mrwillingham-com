@@ -152,7 +152,7 @@ You'll need to answer the following question on CTLS. Use complete sentences and
 
 ### Finished Early?
 
-Try some of these blocks out in Scratch. Try something on your own in scratch. Explore the art tools in Scratch.
+Try some of these blocks out in Scratch. Try something on your own in Scratch. Explore the art tools in Scratch.
 
 ```scratch
 

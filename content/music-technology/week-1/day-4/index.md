@@ -29,7 +29,7 @@ Think about a podcast, YouTube video, creator, or show you enjoy listening to. W
 
 Use [Word online {{< icon "office365" >}}](https://www.office.com/) to write your answers. You can write in bullet points or full sentences — whatever works for you.
 
-1. What is the podcast/channel you like about? (the topic)
+1. What is your favorite podcast/channel about? (the topic)
 2. Why do you keep listening to that channel, creator, or podcast? (what hooks you)
 3. What makes the host good at talking about it? (delivery, personality, knowledge)
 
