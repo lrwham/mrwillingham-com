@@ -41,7 +41,7 @@ Complete the entire work session. It is graded.
 
 If you need help getting the sound to work on your computer check the troubleshooting page.
 
-{{< button text="Toubleshooting">}}
+{{< button text="Troubleshooting">}}
 
 /troubleshooting
 

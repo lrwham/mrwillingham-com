@@ -55,7 +55,7 @@ After logging into <a href="https://scratch.mit.edu" target="_blank" alt="Scratc
 
 {{< worksession "Scratch Art Tools" >}}
 
-We'll walk through the art tools in Scratch together. When making apps in Scratch, making them looked good is all about using the art tools effectively. Code is important, but the art tools are just as important. So, let's learn how to use them!
+We'll walk through the art tools in Scratch together. When making apps in Scratch, making them look good is all about using the art tools effectively. Code is important, but the art tools are just as important. So, let's learn how to use them!
 
 We'll use all of the following to paint a backdrop for today's Scratch project.
 
