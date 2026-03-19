@@ -27,7 +27,7 @@ weight: 4
 
 {{< objectives >}}
 
-- I can use the `when green flag clicked` block to start my program.
+- I can use the `when green flag clicked` event block to start my program.
 - I can make a sprite move using motion blocks.
 - I can build a sequence of blocks that runs in order.
 - I can have multiple sprites doing different things at the same time.
@@ -39,8 +39,8 @@ weight: 4
 You practiced sequencing and debugging on Code.org Tuesday. Today, we will continue learning about sequencing and debugging, but in Scratch.
 
 1. Go to [scratch.mit.edu](https://scratch.mit.edu) and login.
-2. Open the project you created with your painted backdrop.
-3. If you don't have one, create a new project and paint a quick backdrop using the art tools we learned.
+2. Create a new project.
+3. Practice using the art tools to paint a backdrop.
 
 Take a moment to look at the **Motion** category in the block palette (the blue blocks). Try dragging a few motion blocks into the code area and clicking on them to see what they do.
 
@@ -63,7 +63,9 @@ A **sequence** is a set of instructions that run in order, one after the other. 
 
 Every Scratch program needs a starting point. The `when green flag clicked` block (found in the **Events** category) tells Scratch: _"Start running the blocks below me when the user clicks the green flag."_
 
-Without this block, your code won't run on its own — you'd have to click each block by hand.
+Without this block, your code won't run on its own.
+
+> `Events` are essential for game design. Every time a user clicks a button or moves the mouse or objects collide, an event can be generated. These events can be used to trigger code to run.
 
 ### Your Task
 
@@ -115,7 +117,7 @@ The Stage can also have its own code. You can change the appearance of the stage
 1. Create a new sprite by clicking on the `Choose a Sprite` button. Choose one from the library.
 1. Give this second sprite its own code. Follow the same steps as in part 1, but for this second sprite. When you run the code, both sprites should be doing their own thing at the same time!
 1. **Bonus** On the stage, add two new backdrops. Choose from the library.
-1. **Bonus** Add code to the Stage that changes the backdrop when the green flag is clicked.
+1. **Bonus** Add code to the Stage that changes the backdrop when the green flag is clicked or when something else happens in your program.
 
 <div>
 <figure>
@@ -142,13 +144,38 @@ The Stage can also have its own code. You can change the appearance of the stage
 
 {{< closing "Exit Ticket" >}}
 
-You'll need to answer the questions on CTLS at the end of class. Consider questions like the following (including material from last class).
+You'll need to answer the following question on CTLS. Use complete sentences and be clear in your explanation.
 
-- What is a sequence?
-- Why do we need the `when green flag clicked` block?
-- How do you make a sprite move in Scratch?
-- What could happen if you had the right code, but in the wrong `sequence`?
-- How can you have multiple sprites doing different things at the same time in Scratch?
+- What is the difference between a sprite and the stage in Scratch?
+
+---
+
+### Finished Early?
+
+Try some of these blocks out in Scratch. Try something on your own in scratch. Explore the art tools in Scratch.
+
+```scratch
+
+when [space v] key pressed
+pick a block to go here
+
+```
+
+```scratch
+
+attach this to something
+go to [random position v]
+
+```
+
+```scratch
+
+when green flag clicked
+forever
+if on edge, bounce
+move (10) steps
+
+```
 
 {{< /closing >}}
 
