@@ -25,12 +25,12 @@ toc: false
 
 {{< warmup "What Makes a Good Podcast?" >}}
 
-Think about a podcast, YouTube video, or show you enjoy listening to. What makes it interesting? Write down your answers to these three questions:
+Think about a podcast, YouTube video, creator, or show you enjoy listening to. What makes it interesting? Write down your answers to these three questions:
 
 Use [Word online {{< icon "office365" >}}](https://www.office.com/) to write your answers. You can write in bullet points or full sentences — whatever works for you.
 
-1. What is it about? (the topic)
-2. Why do you keep listening? (what hooks you)
+1. What is the podcast/channel you like about? (the topic)
+2. Why do you keep listening to that channel, creator, or podcast? (what hooks you)
 3. What makes the host good at talking about it? (delivery, personality, knowledge)
 
 Be ready to share one of your answers with the class.
