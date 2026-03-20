@@ -19,6 +19,17 @@ toc: false
 
 {{< icon "calendar" >}} **Tuesday, March 24th, 2026**
 
+{{< callout type="important" icon="sparkles" >}}
+Read the entire objective, warmup, work session, and closing sections before you start working. This will help you understand the big picture of what we're doing today.
+{{< /callout >}}
+
+{{< callout type="warning" >}}
+Mr. Willingham is out today. Work silently and alone the **entire period**.
+
+You may **not** finish early. Stay in GarageBand the entire period.
+
+{{< /callout >}}
+
 {{< objectives >}}
 
 - I can use GarageBand to layer loops and create original intro music for my podcast.
@@ -60,9 +71,22 @@ Your intro music is the first thing listeners hear. It sets the tone for your wh
 
 When you're happy with your intro:
 
-1. Click **File → Export**.
-1. Choose **MP3** or **WAV** format.
+1. Click **Share → Export Song to Disk**.
+1. Choose **MP3** format.
 1. Save the file to **OneDrive** so you can import it into GarageBand on recording day.
+
+{{< callout type="error" >}}
+If OneDrive is not an option, either
+
+1. Save the file somewhere on your computer.
+
+**or**
+
+2. Try setting up OneDrive (`command spacebar` to open spotlight, then search for OneDrive and follow the prompts to set it up).
+
+Saving to OneDrive is best practice, but it is OK if you can't figure it out today.
+
+{{< /callout >}}
 
 {{< checkpoint "Work Session" >}}
 
