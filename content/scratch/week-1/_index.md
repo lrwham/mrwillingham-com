@@ -9,7 +9,7 @@ weight: 3
 
 ## Unit: Introduction to Scratch
 
-This week you will get set up in the computer lab, learn what programming is, and start building projects in Scratch. You'll explore sequencing, events, motion blocks, and the Scratch art tools. By the end of the week, you'll design your own maze on paper with a partner and start building it in Scratch.
+This week you will get set up in the computer lab, learn what programming is, and start building projects in Scratch. You'll explore sequencing, events, motion blocks, and the Scratch art tools. By the end of the week, you'll design your own maze on a worksheet with a partner and start building it in Scratch.
 
 ## Weekly Schedule
 
@@ -19,7 +19,7 @@ This week you will get set up in the computer lab, learn what programming is, an
 | 2   | Tue 3/17 | [Sequencing & Debugging](day-2/) | Complete the BrainPop "Computer Programming" lesson, then work through Code.org "Programming with Angry Birds." _(Independent work — Mr. Willingham is out.)_ |
 | 3   | Wed 3/18 | [Intro to Scratch](day-3/)       | Login to Scratch, complete the Getting Started tutorial, and learn the art tools (color picker, shapes, paintbrush).                   |
 | 4   | Thu 3/19 | [Motion & Sequences](day-4/)     | Use the green flag event, motion blocks, and sequences to program sprites. Add a second sprite with its own code.                      |
-| 5   | Fri 3/20 | [Maze Design](day-5/)            | Discuss example mazes on CTLS, design a maze on graph paper with a partner, then build the artwork in Scratch.                         |
+| 5   | Fri 3/20 | [Maze Design](day-5/)            | Analyze example mazes, design a maze on a worksheet with a partner, then build the artwork in Scratch.                                 |
 
 {{< alert "Graded Assignments" >}}
 

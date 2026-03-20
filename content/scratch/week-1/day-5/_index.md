@@ -135,7 +135,9 @@ End with your partner's maze. **This is the maze you will build in Scratch.**
 
 {{< worksession "Part 2: Draw Your Maze in Scratch" >}}
 
-Now open [this Scratch project](https://scratch.mit.edu/projects/1293617748) and remix it.
+Now open this Scratch project and remix it.
+
+{{< button text="Click here & Remix the Maze Project" >}}https://scratch.mit.edu/projects/1293617748{{< /button >}}
 
 You will implement your **partner's** maze design using the drawing tools and the grid costume in the "Maze" sprite. Follow the steps below to create your maze artwork.
 
