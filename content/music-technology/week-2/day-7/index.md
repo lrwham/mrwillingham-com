@@ -1,18 +1,18 @@
 ---
 title: "Day 7: Intro Music"
 date: 2026-03-24
-description: "Use Soundtrap to create original intro music for your podcast using loops."
+description: "Use GarageBand to create original intro music for your podcast using loops."
 day_number: 7
 weight: 2
 units:
   - "Podcasts"
 tags:
-  - Soundtrap
+  - GarageBand
   - Loops
   - Podcast
   - Music
 resources:
-  - Soundtrap
+  - GarageBand
 draft: true
 toc: false
 ---
@@ -21,28 +21,24 @@ toc: false
 
 {{< objectives >}}
 
-- I can use Soundtrap to layer loops and create original intro music for my podcast.
+- I can use GarageBand to layer loops and create original intro music for my podcast.
 - I can export my intro music for use in GarageBand.
 
 {{< /objectives >}}
 
-{{< warmup "Login to Soundtrap" >}}
+{{< warmup "Login to GarageBand" >}}
 
-Today we'll use **Soundtrap**, an online DAW (Digital Audio Workstation), to create intro music for your podcast.
+Today we'll use **GarageBand** to make the intro music for your podcast.
 
-**Step 1:** Go to Clever and log in with your school credentials.
+Watch the video on Edpuzzle {{< icon "edpuzzle-logo" >}}, it demonstrates the process for making your music using loops. Login to Clever to access Edpuzzle!
 
-[Go to Clever.com](https://clever.com)
+<a href="https://clever.com/login?student" target="_blank" style="font-size:10rem;"><img src="/images/login-with-clever.svg" alt="Login with Clever"></a>
 
-**Step 2:** Find and click on the **Soundtrap** icon in your Clever dashboard.
-
-**Step 3:** Create a new **Music** project.
-
-Take a moment to explore the interface. Soundtrap's loop library works similarly to GarageBand — you can browse by genre, instrument, and mood.
+Then make a new project in GarageBand and start the work session.
 
 {{< checkpoint "Warmup" >}}
 
-- [x] I have logged into Soundtrap.
+- [x] I have completed the Edpuzzle video.
 - [x] I have created a new Music project.
 
 {{< /checkpoint >}}
