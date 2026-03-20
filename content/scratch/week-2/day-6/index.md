@@ -42,7 +42,9 @@ Read the entire objective, warmup, work session, and closing sections before you
 
 Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
 
-Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to access the video.
+Login to Clever.com and click on the Edpuzzle icon to access the video.
+
+{{< clever >}}
 
 {{< checkpoint "Warmup" >}}
 
