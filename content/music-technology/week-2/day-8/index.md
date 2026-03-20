@@ -16,7 +16,7 @@ draft: true
 toc: false
 ---
 
-# Wednesday, March 25th, 2026
+{{< icon "calendar" >}} **Wednesday, March 25th, 2026**
 
 {{< objectives >}}
 

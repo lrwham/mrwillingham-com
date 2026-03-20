@@ -24,7 +24,11 @@ scratchblocks: true
 weight: 1
 ---
 
-# Monday, March 23rd, 2026
+{{< icon "calendar" >}} **Monday, March 23rd, 2026**
+
+{{< callout type="important" icon="sparkles" >}}
+Read the entire objective, warmup, work session, and closing sections before you start working. This will help you understand the big picture of what we're doing today.
+{{< /callout >}}
 
 {{< objectives >}}
 

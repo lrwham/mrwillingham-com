@@ -10,12 +10,18 @@ tags:
   - Podcast
   - Scripting
   - Writing
-resources: []
+resources:
+  - GarageBand
+  - Script Expectations
 draft: true
 toc: false
 ---
 
-# Monday, March 23rd, 2026
+{{< icon "calendar" >}} **Monday, March 23rd, 2026**
+
+{{< callout type="important" icon="sparkles" >}}
+Read the entire objective, warmup, work session, and closing sections before you start working. This will help you understand the big picture of what we're doing today.
+{{< /callout >}}
 
 {{< objectives >}}
 
@@ -83,7 +89,7 @@ Your finished podcast should be **3–5 minutes** when recorded. Expect your scr
 
 {{< closing "Next Steps" >}}
 
-Tomorrow you'll use **Soundtrap** to create original intro music for your podcast using loops. Bring your creativity — this music will be the first thing your listeners hear.
+Tomorrow you'll use **GarageBand** to create original intro music for your podcast using loops. Bring your creativity — this music will be the first thing your listeners hear.
 
 Your script is due **Wednesday**. You'll have time to revise after peer feedback, but the more complete your draft is today, the better.
 

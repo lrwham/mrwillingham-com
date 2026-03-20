@@ -17,7 +17,7 @@ scratchblocks: false
 weight: 3
 ---
 
-# Wednesday, March 25th, 2026
+{{< icon "calendar" >}} **Wednesday, March 25th, 2026**
 
 {{< objectives >}}
 
