@@ -16,7 +16,7 @@ tags:
   - Art Tools
   - Collaboration
 resources:
-  - Graph paper (2 sheets per student)
+  - Maze Design Worksheet (printed)
 draft: false
 toc: false
 scratchblocks: false
@@ -41,11 +41,44 @@ Look at the example mazes here. Respond to the following questions using the dis
 2. What makes a maze **fun** to play? What makes it **frustrating**?
 3. How wide do the paths need to be for a small character to fit through?
 
+{{< tabs >}}
+{{< tab name="Maze 1" >}}
+
+<div style="background-color:gray; width: fit-content; margin: 0 auto;">
+
+![Maze 1](maze-easy.svg)
+
+</div>
+
+{{< /tab >}}
+
+{{< tab name="Maze 2" >}}
+
+<div style="background-color:gray; width: fit-content; margin: 0 auto;">
+
+![Maze 2](maze-medium.svg)
+
+</div>
+
+{{< /tab >}}
+
+{{< tab name="Maze 3" >}}
+
+<div style="background-color:gray; width: fit-content; margin: 0 auto;">
+
+![Maze 3](maze-hard.svg)
+
+</div>
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
 ### Design Rules
 
 When you design your own maze, it must follow these rules:
 
-- **60 squares wide × 45 squares tall** — this matches the shape of the Scratch stage.
+- **40 squares wide × 30 squares tall** — this matches the shape of the Scratch stage.
 - **Paths at least 2 squares wide** — so a sprite can fit through without touching the walls.
 - **Clear start and finish** — mark them with an **S** and **F**.
 - **At least one dead end** — to make the maze challenging.
@@ -64,13 +97,15 @@ When you design your own maze, it must follow these rules:
 
 You will design a maze on graph paper, then swap it with a partner for feedback. After that, you will build your partner's maze in Scratch.
 
-Mr. Willingham will hand out **two sheets of graph paper** — one for your design, and one as a backup. You may choose one partner to work with. You are designing your maze for your partner to build, so make sure to follow the design rules and create a clear, solvable maze.
+You may choose one partner to work with. You are designing your maze for your partner to build, so make sure to follow the design rules and create a clear, solvable maze.
+
+{{< button text="Print: Maze Design Worksheet" >}}maze-worksheet/{{< /button >}}
 
 ### Phase 1: Design (~8 minutes)
 
 Sketch your maze on graph paper. Follow the design rules from the warmup:
 
-1. Count out a **60 × 45** grid on your paper and mark the edges.
+1. Count out a **40 × 30** grid on your paper and mark the edges.
 2. Draw your maze walls inside the grid. Use a pencil so you can erase.
 3. Mark the **start (S)** and **finish (F)**.
 4. Include **at least one dead end**.
@@ -90,7 +125,7 @@ End with your partner's maze. **This is the maze you will build in Scratch.**
 
 {{< checkpoint "Design" >}}
 
-- [x] My maze follows all the design rules (60×45, wide paths, start/finish, dead end, solvable).
+- [x] My maze follows all the design rules (40×30, wide paths, start/finish, dead end, solvable).
 - [x] I reviewed my partner's maze and discussed feedback.
 - [x] I have my partner's maze ready to build.
 
@@ -100,14 +135,15 @@ End with your partner's maze. **This is the maze you will build in Scratch.**
 
 {{< worksession "Part 2: Draw Your Maze in Scratch" >}}
 
-Now open Scratch and recreate your **partner's** maze design using the drawing tools.
+Now open [this Scratch project](https://scratch.mit.edu/projects/1293617748) and remix it.
+
+You will implement your **partner's** maze design using the drawing tools and the grid costume in the "Maze" sprite. Follow the steps below to create your maze artwork.
 
 ### Step 1: Set Up the Maze Sprite
 
-1. Start a new Scratch project.
-2. Create a new sprite to serve as the maze walls.
-3. Use the **line tool** and **rectangle tool** to draw the maze, following your partner's graph paper design as closely as possible.
-4. Pick one color for all the walls — you'll need this to be consistent for next class.
+1. Select the grid costume in the "Maze" sprite. This will help you align your walls to the 40×30 grid.
+2. Use the fill tool to color the walls.
+3. Delete squares that are paths. Remember to keep paths at least 2 squares wide.
 
 ### Step 2: Add the Player
 
@@ -120,7 +156,7 @@ That's it for today. On Monday, you'll add keyboard controls and make the maze p
 {{< checkpoint "Draw Your Maze" >}}
 
 - [x] I created a maze sprite in Scratch that matches my partner's design.
-- [x] All walls are drawn in the same color.
+- [x] I have deleted all squares that are paths and colored the walls.
 - [x] I added a player sprite and placed it at the start.
 
 {{< /checkpoint >}}
