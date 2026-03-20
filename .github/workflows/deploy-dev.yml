@@ -1,8 +1,6 @@
 name: Deploy Development to EC2 (dev.mrwillingham.com)
 
-on:
-  push:
-    branches: [dev]
+on: workflow_dispatch
 
 jobs:
   deploy:
