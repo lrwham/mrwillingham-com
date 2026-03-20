@@ -85,7 +85,7 @@ Click the green flag, then press the arrow keys. Your sprite should move around 
 
 {{< checkpoint "Controls" >}}
 
-- [x] I added `when key pressed` blocks for all four arrow keys.
+- [x] I added four `when key pressed` blocks to my player sprite, one for each arrow key.
 - [x] I can navigate through the maze using the keyboard.
 
 {{< /checkpoint >}}
