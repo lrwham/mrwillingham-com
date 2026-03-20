@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360">
+
+  <!-- === OUTER WALLS (2 cells = 16px thick) === -->
+
+  <!-- Top wall — gap at x=32‑64 for Start -->
+  <rect x="0"  y="0" width="32"  height="16" fill="black"/>
+  <rect x="64" y="0" width="416" height="16" fill="black"/>
+
+  <!-- Bottom wall — gap at x=416‑448 for Finish -->
+  <rect x="0"   y="344" width="416" height="16" fill="black"/>
+  <rect x="448" y="344" width="32"  height="16" fill="black"/>
+
+  <!-- Left wall -->
+  <rect x="0" y="0" width="16" height="360" fill="black"/>
+
+  <!-- Right wall -->
+  <rect x="464" y="0" width="16" height="360" fill="black"/>
+
+  <!-- === HORIZONTAL WALLS — 5 levels, alternating left/right gaps === -->
+
+  <!-- H1: row 7, from left — gap on right (x=320‑464) -->
+  <rect x="16" y="56" width="304" height="16" fill="black"/>
+
+  <!-- H2: row 14, from right — gap on left (x=16‑144) -->
+  <rect x="144" y="112" width="320" height="16" fill="black"/>
+
+  <!-- H3: row 21, from left — gap on right (x=288‑464) -->
+  <rect x="16" y="168" width="272" height="16" fill="black"/>
+
+  <!-- H4: row 28, from right — gap on left (x=16‑176) -->
+  <rect x="176" y="224" width="288" height="16" fill="black"/>
+
+  <!-- H5: row 35, from left — gap on right (x=352‑464) -->
+  <rect x="16" y="280" width="336" height="16" fill="black"/>
+
+  <!-- === DEAD-END WALLS (vertical, connect to wall below, gap above) === -->
+
+  <!-- V1: between H1 & H2, right side — dead end: x=416‑464, y=88‑112 -->
+  <rect x="400" y="88" width="16" height="24" fill="black"/>
+
+  <!-- V2: between H2 & H3, left side — dead end: x=16‑64, y=144‑168 -->
+  <rect x="64" y="144" width="16" height="24" fill="black"/>
+
+  <!-- V3: between H3 & H4, right side — dead end: x=384‑464, y=200‑224 -->
+  <rect x="368" y="200" width="16" height="24" fill="black"/>
+
+  <!-- V4: between H4 & H5, left side — dead end: x=16‑96, y=256‑280 -->
+  <rect x="96" y="256" width="16" height="24" fill="black"/>
+
+  <!-- === START / FINISH MARKERS === -->
+
+  <!-- Green marker at Start entrance -->
+  <rect x="36" y="0" width="24" height="12" fill="#22c55e"/>
+
+  <!-- Red marker at Finish exit -->
+  <rect x="420" y="348" width="24" height="12" fill="#ef4444"/>
+
+</svg>
