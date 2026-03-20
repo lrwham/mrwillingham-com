@@ -17,7 +17,7 @@ scratchblocks: false
 weight: 5
 ---
 
-# Friday, March 20th, 2026
+{{< icon "calendar" >}} **Friday, March 27th, 2026**
 
 {{< alert "Code.org Homework Due" >}}
 The Code.org `Programming with Angry Birds` lesson from Tuesday is due today.
