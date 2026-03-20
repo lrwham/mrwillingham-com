@@ -40,7 +40,7 @@ Complete the entire Flocabulary lesson. It is graded.
 
 {{< worksession "Flocabulary — Coding: Conditionals" >}}
 
-Login to [Clever.com](https://clever.com) and click on the **Flocabulary** icon. Open the **Coding: Conditionals** lesson assigned to you.
+Login to Clever.com and click on the **Flocabulary** icon. Open the **Coding: Conditionals** lesson assigned to you.
 
 Complete **all** of the following activities in order:
 
@@ -56,6 +56,8 @@ Complete **all** of the following activities in order:
 Yes, it is homework. You need to finish it on your own time. It is due **Friday, March 27th, 2026**.
 
 After Friday, it is late and will lose **20 points per day** until it reaches **0 points on Wednesday, April 1st, 2026**.
+
+{{< clever >}}
 
 {{< checkpoint "Flocabulary — Coding: Conditionals" >}}
 

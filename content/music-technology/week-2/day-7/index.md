@@ -27,7 +27,6 @@ Read the entire objective, warmup, work session, and closing sections before you
 Mr. Willingham is out today. Work silently and alone the **entire period**.
 
 You may **not** finish early. Stay in GarageBand the entire period.
-
 {{< /callout >}}
 
 {{< objectives >}}
@@ -43,7 +42,7 @@ Today we'll use **GarageBand** to make the intro music for your podcast.
 
 Watch the video on Edpuzzle {{< icon "edpuzzle-logo" >}}, it demonstrates the process for making your music using loops. Login to Clever to access Edpuzzle!
 
-<a href="https://clever.com/login?student" target="_blank" style="font-size:10rem;"><img src="/images/login-with-clever.svg" alt="Login with Clever"></a>
+{{< clever >}}
 
 Then make a new project in GarageBand and start the work session.
 

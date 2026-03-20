@@ -53,10 +53,7 @@ If you need help getting the sound to work on your computer check the troublesho
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
-{{< button text="Go to Clever.com">}}
-https://clever.com
-
-{{< /button >}}
+{{< clever >}}
 
 **Step 2:** Find and click on the **BrainPop** icon in your Clever dashboard.
 
@@ -73,13 +70,9 @@ https://clever.com
 
 {{< worksession "Code.org Lesson 1: Programming with Angry Birds" >}}
 
-Login to [Clever.com](https://clever.com) and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
+Login to Clever.com and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
 
-{{< button text="Go to Clever.com">}}
-
-https://clever.com
-
-{{< /button >}}
+{{< clever >}}
 
 #### Didn't finish in class?
 
