@@ -18,6 +18,10 @@ toc: false
 
 {{< icon "calendar" >}} **Friday, March 20th, 2026**
 
+{{< callout type="important" icon="sparkles" >}}
+Read the entire objective, warmup, work session, and closing sections before you start working. This will help you understand the big picture of what we're doing today.
+{{< /callout >}}
+
 {{< objectives >}}
 
 - I can record a podcast intro using proper microphone technique.
@@ -36,6 +40,10 @@ Before we start recording, make sure:
 - You know how to pronounce every word in your intros.
 - You've practiced reading each one at least once.
 
+{{< callout type="warning" >}}
+If you haven't finished writing both intros, take a few minutes to do that now. You won't be able to record until you have two complete intros ready.
+{{< /callout >}}
+
 {{< checkpoint "Warmup" >}}
 
 - [x] I have reread both of my intros.
@@ -45,9 +53,17 @@ Before we start recording, make sure:
 
 {{< /warmup >}}
 
-{{< worksession "Record Both Intros" >}}
+{{< worksession "Part 1 - Record Both Intros" >}}
 
 Time to put your voice behind your words. You'll record both intros so you can hear how each one sounds.
+
+{{< callout type="important" >}}
+You will take turns with your neighbor to record your intros. Only ONE microphone may be at each table. This helps to keep the noise down.
+{{< /callout >}}
+
+{{< callout type="warning" >}}
+You must be **silent** if you are not recording.
+{{< /callout >}}
 
 ### Setup
 
@@ -80,7 +96,7 @@ Time to put your voice behind your words. You'll record both intros so you can h
 
 {{< /worksession >}}
 
-{{< worksession "Practice Editing" >}}
+{{< worksession "Part 2 - Practice Editing" >}}
 
 Now let's practice some basic editing in GarageBand. Use your intro recordings to try the following:
 
