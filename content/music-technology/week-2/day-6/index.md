@@ -11,7 +11,7 @@ tags:
   - Scripting
   - Writing
 resources:
-  - GarageBand
+  - Word Online
   - Script Expectations
 draft: true
 toc: false
@@ -21,6 +21,12 @@ toc: false
 
 {{< callout type="important" icon="sparkles" >}}
 Read the entire objective, warmup, work session, and closing sections before you start working. This will help you understand the big picture of what we're doing today.
+{{< /callout >}}
+
+{{< callout type="warning" >}}
+Mr. Willingham is out today. Work silently and alone the **entire period**.
+
+You may **not** finish early. Stay in Word Online the entire period.
 {{< /callout >}}
 
 {{< objectives >}}
