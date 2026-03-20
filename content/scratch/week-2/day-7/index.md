@@ -22,6 +22,12 @@ weight: 2
 
 {{< icon "calendar" >}} **Tuesday, March 24th, 2026**
 
+{{< callout type="warning" >}}
+Mr. Willingham is out today. Work silently and alone the **entire period**.
+
+You may **not** finish early. Stay in Flocabulary the entire period or go on to the early finisher activities at the end of the lesson.
+{{< /callout >}}
+
 {{< objectives >}}
 
 - I can define what a conditional statement is and how it works.
@@ -71,9 +77,9 @@ After Friday, it is late and will lose **20 points per day** until it reaches **
 
 ### If you finish early...
 
-#### Try the **Lyric Lab** activity in the Flocabulary lesson to write your own lyrics about conditionals.
+1. Try the **Lyric Lab** activity in the Flocabulary lesson to write your own lyrics about conditionals.
 
-#### Pick a level on Code.org and work at your own pace.
+2. Pick a level on Code.org and work at your own pace.
 
 {{< checkpoint "Finished Early" >}}
 
