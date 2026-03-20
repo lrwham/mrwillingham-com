@@ -1,7 +1,7 @@
 ---
 title: "Day 5: Maze Design"
 date: 2026-03-20
-description: "Analyze example mazes, design a maze on graph paper with a partner, then build the artwork in Scratch."
+description: "Analyze example mazes, design a maze on a worksheet with a partner, then build the artwork in Scratch."
 day_number: 5
 units:
   - "Intro to Scratch"
@@ -95,7 +95,7 @@ When you design your own maze, it must follow these rules:
 
 {{< worksession "Part 1: Design Your Maze" >}}
 
-You will design a maze on graph paper, then swap it with a partner for feedback. After that, you will build your partner's maze in Scratch.
+You will design a maze on a worksheet, then swap it with a partner for feedback. After that, you will build your partner's maze in Scratch.
 
 You may choose one partner to work with. You are designing your maze for your partner to build, so make sure to follow the design rules and create a clear, solvable maze.
 
@@ -103,9 +103,9 @@ You may choose one partner to work with. You are designing your maze for your pa
 
 ### Phase 1: Design (~8 minutes)
 
-Sketch your maze on graph paper. Follow the design rules from the warmup:
+Sketch your maze on the worksheet. Follow the design rules from the warmup:
 
-1. Count out a **40 × 30** grid on your paper and mark the edges.
+1. Note the worksheet is a **40 × 30** grid that matches the Scratch stage.
 2. Draw your maze walls inside the grid. Use a pencil so you can erase.
 3. Mark the **start (S)** and **finish (F)**.
 4. Include **at least one dead end**.
