@@ -9,7 +9,7 @@ weight: 3
 
 ## Unit: Introduction to Scratch
 
-This week you will get set up in the computer lab, learn what programming is, and start building projects in Scratch. You'll explore sequencing, events, motion blocks, and the Scratch art tools. By the end of the week, you'll design your own maze on paper with a partner and start building it in Scratch.
+This week you will get set up in the computer lab, learn what programming is, and start building projects in Scratch. You'll explore sequencing, events, motion blocks, and the Scratch art tools. By the end of the week, you'll design your own maze on a worksheet with a partner and start building it in Scratch.
 
 ## Weekly Schedule
 
