@@ -1,6 +1,6 @@
 ---
 title: "Week 2: Podcasts"
-draft: true
+draft: false
 toc: false
 cascade:
   type: docs
