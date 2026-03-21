@@ -11,7 +11,7 @@ tags:
   - Podcast
   - Editing
 resources: []
-draft: true
+draft: false
 toc: false
 ---
 
@@ -76,7 +76,9 @@ When your edit is complete:
 
 {{< closing "Share with the Class" >}}
 
-We will listen to everyone's podcasts together. As we listen, think about:
+We will listen to everyone's podcasts together.
+
+Share them in the discussion post on CTLS. As we listen, think about:
 
 - What did the host do well?
 - What made the podcast engaging?

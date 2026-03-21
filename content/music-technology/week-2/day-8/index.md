@@ -12,7 +12,7 @@ tags:
   - Peer Feedback
   - Editing
 resources: []
-draft: true
+draft: false
 toc: false
 ---
 
@@ -65,6 +65,66 @@ When reading a peer's script, consider:
 ### How to Give Feedback
 
 Be **specific** and **helpful**. Instead of "it's good," say what's working and why. Instead of "fix this part," explain what's unclear and suggest how to improve it.
+
+### Now Share
+
+To share your script, follow these steps:
+
+{{< tabs >}}
+{{< tab name="Step 1" >}}
+{{< callout >}}
+Click the **Share** button in the top right corner of Word Online.
+{{< /callout >}}
+![Step 1](1.png)
+{{< /tab >}}
+{{< tab name="Step 2" >}}
+{{< callout >}}
+Click on **Copy Link**.
+{{< /callout >}}
+![Step 2](2.png)
+{{< /tab >}}
+{{< tab name="Step 3" >}}
+{{< callout >}}
+Click on **settings**.
+{{< /callout >}}
+![Step 3](3.png)
+{{< /tab >}}
+{{< tab name="Step 4" >}}
+{{< callout >}}
+Click on **People in Cobb County School Districy**.
+{{< /callout >}}
+![Step 4](4.png)
+{{< /tab >}}
+{{< tab name="Step 5" >}}
+{{< callout >}}
+Choose the **Can Review** permission level.
+{{< /callout >}}
+![Step 5](5.png)
+{{< /tab >}}
+{{< tab name="Step 6" >}}
+{{< callout >}}
+Set an expiration date for tomorrow.
+{{< /callout >}}
+![Step 6](6.png)
+{{< /tab >}}
+{{< tab name="Step 7" >}}
+{{< callout >}}
+Press **apply** and the link is ready to turn in.
+{{< /callout >}}
+![Step 7](7.png)
+{{< /tab >}}
+{{< tab name="Turn In" >}}
+{{< callout >}}
+Paste the link into the discussion post on CTLS and submit it.
+
+It will look like this:
+
+> https://cobbk12org-my.sharepoint.com/:w:/g/personal/your_name_cobbk12_org/IQDtehj98DJH98fjKJKFK898fgfs7eSbb-u34Fp-U7e=k1111v
+
+{{< /callout >}}
+{{< /tab >}}
+
+{{< /tabs >}}
 
 {{< checkpoint "Peer Feedback" >}}
 

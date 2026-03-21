@@ -13,7 +13,7 @@ tags:
 resources:
   - Word Online
   - Script Expectations
-draft: true
+draft: false
 toc: false
 ---
 

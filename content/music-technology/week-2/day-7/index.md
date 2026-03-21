@@ -13,7 +13,7 @@ tags:
   - Music
 resources:
   - GarageBand
-draft: true
+draft: false
 toc: false
 ---
 
@@ -36,7 +36,7 @@ You may **not** finish early. Stay in GarageBand the entire period.
 
 {{< /objectives >}}
 
-{{< warmup "Login to GarageBand" >}}
+{{< warmup "Edpuzzle Video" >}}
 
 Today we'll use **GarageBand** to make the intro music for your podcast.
 
