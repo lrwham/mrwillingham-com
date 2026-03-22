@@ -66,6 +66,17 @@ Notice how the diamond is the **condition** — the same thing that goes inside 
 
 {{< worksession "Part 1: Trace the Flow" >}}
 
+{{< mermaid >}}
+
+flowchart TD
+    A[Start] --> B{Is the sprite touching the wall color?}
+    B -- Yes --> C[Go back to start]
+    B -- No --> D[Continue moving forward]
+    C --> A
+    D --> E[Done]
+
+{{< /mermaid >}}
+
 ## TODO
 
 {{< checkpoint "Part 1" >}}

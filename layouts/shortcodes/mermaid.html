@@ -1,0 +1,6 @@
+<div role="img" aria-label="Diagram">
+  <pre class="mermaid hx:mt-6">
+    {{ .Inner | safeHTML }}
+  </pre>
+</div>
+{{- .Page.Store.Set "hasMermaid" true -}}
