@@ -22,3 +22,12 @@
   });
 </script>
 {{ end }}
+
+{{ if .Page.Params.mermaid }}
+<!-- Mermaid: render ```mermaid code fences as diagrams -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11.13.0/+esm" defer></script>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}

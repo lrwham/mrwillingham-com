@@ -1,0 +1,4 @@
+{{/* Render ```mermaid code blocks as Mermaid diagrams */}}
+<pre class="mermaid">
+  {{ .Inner | htmlEscape | safeHTML }}
+</pre>
