@@ -4,9 +4,9 @@ title: "Sample Podcast Script"
 unit: ["Podcast"]
 description: "Practice recording script for 'The Sound Zone' podcast"
 sidebar:
-  exclude: true
+  exclude: false
 toc: false
-draft: true
+draft: false
 ---
 
 **"The Sound Zone"** — Practice Recording Script

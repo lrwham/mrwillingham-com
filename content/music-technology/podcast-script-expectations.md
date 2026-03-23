@@ -6,9 +6,9 @@ units: ["Podcast"]
 tags: ["brainstorming", "scripting", "recording"]
 resources: ["Soundtrap", "Microphone", "Audio Interface"]
 sidebar:
-  exclude: true
+  exclude: false
 toc: false
-draft: true
+draft: false
 ---
 
 ## Originality:
