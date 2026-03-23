@@ -58,6 +58,8 @@ Login to Clever.com and click on the Edpuzzle icon to access the video.
 
 Open the maze project you built last Friday. Today you will make it playable by adding keyboard controls.
 
+If you lost your work, [use this project](https://scratch.mit.edu/projects/1293667664).
+
 ### Step 1: Add Keyboard Controls
 
 Click on your **player sprite** and add these blocks. You need four `when key pressed` event blocks — one for each arrow key.
