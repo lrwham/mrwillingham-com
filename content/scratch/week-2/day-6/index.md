@@ -18,7 +18,7 @@ tags:
   - Conditionals
 resources:
   - Edpuzzle
-draft: true
+draft: false
 toc: false
 scratchblocks: true
 weight: 1
@@ -99,6 +99,10 @@ Right now your sprite can walk straight through the walls. Let's fix that using 
 ### The `if touching color` Block
 
 Scratch can detect when a sprite is touching a specific color on the stage. Since you drew all your maze walls in the same color, you can use this to detect wall collisions.
+
+### The `if touching sprite` Block
+
+Scratch can also detect when a sprite is touching another sprite. Since our walls are a sprite, we can use this or the color option.
 
 ### Step 1: Add Wall Detection
 
