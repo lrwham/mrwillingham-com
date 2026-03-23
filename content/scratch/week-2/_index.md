@@ -1,6 +1,6 @@
 ---
 title: "Week 2: Conditionals & Control Flow"
-draft: true
+draft: false
 toc: false
 cascade:
   type: docs
