@@ -2,6 +2,7 @@
 title: "Standards"
 subtitle: "Georgia Standards of Excellence — Foundations of Computer Programming"
 weight: 2
+draft: true
 ---
 
 ## Course Description
