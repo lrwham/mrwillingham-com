@@ -19,28 +19,28 @@ weight: 4
 
 {{< icon "calendar" >}} **Thursday, March 26th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can use `user input` as events to trigger behavior in my Scratch projects.
 - I can make my Scratch projects interactive by responding to keyboard input.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "User Input as Events" >}}
+{{% warmup "User Input as Events" %}}
 
 Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
 
 Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to access the video.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have watched the Edpuzzle video on user input.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Navigate a Maze" >}}
+{{% worksession "Navigate a Maze" %}}
 
 You will create a maze game in Scratch where the player controls a sprite using the keyboard. The goal is to navigate through the maze without touching the walls.
 
@@ -75,7 +75,7 @@ Test your controls. Click the green flag, then press the arrow keys. Your sprite
 
 Try navigating your maze. If the paths are too narrow or the sprite moves too fast, adjust your maze drawing or change the movement values (try `5` instead of `10`).
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have created a maze sprite using the drawing tools.
 - [x] I have added a player sprite.
@@ -83,15 +83,15 @@ Try navigating your maze. If the paths are too narrow or the sprite moves too fa
 - [x] I can navigate through my maze using the keyboard.
 - [x] **Bonus**: I have added a second player character with separate keyboard controls (e.g., WASD) for a two-player maze game.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 Tomorrow we will learn about **loops** — a way to make code repeat automatically. Loops are one of the most powerful tools in programming. Instead of writing the same blocks over and over, you can tell Scratch to repeat them for you.
 
-{{< /closing >}}
+{{% /closing %}}
 
 ## Standards
 

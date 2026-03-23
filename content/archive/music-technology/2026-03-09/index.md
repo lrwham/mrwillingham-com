@@ -10,14 +10,14 @@ toc: false
 ---
 
 Monday, March 9th, 2026
-{{< objectives >}}
+{{% objectives %}}
 
 - I can set up a microphone and recording software to record a podcast.
 - I can record a podcast using appropriate techniques.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Review Your Script" >}}
+{{% warmup "Review Your Script" %}}
 
 Reread your entire script. If your script has large chunks of text (paragraphs), break those up into smaller lines. This will make it easier to read when you record your podcast.
 
@@ -25,16 +25,16 @@ Confirm the following before we begin recording:
 
 - Your sound effect annotations are included in your script (e.g., [Insert Applause Sound Effect Here]).
 - Your intro music track is ready in Soundtrap.
-  {{< checkpoint "Warmup" >}}
+  {{% checkpoint "Warmup" %}}
 - [x] My script is broken into short, readable lines.
 - [x] My sound effects are labeled in my script.
 - [x] My intro music is ready in Soundtrap.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Record the Script" >}}
+{{% worksession "Record the Script" %}}
 
 We will first review the setup procedures. We will take turns recording our scripts. Record the podcast on your own computer. Your partner can help you with the setup and provide feedback on your recording, but you should be the one doing the actual recording.
 
@@ -73,18 +73,18 @@ We will first review the setup procedures. We will take turns recording our scri
 ### When You Finish Recording
 
 If you finish recording before the end of class, **listen back** to your recording. Re-record any sections that sound unclear, too quiet, or rushed. Your goal is to have a clean recording ready for editing tomorrow.
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have recorded my entire script.
 - [x] I have listened back and re-recorded any sections that need improvement.
 
-{{< /checkpoint >}}
-{{< /worksession >}}
+{{% /checkpoint %}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 Here is the plan for the rest of the week:
 
 - **Tomorrow (Tuesday):** Edit your podcast. This includes cutting out mistakes, adding your intro music, and adding sound effects.
 - **Wednesday:** Publish your episode and share it with the class.
 
-{{< /closing >}}
+{{% /closing %}}

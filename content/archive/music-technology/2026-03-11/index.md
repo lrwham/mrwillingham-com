@@ -11,30 +11,30 @@ toc: false
 
 Wednesday, March 11th, 2026
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can finish editing my podcast episode.
 - I can export my podcast as an MP3 file.
 - I can submit my final episode as an audio file in CTLS.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Final Microphone Time" >}}
+{{% warmup "Final Microphone Time" %}}
 
 If you still need to record or re-record any sections of your podcast, you have **up to 10 minutes** at the start of class to use the microphones. After that, microphones will be put away for the day.
 
 Use this time wisely. If your recording is already complete, use these 10 minutes to continue editing.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have finished all recording.
 - [x] Microphone and cables are put away properly.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Edit, Export, and Submit" >}}
+{{% worksession "Edit, Export, and Submit" %}}
 
 ### Finish Editing
 
@@ -84,17 +84,17 @@ Once your MP3 is downloaded, submit it in CTLS:
 
 **Important:** Use the audio upload button — do not drag in the file or use the regular file attachment. The audio button is what gives your submission the built-in player.
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] My episode is fully edited.
 - [x] I exported my podcast as an MP3.
 - [x] I submitted my MP3 in CTLS using the audio upload button.
 
-{{< /checkpoint >}}
-{{< /worksession >}}
+{{% /checkpoint %}}
+{{% /worksession %}}
 
-{{< closing "Finished Early?" >}}
+{{% closing "Finished Early?" %}}
 
 If you have submitted your episode, **listen to your classmates' podcasts**. As their episodes are submitted, you can play them directly in CTLS. Enjoy the shows!
 
-{{< /closing >}}
+{{% /closing %}}

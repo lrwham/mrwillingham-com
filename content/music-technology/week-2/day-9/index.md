@@ -18,14 +18,14 @@ toc: false
 
 {{< icon "calendar" >}} **Thursday, March 26th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can set up a microphone and audio interface for recording.
 - I can record my full podcast episode using proper technique.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Prepare to Record" >}}
+{{% warmup "Prepare to Record" %}}
 
 Open your finalized script in Word Online. Review it one last time.
 
@@ -35,17 +35,17 @@ Before we begin recording, confirm the following:
 - Your audio annotations are clearly marked (e.g., `[MUSIC: Intro — fade out]`).
 - Your intro music file is saved to OneDrive and ready to import into GarageBand.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] My script is finalized and easy to read.
 - [x] My audio annotations are clearly labeled.
 - [x] My intro music is saved to OneDrive.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Record Your Episode" >}}
+{{% worksession "Record Your Episode" %}}
 
 We will review the setup procedure together, then take turns recording.
 
@@ -72,7 +72,7 @@ Listen back to your recording. Re-record any sections that sound unclear, too qu
 
 Save your project as: **Podcast_YourName** and make sure it's saved to **OneDrive**.
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have set up the microphone and audio interface correctly.
 - [x] I have imported my intro music into GarageBand.
@@ -80,12 +80,12 @@ Save your project as: **Podcast_YourName** and make sure it's saved to **OneDriv
 - [x] I have listened back and re-recorded any sections that need improvement.
 - [x] My project is saved to OneDrive.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 Tomorrow is the final day of the podcast unit. You will **edit** your episode — cutting out mistakes, adjusting levels, and adding any remaining sound effects. Then we'll **share** the finished podcasts with the class.
 
-{{< /closing >}}
+{{% /closing %}}

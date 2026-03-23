@@ -28,15 +28,15 @@ weight: 3
 Read the entire objective, warmup, work session, and closing sections before you start working. This will help you understand the big picture of what we're doing today.
 {{< /callout >}}
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can read a flow diagram and predict its outcome.
 - I can draw a flow diagram that represents a conditional (if/else) decision.
 - I can connect flow diagrams to `if` blocks in Scratch.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "What is a Flow Diagram?" >}}
+{{% warmup "What is a Flow Diagram?" %}}
 
 Yesterday you learned the vocabulary of conditionals — `if`, `else if`, `else`, and how programs use conditions to decide what to do. Today we're going to **draw** that logic on paper using **flow diagrams**.
 
@@ -56,16 +56,16 @@ Mr. Willingham will walk through an example on the board:
 
 Notice how the diamond is the **condition** — the same thing that goes inside an `if` block in Scratch. The two paths (Yes and No) are like the code inside `if` and `else`.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I understand the three flow diagram shapes (oval, rectangle, diamond).
 - [x] I understand that a diamond is a yes/no decision — just like a condition in an `if` block.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Part 1: Trace the Flow" >}}
+{{% worksession "Part 1: Trace the Flow" %}}
 
 ```mermaid
 flowchart TD
@@ -84,27 +84,27 @@ forever
 
 ## TODO
 
-{{< checkpoint "Part 1" >}}
+{{% checkpoint "Part 1" %}}
 
 - [x] TODO
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< worksession "Part 2: Draw Your Own" >}}
+{{% worksession "Part 2: Draw Your Own" %}}
 
 ## TODO
 
-{{< checkpoint "Part 2" >}}
+{{% checkpoint "Part 2" %}}
 
 - [x] TODO
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Flow Diagrams and Code" >}}
+{{% closing "Flow Diagrams and Code" %}}
 
 Look at this side-by-side. The flow diagram from Diagram 2 on your worksheet maps directly to the Scratch code you wrote on Monday:
 
@@ -116,7 +116,7 @@ Look at this side-by-side. The flow diagram from Diagram 2 on your worksheet map
 
 Flow diagrams and `if` blocks are two ways of representing the same logic. Diagrams make it easier to **plan** your logic before you code it. Tomorrow, you'll dig deeper into the **true/false** values that power every diamond and every `if` block — that's called **boolean logic**.
 
-{{< /closing >}}
+{{% /closing %}}
 
 ## Standards
 

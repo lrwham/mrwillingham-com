@@ -1,7 +1,7 @@
-{{/* Usage: {{< checkpoint "Number or Title Here">}} Content... {{</checkpoint>}} */}}
+{{/* Usage: {{% checkpoint "Number or Title Here"%}} Content... {{% /checkpoint %}} */}}
 <div class="lesson-section lesson-checkpoint">
   <div class="lesson-section-header checkpoint-header">
     <h2>Checkpoint: {{ .Get 0 }}</h2>
   </div>
-  <div class="lesson-section-body">{{ .Inner | markdownify }}</div>
+  <div class="lesson-section-body">{{ .Inner }}</div>
 </div>

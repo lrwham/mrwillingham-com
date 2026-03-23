@@ -17,9 +17,9 @@ weight: 4
 | 9   | Thu 3/26 | [Record Your Podcast](day-9/)          | Set up the microphone and record your full podcast episode in GarageBand.        |
 | 10  | Fri 3/27 | [Edit & Share](day-10/)                | Edit your episode in GarageBand and share your finished podcast with the class.  |
 
-{{< alert "Graded Assignments" >}}
+{{% alert "Graded Assignments" %}}
 
 - **Podcast Script** (due Wednesday 3/25) — Your finalized script must meet all expectations and be ready for recording by end of day.
 - **Finished Podcast** (due Friday 3/27) — Your recorded and edited podcast episode, shared with the class.
 
-{{< /alert >}}
+{{% /alert %}}

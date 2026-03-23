@@ -21,12 +21,12 @@ In this unit, you will create your own podcast episode from start to finish. You
 | 4   | Thu 3/19 | [Podcast Brainstorm](day-4/)                 | Brainstorm podcast topics across multiple categories, then write two podcast intros.                   |
 | 5   | Fri 3/20 | [Record & Choose Your Topic](day-5/)         | Record both podcast intros, practice basic editing in GarageBand, and choose a final topic.           |
 
-{{< alert "Graded Assignments" >}}
+{{% alert "Graded Assignments" %}}
 
 - **BrainPop — Sound Waves** (Tuesday) — Complete all activities including the quiz. The quiz is a daily grade.
 - **Edpuzzle — Microphone Setup** (Wednesday) — Watch and answer all questions in the video.
 
-{{< /alert >}}
+{{% /alert %}}
 
 ## Week 2 Preview
 

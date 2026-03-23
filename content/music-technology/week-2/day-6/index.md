@@ -29,29 +29,29 @@ Mr. Willingham is out today. Work silently and alone the **entire period**.
 You may **not** finish early. Stay in Word Online the entire period.
 {{< /callout >}}
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can write a full podcast script that includes an introduction, main content, and conclusion.
 - I can include annotations for music and sound effects in my script.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Review Script Expectations" >}}
+{{% warmup "Review Script Expectations" %}}
 
 Read the [script expectations](../../podcast-script-expectations/) carefully. These are the requirements your final script must meet.
 
 Then, open Word Online by logging into [Office 365](https://www.office.com/). Start a new document and title it **"Podcast Script — [Your Name]"**.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have read the script expectations.
 - [x] I have created a new Word document for my script.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Write Your Script" >}}
+{{% worksession "Write Your Script" %}}
 
 You chose your topic on Friday. Now it's time to write the full script. Your script should include:
 
@@ -81,7 +81,7 @@ Your finished podcast should be **3–5 minutes** when recorded. Expect your scr
 
 > **Tip:** Use the **Read Aloud** feature in Word Online to hear your script. If something sounds awkward, rewrite it. Change the Editor from `Formal Writing` to `Casual Writing` to get better suggestions for a conversational tone.
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have copied my intro from last week and revised it if needed.
 - [x] I have written the main content with 2–3 main points.
@@ -89,14 +89,14 @@ Your finished podcast should be **3–5 minutes** when recorded. Expect your scr
 - [x] I have included audio annotations for music and sound effects.
 - [x] My script is approximately 250–500 words.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 Tomorrow you'll use **GarageBand** to create original intro music for your podcast using loops. Bring your creativity — this music will be the first thing your listeners hear.
 
 Your script is due **Wednesday**. You'll have time to revise after peer feedback, but the more complete your draft is today, the better.
 
-{{< /closing >}}
+{{% /closing %}}

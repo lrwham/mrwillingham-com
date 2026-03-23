@@ -17,14 +17,14 @@ toc: false
 
 # Wednesday, March 11, 2026
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can analyze real video game box art to identify what makes it effective.
 - I can design front and back cover box art for my group's game.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Part 1 - Studying the Box Art - Solo" >}}
+{{% warmup "Part 1 - Studying the Box Art - Solo" %}}
 
 ### Read both parts of the warmup, the work session, and the closing before starting any work.
 
@@ -75,9 +75,9 @@ Click to enlarge the images.
   </div>
 </div>
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< warmup "Part 2 - Studying the Box Art - Group Discussion" >}}
+{{% warmup "Part 2 - Studying the Box Art - Group Discussion" %}}
 
 Discuss the following with your group:
 
@@ -85,15 +85,15 @@ Discuss the following with your group:
 2. What kind of information appears on the **back covers** that doesn't appear on the front?
 3. Which cover makes you most interested in playing the game, and why?
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have studied the example box art above.
 - [x] I have discussed the questions with my group.
-      {{< /checkpoint >}}
+      {{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Design Your Box Art" >}}
+{{% worksession "Design Your Box Art" %}}
 
 ### What Is Box Art?
 
@@ -125,16 +125,16 @@ Your box art should include the following. Use this as a guide while you work.
 - [ ] Your game studio name/logo.
 - [ ] A fictional system requirement, platform logo, or website (have fun with it).
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have folded my paper in half to create a front and back cover.
 - [x] My front cover includes a title, artwork, studio name, and age rating.
 - [x] My back cover includes a tagline, description, screenshots, and features list.
-      {{< /checkpoint >}}
+      {{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "What's Next" >}}
+{{% closing "What's Next" %}}
 
 Tomorrow, we will finish up box art for anyone who needs more time. After that, we will start building a **mockup** of your game in Scratch.
 
@@ -149,4 +149,4 @@ Here is the rubric for the box art. [Box Art Rubric](/scratch/reference/video-ga
 
 After reading everything above, complete this learning check before continuing the warmup. [Learning Check](https://forms.office.com/r/GqTsfrT0Eh)
 
-{{< /closing >}}
+{{% /closing %}}

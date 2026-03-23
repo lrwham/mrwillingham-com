@@ -21,11 +21,11 @@ This week you will get set up in the computer lab, learn what programming is, an
 | 4   | Thu 3/19 | [Motion & Sequences](day-4/)     | Use the green flag event, motion blocks, and sequences to program sprites. Add a second sprite with its own code.                      |
 | 5   | Fri 3/20 | [Maze Design](day-5/)            | Analyze example mazes, design a maze on a worksheet with a partner, then build the artwork in Scratch.                                 |
 
-{{< alert "Graded Assignments" >}}
+{{% alert "Graded Assignments" %}}
 
 - **BrainPop — Computer Programming** (Tuesday) — Complete the video and quiz. The quiz is a daily grade.
 - **Code.org — Programming with Angry Birds** (assigned Tuesday, due Friday 3/20) — Complete all 11 levels plus bonus levels. Late work loses 20 points per day after Friday.
-{{< /alert >}}
+{{% /alert %}}
 
 ## Week 2 Preview
 

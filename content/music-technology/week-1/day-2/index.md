@@ -18,14 +18,14 @@ toc: false
 
 {{< icon "calendar" >}} **Tuesday, March 17th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can describe what sound waves are and how they travel.
 - I can identify key properties of sound waves including frequency, amplitude, compression, and rarefaction.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Mr. Willingham is Out Today" >}}
+{{% warmup "Mr. Willingham is Out Today" %}}
 
 You will work silently and alone today while Mr. Willingham is out.
 
@@ -39,9 +39,9 @@ If you need help getting the sound to work on your computer check the troublesho
 
 {{< /button >}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "BrainPop — Sound Waves" >}}
+{{% worksession "BrainPop — Sound Waves" %}}
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
@@ -57,16 +57,16 @@ https://clever.com
 
 Complete all seven activities in order.
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have watched the Sound Waves video.
 - [x] I have completed the Vocab Builder and Quiz.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Finished Early" >}}
+{{% closing "Finished Early" %}}
 
 ### If you finish early...
 
@@ -74,4 +74,4 @@ Open GarageBand and explore the **loop library**. Try browsing loops by instrume
 
 We will be using GarageBand to **record podcasts** later in this unit. You'll get to pick your own topic, write your own script, and learn to use microphones and audio equipment to record it. We'll share the finished podcasts with the class. Sound waves are the science behind everything we'll be doing — so today's lesson is your foundation.
 
-{{< /closing >}}
+{{% /closing %}}
