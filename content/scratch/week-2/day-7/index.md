@@ -28,23 +28,23 @@ Mr. Willingham is out today. Work silently and alone the **entire period**.
 You may **not** finish early. Stay in Flocabulary the entire period or go on to the early finisher activities at the end of the lesson.
 {{< /callout >}}
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can define what a conditional statement is and how it works.
 - I can explain the structure of an `if`, `else if`, `else` conditional.
 - I can answer questions about conditionals using a reading passage.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Mr. Willingham is Out Today" >}}
+{{% warmup "Mr. Willingham is Out Today" %}}
 
 You will work silently and alone today while Mr. Willingham is out.
 
 Complete the entire Flocabulary lesson. It is graded.
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Flocabulary — Coding: Conditionals" >}}
+{{% worksession "Flocabulary — Coding: Conditionals" %}}
 
 Login to Clever.com and click on the **Flocabulary** icon. Open the **Coding: Conditionals** lesson assigned to you.
 
@@ -65,15 +65,15 @@ After Friday, it is late and will lose **20 points per day** until it reaches **
 
 {{< clever >}}
 
-{{< checkpoint "Flocabulary — Coding: Conditionals" >}}
+{{% checkpoint "Flocabulary — Coding: Conditionals" %}}
 
 - [x] I have completed all of the activities in the Flocabulary **Coding: Conditionals** lesson **OR** I will do so for homework.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Finished Early" >}}
+{{% closing "Finished Early" %}}
 
 ### If you finish early...
 
@@ -81,14 +81,14 @@ After Friday, it is late and will lose **20 points per day** until it reaches **
 
 2. Pick a level on Code.org and work at your own pace.
 
-{{< checkpoint "Finished Early" >}}
+{{% checkpoint "Finished Early" %}}
 
 - [x] I have started the Lyric Lab activity.
 - [x] I have started working on Code.org.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /closing >}}
+{{% /closing %}}
 
 ## Standards
 

@@ -19,15 +19,15 @@ toc: false
 
 {{< icon "calendar" >}} **Wednesday, March 18th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can set up a microphone and audio interface for recording.
 - I can adjust gain levels to get an appropriate recording volume.
 - I can record a sound check in GarageBand.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Microphone Setup Video" >}}
+{{% warmup "Microphone Setup Video" %}}
 
 Watch the Edpuzzle video on how to set up the microphone and audio interface for recording. Pay close attention to the steps — you'll be doing this yourself in the work session.
 
@@ -39,16 +39,16 @@ Watch the Edpuzzle video on how to set up the microphone and audio interface for
 
 **Step 3:** Watch the microphone setup video and answer all questions.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have watched the microphone setup video on Edpuzzle.
 - [x] I understand the steps for connecting the microphone and audio interface.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Sound Check" >}}
+{{% worksession "Sound Check" %}}
 
 We will set up the microphone and audio interface together, then each record a short sound check in GarageBand. This is practice for the podcast recording sessions coming up soon.
 
@@ -73,21 +73,21 @@ Once your setup is complete:
 1. If the recording is too quiet, turn the gain up slightly and try again. If it's too loud or distorted, turn the gain down.
 1. Adjust until your voice sounds clear and the levels stay in the green/yellow range (not red).
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have connected the microphone and audio interface correctly.
 - [x] I have created a GarageBand project with an audio track.
 - [x] I have recorded a sound check and adjusted my gain levels.
 - [x] My recording sounds clear and is at an appropriate volume.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 Now that you know how to set up and record, we're almost ready to start working on podcasts. You'll get to **pick your own topic**, write a script, and record your own podcast episode using the equipment you practiced with today. We'll share the finished podcasts with the class.
 
 Tomorrow you'll **brainstorm podcast topics** and write two intros.
 
-{{< /closing >}}
+{{% /closing %}}

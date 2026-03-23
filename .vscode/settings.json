@@ -1,4 +1,5 @@
 {
+    "editor.formatOnSave": false,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -8,6 +9,6 @@
     "cSpell.words": [
         "Willingham",
         "worksession",
-        "scratchblocks",
+        "scratchblocks"
     ]
 }

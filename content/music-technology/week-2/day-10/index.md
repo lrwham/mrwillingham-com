@@ -17,14 +17,14 @@ toc: false
 
 {{< icon "calendar" >}} **Friday, March 27th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can edit a recorded podcast episode by removing mistakes, adjusting levels, and adding sound effects.
 - I can export a finished podcast and share it with the class.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Listen Back" >}}
+{{% warmup "Listen Back" %}}
 
 Open your GarageBand project from yesterday. Listen to the entire recording from start to finish without editing. Take notes on what needs to be fixed:
 
@@ -32,16 +32,16 @@ Open your GarageBand project from yesterday. Listen to the entire recording from
 - Parts that are too quiet or too loud
 - Places where you want to add sound effects
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have listened to my full recording.
 - [x] I have noted what needs to be edited.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Edit Your Episode" >}}
+{{% worksession "Edit Your Episode" %}}
 
 Use the editing tools you practiced last week to clean up your podcast.
 
@@ -62,7 +62,7 @@ When your edit is complete:
 1. Choose **MP3** format.
 1. Save the file as **Podcast_YourName.mp3** to **OneDrive**.
 
-{{< checkpoint "Edit Your Episode" >}}
+{{% checkpoint "Edit Your Episode" %}}
 
 - [x] I have cut out all mistakes and long pauses.
 - [x] I have balanced the levels between my voice and music.
@@ -70,11 +70,11 @@ When your edit is complete:
 - [x] I have listened to the full episode and made final adjustments.
 - [x] I have exported my podcast as an MP3 to OneDrive.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Share with the Class" >}}
+{{% closing "Share with the Class" %}}
 
 We will listen to everyone's podcasts together.
 
@@ -86,4 +86,4 @@ Share them in the discussion post on CTLS. As we listen, think about:
 
 Congratulations — you wrote, recorded, and edited your own podcast from scratch!
 
-{{< /closing >}}
+{{% /closing %}}

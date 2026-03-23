@@ -15,14 +15,14 @@ toc: false
 ---
 # Friday, March 6, 2026
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can create artwork in Scratch using primitive tools like lines, circles, and rectangles.
 - I can write code in Scratch to allow a player to move.
 - I can write code in Scratch to allow objects to move on their own.
-  {{< /objectives >}}
+  {{% /objectives %}}
 
-{{< warmup "Check your work from yesterday" >}}
+{{% warmup "Check your work from yesterday" %}}
 There are two checkpoints in today's warmup. **Complete both.**
 
 If you need your Scratch account details, see Mr. Willingham.
@@ -39,11 +39,11 @@ Yesterday, we created the following artwork. Check yours... Use the `Paint a Spr
 | --- | --- | --- |
 | ![The Ball](ball.svg) | ![Player 1's Paddle](player1.svg) | ![Player 2's Paddle](player2.svg) |
 
-{{< checkpoint "1. Artwork" >}}
+{{% checkpoint "1. Artwork" %}}
 
 1. I have confirmed all of the artwork is correct.
 1. optional - I have created a background for the game.
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
 The code for the ball is the following.
 
@@ -76,28 +76,28 @@ when [down arrow v] key pressed
 change y by (-10)
 ```
 
-{{< checkpoint "2. Code" >}}
+{{% checkpoint "2. Code" %}}
 
 1. I have confirmed all of the code is correct.
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Bounce off Paddles and Scoring" >}}
+{{% worksession "Bounce off Paddles and Scoring" %}}
 
 We'll work together to add the following features to our game:
 
 - The ball bounces off the paddles.
 - A player scores a point when the ball goes past the opponent's paddle.
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 1. I have added code to make the ball bounce off the paddles.
 1. I have added code to keep track of the score for each player.
-{{< /checkpoint >}}
-{{< /worksession >}}
+{{% /checkpoint %}}
+{{% /worksession %}}
 
-{{< closing "Discuss the Group Project" >}}
+{{% closing "Discuss the Group Project" %}}
 On Monday, you will pick your groups.
 We'll discuss some of the project now, but we'll have more time to discuss it on Monday.
-{{< /closing >}}
+{{% /closing %}}

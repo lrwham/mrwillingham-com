@@ -11,23 +11,23 @@ toc: false
 
 Friday, March 13th, 2026
 
-{{< warmup "Edpuzzle Video" >}}
+{{% warmup "Edpuzzle Video" %}}
 
 Login to Clever.com and access Edpuzzle. Watch the video reviewing the sound design process so far. It is roughly five minutes in length.
 
 **After the video**, make sure your GarageBand project is setup according to the instructions in the video.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have watched the Edpuzzle video.
 - [x] I have set up my GarageBand project with the Rocket League video (download below if needed)
 - [x] I have added the Balloon Pop sound.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Rocket League Sound Design" >}}
+{{% worksession "Rocket League Sound Design" %}}
 
 #### The Files (if you need them)
 
@@ -57,4 +57,4 @@ Download this [ZIP archive](https://cdn.mrwillingham.com/RocketLeague.zip). Extr
 3. Modulation => Chorus
    - This will add a shimmering, doubling effect to your sound.
 
-{{< /worksession >}}
+{{% /worksession %}}

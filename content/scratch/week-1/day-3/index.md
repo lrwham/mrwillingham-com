@@ -21,16 +21,16 @@ weight: 3
 
 {{< icon "calendar" >}} **Wednesday, March 18th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can follow class procedures.
 - I can make a Scratch project.
 - I can use Scratch blocks to make a sprite move.
 - I can use the art tools to paint a backdrop.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Intro to Scratch" >}}
+{{% warmup "Intro to Scratch" %}}
 
 Mr. Willingham has created an account on Scratch {{< icon "scratch" >}} for you to use during this class. The account name and password are deliberately random and not personally identifiable to protect your privacy.
 
@@ -43,17 +43,17 @@ After logging into <a href="https://scratch.mit.edu" target="_blank" alt="Scratc
 ![Tutorials Button](tutorials.png)
 ![Getting Started Tutorial](getting-started.png)
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have logged in to Scratch
 - [x] I have completed the video in the "Getting Started" tutorial
 - [x] I completed the steps following the video in the "Getting Started" tutorial
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Scratch Art Tools" >}}
+{{% worksession "Scratch Art Tools" %}}
 
 We'll walk through the art tools in Scratch together. When making apps in Scratch, making them look good is all about using the art tools effectively. Code is important, but the art tools are just as important. So, let's learn how to use them!
 
@@ -152,24 +152,24 @@ Some challenges to try out with the art tools:
 - Paint a landscape (trees, mountains, etc.) using the line tool only
 - Paint a vehicle using the brush tool only
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have used the art tools to paint a backdrop.
 - [x] I understand the advantage of using the primitive shapes over painting freehand.
 - [x] I understand how to use the color picker tool to select colors.
 - [x] I understand how to use the color, saturation, and brightness sliders to select colors.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Exit Ticket" >}}
+{{% closing "Exit Ticket" %}}
 
 Using the CTLS discussion post, answer the following question.
 
 **What is one advantage of using the primitive shape tools (line, circle, rectangle) instead of drawing freehand with the paintbrush?**
 
-{{< /closing >}}
+{{% /closing %}}
 
 ## Standards
 

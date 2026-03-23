@@ -11,13 +11,13 @@ toc: false
 
 Thursday, March 12th, 2026
 
-{{< warmup "Edpuzzle Video" >}}
+{{% warmup "Edpuzzle Video" %}}
 
 Login to Clever.com and access Edpuzzle. Watch the video on sound in movies. Answer the embedded questions.
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Sound in Movies & Games" >}}
+{{% worksession "Sound in Movies & Games" %}}
 
 ### Sound in Video Games
 
@@ -29,4 +29,4 @@ Download the file. Then make a new GarageBand project. The video file can be dra
 
 You'll need some files. Download this [ZIP archive](https://cdn.mrwillingham.com/RocketLeague.zip). Extract the archive to access the files within.
 
-{{< /worksession >}}
+{{% /worksession %}}

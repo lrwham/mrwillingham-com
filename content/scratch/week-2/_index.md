@@ -21,9 +21,9 @@ This week you will learn how programs make decisions using conditionals. You'll 
 | 9   | Thu 3/26 | [Boolean Logic](day-9/)             | Learn how computers use true and false values to make decisions, and apply boolean logic in Scratch.                                               |
 | 10  | Fri 3/27 | [Week 2 Wrap-Up](day-10/)           | Review conditionals, boolean logic, and control flow. Finish any incomplete work and reflect on what you've learned.                               |
 
-{{< alert "Graded Assignments" >}}
+{{% alert "Graded Assignments" %}}
 
 - **Edpuzzle — User Input as Events** (Monday) — Watch and answer all questions in the video.
 - **Flocabulary — Coding: Conditionals** (Tuesday) — Complete the full lesson including the video, vocab, quiz, and read & respond. Due Friday 3/27 if not finished in class.
 
-{{< /alert >}}
+{{% /alert %}}

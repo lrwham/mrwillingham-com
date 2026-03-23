@@ -18,11 +18,11 @@ toc: false
 
 {{< icon "calendar" >}} **Monday, March 16th, 2026**
 
-{{< alert "30 minutes classes due to testing">}}
+{{% alert "30 minutes classes due to testing"%}}
 Classes are shorter today due to testing. We will focus on getting everyone logged in, setting up OneDrive for file storage, and completing the About Me form. We will also briefly open GarageBand and make sure you can adjust your volume and other settings.
-{{< /alert >}}
+{{% /alert %}}
 
-{{< alert "Read All the Instructions Daily" >}}
+{{% alert "Read All the Instructions Daily" %}}
 Your instructions will be posted here daily. Before beginning **any** work, read everything.
 
 You will always start with the **objectives** and the **warmup**.
@@ -30,18 +30,18 @@ You will always start with the **objectives** and the **warmup**.
 Before starting the **warmup** activity, read the objectives and the whole warmup. After finishing the warmup activity, read the whole work session. You may be able to start the work session on your own some days. Other days, you may need to wait for Mr. Willingham.
 
 Do this every day.
-{{< /alert >}}
+{{% /alert %}}
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can login and operate a Mac computer.
 - I can complete the "About Me" assignment using Microsoft Forms.
 - I can set up and organize files in OneDrive.
 - I can restart and check for updates.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Edpuzzle Video Tutorial" >}}
+{{% warmup "Edpuzzle Video Tutorial" %}}
 
 **Step 1:** Log in to Edpuzzle through Clever.
 
@@ -60,16 +60,16 @@ Stop 🛑 when you get to the section about hyperlinks and screenshots.
 
 [Open About Me Form](https://forms.office.com/r/KUY3wCsirJ)
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have watched the Edpuzzle video.
 - [x] I have started the About Me form.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Computer Setup with Mr. Willingham" >}}
+{{% worksession "Computer Setup with Mr. Willingham" %}}
 
 After the warmup, Mr. Willingham will walk you through:
 
@@ -79,17 +79,17 @@ After the warmup, Mr. Willingham will walk you through:
 - Opening GarageBand and adjusting your volume
 - Completing the **rest of the About Me form**
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have set my desktop wallpaper.
 - [x] I have shared a hyperlink in the About Me form.
 - [x] I have completed the entire About Me form.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Class Procedures" >}}
+{{% closing "Class Procedures" %}}
 
 Mr. Willingham will go over the following procedures:
 
@@ -101,4 +101,4 @@ Mr. Willingham will go over the following procedures:
 1. Grades and late policy
 1. Overview of the class
 
-{{< /closing >}}
+{{% /closing %}}

@@ -19,19 +19,19 @@ weight: 5
 
 {{< icon "calendar" >}} **Friday, March 27th, 2026**
 
-{{< alert "Code.org Homework Due" >}}
+{{% alert "Code.org Homework Due" %}}
 The Code.org `Programming with Angry Birds` lesson from Tuesday is due today.
-{{< /alert >}}
+{{% /alert %}}
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can explain what a `loop` is and why it is useful.
 - I can use the `forever` block to make code repeat continuously.
 - I can use the `repeat` block to make code repeat a specific number of times.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Week 1 Review" >}}
+{{% warmup "Week 1 Review" %}}
 
 Think about what you've learned this week. Be ready to answer these questions out loud when called on:
 
@@ -39,15 +39,15 @@ Think about what you've learned this week. Be ready to answer these questions ou
 2. What is an **event**? Give an example of an event block in Scratch.
 3. What happens if your blocks are in the wrong order?
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I am ready to answer the review questions.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Part 1: What is a Loop?" >}}
+{{% worksession "Part 1: What is a Loop?" %}}
 
 A **loop** is a way to make the computer repeat instructions. Instead of copying and pasting the same blocks over and over, you wrap them in a loop block and let Scratch do the repeating for you.
 
@@ -99,17 +99,17 @@ end
 
 Same result, way less code. That's the power of loops.
 
-{{< checkpoint "Part 1" >}}
+{{% checkpoint "Part 1" %}}
 
 - [x] I built the program without a loop and ran it.
 - [x] I rebuilt it using a `repeat` block and got the same result.
 - [x] I can explain in my own words why loops are useful.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< worksession "Part 2: Animation with Loops" >}}
+{{% worksession "Part 2: Animation with Loops" %}}
 
 Loops are the key to animation in Scratch. By combining loops with `next costume` and motion blocks, you can make a sprite look like it's walking, flying, or doing anything you want.
 
@@ -147,17 +147,17 @@ wait (0.1) seconds
 end
 ```
 
-{{< checkpoint "Part 2" >}}
+{{% checkpoint "Part 2" %}}
 
 - [x] I chose a sprite with multiple costumes.
 - [x] My sprite animates across the stage using a loop with `next costume`.
 - [x] **Bonus**: My sprite walks to one side and then walks back.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Week 1 Complete" >}}
+{{% closing "Week 1 Complete" %}}
 
 This week you learned:
 
@@ -168,7 +168,7 @@ This week you learned:
 
 Next week, we'll learn about **conditionals** — how to make your programs make decisions.
 
-{{< /closing >}}
+{{% /closing %}}
 
 ## Standards
 

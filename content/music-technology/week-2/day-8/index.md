@@ -18,15 +18,15 @@ toc: false
 
 {{< icon "calendar" >}} **Wednesday, March 25th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can provide constructive feedback on a peer's podcast script.
 - I can revise my script based on peer feedback.
 - I can finalize my script so it is ready to record.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Prepare for Peer Review" >}}
+{{% warmup "Prepare for Peer Review" %}}
 
 Open your podcast script in Word Online. Read through it one more time on your own before sharing it.
 
@@ -38,16 +38,16 @@ Check that your script includes:
 - Audio annotations for music and sound effects
 - A length of approximately 250–500 words
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have reread my script.
 - [x] My script includes all required sections.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Peer Feedback" >}}
+{{% worksession "Peer Feedback" %}}
 
 You will read **two** classmates' scripts and provide constructive feedback. Mr. Willingham will explain the sharing procedure.
 
@@ -126,16 +126,16 @@ It will look like this:
 
 {{< /tabs >}}
 
-{{< checkpoint "Peer Feedback" >}}
+{{% checkpoint "Peer Feedback" %}}
 
 - [x] I have read two peers' scripts.
 - [x] I have provided specific, constructive feedback on each one.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< worksession "Revise & Finalize" >}}
+{{% worksession "Revise & Finalize" %}}
 
 Now use the feedback you received to improve your script.
 
@@ -148,18 +148,18 @@ Your script is **due today**. It must be complete and ready for recording tomorr
 
 > **Tip:** Break long paragraphs into short lines. When you're reading into a microphone, short lines are much easier to follow than big blocks of text.
 
-{{< checkpoint "Revise & Finalize" >}}
+{{% checkpoint "Revise & Finalize" %}}
 
 - [x] I have revised my script based on peer feedback.
 - [x] I have used Read Aloud to listen to my script.
 - [x] My script is finalized and ready for recording.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 Tomorrow is **recording day**. You will set up the microphone and audio interface and record your full podcast episode in GarageBand. Come prepared with your finalized script and your intro music from Tuesday.
 
-{{< /closing >}}
+{{% /closing %}}

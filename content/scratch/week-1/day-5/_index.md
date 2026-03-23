@@ -25,15 +25,15 @@ weight: 5
 
 {{< icon "calendar" >}} **Friday, March 20th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can design a maze that meets specific constraints (wide paths, clear start and finish, at least one dead end, solvable).
 - I can give useful feedback on a partner's maze design.
 - I can recreate a maze design in Scratch using the drawing tools.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "Maze Analysis" >}}
+{{% warmup "Maze Analysis" %}}
 
 Look at the example mazes here. Respond to the following questions using the discussion post on CTLS:
 
@@ -84,16 +84,16 @@ When you design your own maze, it must follow these rules:
 - **At least one dead end** — to make the maze challenging.
 - **Must be solvable** — there has to be at least one path from start to finish.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I discussed the example mazes on CTLS.
 - [x] I understand the design rules.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Part 1: Design Your Maze" >}}
+{{% worksession "Part 1: Design Your Maze" %}}
 
 You will design a maze on a worksheet, then swap it with a partner for feedback. After that, you will build your partner's maze in Scratch.
 
@@ -123,17 +123,17 @@ Trade mazes with your partner. Using a pencil, trace a path from start to finish
 
 End with your partner's maze. **This is the maze you will build in Scratch.**
 
-{{< checkpoint "Design" >}}
+{{% checkpoint "Design" %}}
 
 - [x] My maze follows all the design rules (40×30, wide paths, start/finish, dead end, solvable).
 - [x] I reviewed my partner's maze and discussed feedback.
 - [x] I have my partner's maze ready to build.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< worksession "Part 2: Draw Your Maze in Scratch" >}}
+{{% worksession "Part 2: Draw Your Maze in Scratch" %}}
 
 Now open this Scratch project and remix it.
 
@@ -155,21 +155,21 @@ You will implement your **partner's** maze design using the drawing tools and th
 
 That's it for today. On Monday, you'll add keyboard controls and make the maze playable.
 
-{{< checkpoint "Draw Your Maze" >}}
+{{% checkpoint "Draw Your Maze" %}}
 
 - [x] I created a maze sprite in Scratch that matches my partner's design.
 - [x] I have deleted all squares that are paths and colored the walls.
 - [x] I added a player sprite and placed it at the start.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 On Monday, you'll learn how to make your sprite move with the **arrow keys** and respond when it touches the maze walls. Your maze will become a real, playable game.
 
-{{< /closing >}}
+{{% /closing %}}
 
 ## Standards
 

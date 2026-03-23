@@ -16,14 +16,14 @@ toc: false
 
 {{< icon "calendar" >}} **Thursday, March 19th, 2026**
 
-{{< objectives >}}
+{{% objectives %}}
 
 - I can brainstorm podcast topics across multiple categories.
 - I can write a podcast intro that includes a hook, my name, a podcast name, the topic, and a preview.
 
-{{< /objectives >}}
+{{% /objectives %}}
 
-{{< warmup "What Makes a Good Podcast?" >}}
+{{% warmup "What Makes a Good Podcast?" %}}
 
 Think about a podcast, YouTube video, creator, or show you enjoy listening to. What makes it interesting? Write down your answers to these three questions:
 
@@ -35,16 +35,16 @@ Use [Word online {{< icon "office365" >}}](https://www.office.com/) to write you
 
 Be ready to share one of your answers with the class.
 
-{{< checkpoint "Warmup" >}}
+{{% checkpoint "Warmup" %}}
 
 - [x] I have answered all three questions.
 - [x] I am ready to share one answer with the class.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /warmup >}}
+{{% /warmup %}}
 
-{{< worksession "Brainstorm Podcast Topics" >}}
+{{% worksession "Brainstorm Podcast Topics" %}}
 
 A great podcast starts with a topic you actually care about. Before you commit to one idea, let's explore a bunch of them.
 
@@ -68,16 +68,16 @@ Fill out the form below with a tentative title and 1–2 sentences for each of t
 - _Topic A:_ Best strikers in 2026 (Sports) — _Topic B:_ My favorite element on the periodic table (School Subjects)
 - _Topic A:_ Why _Minecraft_ is still the best game ever (Games) — _Topic B:_ Ranking fast food french fries (Food)
 
-{{< checkpoint "Work Session" >}}
+{{% checkpoint "Work Session" %}}
 
 - [x] I have brainstormed a topic idea for at least four different categories.
 - [x] I have submitted the brainstorming form.
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< worksession "Write Two Podcast Intros" >}}
+{{% worksession "Write Two Podcast Intros" %}}
 
 Now narrow down to your **two best ideas**. You're going to write a **podcast intro** for each one.
 
@@ -103,20 +103,20 @@ Notice how this intro hits all five parameters: it opens with a hook (the surpri
 
 > **Tip:** Read your intro out loud quietly to yourself as you write. If it sounds awkward when you say it, rewrite it. A podcast script is meant to be _heard_, not just read.
 
-{{< checkpoint "Write Two Intros" >}}
+{{% checkpoint "Write Two Intros" %}}
 
 - [x] I have written Intro A for my first topic.
 - [x] I have written Intro B for my second topic.
 - [x] Each intro is 4–6 sentences and includes all five parameters (hook, name, podcast name, topic, preview).
 
-{{< /checkpoint >}}
+{{% /checkpoint %}}
 
-{{< /worksession >}}
+{{% /worksession %}}
 
-{{< closing "Next Steps" >}}
+{{% closing "Next Steps" %}}
 
 Tomorrow you'll **record both intros** in GarageBand, practice some basic editing, and **choose your final topic**.
 
 You are **not** choosing your final topic today. Sleep on it and come ready to record tomorrow.
 
-{{< /closing >}}
+{{% /closing %}}
