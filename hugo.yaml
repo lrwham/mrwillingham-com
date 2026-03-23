@@ -5,6 +5,7 @@ theme: hextra
 
 enableGitInfo: true
 cleanDestinationDir: true
+timeZone: America/New_York
 
 frontmatter: lastmod = ["lastmod", ":git", "date", "publishDate"]
 
