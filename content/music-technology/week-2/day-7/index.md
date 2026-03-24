@@ -14,7 +14,7 @@ tags:
 resources:
   - GarageBand
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Tuesday, March 24th, 2026**

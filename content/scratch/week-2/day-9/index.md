@@ -12,7 +12,7 @@ tags:
 resources:
   - None
 draft: true
-toc: false
+toc: true
 scratchblocks: false
 weight: 4
 ---

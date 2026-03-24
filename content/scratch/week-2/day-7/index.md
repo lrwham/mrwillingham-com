@@ -15,7 +15,7 @@ tags:
 resources:
   - Flocabulary
 draft: false
-toc: false
+toc: true
 scratchblocks: false
 weight: 2
 ---

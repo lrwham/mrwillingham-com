@@ -11,7 +11,7 @@ tags:
   - Brainstorming
 resources: []
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Thursday, March 19th, 2026**

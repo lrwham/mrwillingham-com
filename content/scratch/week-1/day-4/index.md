@@ -18,7 +18,7 @@ tags:
   - Events
 resources: []
 draft: false
-toc: false
+toc: true
 scratchblocks: true
 weight: 4
 ---

@@ -19,7 +19,7 @@ tags:
 resources:
   - Edpuzzle
 draft: false
-toc: false
+toc: true
 scratchblocks: true
 weight: 1
 ---

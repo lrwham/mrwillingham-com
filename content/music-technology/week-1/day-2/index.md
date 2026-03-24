@@ -13,7 +13,7 @@ tags:
 resources:
   - BrainPop
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Tuesday, March 17th, 2026**

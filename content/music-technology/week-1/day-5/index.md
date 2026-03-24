@@ -13,7 +13,7 @@ tags:
   - Editing
 resources: []
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Friday, March 20th, 2026**

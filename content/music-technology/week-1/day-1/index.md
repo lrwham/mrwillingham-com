@@ -13,7 +13,7 @@ tags:
 resources:
   - Edpuzzle
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Monday, March 16th, 2026**

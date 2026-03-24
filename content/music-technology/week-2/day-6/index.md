@@ -14,7 +14,7 @@ resources:
   - Word Online
   - Script Expectations
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Monday, March 23rd, 2026**

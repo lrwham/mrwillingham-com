@@ -18,7 +18,7 @@ tags:
 resources:
   - Maze Design Worksheet (printed)
 draft: false
-toc: false
+toc: true
 scratchblocks: false
 weight: 5
 ---

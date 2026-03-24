@@ -14,7 +14,7 @@ tags:
   - Art tools
 resources: []
 draft: false
-toc: false
+toc: true
 scratchblocks: false
 weight: 3
 ---

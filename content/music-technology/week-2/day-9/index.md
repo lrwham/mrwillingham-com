@@ -13,7 +13,7 @@ tags:
   - Microphones
 resources: []
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Thursday, March 26th, 2026**

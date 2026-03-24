@@ -19,7 +19,7 @@ resources:
   - Code.org
   - BrainPop
 draft: false
-toc: false
+toc: true
 scratchblocks: false
 weight: 2
 ---

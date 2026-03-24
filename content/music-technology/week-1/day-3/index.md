@@ -14,7 +14,7 @@ tags:
 resources:
   - Edpuzzle
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Wednesday, March 18th, 2026**
