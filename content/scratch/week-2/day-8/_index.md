@@ -7,6 +7,7 @@ units:
   - "Conditionals"
 standards:
   - MS-CS-FCP.3.2
+  - MS-CS-FCP.3.4
   - MS-CS-FCP.4.1
 tags:
   - conditionals
@@ -108,19 +109,45 @@ With a partner, create a flow diagram with at least three conditions based on th
 > A friend has just messaged you that they've finished their homework and want to hang out.
 
 1. What yes/no conditions will impact whether, when, and where you can hang out with your friend?
-1. BONUS: Add a loop to your flow diagram. This is a condition that gets checked over and over again like, "Is my homework done yet?" where the answer `no` would loop back to the same question and the answer `yes` would move forward.
+2. BONUS: Add a loop to your flow diagram — a condition that gets checked over and over, like "Is my homework done yet?" where `No` loops back to the same question and `Yes` moves forward.
 
 # Diagram 2: A power-up in a game
 
-With a partner, first create a concept for a power-up in a game. Then draw a flow diagram that shows how the power-up works.
+With a partner, pick one of these power-up ideas (or create your own) and draw a flow diagram showing how it works:
 
-Your power-up should work only if certain conditions are met. The power-up should expire after some amount of time or after some condition is met. 
+- **Speed Boost** — Player picks up a speed item. They move 2x faster, but it wears off after 10 seconds or if they get hit.
+- **Shield** — Player activates a shield. It blocks the next 3 hits, then breaks. If the player falls in a pit, the shield does not help.
+- **Invisibility** — Player turns invisible for 5 seconds. Enemies can't see them, but the effect ends early if they attack.
+
+Your flow diagram should include:
+1. A condition that must be met to **activate** the power-up
+2. A condition that causes the power-up to **expire** or end
 
 {{% checkpoint "Part 2" %}}
 
 - [x] I can draw a flow diagram that represents a conditional (if/else) decision.
 - [x] I can include at least three conditions in my flow diagram.
 - [x] BONUS: I can include a loop in my flow diagram.
+
+{{% /checkpoint %}}
+
+{{% /worksession %}}
+
+{{% worksession "Part 3: Trace Your Partner's Diagram" %}}
+
+Swap your diagrams (both Diagram 1 and Diagram 2) with another partner pair.
+
+For **each** diagram you receive:
+1. Pick a starting input (for example: "It's 8pm and you haven't eaten dinner yet" for Diagram 1, or "Player has 0 mana" for Diagram 2).
+2. Trace through the diagram step by step, following the arrows. Write down each step you take and the path you follow.
+3. Did you reach an ending? Did anything confuse you or seem broken? Write one piece of feedback for the other pair.
+
+Give the diagrams back with your feedback.
+
+{{% checkpoint "Part 3" %}}
+
+- [x] I traced through another pair's diagrams with sample inputs.
+- [x] I gave one piece of feedback on each diagram.
 
 {{% /checkpoint %}}
 
@@ -170,9 +197,29 @@ end
 
 How could planning with a flow diagram be useful? It seems like a lot of work, but what for?
 
+## Mini-Challenge: Translate to Scratch
+
+Look at this flow diagram. On paper (or on the back of your worksheet), write the Scratch blocks that would match this logic. Pseudocode is fine — you don't need exact Scratch syntax.
+
+```mermaid
+flowchart TD
+    A([Start]) --> B{Is the sprite touching a coin?}
+    B -- Yes --> C[Add 1 to score]
+    C --> D{Is score = 10?}
+    D -- Yes --> E[Say You win!]
+    D -- No --> B
+    B -- No --> B
+    E --> F([Done])
+```
+
+{{< callout type="info" >}}
+Think about which parts are `if` blocks, which parts repeat (loops), and what order the blocks go in.
+{{< /callout >}}
+
 {{% /closing %}}
 
 ## Standards
 
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences, algorithms, and iteration (loops).
+- [**MS-CS-FCP.3.4**](/scratch/description/#ms-cs-fcp3) — Develop an algorithm to decompose a problem of a daily task.
 - [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including flowcharting and/or storyboarding, coding, debugging, user interfaces, usability, variables, lists, loops, conditionals, programming language, and events.
