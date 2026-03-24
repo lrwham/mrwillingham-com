@@ -15,7 +15,7 @@ tags:
   - offline
 resources:
   - Flow Diagram Worksheet
-draft: true
+draft: false
 toc: false
 scratchblocks: true
 mermaid: true
@@ -54,6 +54,15 @@ Mr. Willingham will walk through an example on the board:
 
 > **"Is it raining?"** → Yes: Bring an umbrella → Go to school / No: Go to school
 
+```mermaid
+flowchart TD
+    A([Start]) --> B{Is it raining?}
+    B -- Yes --> C[Bring an umbrella]
+    B -- No --> D[Go to school]
+    C --> D
+    D --> E([Done])
+```
+
 Notice how the diamond is the **condition** — the same thing that goes inside an `if` block in Scratch. The two paths (Yes and No) are like the code inside `if` and `else`.
 
 {{% checkpoint "Warmup" %}}
@@ -67,26 +76,24 @@ Notice how the diamond is the **condition** — the same thing that goes inside 
 
 {{% worksession "Part 1: Trace the Flow" %}}
 
+In this example, identify the condition and find loops. Loops are when the flow goes back to an earlier point in the diagram. This indicates code that will repeat.
+
+1. What is the condition in this flow diagram?
+1. Where are there loops? What is repeated?
+
 ```mermaid
 flowchart TD
-    A[Start] --> B{Is the sprite touching the wall color?}
-    B -- Yes --> C[Go back to start]
-    B -- No --> D[Continue moving forward]
-    C --> A
-    D --> E[Done]
+    A([Start]) --> B{Is the sprite touching the wall color?}
+    B -- Yes --> C[Go back to start position]
+    B -- No --> D[Keep moving]
+    C --> B
+    D --> B
 ```
-
-```scratch
-when green flag clicked
-go to x: (-200) y: (150)
-forever
-```
-
-## TODO
 
 {{% checkpoint "Part 1" %}}
 
-- [x] TODO
+- [x] I can identify the condition in a flow diagram.
+- [x] I can identify loops in a flow diagram.
 
 {{% /checkpoint %}}
 
@@ -94,11 +101,18 @@ forever
 
 {{% worksession "Part 2: Draw Your Own" %}}
 
-## TODO
+With a partner, create a flow diagram with at least three conditions based on the following scenario:
+
+> A friend has just messaged you that they've finished their homework and want to hang out.
+
+1. What yes/no conditions will impact whether, when, and where you can hang out with your friend?
+1. BONUS: Add a loop to your flow diagram. This is a condition that gets checked over and over again like, "Is my homework done yet?" where the answer `no` would loop back to the same question and the answer `yes` would move forward.
 
 {{% checkpoint "Part 2" %}}
 
-- [x] TODO
+- [x] I can draw a flow diagram that represents a conditional (if/else) decision.
+- [x] I can include at least three conditions in my flow diagram.
+- [x] BONUS: I can include a loop in my flow diagram.
 
 {{% /checkpoint %}}
 

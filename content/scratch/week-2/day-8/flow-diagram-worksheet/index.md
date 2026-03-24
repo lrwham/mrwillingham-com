@@ -1,6 +1,7 @@
 ---
 type: bare
 title: Flow Diagram Worksheet
+draft: true
 ---
 
 ## Work in Progress
