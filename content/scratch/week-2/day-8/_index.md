@@ -128,7 +128,7 @@ Your power-up should work only if certain conditions are met. The power-up shoul
 
 {{% closing "Why" %}}
 
-Look at this side-by-side. The flow diagram from Diagram 2 on your worksheet maps directly to the Scratch code you wrote on Monday:
+Here's a side-by-side comparison of a flow diagram and the Scratch code it represents. Find the matching conditions in the flow diagram and the `if` blocks in the Scratch code. Notice how the flow diagram is a visual way to plan out the logic before writing any code.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 
@@ -136,23 +136,33 @@ Look at this side-by-side. The flow diagram from Diagram 2 on your worksheet map
 
 ```mermaid
 flowchart TD
-    A([START]) --> B{Is the sprite touching the wall color?}
-    B -- "Yes" --> C[Go back to start]
-    B -- "No" --> D[Keep moving]
-    C --> B
-    D --> B
+    A([Start]) --> B
+    B[Player Presses E Key] --> H[Say Player Attempts Cast Spell]
+    H --> C
+    C{mana > 20}
+    D{distance < 10}
+    C -- "Yes" --> D
+    C -- "No" --> E([Fail: Not enough mana])
+    D -- "Yes" --> F([Cast success])
+    D -- "No" --> G([Fail: Too far])
 ```
 
 </div>
 <div>
 
 ```scratch
-when green flag clicked
-forever
-    if <touching color [#ff0000]?> then
-        go to x: (-200) y: (150)
+when [e v] key pressed
+say [Player Attempts Cast Spell]
+if <(mana) > (20)> then
+    if <(cast distance) < (10)> then
+        say [Cast success!]
+    else
+        say [Fail: Too far]
+    end
+else
+    say [Fail: Not enough mana]
+end
 ```
-
 </div>
 </div>
 
