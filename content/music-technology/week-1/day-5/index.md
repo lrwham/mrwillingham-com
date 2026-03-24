@@ -24,13 +24,17 @@ Read the entire objective, warmup, work session, and closing sections before you
 
 {{% objectives %}}
 
+## Objectives
+
 - I can record a podcast intro using proper microphone technique.
 - I can use basic editing tools in GarageBand to trim and clean up a recording.
 - I can choose my final podcast topic based on how each intro sounds.
 
 {{% /objectives %}}
 
-{{% warmup "Review Your Intros" %}}
+{{% warmup %}}
+
+## Warmup: Review Your Intros
 
 Open the two intros you wrote yesterday in Microsoft Word. Reread them out loud quietly to yourself.
 
@@ -44,7 +48,9 @@ Before we start recording, make sure:
 If you haven't finished writing both intros, take a few minutes to do that now. You won't be able to record until you have two complete intros ready.
 {{< /callout >}}
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have reread both of my intros.
 - [x] I have practiced reading each one out loud.
@@ -53,7 +59,9 @@ If you haven't finished writing both intros, take a few minutes to do that now. 
 
 {{% /warmup %}}
 
-{{% worksession "Part 1 - Record Both Intros" %}}
+{{% worksession %}}
+
+## Work Session: Part 1 - Record Both Intros
 
 Time to put your voice behind your words. You'll record both intros so you can hear how each one sounds.
 
@@ -86,7 +94,9 @@ You must be **silent** if you are not recording.
 - Speak clearly and at a steady pace. Avoid rushing through your lines.
 - Stay close to the microphone and try not to move around while recording.
 
-{{% checkpoint "Record Both Intros" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Record Both Intros
 
 - [x] I have recorded Intro A.
 - [x] I have recorded Intro B.
@@ -96,7 +106,9 @@ You must be **silent** if you are not recording.
 
 {{% /worksession %}}
 
-{{% worksession "Part 2 - Practice Editing" %}}
+{{% worksession %}}
+
+## Work Session: Part 2 - Practice Editing
 
 Now let's practice some basic editing in GarageBand. Use your intro recordings to try the following:
 
@@ -106,7 +118,9 @@ Now let's practice some basic editing in GarageBand. Use your intro recordings t
 
 Use these tools to clean up your recordings. Cut out any long pauses, mistakes, or dead air.
 
-{{% checkpoint "Practice Editing" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Practice Editing
 
 - [x] I have trimmed silence from the beginning and end of at least one recording.
 - [x] I have used Split to cut out a mistake or unwanted section.
@@ -116,7 +130,9 @@ Use these tools to clean up your recordings. Cut out any long pauses, mistakes, 
 
 {{% /worksession %}}
 
-{{% closing "Choose Your Topic" %}}
+{{% closing %}}
+
+## Closing: Choose Your Topic
 
 Before you leave today, **make your final decision**. Which topic are you going with?
 

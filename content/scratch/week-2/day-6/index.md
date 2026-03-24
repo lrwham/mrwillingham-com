@@ -32,13 +32,17 @@ Read the entire objective, warmup, work session, and closing sections before you
 
 {{% objectives %}}
 
+## Objectives
+
 - I can use `user input` as events to trigger behavior in my Scratch projects.
 - I can make my Scratch projects interactive by responding to keyboard input.
 - I can use an `if` block to detect when a sprite is touching a color.
 
 {{% /objectives %}}
 
-{{% warmup "User Input as Events" %}}
+{{% warmup %}}
+
+## Warmup: User Input as Events
 
 Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
 
@@ -46,7 +50,9 @@ Login to Clever.com and click on the Edpuzzle icon to access the video.
 
 {{< clever >}}
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have watched the Edpuzzle video on user input.
 
@@ -54,7 +60,9 @@ Login to Clever.com and click on the Edpuzzle icon to access the video.
 
 {{% /warmup %}}
 
-{{% worksession "Add Controls to Your Maze" %}}
+{{% worksession %}}
+
+## Work Session: Add Controls to Your Maze
 
 Open the maze project you built last Friday. Today you will make it playable by adding keyboard controls.
 
@@ -85,7 +93,9 @@ Click the green flag, then press the arrow keys. Your sprite should move around 
 - Can you navigate from start to finish?
 - If the paths are too narrow or the sprite moves too fast, adjust your maze drawing or change the movement values (try `5` instead of `10`).
 
-{{% checkpoint "Controls" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Controls
 
 - [x] I added four `when key pressed` blocks to my player sprite, one for each arrow key.
 - [x] I can navigate through the maze using the keyboard.
@@ -94,7 +104,9 @@ Click the green flag, then press the arrow keys. Your sprite should move around 
 
 {{% /worksession %}}
 
-{{% worksession "Bouncing Off Walls" %}}
+{{% worksession %}}
+
+## Work Session: Bouncing Off Walls
 
 Right now your sprite can walk straight through the walls. Let's fix that using a **conditional** — a block that checks whether something is true and responds.
 
@@ -131,7 +143,9 @@ Click the green flag and navigate the maze. When your sprite touches a wall, it 
 
 Instead of going back to the start, try making the sprite **undo** its last move when it touches a wall. Hint: you'll need to move the sprite in the opposite direction by the same amount.
 
-{{% checkpoint "Conditionals" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Conditionals
 
 - [x] I added a `forever` loop with an `if touching color` block.
 - [x] I used the eyedropper to pick my wall color.
@@ -142,7 +156,9 @@ Instead of going back to the start, try making the sprite **undo** its last move
 
 {{% /worksession %}}
 
-{{% closing "What You Learned Today" %}}
+{{% closing %}}
+
+## Closing: What You Learned Today
 
 Today you learned two powerful new ideas:
 

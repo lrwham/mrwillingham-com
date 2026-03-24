@@ -1,7 +1,4 @@
-{{/* Usage: {{% worksession "Title Here" %}} Content... {{% /worksession %}} */}}
+{{/* Usage: {{% worksession %}} ## Work Session: Title \n Content... {{% /worksession %}} */}}
 <div class="lesson-section lesson-worksession">
-  <div class="lesson-section-header worksession-header">
-    <h2>Work Session: {{ .Get 0 }}</h2>
-  </div>
   <div class="lesson-section-body">{{ .Inner }}</div>
 </div>

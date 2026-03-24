@@ -17,7 +17,7 @@ tags:
 resources:
   - Flow Diagram Worksheet
 draft: false
-toc: false
+toc: true
 scratchblocks: true
 mermaid: true
 weight: 3
@@ -31,13 +31,17 @@ Read the entire objective, warmup, work session, and closing sections before you
 
 {{% objectives %}}
 
+## Objectives
+
 - I can read a flow diagram and predict its outcome.
 - I can draw a flow diagram that represents a conditional (if/else) decision.
 - I can connect flow diagrams to `if` blocks in Scratch.
 
 {{% /objectives %}}
 
-{{% warmup "What is a Flow Diagram?" %}}
+{{% warmup %}}
+
+## Warmup: What is a Flow Diagram?
 
 Yesterday you learned the vocabulary of conditionals — `if`, `else if`, `else`, and how programs use conditions to decide what to do. Today we're going to **draw** that logic on paper using **flow diagrams**.
 
@@ -66,7 +70,9 @@ flowchart TD
 
 Notice how the diamond is the **condition** — the same thing that goes inside an `if` block in Scratch. The two paths (Yes and No) are like the code inside `if` and `else`.
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I understand the three flow diagram shapes (oval, rectangle, diamond).
 - [x] I understand that a diamond is a yes/no decision — just like a condition in an `if` block.
@@ -75,7 +81,11 @@ Notice how the diamond is the **condition** — the same thing that goes inside 
 
 {{% /warmup %}}
 
-{{% worksession "Part 1: Trace the Flow" %}}
+{{% worksession %}}
+
+## Work Session
+
+### Part 1 — Trace the Flow
 
 In this example, identify the condition and find loops. Loops are when the flow goes back to an earlier point in the diagram. This indicates code that will repeat.
 
@@ -91,7 +101,9 @@ flowchart TD
     D --> B
 ```
 
-{{% checkpoint "Part 1" %}}
+{{% checkpoint %}}
+
+#### Checkpoint: Part 1
 
 - [x] I can identify the condition in a flow diagram.
 - [x] I can identify loops in a flow diagram.
@@ -100,9 +112,11 @@ flowchart TD
 
 {{% /worksession %}}
 
-{{% worksession "Part 2: Draw Your Own" %}}
+{{% worksession %}}
 
-# Diagram 1: A real-life scenario
+### Part 2 — Draw Your Own
+
+#### Diagram 1: A real-life scenario
 
 With a partner, create a flow diagram with at least three conditions based on the following scenario:
 
@@ -111,7 +125,7 @@ With a partner, create a flow diagram with at least three conditions based on th
 1. What yes/no conditions will impact whether, when, and where you can hang out with your friend?
 2. BONUS: Add a loop to your flow diagram — a condition that gets checked over and over, like "Is my homework done yet?" where `No` loops back to the same question and `Yes` moves forward.
 
-# Diagram 2: A power-up in a game
+#### Diagram 2: A power-up in a game
 
 With a partner, pick one of these power-up ideas (or create your own) and draw a flow diagram showing how it works:
 
@@ -123,7 +137,9 @@ Your flow diagram should include:
 1. A condition that must be met to **activate** the power-up
 2. A condition that causes the power-up to **expire** or end
 
-{{% checkpoint "Part 2" %}}
+{{% checkpoint %}}
+
+#### Checkpoint: Part 2
 
 - [x] I can draw a flow diagram that represents a conditional (if/else) decision.
 - [x] I can include at least three conditions in my flow diagram.
@@ -133,7 +149,9 @@ Your flow diagram should include:
 
 {{% /worksession %}}
 
-{{% worksession "Part 3: Trace Your Partner's Diagram" %}}
+{{% worksession %}}
+
+### Part 3 — Trace Your Partner's Diagram
 
 Swap your diagrams (both Diagram 1 and Diagram 2) with another partner pair.
 
@@ -144,7 +162,9 @@ For **each** diagram you receive:
 
 Give the diagrams back with your feedback.
 
-{{% checkpoint "Part 3" %}}
+{{% checkpoint %}}
+
+#### Checkpoint: Part 3
 
 - [x] I traced through another pair's diagrams with sample inputs.
 - [x] I gave one piece of feedback on each diagram.
@@ -153,7 +173,9 @@ Give the diagrams back with your feedback.
 
 {{% /worksession %}}
 
-{{% closing "Why" %}}
+{{% closing %}}
+
+## Closing: Why?
 
 Here's a side-by-side comparison of a flow diagram and the Scratch code it represents. Find the matching conditions in the flow diagram and the `if` blocks in the Scratch code. Notice how the flow diagram is a visual way to plan out the logic before writing any code.
 
@@ -193,11 +215,11 @@ end
 </div>
 </div>
 
-## Discuss: Why?
+### Discuss: Why?
 
 How could planning with a flow diagram be useful? It seems like a lot of work, but what for?
 
-## Mini-Challenge: Translate to Scratch
+### Mini-Challenge: Translate to Scratch
 
 Look at this flow diagram. On paper (or on the back of your worksheet), write the Scratch blocks that would match this logic. Pseudocode is fine — you don't need exact Scratch syntax.
 
