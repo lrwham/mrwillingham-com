@@ -18,7 +18,7 @@ tags:
   - Events
 resources: []
 draft: false
-toc: false
+toc: true
 scratchblocks: true
 weight: 4
 ---
@@ -27,6 +27,8 @@ weight: 4
 
 {{% objectives %}}
 
+## Objectives
+
 - I can use the `when green flag clicked` event block to start my program.
 - I can make a sprite move using motion blocks.
 - I can build a sequence of blocks that runs in order.
@@ -34,7 +36,9 @@ weight: 4
 
 {{% /objectives %}}
 
-{{% warmup "Yesterday's Backdrop" %}}
+{{% warmup %}}
+
+## Warmup: Yesterday's Backdrop
 
 You practiced sequencing and debugging on Code.org Tuesday. Today, we will continue learning about sequencing and debugging, but in Scratch.
 
@@ -44,7 +48,9 @@ You practiced sequencing and debugging on Code.org Tuesday. Today, we will conti
 
 Take a moment to look at the **Motion** category in the block palette (the blue blocks). Try dragging a few motion blocks into the code area and clicking on them to see what they do.
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have logged in to Scratch and opened my project from day 1.
 - [x] I have tried clicking on at least two motion blocks to see what they do.
@@ -53,7 +59,9 @@ Take a moment to look at the **Motion** category in the block palette (the blue 
 
 {{% /warmup %}}
 
-{{% worksession "Part 1: Motion & Sequences" %}}
+{{% worksession %}}
+
+## Work Session: Part 1: Motion & Sequences
 
 ### What is a `Sequence`?
 
@@ -93,7 +101,9 @@ say [ ] for (2) seconds
 
 </div>
 
-{{% checkpoint "Part 1" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Part 1
 
 - [x] My program starts with a `when green flag clicked` block.
 - [x] My sprite moves to at least two different positions using `glide` blocks.
@@ -104,7 +114,9 @@ say [ ] for (2) seconds
 
 {{% /worksession %}}
 
-{{% worksession "Part 2: Sprites and The Stage" %}}
+{{% worksession %}}
+
+## Work Session: Part 2: Sprites and The Stage
 
 Each sprite is its own independent codable object in Scratch. This means you can have multiple sprites each with unique behavior.
 
@@ -132,7 +144,9 @@ The Stage can also have its own code. You can change the appearance of the stage
 
 </div>
 
-{{% checkpoint "Part 2" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Part 2
 
 - [x] I have created a second sprite.
 - [x] I have added code to the second sprite that runs when the green flag is clicked.
@@ -142,7 +156,9 @@ The Stage can also have its own code. You can change the appearance of the stage
 
 {{% /worksession %}}
 
-{{% closing "Exit Ticket" %}}
+{{% closing %}}
+
+## Closing: Exit Ticket
 
 You'll need to answer the following question on CTLS. Use complete sentences and be clear in your explanation.
 

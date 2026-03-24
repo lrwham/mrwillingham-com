@@ -12,19 +12,23 @@ tags:
   - Editing
 resources: []
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Friday, March 27th, 2026**
 
 {{% objectives %}}
 
+## Objectives
+
 - I can edit a recorded podcast episode by removing mistakes, adjusting levels, and adding sound effects.
 - I can export a finished podcast and share it with the class.
 
 {{% /objectives %}}
 
-{{% warmup "Listen Back" %}}
+{{% warmup %}}
+
+## Warmup: Listen Back
 
 Open your GarageBand project from yesterday. Listen to the entire recording from start to finish without editing. Take notes on what needs to be fixed:
 
@@ -32,7 +36,9 @@ Open your GarageBand project from yesterday. Listen to the entire recording from
 - Parts that are too quiet or too loud
 - Places where you want to add sound effects
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have listened to my full recording.
 - [x] I have noted what needs to be edited.
@@ -41,7 +47,9 @@ Open your GarageBand project from yesterday. Listen to the entire recording from
 
 {{% /warmup %}}
 
-{{% worksession "Edit Your Episode" %}}
+{{% worksession %}}
+
+## Work Session: Edit Your Episode
 
 Use the editing tools you practiced last week to clean up your podcast.
 
@@ -62,7 +70,9 @@ When your edit is complete:
 1. Choose **MP3** format.
 1. Save the file as **Podcast_YourName.mp3** to **OneDrive**.
 
-{{% checkpoint "Edit Your Episode" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Edit Your Episode
 
 - [x] I have cut out all mistakes and long pauses.
 - [x] I have balanced the levels between my voice and music.
@@ -74,7 +84,9 @@ When your edit is complete:
 
 {{% /worksession %}}
 
-{{% closing "Share with the Class" %}}
+{{% closing %}}
+
+## Closing: Share with the Class
 
 We will listen to everyone's podcasts together.
 

@@ -9,5 +9,8 @@
 </head>
 <body>
 {{ .Content }}
+{{- if .Store.Get "hasMermaid" -}}
+  {{- partial "scripts/mermaid.html" . -}}
+{{- end -}}
 </body>
 </html>

@@ -14,7 +14,7 @@ tags:
   - Art tools
 resources: []
 draft: false
-toc: false
+toc: true
 scratchblocks: false
 weight: 3
 ---
@@ -23,6 +23,8 @@ weight: 3
 
 {{% objectives %}}
 
+## Objectives
+
 - I can follow class procedures.
 - I can make a Scratch project.
 - I can use Scratch blocks to make a sprite move.
@@ -30,7 +32,9 @@ weight: 3
 
 {{% /objectives %}}
 
-{{% warmup "Intro to Scratch" %}}
+{{% warmup %}}
+
+## Warmup: Intro to Scratch
 
 Mr. Willingham has created an account on Scratch {{< icon "scratch" >}} for you to use during this class. The account name and password are deliberately random and not personally identifiable to protect your privacy.
 
@@ -43,7 +47,9 @@ After logging into <a href="https://scratch.mit.edu" target="_blank" alt="Scratc
 ![Tutorials Button](tutorials.png)
 ![Getting Started Tutorial](getting-started.png)
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have logged in to Scratch
 - [x] I have completed the video in the "Getting Started" tutorial
@@ -53,7 +59,9 @@ After logging into <a href="https://scratch.mit.edu" target="_blank" alt="Scratc
 
 {{% /warmup %}}
 
-{{% worksession "Scratch Art Tools" %}}
+{{% worksession %}}
+
+## Work Session: Scratch Art Tools
 
 We'll walk through the art tools in Scratch together. When making apps in Scratch, making them look good is all about using the art tools effectively. Code is important, but the art tools are just as important. So, let's learn how to use them!
 
@@ -152,7 +160,9 @@ Some challenges to try out with the art tools:
 - Paint a landscape (trees, mountains, etc.) using the line tool only
 - Paint a vehicle using the brush tool only
 
-{{% checkpoint "Work Session" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Work Session
 
 - [x] I have used the art tools to paint a backdrop.
 - [x] I understand the advantage of using the primitive shapes over painting freehand.
@@ -163,7 +173,9 @@ Some challenges to try out with the art tools:
 
 {{% /worksession %}}
 
-{{% closing "Exit Ticket" %}}
+{{% closing %}}
+
+## Closing: Exit Ticket
 
 Using the CTLS discussion post, answer the following question.
 

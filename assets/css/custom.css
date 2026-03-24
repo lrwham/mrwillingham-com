@@ -6,23 +6,13 @@
   overflow: hidden;
 }
 
-.lesson-section-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-}
-
-.lesson-section-header h2 {
-  margin: 0;
+/* Heading inside section body — replaces old .lesson-section-header */
+.lesson-section-body > h2:first-child,
+.lesson-section-body > h3:first-child {
   font-size: 1.25rem;
   font-weight: 700;
-  color: inherit;
-}
-
-.lesson-section-icon {
-  font-size: 1.35rem;
-  line-height: 1;
+  padding: 0.75rem 1rem;
+  margin: -0.5rem -1rem 0.5rem -1rem;
 }
 
 .lesson-section-body {
@@ -40,7 +30,7 @@
   border-color: #7c3aed;
 }
 
-.objectives-header {
+.lesson-objectives > .lesson-section-body > h2:first-child {
   background-color: rgba(237, 228, 255, 0.1);
 }
 
@@ -50,7 +40,7 @@
   border-color: #f59e0b;
 }
 
-.warmup-header {
+.lesson-warmup > .lesson-section-body > h2:first-child {
   background-color: rgba(254, 243, 199, 0.1);
 }
 
@@ -60,7 +50,7 @@
   border-color: #3b82f6;
 }
 
-.worksession-header {
+.lesson-worksession > .lesson-section-body > h2:first-child {
   background-color: rgba(219, 234, 254, 0.1);
 }
 
@@ -70,7 +60,7 @@
   border-color: #22c55e;
 }
 
-.closing-header {
+.lesson-closing > .lesson-section-body > h2:first-child {
   background-color: rgba(220, 252, 231, 0.1);
 }
 
@@ -80,7 +70,7 @@
   border-color: #ef4444aa;
 }
 
-.checkpoint-header {
+.lesson-checkpoint > .lesson-section-body > h3:first-child {
   background-color: rgba(255, 205, 210, 0.05);
 }
 

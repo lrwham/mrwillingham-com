@@ -14,7 +14,7 @@ tags:
 resources:
   - GarageBand
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Tuesday, March 24th, 2026**
@@ -31,12 +31,16 @@ You may **not** finish early. Stay in GarageBand the entire period.
 
 {{% objectives %}}
 
+## Objectives
+
 - I can use GarageBand to layer loops and create original intro music for my podcast.
 - I can export my intro music for use in GarageBand.
 
 {{% /objectives %}}
 
-{{% warmup "Edpuzzle Video" %}}
+{{% warmup %}}
+
+## Warmup: Edpuzzle Video
 
 Today we'll use **GarageBand** to make the intro music for your podcast.
 
@@ -44,7 +48,9 @@ You can also finish your script.
 
 {{% /warmup %}}
 
-{{% worksession "Create Your Intro Music" %}}
+{{% worksession %}}
+
+## Work Session: Create Your Intro Music
 
 Your intro music is the first thing listeners hear. It sets the tone for your whole podcast. Think about what kind of mood fits your topic.
 
@@ -76,7 +82,9 @@ Saving to OneDrive is best practice, but it is OK if you can't figure it out tod
 
 {{< /callout >}}
 
-{{% checkpoint "Work Session" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Work Session
 
 - [x] I have selected loops that match the mood of my podcast.
 - [x] I have layered 2–4 loops to create intro music.
@@ -87,7 +95,9 @@ Saving to OneDrive is best practice, but it is OK if you can't figure it out tod
 
 {{% /worksession %}}
 
-{{% closing "Next Steps" %}}
+{{% closing %}}
+
+## Closing: Next Steps
 
 Tomorrow you'll **share your script** with a partner for peer feedback, then **revise and finalize** it. Your script is due by end of day Wednesday — it must be complete and ready for recording on Thursday.
 

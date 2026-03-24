@@ -13,7 +13,7 @@ tags:
 resources:
   - Edpuzzle
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Monday, March 16th, 2026**
@@ -34,6 +34,8 @@ Do this every day.
 
 {{% objectives %}}
 
+## Objectives
+
 - I can login and operate a Mac computer.
 - I can complete the "About Me" assignment using Microsoft Forms.
 - I can set up and organize files in OneDrive.
@@ -41,7 +43,9 @@ Do this every day.
 
 {{% /objectives %}}
 
-{{% warmup "Edpuzzle Video Tutorial" %}}
+{{% warmup %}}
+
+## Warmup: Edpuzzle Video Tutorial
 
 **Step 1:** Log in to Edpuzzle through Clever.
 
@@ -60,7 +64,9 @@ Stop 🛑 when you get to the section about hyperlinks and screenshots.
 
 [Open About Me Form](https://forms.office.com/r/KUY3wCsirJ)
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have watched the Edpuzzle video.
 - [x] I have started the About Me form.
@@ -69,7 +75,9 @@ Stop 🛑 when you get to the section about hyperlinks and screenshots.
 
 {{% /warmup %}}
 
-{{% worksession "Computer Setup with Mr. Willingham" %}}
+{{% worksession %}}
+
+## Work Session: Computer Setup with Mr. Willingham
 
 After the warmup, Mr. Willingham will walk you through:
 
@@ -79,7 +87,9 @@ After the warmup, Mr. Willingham will walk you through:
 - Opening GarageBand and adjusting your volume
 - Completing the **rest of the About Me form**
 
-{{% checkpoint "Work Session" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Work Session
 
 - [x] I have set my desktop wallpaper.
 - [x] I have shared a hyperlink in the About Me form.
@@ -89,7 +99,9 @@ After the warmup, Mr. Willingham will walk you through:
 
 {{% /worksession %}}
 
-{{% closing "Class Procedures" %}}
+{{% closing %}}
+
+## Closing: Class Procedures
 
 Mr. Willingham will go over the following procedures:
 

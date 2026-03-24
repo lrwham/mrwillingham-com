@@ -13,19 +13,23 @@ tags:
 resources:
   - BrainPop
 draft: false
-toc: false
+toc: true
 ---
 
 {{< icon "calendar" >}} **Tuesday, March 17th, 2026**
 
 {{% objectives %}}
 
+## Objectives
+
 - I can describe what sound waves are and how they travel.
 - I can identify key properties of sound waves including frequency, amplitude, compression, and rarefaction.
 
 {{% /objectives %}}
 
-{{% warmup "Mr. Willingham is Out Today" %}}
+{{% warmup %}}
+
+## Warmup: Mr. Willingham is Out Today
 
 You will work silently and alone today while Mr. Willingham is out.
 
@@ -41,7 +45,9 @@ If you need help getting the sound to work on your computer check the troublesho
 
 {{% /warmup %}}
 
-{{% worksession "BrainPop — Sound Waves" %}}
+{{% worksession %}}
+
+## Work Session: BrainPop — Sound Waves
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
@@ -57,7 +63,9 @@ https://clever.com
 
 Complete all seven activities in order.
 
-{{% checkpoint "Work Session" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Work Session
 
 - [x] I have watched the Sound Waves video.
 - [x] I have completed the Vocab Builder and Quiz.
@@ -66,7 +74,9 @@ Complete all seven activities in order.
 
 {{% /worksession %}}
 
-{{% closing "Finished Early" %}}
+{{% closing %}}
+
+## Closing: Finished Early
 
 ### If you finish early...
 

@@ -19,7 +19,7 @@ resources:
   - Code.org
   - BrainPop
 draft: false
-toc: false
+toc: true
 scratchblocks: false
 weight: 2
 ---
@@ -27,6 +27,8 @@ weight: 2
 {{< icon "calendar" >}} **Tuesday, March 17th, 2026**
 
 {{% objectives %}}
+
+## Objectives
 
 - I can place instructions in the correct sequence to complete a maze.
 - I can write code independently using blocks on Code.org.
@@ -49,7 +51,9 @@ If you need help getting the sound to work on your computer check the troublesho
 
 {{% /alert %}}
 
-{{% warmup "BrainPop Computer Programming" %}}
+{{% warmup %}}
+
+## Warmup: BrainPop Computer Programming
 
 **Step 1:** Go to Clever and log in with your school credentials.
 
@@ -59,7 +63,9 @@ If you need help getting the sound to work on your computer check the troublesho
 
 **Step 3:** Complete the **Computer Programming** lesson.
 
-{{% checkpoint "Warmup" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
 
 - [x] I have completed the Computer Programming video on BrainPop.
 - [x] I have completed the Quiz on BrainPop.
@@ -68,7 +74,9 @@ If you need help getting the sound to work on your computer check the troublesho
 
 {{% /warmup %}}
 
-{{% worksession "Code.org Lesson 1: Programming with Angry Birds" %}}
+{{% worksession %}}
+
+## Work Session: Code.org Lesson 1: Programming with Angry Birds
 
 Login to Clever.com and click on the Code.org icon. Complete the entire `Programming with Angry Birds` lesson. It includes 11 levels **plus** a few bonus levels. All of it is graded.
 
@@ -80,7 +88,9 @@ Yes, it is homework. You need to finish it on your own time. It is due Friday, M
 
 After Friday, it is late and will lose 20 points per day until it reaches 0 points on Wednesday, March 25th, 2026.
 
-{{% checkpoint "Code.org Lesson 1: Programming with Angry Birds" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Code.org Lesson 1: Programming with Angry Birds
 
 - [x] I have completed all of the levels in the `Programming with Angry Birds` lesson on Code.org **OR** I will do so for homework.
 
@@ -88,13 +98,17 @@ After Friday, it is late and will lose 20 points per day until it reaches 0 poin
 
 {{% /worksession %}}
 
-{{% closing "Finished Early" %}}
+{{% closing %}}
+
+## Closing: Finished Early
 
 ### If you finish early...
 
 #### Go to the next lesson on Code.org and continue working.
 
-{{% checkpoint "Finished Early" %}}
+{{% checkpoint %}}
+
+### Checkpoint: Finished Early
 
 - [x] I have started the next lesson on Code.org.
 
