@@ -101,12 +101,20 @@ flowchart TD
 
 {{% worksession "Part 2: Draw Your Own" %}}
 
+# Diagram 1: A real-life scenario
+
 With a partner, create a flow diagram with at least three conditions based on the following scenario:
 
 > A friend has just messaged you that they've finished their homework and want to hang out.
 
 1. What yes/no conditions will impact whether, when, and where you can hang out with your friend?
 1. BONUS: Add a loop to your flow diagram. This is a condition that gets checked over and over again like, "Is my homework done yet?" where the answer `no` would loop back to the same question and the answer `yes` would move forward.
+
+# Diagram 2: A power-up in a game
+
+With a partner, first create a concept for a power-up in a game. Then draw a flow diagram that shows how the power-up works.
+
+Your power-up should work only if certain conditions are met. The power-up should expire after some amount of time or after some condition is met. 
 
 {{% checkpoint "Part 2" %}}
 
