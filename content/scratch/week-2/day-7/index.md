@@ -14,7 +14,7 @@ tags:
   - substitute
 resources:
   - Flocabulary
-draft: true
+draft: false
 toc: false
 scratchblocks: false
 weight: 2
