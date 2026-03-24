@@ -40,18 +40,7 @@ You may **not** finish early. Stay in GarageBand the entire period.
 
 Today we'll use **GarageBand** to make the intro music for your podcast.
 
-Watch the video on Edpuzzle {{< icon "edpuzzle-logo" >}}, it demonstrates the process for making your music using loops. Login to Clever to access Edpuzzle!
-
-{{< clever >}}
-
-Then make a new project in GarageBand and start the work session.
-
-{{% checkpoint "Warmup" %}}
-
-- [x] I have completed the Edpuzzle video.
-- [x] I have created a new Music project.
-
-{{% /checkpoint %}}
+You can also finish your script.
 
 {{% /warmup %}}
 
