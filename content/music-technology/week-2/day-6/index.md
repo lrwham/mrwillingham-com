@@ -42,7 +42,9 @@ You may **not** finish early. Stay in Word Online the entire period.
 
 ## Warmup: Review Script Expectations
 
-Read the [script expectations](../../podcast-script-expectations/) carefully. These are the requirements your final script must meet.
+Read the [script expectations](../podcast-script-expectations/) carefully. These are the requirements your final script must meet.
+
+A [sample script](../sample-podcast-script/) is also available for you to review. Pay attention to how the sample script is structured and how it incorporates music and sound effect annotations.
 
 Then, open Word Online by logging into [Office 365](https://www.office.com/). Start a new document and title it **"Podcast Script — [Your Name]"**.
 

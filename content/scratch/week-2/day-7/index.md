@@ -63,7 +63,7 @@ Complete **all** of the following activities in order:
 5. **Read & Respond** — Read the passages and answer all 10 questions.
 6. **Quiz** — Complete the 10-question quiz.
 
-#### Didn't finish in class?
+### Didn't finish in class?
 
 Yes, it is homework. You need to finish it on your own time. It is due **Friday, March 27th, 2026**.
 
