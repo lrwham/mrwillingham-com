@@ -118,17 +118,39 @@ With a partner, create a flow diagram with at least three conditions based on th
 
 {{% /worksession %}}
 
-{{% closing "Flow Diagrams and Code" %}}
+{{% closing "Why" %}}
 
 Look at this side-by-side. The flow diagram from Diagram 2 on your worksheet maps directly to the Scratch code you wrote on Monday:
 
-| Flow Diagram                                          | Scratch                           |
-| ----------------------------------------------------- | --------------------------------- |
-| **Diamond:** "Is the sprite touching the wall color?" | `if touching color?`              |
-| **Yes arrow → Rectangle:** "Go back to start"         | `go to x: (-200) y: (150)`        |
-| **No arrow →** continue                               | (the code outside the `if` block) |
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
 
-Flow diagrams and `if` blocks are two ways of representing the same logic. Diagrams make it easier to **plan** your logic before you code it. Tomorrow, you'll dig deeper into the **true/false** values that power every diamond and every `if` block — that's called **boolean logic**.
+<div>
+
+```mermaid
+flowchart TD
+    A([START]) --> B{Is the sprite touching the wall color?}
+    B -- "Yes" --> C[Go back to start]
+    B -- "No" --> D[Keep moving]
+    C --> B
+    D --> B
+```
+
+</div>
+<div>
+
+```scratch
+when green flag clicked
+forever
+    if <touching color [#ff0000]?> then
+        go to x: (-200) y: (150)
+```
+
+</div>
+</div>
+
+## Discuss: Why?
+
+How could planning with a flow diagram be useful? It seems like a lot of work, but what for?
 
 {{% /closing %}}
 
