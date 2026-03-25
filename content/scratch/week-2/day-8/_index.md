@@ -132,13 +132,13 @@ This simply means that two different paths come together.
 
 ```mermaid
 flowchart TD
-    O(...)
-    J(...)
+    O[...]
+    J[...]
     O --> A
     J --> B
-    A(Got permission from mom)
-    B(Finished Homework)
-    C(Go hang out with friend)
+    A[Got permission from mom]
+    B[Finished Homework]
+    C[Go hang out with friend]
     A --> C
     B --> C
 ```
