@@ -2,6 +2,7 @@
 title: An Example by RN
 date: 2026-03-25
 type: single
+toc: false
 ---
 
 ## Invisibility Powerup
