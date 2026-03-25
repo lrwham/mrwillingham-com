@@ -131,11 +131,16 @@ With a partner, create a flow diagram with at least three conditions based on th
 This simply means that two different paths come together.
 
 ```mermaid
-A(Got permission from mom)
-B(Finished Homework)
-C(Go hang out with friend)
-A --> C
-B --> C
+flowchart TD
+    O(...)
+    J(...)
+    O --> A
+    J --> B
+    A(Got permission from mom)
+    B(Finished Homework)
+    C(Go hang out with friend)
+    A --> C
+    B --> C
 ```
 
 #### Diagram 2: A power-up in a game
