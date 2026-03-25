@@ -17,7 +17,7 @@ flowchart TD
     G[End]
     A --> B
     B -- Yes --> C
-    B -- No --> G
+    B -- No --> B
     C --> D
     D -- Yes --> F
     D -- No --> E
