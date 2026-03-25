@@ -5,8 +5,6 @@ description: "Podcasts Unit: The expectations for writing and formatting a podca
 units: ["Podcast"]
 tags: ["brainstorming", "scripting", "recording"]
 resources: ["Soundtrap", "Microphone", "Audio Interface"]
-sidebar:
-  exclude: false
 toc: false
 draft: false
 ---

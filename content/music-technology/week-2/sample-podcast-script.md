@@ -3,8 +3,6 @@ date: 2026-03-04
 title: "Sample Podcast Script"
 unit: ["Podcast"]
 description: "Practice recording script for 'The Sound Zone' podcast"
-sidebar:
-  exclude: false
 toc: false
 draft: false
 ---
