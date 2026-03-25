@@ -9,13 +9,13 @@ toc: false
 
 ```mermaid
 flowchart TD
-    A[Start]
+    A([Start])
     B{Did the player step on a power-up?}
     C[Activate power-up]
     D{Did 5 seconds pass?}
     E{Did the player attack?}
     F[End invisibility]
-    G[End]
+    G([End])
     A --> B
     B -- Yes --> C
     B -- No --> B
