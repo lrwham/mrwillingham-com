@@ -123,7 +123,25 @@ With a partner, create a flow diagram with at least three conditions based on th
 > A friend has just messaged you that they've finished their homework and want to hang out.
 
 1. What yes/no conditions will impact whether, when, and where you can hang out with your friend?
-2. BONUS: Add a loop to your flow diagram — a condition that gets checked over and over, like "Is my homework done yet?" where `No` loops back to the same question and `Yes` moves forward.
+2. Include at least one converging path — a point where two different paths come back together.
+3. BONUS: Add a loop to your flow diagram — a condition that gets checked over and over, like "Is my homework done yet?" where `No` loops back to the same question and `Yes` moves forward.
+
+##### Converging Paths
+
+This simply means that two different paths come together.
+
+```mermaid
+flowchart TD
+    O(...)
+    J(...)
+    O --> A
+    J --> B
+    A(Got permission from mom)
+    B(Finished Homework)
+    C(Go hang out with friend)
+    A --> C
+    B --> C
+```
 
 #### Diagram 2: A power-up in a game
 
