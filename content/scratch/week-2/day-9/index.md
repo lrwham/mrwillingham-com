@@ -38,7 +38,7 @@ weight: 4
 
 ## Warmup: Introduction to Loops
 
-1. Watch this video.
+1. Watch this video. This is from the first level of the Code.org lesson.
 
 <video controls>
   <source src="https://s3.amazonaws.com/videos.code.org/csf/BB-8_2-5.mp4" type="video/mp4">
@@ -50,6 +50,8 @@ weight: 4
 {{% clever %}}
 
 ![Code.org](/images/Code.org_logo.svg)
+
+3. Here is a [link to the second video](https://s3.amazonaws.com/videos.code.org/csf/BB-8_repeat.mp4). The videos in the lesson are served by Youtube which is blocked at school. The link is an alternative that should work even at school.
 
 {{% checkpoint %}}
 
