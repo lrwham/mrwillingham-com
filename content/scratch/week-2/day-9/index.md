@@ -45,11 +45,13 @@ weight: 4
   Your browser does not support the video tag.
 </video>
 
-2. Login to Clever and complete levels 1-5 of Lesson 12: Loops with Rey and BB-8 on Code.org.
+2. Login to Clever and complete levels 1-5 of Lesson 12: Loops with Rey and BB-8 on Code.org. {{< icon "code.org" >}}
 
 {{% clever %}}
 
 [Login to Clever first, then this will take you to the lesson.](https://studio.code.org/courses/express-2025/units/1/lessons/12/levels/1)
+
+![Code.org](/images/Code.org_logo.svg)
 
 {{% checkpoint %}}
 
