@@ -49,8 +49,6 @@ weight: 4
 
 {{% clever %}}
 
-[Login to Clever first, then this will take you to the lesson.](https://studio.code.org/courses/express-2025/units/1/lessons/12/levels/1)
-
 ![Code.org](/images/Code.org_logo.svg)
 
 {{% checkpoint %}}
