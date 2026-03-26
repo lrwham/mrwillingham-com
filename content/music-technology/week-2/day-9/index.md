@@ -1,13 +1,13 @@
 ---
 title: "Day 9: Record Your Podcast"
 date: 2026-03-26
-description: "Set up the microphone and record the full podcast episode in GarageBand."
+description: "Set up the microphone and record the full podcast episode in Soundtrap."
 day_number: 9
 weight: 4
 units:
   - "Podcasts"
 tags:
-  - GarageBand
+  - Soundtrap
   - Podcast
   - Recording
   - Microphones
@@ -55,6 +55,16 @@ Before we begin recording, confirm the following:
 
 ## Work Session: Record Your Episode
 
+### Soundtrap
+
+We will use a new app called **Soundtrap**. Soundtrap has some special features that are handy for podcasting like noise reduction. Login to Soundtrap using the username and password I provide.
+
+| username | password |
+| --- | --- |
+| `firstname.lastname@students.cobbk12.org` | `lunch #` |
+
+{{< button text="Click here to login to Soundtrap" >}}https://www.soundtrap.com/login{{< /button >}}
+
 We will review the setup procedure together, then take turns recording.
 
 ### Setup Checklist
@@ -78,17 +88,16 @@ We will review the setup procedure together, then take turns recording.
 
 Listen back to your recording. Re-record any sections that sound unclear, too quiet, or rushed. Your goal is to have a clean recording ready for editing tomorrow.
 
-Save your project as: **Podcast_YourName** and make sure it's saved to **OneDrive**.
+Soundtrap saves automatically.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
 - [x] I have set up the microphone and audio interface correctly.
-- [x] I have imported my intro music into GarageBand.
+- [x] I have imported my intro music into Soundtrap.
 - [x] I have recorded my full script.
 - [x] I have listened back and re-recorded any sections that need improvement.
-- [x] My project is saved to OneDrive.
 
 {{% /checkpoint %}}
 
