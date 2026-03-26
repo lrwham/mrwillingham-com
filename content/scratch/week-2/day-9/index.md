@@ -1,19 +1,22 @@
 ---
-title: "Day 9: ..."
+title: "Day 9: Loops"
 date: 2026-03-26
-description: ""
+description: "In this lesson we will introduce using loops in Scratch and Code.org"
 day_number: 9
 units:
   - None
 standards:
-  - None
+  - MS-CS-FCP.3.2
+  - MS-CS-FCP.4.1
+  - MS-CS-FCP.4.5
+  - MS-CS-FCP.4.8
 tags:
   - None
 resources:
   - None
-draft: true
+draft: false
 toc: true
-scratchblocks: false
+scratchblocks: true
 weight: 4
 ---
 
@@ -23,24 +26,34 @@ weight: 4
 
 ## Objectives
 
-- I can use `user input` as events to trigger behavior in my Scratch projects.
-- I can make my Scratch projects interactive by responding to keyboard input.
+- I can use `loops` to repeat blocks of code in Scratch.
+- I can identify when to use loops to make my code more efficient.
 
 {{% /objectives %}}
 
 {{% warmup %}}
 
-## Warmup: User Input as Events
+## Warmup: Introduction to Loops
 
-Watch the video assigned today on Edpuzzle. The video covers how programs respond to **user input** — things like key presses, mouse clicks, and other actions the user takes. Pay attention to how Scratch uses event blocks to detect input.
+1. Watch this video.
 
-Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to access the video.
+<video controls>
+  <source src="https://s3.amazonaws.com/videos.code.org/csf/BB-8_2-5.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+2. Login to Clever and complete levels 1-5 of Lesson 12: Loops with Rey and BB-8 on Code.org.
+
+{{% clever %}}
+
+[Login to Clever first, then this will take you to the lesson.](https://studio.code.org/courses/express-2025/units/1/lessons/12/levels/1)
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [x] I have watched the Edpuzzle video on user input.
+- [x] I have watched the video on loops.
+- [x] I have completed levels 1-5 of Lesson 12: Loops with Rey and BB-8 on Code.org.
 
 {{% /checkpoint %}}
 
@@ -48,50 +61,75 @@ Login to [Clever.com](https://clever.com/) and click on the Edpuzzle icon to acc
 
 {{% worksession %}}
 
-## Work Session: Navigate a Maze
+## Work Session: Loops in Scratch
 
-You will create a maze game in Scratch where the player controls a sprite using the keyboard. The goal is to navigate through the maze without touching the walls.
-
-### Step 1: Set Up the Maze
-
-1. Start a new Scratch project.
-2. Create a new sprite to serve as the maze walls. Use the **line tool** and **rectangle tool** to draw your maze layout. Make sure the paths are wide enough for a small sprite to fit through.
-3. Choose a small sprite from the library to be the player (or draw your own).
-4. Position the player sprite at the start of the maze.
-
-### Step 2: Add Keyboard Controls
-
-Use `when key pressed` event blocks to make the player move. You need four of them — one for each arrow key.
+We have already used the `forever` loop in Scratch.
 
 ```scratch
-when [up arrow v] key pressed
-change y by (10)
 
-when [down arrow v] key pressed
+forever
+
+```
+The `forever` block will repeat the blocks inside forever until the program is stopped. The computer will repeat the code has fast as it can.
+
+This is useful for things that we want to keep checking for.
+
+### Gravity Example
+
+```scratch
+
+when green flag clicked
+forever
+if <not (onground)> then
 change y by (-10)
 
-when [left arrow v] key pressed
-change x by (-10)
-
-when [right arrow v] key pressed
-change x by (10)
 ```
 
-Test your controls. Click the green flag, then press the arrow keys. Your sprite should move around the stage.
+### Loops Make Code More Efficient
 
-### Step 3: Play Test
+Loops can also be used to make code more efficient. Instead of writing the same blocks over and over, we can use a loop to repeat them.
 
-Try navigating your maze. If the paths are too narrow or the sprite moves too fast, adjust your maze drawing or change the movement values (try `5` instead of `10`).
+**Which of these is best?**
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
+```scratch
+
+when green flag clicked
+pen down
+move (10) steps
+turn cw (90) degrees
+move (10) steps
+turn cw (90) degrees
+move (10) steps
+turn cw (90) degrees
+move (10) steps
+turn cw (90) degrees
+
+```
+
+```scratch
+
+when green flag clicked
+pen down
+repeat (4)
+move (10) steps
+turn cw (90) degrees 
+
+```
+
+</div>
+
+#### Try it Yourself
+
+Start with this [Scratch Project](https://scratch.mit.edu/projects/1295926292). It doesn't use loops yet, but it **does** work. Your job is to make the code more efficient by using loops.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [x] I have created a maze sprite using the drawing tools.
-- [x] I have added a player sprite.
-- [x] I have used `when key pressed` event blocks to make the player move with the arrow keys.
-- [x] I can navigate through my maze using the keyboard.
-- [x] **Bonus**: I have added a second player character with separate keyboard controls (e.g., WASD) for a two-player maze game.
+- [x] I have used loops to make code more efficient.
+- [x] I can explain why using loops is more efficient than writing the same blocks over and over.
 
 {{% /checkpoint %}}
 
@@ -99,15 +137,15 @@ Try navigating your maze. If the paths are too narrow or the sprite moves too fa
 
 {{% closing %}}
 
-## Closing: Next Steps
+## Closing: Code.org
 
-Tomorrow we will learn about **loops** — a way to make code repeat automatically. Loops are one of the most powerful tools in programming. Instead of writing the same blocks over and over, you can tell Scratch to repeat them for you.
+For the closing, login to Clever and complete levels 6-10 of Lesson 12: Loops with Rey and BB-8 on Code.org.
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences and algorithms.
+- [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences, algorithms, and iteration (loops).
 - [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, debugging, user interfaces, usability, variables, lists, loops, conditionals, programming language, and events.
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
-- [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Develop an event driven program.
+- [**MS-CS-FCP.4.8**](/scratch/description/#ms-cs-fcp4) — Create a computer program that implements a loop.
