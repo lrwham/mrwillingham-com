@@ -9,7 +9,7 @@ weight: 2
 
 ## Unit: Conditionals & Control Flow
 
-This week you will learn how programs make decisions using conditionals. You'll add keyboard controls and wall detection to your maze game, practice conditional logic in Scratch and on paper with flow diagrams, and discover how computers use boolean logic — true and false — to choose what to do next.
+This week you will learn how programs make decisions using conditionals. You'll add keyboard controls and wall detection to your maze game, practice conditional logic in Scratch and on paper with flow diagrams, and discover how loops let you repeat actions efficiently.
 
 ## Weekly Schedule
 
@@ -18,8 +18,8 @@ This week you will learn how programs make decisions using conditionals. You'll 
 | 6   | Mon 3/23 | [User Input & Conditionals](day-6/) | Watch an Edpuzzle on **events** and **user input**, add keyboard controls to your maze, and use **conditionals** to make sprites bounce off walls. |
 | 7   | Tue 3/24 | [Flocabulary: Conditionals](day-7/) | Complete the Flocabulary lesson on **Coding: Conditionals** — watch the video, play the vocab game, and finish the quiz and read & respond activities. |
 | 8   | Wed 3/25 | [Flow Diagrams](day-8/)             | Complete an offline flow diagram activity to map out conditional logic using yes/no decisions on paper.                                            |
-| 9   | Thu 3/26 | [Boolean Logic](day-9/)             | Learn how computers use true and false values to make decisions, and apply boolean logic in Scratch.                                               |
-| 10  | Fri 3/27 | [Week 2 Wrap-Up](day-10/)           | Review conditionals, boolean logic, and control flow. Finish any incomplete work and reflect on what you've learned.                               |
+| 9   | Thu 3/26 | [Loops](day-9/)                     | Watch a video introduction to **loops**, practice loops on Code.org, and use loops to make Scratch code more efficient.                            |
+| 10  | Fri 3/27 | [Week 2 Wrap-Up](day-10/)           | Review conditionals, loops, and control flow. Finish any incomplete work and reflect on what you've learned.                               |
 
 {{% alert "Graded Assignments" %}}
 
