@@ -12,6 +12,43 @@
 </script>
 {{ end }}
 
+<!-- Sidebar toggle button -->
+<script>
+  // Restore sidebar state early to avoid flash
+  if (localStorage.getItem("sidebar-collapsed") === "true") {
+    document.body.classList.add("sidebar-collapsed");
+  }
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.createElement("button");
+    btn.className = "sidebar-toggle-btn";
+    btn.setAttribute("aria-label", "Toggle sidebar");
+    btn.setAttribute("title", "Toggle sidebar");
+
+    var iconShow =
+      '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3h7v18H3zM14 6h7M14 12h7M14 18h7"/></svg>';
+    var iconHide =
+      '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3h7v18H3z" opacity="0.3"/><path stroke-linecap="round" stroke-linejoin="round" d="M14 6h7M14 12h7M14 18h7"/></svg>';
+
+    function updateIcon() {
+      btn.innerHTML = document.body.classList.contains("sidebar-collapsed")
+        ? iconShow
+        : iconHide;
+    }
+
+    btn.addEventListener("click", function () {
+      document.body.classList.toggle("sidebar-collapsed");
+      var collapsed = document.body.classList.contains("sidebar-collapsed");
+      localStorage.setItem("sidebar-collapsed", collapsed);
+      updateIcon();
+    });
+
+    updateIcon();
+    document.body.appendChild(btn);
+  });
+</script>
+
 {{ if eq (getenv "HUGO_ENV") "dev" }}
 <script>
   document.addEventListener("DOMContentLoaded", function () {

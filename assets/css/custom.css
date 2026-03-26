@@ -201,3 +201,57 @@
   background-color: rgba(255, 255, 255, 0.03);
   border-color: rgba(255, 255, 255, 0.1);
 }
+
+/* ── Sidebar Toggle ── */
+.sidebar-toggle-btn {
+  display: none;
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 30;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #555;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.dark .sidebar-toggle-btn {
+  background-color: rgba(30, 30, 30, 0.9);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #aaa;
+}
+
+.sidebar-toggle-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #111;
+}
+
+.dark .sidebar-toggle-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+@media (min-width: 768px) {
+  .sidebar-toggle-btn {
+    display: flex;
+  }
+}
+
+/* Hide sidebar and expand content when collapsed (desktop only) */
+@media (min-width: 768px) {
+  body.sidebar-collapsed .hextra-sidebar-container {
+    display: none;
+  }
+}
+
+.sidebar-toggle-btn svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
