@@ -56,6 +56,12 @@ Before we begin recording, confirm the following:
 
 ## Work Session: Record Your Episode
 
+### Turn in your Final Script
+
+Before we start recording, turn in your final script to the Form linked below. This will allow me to review your script and provide feedback if needed.
+
+{{< button text="Turn in your final script" >}}https://forms.cloud.microsoft/r/9s0CUCM02Q{{< /button >}}
+
 ### Soundtrap
 
 We will use a new app called **Soundtrap**. Soundtrap has some special features that are handy for podcasting like noise reduction. Login to Soundtrap using the username and password I provide.
