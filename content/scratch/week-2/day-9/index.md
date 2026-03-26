@@ -11,7 +11,10 @@ standards:
   - MS-CS-FCP.4.5
   - MS-CS-FCP.4.8
 tags:
-  - None
+  - Scratch
+  - Code.org
+  - Programming
+  - Loops
 resources:
   - None
 draft: false
