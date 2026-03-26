@@ -37,7 +37,8 @@ Before we begin recording, confirm the following:
 
 - Your script is finalized and broken into short, readable lines.
 - Your audio annotations are clearly marked (e.g., `[MUSIC: Intro — fade out]`).
-- Your intro music file is saved to OneDrive and ready to import into GarageBand.
+
+{{< button text="Open your script in Word Online" >}}https://www.office.com/launch/word{{< /button >}}
 
 {{% checkpoint %}}
 
