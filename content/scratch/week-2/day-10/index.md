@@ -105,7 +105,7 @@ end
 
 ### Build Your Own
 
-Starting from a **blank Scratch project**, build a program that has all three of the following:
+Starting from a **blank Scratch project**, build a program that has all four of the following:
 
 1. **A sprite the player can move** using arrow keys or WASD
 {{< callout type="tip" >}}
@@ -131,10 +131,6 @@ Some ideas for your two conditions:
 - Touching a coin sprite → add 1 to score
 - Touching a wall color → reset position
 - Score reaching 10 → say "You win!" and stop
-
-{{< callout type="tip" >}}
-To add a variable, go to the **Variables** category and click **Make a Variable**. Name it `score`.
-{{< /callout >}}
 
 {{% checkpoint %}}
 
@@ -163,6 +159,54 @@ Some questions to think about as you play someone else's project:
 **Key takeaway:** Almost every game you've ever played — Mario, Minecraft, anything — runs on this exact pattern. A loop that never stops, checking conditions every single frame. You just built that.
 
 {{% /closing %}}
+
+## Useful Blocks
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
+
+```scratch
+when green flag clicked
+
+forever
+end
+
+if <> then
+end
+
+set [score v] to (0)
+
+change [score v] by (1)
+
+if <(score) = (10)> then
+say [You win!] for (2) seconds
+stop [all v]
+end
+```
+</div>
+<div>
+
+```scratch
+if <key [right arrow v] pressed?> then
+change x by (10)
+end
+
+change y by (10)
+
+go to (random position v)
+
+go to x: (0) y: (0)
+
+hide
+
+show
+
+if <touching [Coin v]?> then
+change [score v] by (1)
+end
+```
+</div>
+</div>
 
 ## Standards
 
