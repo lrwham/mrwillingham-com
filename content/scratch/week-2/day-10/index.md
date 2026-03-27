@@ -45,6 +45,10 @@ This week you learned two powerful tools:
 
 For each scenario below, call out which block you would use — `forever`, `repeat # times`, or `if`:
 
+{{< callout type="warning" >}}
+Answer these questions in your head.
+{{< /callout >}}
+
 | Scenario | `forever` | `repeat # times` | `if` |
 |---|---|---|---|
 | Draw a square (move and turn 4 times) |  | | |
