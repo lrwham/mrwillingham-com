@@ -56,7 +56,8 @@ For each scenario below, call out which block you would use — `forever`, `repe
 On Day 8 you drew this flow diagram and wrote pseudocode for it:
 
 ```mermaid
-flowchart TD
+%%{init: {'themeVariables': {'fontSize': '2rem'}}}%%
+flowchart LR
     A([Start]) --> B{Is the sprite touching a coin?}
     B -- Yes --> C[Add 1 to score]
     C --> D{Is score = 10?}
