@@ -5,9 +5,9 @@ description: ""
 day_number: 1
 units:
   - ""
-standards: []
 tags:
-  - ""
+  - GarageBand
+standards: []
 resources: []
 draft: false
 toc: true
@@ -57,15 +57,19 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 <!-- Add work session instructions here -->
 
-<!-- OPTIONAL: Use buttons for action links (projects, worksheets, etc.)
-{{< button text="Open Project" >}}https://scratch.mit.edu{{< /button >}}
+<!-- OPTIONAL: Use buttons for action links (worksheets, shared docs, etc.)
+{{< button text="Open Document" >}}https://...{{< /button >}}
 -->
 
-<!-- OPTIONAL: Use ```scratch fences for Scratch code blocks (set scratchblocks: true in frontmatter)
-```scratch
-when green flag clicked
-move (10) steps
-```
+<!-- OPTIONAL: Use tabs for multi-step instructions
+{{< tabs >}}
+{{< tab name="Step 1" >}}
+Instructions for step 1.
+{{< /tab >}}
+{{< tab name="Step 2" >}}
+Instructions for step 2.
+{{< /tab >}}
+{{< /tabs >}}
 -->
 
 {{% checkpoint %}}
@@ -105,4 +109,4 @@ move (10) steps
 
 ## Standards
 
-- [**MS-CS-FCP.X.X**](/scratch/description/#ms-cs-fcpX) — Standard description here.
+- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Standard description here.
