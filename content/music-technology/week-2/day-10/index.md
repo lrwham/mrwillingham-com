@@ -74,6 +74,12 @@ Mr. Willingham will walk you through the editing steps.
 1. **Add outro music** — Use your intro music again or create a short fade-out at the end.
 1. **Listen to the full episode** one more time from start to finish. Make any final adjustments.
 
+### Sound Effects
+
+The sound library on Soundtrap is hit-or-miss at the moment.
+
+Download [this folder of sound effects](https://cdn.mrwillingham.com/SoundEffectsFoley.zip) and import any sound effects you need into your Soundtrap project.
+
 
 ### Export
 
