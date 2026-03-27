@@ -105,25 +105,32 @@ end
 
 ### Build Your Own
 
-Starting from a **blank Scratch project**, build a program that has all three of the following:
+Starting from a **blank Scratch project**, build a program that has all four of the following:
 
 1. **A sprite the player can move** using arrow keys or WASD
 {{< callout type="tip" >}}
 You'll have to make the movement code yourself. Look at an earlier project if you forgot how.
 {{< /callout >}}
-2. **A `forever` loop** that contains at least **two `if` blocks** responding to different events
-3. **A `score` variable** that increases when a condition is met
+2. **A coin** or something else collectable that increases the score when touched
+{{< callout type="tip" >}}
+When the player touches the coin, you can use the `change [score v] by (1)` block to increase the score variable.
+
+Then you can use the `go to [random position v]` block to move the coin somewhere else on the stage.
+{{< /callout >}}
+3. **A `forever` loop** that contains at least **two `if` blocks** responding to different events
+{{< callout type="tip" >}}
+You can use the example code above as a starting point.
+{{< /callout >}}
+4. **A `score` variable** that increases when a condition is met
+{{< callout type="tip" >}}
+To add a variable, go to the **Variables** category and click **Make a Variable**. Name it `score`.
+{{< /callout >}}
 
 Some ideas for your two conditions:
 
 - Touching a coin sprite → add 1 to score
 - Touching a wall color → reset position
-- Touching an enemy sprite → lose a life
 - Score reaching 10 → say "You win!" and stop
-
-{{< callout type="tip" >}}
-To add a variable, go to the **Variables** category and click **Make a Variable**. Name it `score`.
-{{< /callout >}}
 
 {{% checkpoint %}}
 
@@ -152,6 +159,54 @@ Some questions to think about as you play someone else's project:
 **Key takeaway:** Almost every game you've ever played — Mario, Minecraft, anything — runs on this exact pattern. A loop that never stops, checking conditions every single frame. You just built that.
 
 {{% /closing %}}
+
+## Useful Blocks
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div>
+
+```scratch
+when green flag clicked
+
+forever
+end
+
+if <> then
+end
+
+set [score v] to (0)
+
+change [score v] by (1)
+
+if <(score) = (10)> then
+say [You win!] for (2) seconds
+stop [all v]
+end
+```
+</div>
+<div>
+
+```scratch
+if <key [right arrow v] pressed?> then
+change x by (10)
+end
+
+change y by (10)
+
+go to (random position v)
+
+go to x: (0) y: (0)
+
+hide
+
+show
+
+if <touching [Coin v]?> then
+change [score v] by (1)
+end
+```
+</div>
+</div>
 
 ## Standards
 
