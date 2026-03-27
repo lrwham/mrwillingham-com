@@ -7,10 +7,11 @@ units:
   - ""
 standards: []
 tags:
-  - ""
+  - Scratch
 resources: []
 draft: false
 toc: true
+scratchblocks: false
 weight: 1
 ---
 
@@ -57,11 +58,11 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 <!-- Add work session instructions here -->
 
-<!-- OPTIONAL: Use buttons for action links (projects, worksheets, etc.)
+<!-- OPTIONAL: Use buttons for project/worksheet links
 {{< button text="Open Project" >}}https://scratch.mit.edu{{< /button >}}
 -->
 
-<!-- OPTIONAL: Use ```scratch fences for Scratch code blocks (set scratchblocks: true in frontmatter)
+<!-- OPTIONAL: Scratch code blocks — set scratchblocks: true in frontmatter
 ```scratch
 when green flag clicked
 move (10) steps
