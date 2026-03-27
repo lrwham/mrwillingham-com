@@ -1,53 +1,79 @@
 ---
-title: "Day 10: ..."
-date: 2026-03-27
-description: ""
+title: "Day 10: Loops + Conditionals"
+date: 2026-03-27T08:42:34-04:00
+description: "Combine loops and conditionals in Scratch to build a working game mechanic."
 day_number: 10
 units:
-  - None
+  - "Conditionals"
 standards:
-  - None
+  - MS-CS-FCP.3.2
+  - MS-CS-FCP.4.1
+  - MS-CS-FCP.4.5
+  - MS-CS-FCP.4.8
 tags:
-  - None
-resources:
-  - None
-draft: true
+  - Scratch
+  - Loops
+  - Conditionals
+  - Programming
+resources: []
+draft: false
 toc: true
-scratchblocks: false
+scratchblocks: true
 weight: 5
 ---
 
 {{< icon "calendar" >}} **Friday, March 27th, 2026**
 
-{{% alert "Code.org Homework Due" %}}
-The Code.org `Programming with Angry Birds` lesson from Tuesday is due today.
-{{% /alert %}}
-
 {{% objectives %}}
 
 ## Objectives
 
-- I can explain what a `loop` is and why it is useful.
-- I can use the `forever` block to make code repeat continuously.
-- I can use the `repeat` block to make code repeat a specific number of times.
+- I can use a `forever` loop with `if` blocks inside it to respond to game events.
+- I can explain why `if` blocks are often placed inside `forever` loops in games.
+- I can build a Scratch program that combines loops and conditionals.
 
 {{% /objectives %}}
 
 {{% warmup %}}
 
-## Warmup: Week 1 Review
+## Warmup: Which Block Do I Need?
 
-Think about what you've learned this week. Be ready to answer these questions out loud when called on:
+This week you learned two powerful tools:
 
-1. What is a **sequence**?
-2. What is an **event**? Give an example of an event block in Scratch.
-3. What happens if your blocks are in the wrong order?
+- **Conditionals** (`if` blocks) — do something *only when* a condition is true
+- **Loops** (`forever`, `repeat # times`) — do something *over and over*
+
+For each scenario below, call out which block you would use — `forever`, `repeat # times`, or `if`:
+
+| Scenario | `forever` | `repeat # times` | `if` |
+|---|---|---|---|
+| Draw a square (move and turn 4 times) |  | | |
+| Keep checking if the player is touching a wall | | | |
+| Do something only when the score reaches 10 | | | |
+| Bounce a sprite off the edge for the whole game | | | |
+| Repeat a dance move 8 times | | | |
+
+On Day 8 you drew this flow diagram and wrote pseudocode for it:
+
+```mermaid
+flowchart TD
+    A([Start]) --> B{Is the sprite touching a coin?}
+    B -- Yes --> C[Add 1 to score]
+    C --> D{Is score = 10?}
+    D -- Yes --> E[Say You win!]
+    D -- No --> B
+    B -- No --> B
+    E --> F([Done])
+```
+
+Today we build it.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [x] I am ready to answer the review questions.
+- [ ] I can tell the difference between a loop and a conditional.
+- [ ] I understand that in this diagram, the arrows that loop back mean the code runs over and over.
 
 {{% /checkpoint %}}
 
@@ -55,117 +81,56 @@ Think about what you've learned this week. Be ready to answer these questions ou
 
 {{% worksession %}}
 
-## Work Session: Part 1: What is a Loop?
+## Work Session: The Game Loop
 
-A **loop** is a way to make the computer repeat instructions. Instead of copying and pasting the same blocks over and over, you wrap them in a loop block and let Scratch do the repeating for you.
+Most games use the same pattern: a `forever` loop with `if` blocks inside it. The loop keeps the game running every frame, and the `if` blocks check whether something important happened.
 
-Scratch has two main loop blocks:
+Here's what that looks like in Scratch:
 
 ```scratch
+when green flag clicked
 forever
+if <touching [Coin v]?> then
+change [score v] by (1)
+end
+if <touching [edge v]?> then
+say [Ouch!] for (1) seconds
+go to x: (0) y: (0)
+end
 end
 ```
 
-The `forever` block repeats the blocks inside it **non-stop** until you press the stop button.
+**Why does the `forever` loop matter?** Without it, each `if` block would only run once when the green flag is clicked — then stop. The `forever` loop makes Scratch check those conditions *every frame* while the game is running.
 
-```scratch
-repeat (10)
-end
-```
+### Build Your Own
 
-The `repeat` block repeats the blocks inside it a **specific number of times**, then stops.
+Starting from a **blank Scratch project**, build a program that has all three of the following:
 
-### Try It: Without a Loop
+1. **A sprite the player can move** using arrow keys or WASD
+{{< callout type="tip" >}}
+You'll have to make the movement code yourself. Look at an earlier project if you forgot how.
+{{< /callout >}}
+2. **A `forever` loop** that contains at least **two `if` blocks** responding to different events
+3. **A `score` variable** that increases when a condition is met
 
-Build this program. Click the green flag to run it.
+Some ideas for your two conditions:
 
-```scratch
-when green flag clicked
-move (10) steps
-wait (0.5) seconds
-move (10) steps
-wait (0.5) seconds
-move (10) steps
-wait (0.5) seconds
-move (10) steps
-wait (0.5) seconds
-```
+- Touching a coin sprite → add 1 to score
+- Touching a wall color → reset position
+- Touching an enemy sprite → lose a life
+- Score reaching 10 → say "You win!" and stop
 
-That's a lot of repeated blocks just to move four times. Now let's use a loop.
-
-### Try It: With a Loop
-
-Replace all of that with this:
-
-```scratch
-when green flag clicked
-repeat (4)
-move (10) steps
-wait (0.5) seconds
-end
-```
-
-Same result, way less code. That's the power of loops.
+{{< callout type="tip" >}}
+To add a variable, go to the **Variables** category and click **Make a Variable**. Name it `score`.
+{{< /callout >}}
 
 {{% checkpoint %}}
 
-### Checkpoint: Part 1
+### Checkpoint: Work Session
 
-- [x] I built the program without a loop and ran it.
-- [x] I rebuilt it using a `repeat` block and got the same result.
-- [x] I can explain in my own words why loops are useful.
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
-
-{{% worksession %}}
-
-## Work Session: Part 2: Animation with Loops
-
-Loops are the key to animation in Scratch. By combining loops with `next costume` and motion blocks, you can make a sprite look like it's walking, flying, or doing anything you want.
-
-### Your Task
-
-1. Choose a sprite from the library that has **multiple costumes** (most animal and character sprites do). Click on the "Costumes" tab to check.
-2. Build a program that animates the sprite walking across the stage using a loop:
-
-```scratch
-when green flag clicked
-repeat (20)
-move (5) steps
-next costume
-wait (0.1) seconds
-end
-```
-
-3. Try changing the values. What happens if you increase the repeat count? Speed up the wait time? Change the step size?
-
-### Challenge
-
-Make your sprite walk to one side of the stage, then walk back to where it started. You'll need two loops — one for each direction. Use a negative number in `move` to go left.
-
-```scratch
-when green flag clicked
-repeat (20)
-move (5) steps
-next costume
-wait (0.1) seconds
-end
-repeat (20)
-move (-5) steps
-next costume
-wait (0.1) seconds
-end
-```
-
-{{% checkpoint %}}
-
-### Checkpoint: Part 2
-
-- [x] I chose a sprite with multiple costumes.
-- [x] My sprite animates across the stage using a loop with `next costume`.
-- [x] **Bonus**: My sprite walks to one side and then walks back.
+- [ ] My project has a `forever` loop.
+- [ ] My `forever` loop contains at least two `if` blocks.
+- [ ] My `score` variable changes when a condition is met.
 
 {{% /checkpoint %}}
 
@@ -173,21 +138,23 @@ end
 
 {{% closing %}}
 
-## Closing: Week 1 Complete
+## Closing: Show and Tell
 
-This week you learned:
+A few volunteers will share their projects. Hit the Share button in Scratch. Mr. Willingham will add your project to a Studio Page so other students can see it.
 
-- How to use the Scratch editor and art tools
-- **Sequences** — code runs in order, top to bottom
-- **Events** — blocks that start code when something happens (green flag, key press)
-- **Loops** — blocks that repeat code automatically
+Some questions to think about as you play someone else's project:
 
-Next week, we'll learn about **conditionals** — how to make your programs make decisions.
+- Where is the `forever` loop?
+- What conditions are inside it?
+- What happens when each condition is true?
+
+**Key takeaway:** Almost every game you've ever played — Mario, Minecraft, anything — runs on this exact pattern. A loop that never stops, checking conditions every single frame. You just built that.
 
 {{% /closing %}}
 
 ## Standards
 
 - [**MS-CS-FCP.3.2**](/scratch/description/#ms-cs-fcp3) — Develop a working vocabulary of computational thinking including sequences, algorithms, and iteration (loops).
+- [**MS-CS-FCP.4.1**](/scratch/description/#ms-cs-fcp4) — Develop a working vocabulary of programming including coding, debugging, variables, loops, conditionals, and events.
 - [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
 - [**MS-CS-FCP.4.8**](/scratch/description/#ms-cs-fcp4) — Create a computer program that implements a loop.

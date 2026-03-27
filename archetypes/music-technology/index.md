@@ -5,9 +5,9 @@ description: ""
 day_number: 1
 units:
   - ""
+standards: []
 tags:
   - GarageBand
-standards: []
 resources: []
 draft: false
 toc: true
