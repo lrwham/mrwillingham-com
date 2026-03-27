@@ -150,6 +150,8 @@ Some ideas for your two conditions:
 
 A few volunteers will share their projects. Hit the Share button in Scratch. Mr. Willingham will add your project to a Studio Page so other students can see it.
 
+[Click here to share](https://scratch.mit.edu/studios/51486767/)
+
 Some questions to think about as you play someone else's project:
 
 - Where is the `forever` loop?
