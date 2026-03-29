@@ -1,6 +1,6 @@
 ---
 title: "Week 3: Finish Podcasts + Intro to Sound Design"
-draft: false
+draft: true
 toc: false
 cascade:
   type: docs
