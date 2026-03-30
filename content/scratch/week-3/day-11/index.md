@@ -167,6 +167,8 @@ Open Scratch and build a small project that uses at least **one** boolean operat
 
 Complete the **Boolean Operators Learning Check** on CTLS. You will look at Scratch programs and predict whether conditions are `true` or `false`.
 
+Here's [some practice questions](https://www.gimkit.com/practice/69ca6d0b88c5ad63a699673a) while you wait.
+
 {{% checkpoint %}}
 
 ### Checkpoint: Learning Check
