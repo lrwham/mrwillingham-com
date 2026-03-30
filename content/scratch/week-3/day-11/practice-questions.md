@@ -1,5 +1,5 @@
 ---
-title: "Boolean Operators Quiz Examples"
+title: "Boolean Operators Practice"
 draft: false
 scratchblocks: true
 toc: true
