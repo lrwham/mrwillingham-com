@@ -53,6 +53,10 @@ There is no warmup today. Finish your podcast!
 4. Listen to other student podcasts.
 5. Leave constructive comments on other student work.
 
+{{< callout icon="microphone" type="error" >}}
+You may use the microphones for the first 15 minutes of class only. After that, you must use the built-in microphone on your computer.
+{{< /callout >}}
+
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
