@@ -171,6 +171,8 @@ end
 
 **Answer:** Yes. `xp > 100` is true (150 > 100). Inside the inner `or`: `rank = 5` is true, so the `or` is true. `true and true` is true.
 
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.5, MS-CS-FCP.4.9
+
 ---
 
 ## Question 10
@@ -187,3 +189,5 @@ end
 ```
 
 **Answer:** No. `hearts > 0` is true (3 > 0) and `shield > 0` is true (1 > 0). `true and true` is true. `not true` is false.
+
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.5, MS-CS-FCP.4.9
