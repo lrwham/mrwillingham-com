@@ -16,10 +16,10 @@ This week you will learn how to combine conditions using boolean operators (`and
 | Day | Date     | Topic                              | Summary                                                                                      |
 | --- | -------- | ---------------------------------- | -------------------------------------------------------------------------------------------- |
 | 11  | Mon 3/30 | [Boolean Operators](day-11/)       | Learn how `and`, `or`, and `not` work to combine conditions. Complete a learning check.       |
-| 12  | Tue 3/31 | [Day 12](day-12/)                  | ...                                                                                          |
-| 13  | Wed 4/1  | [Day 13](day-13/)                  | ...                                                                                          |
-| 14  | Thu 4/2  | [Day 14](day-14/)                  | ...                                                                                          |
-| 15  | Fri 4/3  | [Day 15](day-15/)                  | ...                                                                                          |
+| 12  | Tue 3/31 | [Gravity](day-12/)                  | Create a gravity system for a platformer game.                                                                                          |
+| 13  | Wed 4/1  | [Platforms & Collision](day-13/)    | Add solid platforms and use boolean operators to detect landing and wall collisions.           |
+| 14  | Thu 4/2  | [Platformer Project](day-14/)      | Design and build a platformer level with gravity, platforms, and hazards.                     |
+| 15  | Fri 4/3  | [Quiz & Showcase](day-15/)         | Take the Week 3 quiz and share your platformer with the class.                               |
 
 {{% alert "Graded Assignments" %}}
 
