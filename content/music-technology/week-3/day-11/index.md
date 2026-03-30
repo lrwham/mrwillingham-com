@@ -78,9 +78,17 @@ You may use the microphones for the first 15 minutes of class only. After that, 
 
 ### Export MP3 From GarageBand
 
+You only need to export from GarageBand if you did your music in GarageBand.
+
+<details>
+
+  <summary>CLICK HERE to see how to Export MP3 from GarageBand</summary>
+
 ![Export MP3 from GarageBand](garagebandExport1.png)
 ![Export MP3 from GarageBand](garagebandExport2.png)
 ![Export MP3 from GarageBand](garagebandExport3.png)
+
+</details>
 
 {{% checkpoint %}}
 
