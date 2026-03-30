@@ -84,9 +84,21 @@ You only need to export from GarageBand if you did your music in GarageBand.
 
   <summary>CLICK HERE to see how to Export MP3 from GarageBand</summary>
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
 ![Export MP3 from GarageBand](garagebandExport1.png)
+
+With GarageBand in focus, click on the "Share" menu at the top of the screen, then select "Export Song to Disk...". In the dialog that appears, choose "MP3" as the format, select your desired quality settings, and click "Export" to save your podcast as an MP3 file.
+
 ![Export MP3 from GarageBand](garagebandExport2.png)
+
+Choose MP3 as the format!
+
 ![Export MP3 from GarageBand](garagebandExport3.png)
+
+Note the **name** and **where** you are exporting your file.
+
+</div>
 
 </details>
 
