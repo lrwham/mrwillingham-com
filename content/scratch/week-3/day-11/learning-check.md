@@ -22,6 +22,8 @@ end
 
 **Answer:** Yes. `armor > 0` is true (3 > 0) and `energy > 25` is true (40 > 25). Both sides are true, so `and` is true.
 
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
+
 ---
 
 ## Question 2
@@ -39,6 +41,8 @@ end
 
 **Answer:** No. `speed > 20` is false (15 > 20). Even though `boost = 1` is true, `and` needs both sides to be true.
 
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
+
 ---
 
 ## Question 3
@@ -54,6 +58,8 @@ end
 ```
 
 **Answer:** Yes. `ground = water` is false, but `ground = ice` is true. With `or`, only one side needs to be true.
+
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
 
 ---
 
@@ -72,6 +78,8 @@ end
 
 **Answer:** No. `ammo = 0` is false (5 ≠ 0) and `energy = 0` is false (20 ≠ 0). With `or`, at least one side must be true.
 
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
+
 ---
 
 ## Question 5
@@ -88,6 +96,8 @@ end
 
 **Answer:** Yes. `paused = 1` is false (0 ≠ 1). `not` flips it to true, so `move_player` runs.
 
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
+
 ---
 
 ## Question 6
@@ -103,6 +113,8 @@ end
 ```
 
 **Answer:** No. `timer > 0` is true (30 > 0). `not` flips it to false.
+
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
 
 ---
 
@@ -121,6 +133,8 @@ end
 
 **Answer:** No. `armor > 0` is true (2 > 0). `invincible = 1` is true, so `not` flips it to false. `true and false` is false.
 
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.5, MS-CS-FCP.4.9
+
 ---
 
 ## Question 8
@@ -137,6 +151,8 @@ end
 ```
 
 **Answer:** Yes. `gems > 4` is false (2 > 4), but `stars > 4` is true (7 > 4). With `or`, only one side needs to be true.
+
+**Standards:** MS-CS-FCP.3.2, MS-CS-FCP.4.9
 
 ---
 
