@@ -37,9 +37,23 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 {{% warmup %}}
 
-## Warmup
+## Warmup: Recording & Editing Best Practices
 
-There is no warmup today. Finish your podcast!
+Read the [Podcast Recording & Editing Guide](../podcast-recording-and-editing-guide/) carefully. This guide covers the best practices for recording and editing a podcast.
+
+As you read, think about your own podcast:
+
+- What recording tips can you still apply as you finish up?
+- Are there any editing techniques you haven't tried yet?
+
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
+
+- [x] I have read the Podcast Recording & Editing Guide.
+- [x] I have identified at least one tip I can apply to my podcast today.
+
+{{% /checkpoint %}}
 
 {{% /warmup %}}
 
@@ -52,6 +66,10 @@ There is no warmup today. Finish your podcast!
 3. Upload it to CTLS to share.
 4. Listen to other student podcasts.
 5. Leave constructive comments on other student work.
+
+{{< callout icon="microphone" type="error" >}}
+You may use the microphones for the first 15 minutes of class only. After that, you must use the built-in microphone on your computer.
+{{< /callout >}}
 
 {{% checkpoint %}}
 
