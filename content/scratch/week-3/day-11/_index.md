@@ -18,6 +18,7 @@ resources: []
 draft: false
 toc: true
 scratchblocks: true
+mermaid: true
 weight: 1
 ---
 
@@ -93,6 +94,10 @@ No — with `and`, **both** sides must be true.
 
 ## Work Session: Boolean Operators in Scratch
 
+{{< callout >}}
+See [Boolean Operators in Flowcharts](flowcharts/) for a visual comparison of logic **with** and **without** boolean operators.
+{{< /callout >}}
+
 ### Where to Find Boolean Operators
 
 In Scratch, the `and`, `or`, and `not` blocks are green and live in the **Operators** category. They are shaped like pointed ovals, which means they fit inside the diamond-shaped slots of `if` blocks.
@@ -166,6 +171,8 @@ Open Scratch and build a small project that uses at least **one** boolean operat
 ## Work Session 2: Learning Check
 
 Complete the **Boolean Operators Learning Check** on CTLS. You will look at Scratch programs and predict whether conditions are `true` or `false`.
+
+Here's [some practice questions](https://www.gimkit.com/practice/69ca6d0b88c5ad63a699673a) while you wait.
 
 {{% checkpoint %}}
 

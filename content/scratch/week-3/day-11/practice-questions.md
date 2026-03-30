@@ -1,6 +1,6 @@
 ---
-title: "Boolean Operators Quiz Examples"
-draft: true
+title: "Boolean Operators Practice"
+draft: false
 scratchblocks: true
 toc: true
 ---
