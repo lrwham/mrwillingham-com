@@ -1,6 +1,6 @@
 ---
 title: "Week 3: Boolean Operators & Gravity"
-draft: true
+draft: false
 toc: false
 cascade:
   type: docs
