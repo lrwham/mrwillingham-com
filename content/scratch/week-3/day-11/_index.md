@@ -18,6 +18,7 @@ resources: []
 draft: false
 toc: true
 scratchblocks: true
+mermaid: true
 weight: 1
 ---
 
@@ -92,6 +93,10 @@ No — with `and`, **both** sides must be true.
 {{% worksession %}}
 
 ## Work Session: Boolean Operators in Scratch
+
+{{< callout >}}
+See [Boolean Operators in Flowcharts](flowcharts/) for a visual comparison of logic **with** and **without** boolean operators.
+{{< /callout >}}
 
 ### Where to Find Boolean Operators
 
