@@ -1,8 +1,9 @@
 ---
 title: "Boolean Operators Quiz Examples"
-draft: true
+draft: false
 scratchblocks: true
 toc: true
+listing: false
 ---
 
 ## Question 1
