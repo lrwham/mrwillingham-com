@@ -3,7 +3,8 @@ title: "Boolean Operators Quiz Examples"
 draft: false
 scratchblocks: true
 toc: true
-listing: false
+build:
+    list: never
 ---
 
 ## Question 1
