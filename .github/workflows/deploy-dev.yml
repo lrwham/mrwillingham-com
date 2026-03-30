@@ -1,6 +1,9 @@
 name: Deploy Development to EC2 (dev.mrwillingham.com)
 
-on: workflow_dispatch
+on: 
+  push:
+    branches: [dev]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -21,4 +24,4 @@ jobs:
             git checkout dev
             git reset --hard origin/dev
             git submodule update --init --recursive
-            HUGO_ENV=dev hugo --minify --buildFuture --buildDrafts --baseURL "https://dev.mrwillingham.com/"
+            HUGO_ENV=dev hugo --minify --baseURL "https://dev.mrwillingham.com/"
