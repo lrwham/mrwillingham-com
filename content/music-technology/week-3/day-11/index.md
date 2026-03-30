@@ -71,7 +71,19 @@ As you read, think about your own podcast:
 You may use the microphones for the first 15 minutes of class only. After that, you must use the built-in microphone on your computer.
 {{< /callout >}}
 
+
+### Export MP3 From Soundtrap
+
+![Export MP3 from Soundtrap](ExportMP3fromSoundtrap.png)
+
+### Export MP3 From GarageBand
+
+![Export MP3 from GarageBand](garagebandExport1.png)
+![Export MP3 from GarageBand](garagebandExport2.png)
+![Export MP3 from GarageBand](garagebandExport3.png)
+
 {{% checkpoint %}}
+
 
 ### Checkpoint: Work Session
 
