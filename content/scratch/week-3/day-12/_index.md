@@ -222,7 +222,7 @@ change [velocity v] by [-2]
 
 ## Closing
 
-Take the learning check on [CTLS](https://studentportal.educationincites.com/cobbssoget).
+Take the learning check on [Microsoft Forms](https://forms.cloud.microsoft/r/GD6W2arjhi).
 
 {{% /closing %}}
 
