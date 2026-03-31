@@ -1,14 +1,20 @@
 ---
-title: "Day 12 - Rocket League Sound Design"
+title: "Day 12: Rocket League Sound Design"
 date: 2026-03-31
-description: ""
+description: "Introduction to sound design using GarageBand and a Rocket League animation."
 day_number: 12
 units:
-  - ""
-standards: []
+  - "Sound Design"
+standards:
+  - "MSMTC8.CR.1"
+  - "MSMTC8.CR.2"
+  - "MSMTC8.RE.2"
 tags:
   - GarageBand
-resources: []
+  - Sound Design
+resources:
+  - "Edpuzzle"
+  - "GarageBand"
 draft: false
 toc: true
 weight: 2
@@ -91,7 +97,14 @@ Drag the sound and the video plays so you can align it.
 
 #### Use Effects
 
-Effects can transform a sound and make it fit better with the video. Mr. Willingham will show you how.
+Effects can transform a sound and make it fit better with the video. Mr. Willingham will demonstrate how to apply effects. Here are some common ones you can try:
+
+- **Pitch Shift** — Raise or lower the pitch to make a sound feel heavier or lighter.
+- **Reverb** — Add space and echo to make a sound feel like it's in a large room or stadium.
+- **EQ (Equalizer)** — Boost or cut specific frequencies to shape the tone of a sound.
+- **Distortion** — Add grit or intensity to make a sound more aggressive.
+
+Experiment with stacking multiple effects on the same sound to get something completely new.
 
 {{% /steps %}}
 
@@ -112,16 +125,18 @@ Effects can transform a sound and make it fit better with the video. Mr. Willing
 
 ## Closing
 
-<!-- Add closing/wrap-up instructions here -->
-
 Listen to your animation and at least one other person's animation. Reflect on the following questions:
 
 - How can sounds be transformed using effects?
 - Why is timing important in sound design?
 - What was the most challenging part of this project?
 
+Tomorrow, you will continue working with sound effects and learn how to use prebuilt sound libraries to enhance your projects.
+
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Standard description here.
+- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for compositions using digital tools.
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas into a larger work using digital tools and resources.
+- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Explain how knowledge of structure, technological aspects, and purpose of the music informs the response.
