@@ -4,14 +4,19 @@ date: 2026-04-01
 description: "Use the prepared sounds I've provided to produce the sound effects for Agent 327."
 day_number: 13
 units:
-  - ""
-standards: []
+  - "Sound Design"
+standards:
+  - "MSMTC8.CR.1"
+  - "MSMTC8.CR.2"
+  - "MSMTC8.CR.3"
 tags:
   - GarageBand
   - Sound Design
   - Agent 327
-resources: []
-draft: true
+resources:
+  - "https://cdn.mrwillingham.com/Agent327-30-Seconds.zip"
+  - "GarageBand"
+draft: false
 toc: true
 weight: 3
 ---
@@ -37,7 +42,7 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
-Download the files for [Agent 327 - Operation Barbershop](Agent327-30-Seconds.zip).
+Download the files for [Agent 327 - Operation Barbershop](https://cdn.mrwillingham.com/Agent327-30-Seconds.zip).
 
 Unzip the files after downloading and watch the video file.
 
@@ -99,4 +104,6 @@ Share your project with a partner and explain the choices you made for your soun
 
 ## Standards
 
-- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Standard description here.
+- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas using digital tools (selecting and placing sound effects)
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas into a larger work (arranging sounds, adding music)
+- [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine musical work (using plugins, automation to enhance)
