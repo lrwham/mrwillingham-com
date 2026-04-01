@@ -8,9 +8,14 @@ toc: true
 
 Computer Programming with Scratch is a course offered in grades 6-8 that teaches students how to program using Scratch, a block-based programming language developed by MIT. The course is designed to introduce students to the fundamentals of computer programming and computational thinking through creative projects and interactive activities.
 
-This course uses the standards for Foundations of Computer Programming (MS-CS-FCP) provided by the state of Georgia.
+## Late Work Policy
+
+Missing work will receive a grade of zero until it is submitted. Late work will be accepted with a single 20% deduction.
 
 ## The Standards
+
+This course uses the standards for Foundations of Computer Programming (MS-CS-FCP) provided by the state of Georgia.
+
 
 ### MS-CS-FCP.1
 

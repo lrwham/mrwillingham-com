@@ -67,7 +67,7 @@ Complete **all** of the following activities in order:
 
 Yes, it is homework. You need to finish it on your own time. It is due **Friday, March 27th, 2026**.
 
-After Friday, it is late and will lose **20 points per day** until it reaches **0 points on Wednesday, April 1st, 2026**.
+After Friday, it is late and will receive a **one-time 20 point deduction**.
 
 {{< clever >}}
 

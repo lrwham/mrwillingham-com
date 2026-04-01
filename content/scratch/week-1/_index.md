@@ -24,7 +24,7 @@ This week you will get set up in the computer lab, learn what programming is, an
 {{% alert "Graded Assignments" %}}
 
 - **BrainPop — Computer Programming** (Tuesday) — Complete the video and quiz. The quiz is a daily grade.
-- **Code.org — Programming with Angry Birds** (assigned Tuesday, due Friday 3/20) — Complete all 11 levels plus bonus levels. Late work loses 20 points per day after Friday.
+- **Code.org — Programming with Angry Birds** (assigned Tuesday, due Friday 3/20) — Complete all 11 levels plus bonus levels. Late work will receive a one-time 20 point deduction.
 {{% /alert %}}
 
 ## Week 2 Preview
