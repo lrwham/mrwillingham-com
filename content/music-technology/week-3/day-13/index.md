@@ -23,11 +23,11 @@ weight: 3
 
 {{< icon "calendar" >}} **Wednesday, April 1st, 2026**
 
-<!-- OPTIONAL: Uncomment for announcements, sub plans, schedule changes, etc.
-{{% alert "message" %}}
-Mr. Willingham is out today. Please follow the instructions below.
+{{% alert "Found Sound Submissions" %}}
+Ask Mr. Willingham to explain this!
+
+Submit sounds here! => [Found Sound Submission Form](https://forms.cloud.microsoft/r/r37pAYyvL5)
 {{% /alert %}}
--->
 
 {{% objectives %}}
 
