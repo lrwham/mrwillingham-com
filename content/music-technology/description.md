@@ -8,9 +8,13 @@ toc: true
 
 Advanced Music Technology is a course offered in grade 8 that teaches students how to use digital tools and resources to create, perform, respond, and connect to music as an art form and industry. Students will expand their skills in music production and audio technology, preparing them for upper level music technology or media technology courses at the high school level through in-depth project development.
 
-This course uses the Georgia Standards of Excellence for Advanced Music Technology (MSMTC8).
+## Late Work Policy
+
+Missing work will receive a grade of zero until it is submitted. Late work will be accepted with a single 20% deduction.
 
 ## The Standards
+
+This course uses the Georgia Standards of Excellence for Advanced Music Technology (MSMTC8).
 
 ### Creating
 
