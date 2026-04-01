@@ -22,4 +22,6 @@ weight: 11
 - **Podcast Script** (due Wednesday 3/25) — Your finalized script must meet all expectations and be ready for recording by end of day.
 - **Finished Podcast** (due Friday 3/27) — Your recorded and edited podcast episode, shared with the class.
 
+Late work will receive a one-time 20 point deduction.
+
 {{% /alert %}}

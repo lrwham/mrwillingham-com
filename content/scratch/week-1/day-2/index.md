@@ -86,7 +86,7 @@ Login to Clever.com and click on the Code.org icon. Complete the entire `Program
 
 Yes, it is homework. You need to finish it on your own time. It is due Friday, March 20th, 2026.
 
-After Friday, it is late and will lose 20 points per day until it reaches 0 points on Wednesday, March 25th, 2026.
+After Friday, it is late and will receive a one-time 20 point deduction.
 
 {{% checkpoint %}}
 
