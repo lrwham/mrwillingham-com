@@ -42,7 +42,7 @@ Scratch the cat is too big and awkwardly shaped for a platformer. Before we add 
 
 Open your gravity project from yesterday and **draw a new costume** for your player sprite.
 
-Remix the starter project only if you need to catch up on the previous lessons. If you already have a working gravity project, just edit your existing player sprite.
+{{< icon name="remix" >}} Remix the starter project only if you need to catch up on the previous lessons. If you already have a working gravity project, just edit your existing player sprite.
 
 {{< button text="Starter Project (only if you need to catch up)" >}}https://scratch.mit.edu/projects/1298336874{{< /button >}}
 
