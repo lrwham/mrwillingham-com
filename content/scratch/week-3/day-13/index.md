@@ -30,7 +30,7 @@ weight: 3
 
 - I can redesign my player sprite to be smaller and simpler for a platformer.
 - I can use the `or` operator to detect collisions with both the ground and platforms.
-- I can implement wall and ceiling collision using the move-check-step up pattern.
+- I can implement wall collision using the move-check-step up pattern.
 
 {{% /objectives %}}
 
@@ -40,7 +40,11 @@ weight: 3
 
 Scratch the cat is too big and awkwardly shaped for a platformer. Before we add platforms, you need a character that fits on them.
 
-Open your gravity project from yesterday and **draw a new costume** for your player sprite. Your character must follow these rules:
+Open your gravity project from yesterday and **draw a new costume** for your player sprite.
+
+{{< button text="Starter Project (only if you need to catch up)" >}}https://scratch.mit.edu/projects/1298336874{{< /button >}}
+
+Your character must follow these rules:
 
 | Rule | Why |
 |------|-----|
@@ -124,6 +128,8 @@ The key change from yesterday is wrapping the condition with `or`:
 
 This means: "if the player is touching the ground **or** touching a platform, stop falling."
 
+**Test it now.** Click the green flag and walk your player under the platform, then jump. You should land on the platform and stop falling. If the player falls through, double-check that your `or` block has both `touching` checks inside it.
+
 ### Add Landing Bounce
 
 Try jumping high and falling onto a platform. At high speeds, the player can sink into a platform because `change y by (velocity)` moves several pixels at once.
@@ -152,8 +158,10 @@ end
 
 Here's what the `else` branch does now:
 
-- **If `velocity < 0`** (the player was falling): set velocity to `-0.5 * velocity`. Since velocity is negative, this flips it to a small positive value, bouncing the player gently upward until they settle onto the surface.
+- **If `velocity < 0`** (the player was falling): set velocity to `-0.5 * velocity`. Since velocity is negative, this flips it to a small positive value, bouncing the player gently upward until they settle onto the surface. For example, if velocity is `-8`, then `-0.5 * -8 = 4` — the player bounces up at half the speed they were falling.
 - **Otherwise** (the player was moving up or standing still): set velocity to `0`.
+
+**Test it.** Jump from a high platform and land on a lower one. You should see a gentle bounce when you land instead of an instant stop.
 
 ### Jump from Platforms
 
@@ -201,6 +209,8 @@ The fix is a **step-up test**:
 4. Step back down
 
 If stepping up clears the overlap, you were just standing on a surface — no wall. If you're still stuck after stepping up, there's a wall in the way.
+
+We'll switch from arrow keys to **A and D keys** for left/right movement. This keeps the player's hands in one area of the keyboard — A/D for movement and space for jumping — which is easier during gameplay.
 
 Update your left/right movement code:
 
