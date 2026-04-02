@@ -87,6 +87,8 @@ Here are the [found sounds for 7-1](https://cdn.mrwillingham.com/2026-Q4-7-1-Fou
 
 And... here are the [found sounds for 7-2](https://cdn.mrwillingham.com/2026-Q4-7-2-Found-Sounds.zip).
 
+Oh... and [6th grade](https://cdn.mrwillingham.com/2026-Q4-6-1-Found-Sounds.zip) too!
+
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
