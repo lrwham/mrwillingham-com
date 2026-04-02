@@ -40,9 +40,17 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
-Login to Clever, go to Code.org, start Lesson 14: Nested Loops.
+Login to Clever, go to Code.org, start Lesson 14: Nested Loops. 
 
 {{< clever >}}
+
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
+
+- [ ] I have started lesson 14: Nested Loops on Code.org
+
+{{% /checkpoint %}}
 
 {{% /warmup %}}
 
