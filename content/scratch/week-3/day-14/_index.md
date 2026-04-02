@@ -1,5 +1,5 @@
 ---
-title: "Day 14"
+title: "Day 14: Platformer Review"
 date: 2026-04-02
 description: ""
 day_number: 14
@@ -27,9 +27,8 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Objectives
 
-- I can
-- I can
-- I can
+- I can implement a platformer game in Scratch.
+- I can use loops, conditionals, and variables to create game mechanics.
 
 {{% /objectives %}}
 
@@ -37,18 +36,9 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
+Login to Clever, go to Edpuzzle, watch the video reviewing our work so far.
+
 {{< clever >}}
-
-<!-- Add warmup instructions here -->
-
-{{% checkpoint %}}
-
-### Checkpoint: Warmup
-
-- [ ]
-- [ ]
-
-{{% /checkpoint %}}
 
 {{% /warmup %}}
 
@@ -56,25 +46,28 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Work Session
 
-<!-- Add work session instructions here -->
+Use [this starter code](https://scratch.mit.edu/projects/1298622870) only if your code is not working.
 
-<!-- OPTIONAL: Use buttons for project/worksheet links
-{{< button text="Open Project" >}}https://scratch.mit.edu{{< /button >}}
--->
+### Add an objective
 
-<!-- OPTIONAL: Scratch code blocks — set scratchblocks: true in frontmatter
-```scratch
-when green flag clicked
-move (10) steps
-```
--->
+An objective is some object in the game that the player can collect to gain points. It can be a coin, a star, a gem, etc. Add an objective to your game and make it so that when the player collects it, they collect it and gain a point.
+
+Place the objective on a platform that the player will need to work to reach.
+
+When the player collects the objective, it should disappear and their score should increase by 1.
+
+Then, the player should be teleported back to the starting position.
+
+A new objective should then appear.
+
+Rinse and repeat!
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ]
-- [ ]
+- [ ] Add an objective to your game.
+- [ ] Make the objective collectible and increase the score.
 
 {{% /checkpoint %}}
 
@@ -84,10 +77,7 @@ move (10) steps
 
 ## Closing
 
-<!-- Add closing/wrap-up instructions here -->
+Share your game with a partner and play each other's games. What do you like about your partner's game? What would you change about it?
 
 {{% /closing %}}
 
-## Standards
-
-- [**MS-CS-FCP.X.X**](/scratch/description/#ms-cs-fcpX) — Standard description here.
