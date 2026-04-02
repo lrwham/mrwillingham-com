@@ -13,7 +13,7 @@ standards:
 tags:
   - Scratch
 resources: []
-draft: true
+draft: false
 toc: true
 scratchblocks: false
 weight: 4
