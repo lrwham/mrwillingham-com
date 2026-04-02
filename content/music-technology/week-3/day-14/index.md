@@ -83,6 +83,8 @@ Mr. Willingham will walk you through the process of using plugins and automation
 - **Chorus** — Layers copies of the sound to make it feel thicker or wider
 - **Tremolo** — Makes the volume wobble up and down rhythmically
 
+Here are the [found sounds for 7-1](https://cdn.mrwillingham.com/2026-Q4-7-1-Found-Sounds.zip).
+
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
