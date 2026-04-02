@@ -110,6 +110,8 @@ Share your game with a partner and play each other's games. What do you like abo
 
 Here are two from [first period](https://scratch.mit.edu/studios/51505776).
 
+And [second period](https://scratch.mit.edu/studios/51505777).
+
 {{% /closing %}}
 
 ## Standards
