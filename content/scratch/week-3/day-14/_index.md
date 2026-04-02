@@ -5,7 +5,11 @@ description: ""
 day_number: 14
 units:
   - ""
-standards: []
+standards:
+  - MS-CS-FCP.4.2
+  - MS-CS-FCP.4.5
+  - MS-CS-FCP.4.6
+  - MS-CS-FCP.4.9
 tags:
   - Scratch
 resources: []
@@ -36,7 +40,7 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
-Login to Clever, go to Edpuzzle, watch the video reviewing our work so far.
+Login to Clever, go to Code.org, complete Lesson 14: Nested Loops.
 
 {{< clever >}}
 
@@ -48,26 +52,43 @@ Login to Clever, go to Edpuzzle, watch the video reviewing our work so far.
 
 Use [this starter code](https://scratch.mit.edu/projects/1298622870) only if your code is not working.
 
-### Add an objective
+{{% steps %}}
 
-An objective is some object in the game that the player can collect to gain points. It can be a coin, a star, a gem, etc. Add an objective to your game and make it so that when the player collects it, they collect it and gain a point.
+### Create an Objective Sprite
 
-Place the objective on a platform that the player will need to work to reach.
+An objective is something the player collects for points — a coin, star, gem, key, etc. Create a new sprite and draw your collectible. Keep it small (about 20-30 pixels) so it fits on a platform.
 
-When the player collects the objective, it should disappear and their score should increase by 1.
+### Place the Objective on a Platform
 
-Then, the player should be teleported back to the starting position.
+Position your objective sprite on a platform that the player will need to work to reach. It shouldn't be easy — make the player jump across platforms to get there.
 
-A new objective should then appear.
+### Add a Score Variable
 
-Rinse and repeat!
+Create a variable called `score` (for all sprites). Set it to `0` when the green flag is clicked.
+
+### Detect Collection
+
+On the **objective sprite**, add code to detect when the player touches it. When collected, the objective should hide, and the score should increase by 1.
+
+### Reset the Player
+
+After collecting the objective, teleport the player back to a starting position (e.g., `go to x: -200 y: -100`). This forces the player to navigate the platforms again.
+
+### Respawn the Objective
+
+After a short wait, show the objective again in a new (or the same) position. The loop continues — collect, reset, collect again.
+
+{{% /steps %}}
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ] Add an objective to your game.
-- [ ] Make the objective collectible and increase the score.
+- [ ] I have an objective sprite placed on a platform.
+- [ ] When the player touches the objective, the score increases by 1.
+- [ ] The objective disappears when collected.
+- [ ] The player is teleported back to the starting position.
+- [ ] The objective reappears so the player can collect again.
 
 {{% /checkpoint %}}
 
@@ -81,3 +102,9 @@ Share your game with a partner and play each other's games. What do you like abo
 
 {{% /closing %}}
 
+## Standards
+
+- [**MS-CS-FCP.4.2**](/scratch/description/#ms-cs-fcp4) — Utilize the design process to brainstorm, implement, test, and revise an idea.
+- [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
+- [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Develop an event driven program.
+- [**MS-CS-FCP.4.9**](/scratch/description/#ms-cs-fcp4) — Develop a program that makes a decision based on data or user input.
