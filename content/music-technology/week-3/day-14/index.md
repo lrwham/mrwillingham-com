@@ -1,7 +1,7 @@
 ---
 title: "Day 14: Sound Design From Scratch"
 date: 2026-04-02
-description: ""
+description: "Record found sounds from the environment and use GarageBand plugins like reverb, delay, and distortion to transform them into original sound effects."
 day_number: 14
 units:
   - ""
