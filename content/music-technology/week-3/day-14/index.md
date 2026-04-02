@@ -85,6 +85,8 @@ Mr. Willingham will walk you through the process of using plugins and automation
 
 Here are the [found sounds for 7-1](https://cdn.mrwillingham.com/2026-Q4-7-1-Found-Sounds.zip).
 
+And... here are the [found sounds for 7-2](https://cdn.mrwillingham.com/2026-Q4-7-2-Found-Sounds.zip).
+
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
