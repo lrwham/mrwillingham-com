@@ -36,9 +36,20 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
-Mr. Willingham will walk you through the process of recording a found sound from the environment and importing it into GarageBand. 
+Mr. Willingham will walk you through the process of recording a found sound from the environment and importing it into GarageBand.
 
 We will use portable recorders to capture sounds from around the classroom. If you submitted your own sounds, we will also import those into GarageBand.
+
+**Examples of things to record:**
+
+- Tapping on a desk or table
+- Crumpling paper
+- Snapping fingers or clapping
+- Opening and closing a door
+- Dragging a chair across the floor
+- Clicking a pen
+- Shaking a water bottle
+- Tapping on a window
 
 You can still submit your own sounds to use tomorrow. [Found Sound Submission Form](https://forms.cloud.microsoft/r/r37pAYyvL5)
 
@@ -58,6 +69,16 @@ You can still submit your own sounds to use tomorrow. [Found Sound Submission Fo
 ## Work Session
 
 Mr. Willingham will walk you through the process of using plugins and automation to transform a sound into a new sound effect.
+
+**Plugins to try:**
+
+- **Reverb** — Makes a sound feel like it's in a large room, cave, or hall
+- **Delay** — Repeats the sound like an echo
+- **Distortion** — Adds grit and crunch to make sounds harsher or more intense
+- **Pitch Shifter** — Raises or lowers the pitch of a sound
+- **EQ (Equalizer)** — Boosts or cuts specific frequencies to change the tone
+- **Chorus** — Layers copies of the sound to make it feel thicker or wider
+- **Tremolo** — Makes the volume wobble up and down rhythmically
 
 {{% checkpoint %}}
 
