@@ -5,7 +5,10 @@ description: ""
 day_number: 14
 units:
   - ""
-standards: []
+standards:
+  - MSMTC8.CR.1
+  - MSMTC8.CR.2
+  - MSMTC8.CR.3
 tags:
   - GarageBand
 resources: []
@@ -101,4 +104,6 @@ Mr. Willingham will walk you through the process of using plugins and automation
 
 ## Standards
 
-- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Standard description here.
+- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (recording found sounds to use as raw material).
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (choosing and editing sounds for sound design).
+- [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine selected musical ideas to create musical work that meets appropriate criteria (using plugins to shape sounds).
