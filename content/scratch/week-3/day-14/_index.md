@@ -108,6 +108,8 @@ After a short wait, show the objective again in a new (or the same) position. Th
 
 Share your game with a partner and play each other's games. What do you like about your partner's game? What would you change about it?
 
+Here are two from [first period](https://scratch.mit.edu/studios/51505776).
+
 {{% /closing %}}
 
 ## Standards
