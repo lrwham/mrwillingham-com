@@ -44,7 +44,7 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ### Sound Design Review
 
-Think back to the sound design work we have done this week. Answer the following questions on a sheet of paper or be ready to share out loud:
+Think back to the sound design work we have done this week. Answer the following questions in your head, Be prepared to share your answers with the class.
 
 1. **What is sound design?** Describe it in your own words.
 2. **Name two plugins** we have used in GarageBand and explain what each one does to a sound.
