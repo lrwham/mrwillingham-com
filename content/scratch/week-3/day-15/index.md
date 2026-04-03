@@ -202,7 +202,7 @@ Open **Minecraft Education Edition** and create your own world. Experiment with 
 
 ## Closing
 
-Happy spring break! See you when we get back.
+Happy spring break! See you when we get back. If time allows, we will join a multiplayer server.
 
 {{% /closing %}}
 
