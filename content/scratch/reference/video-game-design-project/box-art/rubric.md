@@ -3,8 +3,6 @@ title: "Box Art Rubric"
 toc: false
 ---
 
-# Box Art Rubric
-
 Use this rubric to guide your work and understand how your box art will be graded. Your box art has two parts — a **front cover** and a **back cover** — and will be scored in five categories.
 
 ## Front Cover (40 points)

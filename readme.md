@@ -52,10 +52,7 @@ content/
 │       └── ...
 ├── scratch/             # Scratch programming class
 ├── sub-plans/           # Substitute teacher plans
-├── troubleshooting/     # Troubleshooting guides
-└── archive/             # Past classes (preserved, not actively published)
-    ├── computer-programming/
-    └── music-technology/
+└── troubleshooting/     # Troubleshooting guides
 ```
 
 Each class is organized into weekly folders (`week-1/`, `week-2/`, etc.), with individual day folders containing an `index.md` lesson file. Past classes are moved into `content/archive/` as subdirectories.
@@ -99,48 +96,64 @@ No parameters. Renders a "Today's Objectives" section. Inner content is typicall
 
 Used in every daily lesson.
 
-Takes a title as a positional parameter. Renders a "Warmup: [Title]" section.
+No parameters. The section title is set by a `## Warmup: [Title]` markdown header inside the block.
 
 ```markdown
-{{</* warmup "Edpuzzle Video" */>}}
+{{% warmup %}}
+
+## Warmup: Edpuzzle Video
+
 **Step 1:** Go to Clever and log in...
-{{</* /warmup */>}}
+
+{{% /warmup %}}
 ```
 
 ### `worksession`
 
 Used in every daily lesson. Use multiple sections when the work demands it.
 
-Takes a title as a positional parameter. Renders a "Work Session: [Title]" section.
+No parameters. The section title is set by a `## Work Session: [Title]` markdown header inside the block.
 
 ```markdown
-{{</* worksession "Safety and Class Procedures" */>}}
+{{% worksession %}}
+
+## Work Session: Safety and Class Procedures
+
 After the warmup, we'll discuss class procedures...
-{{</* /worksession */>}}
+
+{{% /worksession %}}
 ```
 
 ### `checkpoint`
 
 Used in every daily lesson. Place at critical points during the warmup and work session. At least one checkpoint at the end of each warmup and work session.
 
-Takes a title/number as a positional parameter. Renders a "Checkpoint: [Title]" section, typically containing a checklist.
+No parameters. The section title is set by a `### Checkpoint: [Title]` markdown header inside the block. Typically contains a checklist. Can be nested inside `warmup` or `worksession` blocks.
 
 ```markdown
-{{</* checkpoint "Warmup" */>}}
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
+
 - [x] I have finished the Edpuzzle video.
-{{</* /checkpoint */>}}
+
+{{% /checkpoint %}}
 ```
 
 ### `closing`
 
 Used in every daily lesson.
 
-Takes a title as a positional parameter. Renders a "Closing: [Title]" section.
+No parameters. The section title is set by a `## Closing: [Title]` markdown header inside the block.
 
 ```markdown
-{{</* closing "Next Steps" */>}}
+{{% closing %}}
+
+## Closing: Next Steps
+
 Tomorrow we will learn about **layering and timing**.
-{{</* /closing */>}}
+
+{{% /closing %}}
 ```
 
 ## Utility Shortcodes
@@ -152,9 +165,9 @@ Used as needed in daily lessons or elsewhere.
 Paired. Takes a title as a positional parameter. Renders a styled alert box.
 
 ```markdown
-{{</* alert "Important" */>}}
+{{% alert "Important" %}}
 Remember to save your work to OneDrive!
-{{</* /alert */>}}
+{{% /alert %}}
 ```
 
 ### `button`
@@ -164,7 +177,60 @@ Used as needed in daily lessons or elsewhere.
 Paired. Takes a `text` named parameter for the label. Inner content is the URL. Renders a styled link button that opens in a new tab.
 
 ```markdown
-{{</* button text="Go to Clever" */>}}https://clever.com{{</* /button */>}}
+{{< button text="Go to Clever" >}}https://clever.com{{< /button >}}
+```
+
+### `callout`
+
+Used as needed in daily lessons, especially inside `tabs` blocks for step-by-step instructions.
+
+Paired. Optional `type` named parameter: `"default"` (default), `"info"`, `"warning"`, `"error"`, `"important"`, `"tip"`. Optional `icon` named parameter for a custom icon name.
+
+```markdown
+{{< callout type="warning" >}}
+Save your project before closing GarageBand.
+{{< /callout >}}
+
+{{< callout type="important" icon="sparkles" >}}
+You must submit by end of class.
+{{< /callout >}}
+```
+
+### `icon`
+
+Used inline in lesson content to display an icon.
+
+Self-closing. Takes the icon name as a positional parameter.
+
+```markdown
+{{< icon "calendar" >}} **Monday, March 16th, 2026**
+```
+
+### `tabs` and `tab`
+
+Used for multi-step instructions displayed as tabbed content.
+
+`tabs` is a paired wrapper with no parameters. `tab` is a paired shortcode taking a `name` named parameter for the tab label.
+
+```markdown
+{{< tabs >}}
+{{< tab name="Step 1" >}}
+Click the **Share** button.
+{{< /tab >}}
+{{< tab name="Step 2" >}}
+Click **Copy Link**.
+{{< /tab >}}
+{{< /tabs >}}
+```
+
+### `clever`
+
+Used in warmup sections that require students to log in via Clever SSO.
+
+Self-closing, no parameters. Renders a "Login with Clever" button image linking to clever.com.
+
+```markdown
+{{< clever >}}
 ```
 
 ### `todays-lesson`
