@@ -4,7 +4,7 @@ draft: false
 toc: false
 cascade:
   type: docs
-weight: 11
+weight: 9
 ---
 
 ## Unit: Beat Making
