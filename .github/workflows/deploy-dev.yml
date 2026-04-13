@@ -21,4 +21,4 @@ jobs:
             git checkout dev
             git reset --hard origin/dev
             git submodule update --init --recursive
-            HUGO_ENV=dev hugo --minify --cleanDestinationDir
+            HUGO_ENV=dev hugo --minify --cleanDestinationDir --buildFuture

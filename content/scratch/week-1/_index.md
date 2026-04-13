@@ -4,7 +4,7 @@ draft: false
 toc: false
 cascade:
   type: docs
-weight: 3
+weight: 10
 ---
 
 ## Unit: Introduction to Scratch

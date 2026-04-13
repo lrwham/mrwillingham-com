@@ -1,7 +1,7 @@
 ---
-weight: 2
+title: "Reference"
 
 build:
-  list: false
-  render: false
+  list: true
+  render: true
 ---
