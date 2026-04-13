@@ -43,7 +43,7 @@ weight: 1
 
 Welcome back! It's been a while since you opened Scratch. Let's see what you remember.
 
-{{ steps }}
+{{< steps >}}
 
 ### Setup a blank Scratch project with a character sprite.
 
@@ -65,7 +65,7 @@ Pick a second sprite — a star, a ball, a piece of fruit, or anything you like.
 
 Pick any sound you like. When the two sprites touch, the sound should play.
 
-{{ /steps }}
+{{< /steps >}}
 
 
 ### Done early? Try answering these questions:
