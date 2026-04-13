@@ -69,8 +69,11 @@ Pick any sound you like. When the two sprites touch, the sound should play.
 
 {{% /steps %}}
 
+---
 
 ### Done early? Try answering these questions:
+
+---
 
 | Question | Hint |
 |---|---|
@@ -79,8 +82,6 @@ Pick any sound you like. When the two sprites touch, the sound should play.
 | What category holds `change x by` and `change y by`? | It's blue |
 | What is a **variable**? | Think of `score` |
 | What does `when green flag clicked` do? | It's the starting point |
-
-You've used all of these before. Today you'll use them again — in a brand new project.
 
 {{% /warmup %}}
 
