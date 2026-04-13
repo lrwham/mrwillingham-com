@@ -43,7 +43,32 @@ weight: 1
 
 Welcome back! It's been a while since you opened Scratch. Let's see what you remember.
 
-Answer these out loud when called on:
+{{ steps }}
+
+### Setup a blank Scratch project with a character sprite.
+
+Open a blank project.
+
+Add a sprite of your choice.
+
+### Add arrow key movement to your sprite.
+
+The arrow keys should move the sprite around the stage.
+
+If you prefer, WASD are OK too.
+
+### Add a second sprite.
+
+Pick a second sprite — a star, a ball, a piece of fruit, or anything you like.
+
+### Play a sound when the player sprite touches the second sprite.
+
+Pick any sound you like. When the two sprites touch, the sound should play.
+
+{{ /steps }}
+
+
+### Done early? Try answering these questions:
 
 | Question | Hint |
 |---|---|
