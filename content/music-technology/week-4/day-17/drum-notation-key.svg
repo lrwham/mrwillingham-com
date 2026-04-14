@@ -1,0 +1,405 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0.0000 -0.0000 119.5016 169.0094">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g transform="translate(44.1302, 6.2124)">
+<text font-family="serif" font-weight="bold" font-size="3.4929" text-anchor="start" fill="currentColor">
+<tspan>Drum Notation KEY</tspan>
+</text>
+</g>
+<g transform="translate(5.6906, 13.4319)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 12.4319)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 11.4319)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 10.4319)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 9.4319)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:26:5:6">
+<g transform="translate(11.4906, 8.8819)">
+<text font-family="serif" font-weight="bold" font-size="2.2000" text-anchor="start" fill="currentColor">
+<tspan>DRUMS</tspan>
+</text>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:26:2:3">
+<g transform="translate(11.4906, 12.9319)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(5.8206, 11.4319)">
+<path transform="scale(0.0040, -0.0040)" d="M490 -250h-92c-6 0 -10 4 -10 10v480c0 6 4 10 10 10h92c6 0 10 -4 10 -10v-480c0 -6 -4 -10 -10 -10zM270 -250h-93c-6 0 -10 4 -10 10v480c0 6 4 10 10 10h93c6 0 10 -4 10 -10v-480c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:34:2:3">
+<g transform="translate(9.8209, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Bass</tspan>
+</text>
+</g>
+<g transform="translate(9.2746, 19.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Drum</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(12.7298, 11.4319)">
+<rect x="-0.0650" y="-2.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:27:2:3">
+<g transform="translate(24.5306, 10.9319)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:35:2:3">
+<g transform="translate(22.3830, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Snare</tspan>
+</text>
+</g>
+<g transform="translate(22.3147, 19.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Drum</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(25.7698, 11.4319)">
+<rect x="-0.0650" y="-3.6667" width="0.1300" height="2.9806" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:27:5:6">
+<g transform="translate(37.3207, 10.9319)">
+<path transform="scale(0.0040, -0.0040)" d="M163 36l119 97c3 2 6 3 9 3s7 -1 10 -3l20 -16c3 -3 5 -8 5 -12s-2 -9 -5 -12l-115 -93l115 -93c3 -3 5 -8 5 -12s-2 -9 -5 -12l-20 -16c-3 -2 -7 -3 -10 -3s-6 1 -9 3l-119 97l-119 -97c-3 -2 -6 -3 -9 -3s-7 1 -10 3l-20 16c-3 3 -5 8 -5 12s2 9 5 12l115 93l-115 93
+c-3 3 -5 8 -5 12s2 9 5 12l20 16c3 2 7 3 10 3s6 -1 9 -3z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:36:2:3">
+<g transform="translate(35.1730, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Snare</tspan>
+</text>
+</g>
+<g transform="translate(35.1730, 19.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Cross</tspan>
+</text>
+</g>
+<g transform="translate(35.4462, 22.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Stick</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(38.5599, 11.4319)">
+<rect x="-0.0650" y="-3.6667" width="0.1300" height="2.7463" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:28:2:3">
+<g transform="translate(50.1107, 10.9319)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:37:2:3">
+<g transform="translate(47.9631, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Snare</tspan>
+</text>
+</g>
+<g transform="translate(47.8265, 19.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Ghost</tspan>
+</text>
+</g>
+<g transform="translate(48.3728, 22.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Note</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(51.3499, 11.4319)">
+<rect x="-0.0650" y="-3.6667" width="0.1300" height="2.9806" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(49.9107, 10.9319)">
+<path transform="scale(0.0020, -0.0020)" d="M-31 -250c0 -10 -9 -19 -19 -19c-5 0 -12 2 -16 8c-54 77 -90 167 -90 261s36 184 90 261c4 6 11 8 16 8c10 0 19 -9 19 -19c0 -21 -63 -57 -63 -250s63 -229 63 -250z" fill="currentColor"/>
+</g>
+<g transform="translate(51.6149, 10.9319)">
+<path transform="scale(0.0020, -0.0020)" d="M31 -250c0 21 63 57 63 250s-63 229 -63 250c0 10 9 19 19 19c5 0 12 -2 16 -8c54 -77 90 -167 90 -261s-36 -184 -90 -261c-4 -6 -11 -8 -16 -8c-10 0 -19 9 -19 19z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:29:2:3">
+<g transform="translate(62.9008, 10.9319)">
+<path transform="scale(0.0040, -0.0040)" d="M163 36l119 97c3 2 6 3 9 3s7 -1 10 -3l20 -16c3 -3 5 -8 5 -12s-2 -9 -5 -12l-115 -93l115 -93c3 -3 5 -8 5 -12s-2 -9 -5 -12l-20 -16c-3 -2 -7 -3 -10 -3s-6 1 -9 3l-119 97l-119 -97c-3 -2 -6 -3 -9 -3s-7 1 -10 3l-20 16c-3 3 -5 8 -5 12s2 9 5 12l115 93l-115 93
+c-3 3 -5 8 -5 12s2 9 5 12l20 16c3 2 7 3 10 3s6 -1 9 -3z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:38:2:3">
+<g transform="translate(60.7531, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Snare</tspan>
+</text>
+</g>
+<g transform="translate(59.3874, 19.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Rimshot</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(64.1400, 11.4319)">
+<rect x="-0.0650" y="-3.6667" width="0.1300" height="2.7463" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:30:2:3">
+<g transform="translate(75.9408, 9.4319)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:39:2:3">
+<g transform="translate(73.7249, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Tom1</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(77.1801, 11.4319)">
+<rect x="-0.0650" y="-4.6667" width="0.1300" height="2.4806" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:30:7:8">
+<g transform="translate(88.4809, 11.9319)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:40:2:3">
+<g transform="translate(86.2650, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Tom2</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(89.7201, 11.4319)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:30:12:13">
+<g transform="translate(101.0210, 13.4319)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:41:2:3">
+<g transform="translate(99.0099, 16.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Floor</tspan>
+</text>
+</g>
+<g transform="translate(99.4196, 19.9319)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Tom</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(102.2602, 11.4319)">
+<rect x="-0.0650" y="-1.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 25.1371)">
+<rect x="93.1881" y="-0.1000" width="5.5689" height="0.2000" ry="0.1000" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.1371)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 29.1371)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 28.1371)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 27.1371)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<g transform="translate(5.6906, 26.1371)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:60:2:3">
+<g transform="translate(60.5241, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Ride</tspan>
+</text>
+</g>
+<g transform="translate(60.7972, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Bell</tspan>
+</text>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:47:5:6">
+<g transform="translate(11.4906, 23.3649)">
+<text font-family="serif" font-weight="bold" font-size="2.2000" text-anchor="start" fill="currentColor">
+<tspan>CYMBALS</tspan>
+</text>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:47:2:3">
+<g transform="translate(11.4906, 26.6371)">
+<path transform="scale(0.0040, -0.0040)" d="M163 36l119 97c3 2 6 3 9 3s7 -1 10 -3l20 -16c3 -3 5 -8 5 -12s-2 -9 -5 -12l-115 -93l115 -93c3 -3 5 -8 5 -12s-2 -9 -5 -12l-20 -16c-3 -2 -7 -3 -10 -3s-6 1 -9 3l-119 97l-119 -97c-3 -2 -6 -3 -9 -3s-7 1 -10 3l-20 16c-3 3 -5 8 -5 12s2 9 5 12l115 93l-115 93
+c-3 3 -5 8 -5 12s2 9 5 12l20 16c3 2 7 3 10 3s6 -1 9 -3z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(5.8206, 28.1371)">
+<path transform="scale(0.0040, -0.0040)" d="M490 -250h-92c-6 0 -10 4 -10 10v480c0 6 4 10 10 10h92c6 0 10 -4 10 -10v-480c0 -6 -4 -10 -10 -10zM270 -250h-93c-6 0 -10 4 -10 10v480c0 6 4 10 10 10h93c6 0 10 -4 10 -10v-480c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:56:2:3">
+<g transform="translate(8.7283, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Hi-Hat</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(12.7298, 28.1371)">
+<rect x="-0.0650" y="-4.3333" width="0.1300" height="2.4130" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:48:2:3">
+<g transform="translate(24.1237, 26.6371)">
+<path transform="scale(0.0040, -0.0040)" d="M163 36l119 97c3 2 6 3 9 3s7 -1 10 -3l20 -16c3 -3 5 -8 5 -12s-2 -9 -5 -12l-115 -93l115 -93c3 -3 5 -8 5 -12s-2 -9 -5 -12l-20 -16c-3 -2 -7 -3 -10 -3s-6 1 -9 3l-119 97l-119 -97c-3 -2 -6 -3 -9 -3s-7 1 -10 3l-20 16c-3 3 -5 8 -5 12s2 9 5 12l115 93l-115 93
+c-3 3 -5 8 -5 12s2 9 5 12l20 16c3 2 7 3 10 3s6 -1 9 -3z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:48:2:3">
+<g transform="translate(24.7758, 23.1038)">
+<path transform="scale(0.0040, -0.0040)" d="M100 0c0 -65 -40 -125 -100 -125s-100 60 -100 125s40 125 100 125s100 -60 100 -125zM57 0c0 47 -16 95 -57 95s-57 -48 -57 -95s16 -95 57 -95s57 48 57 95z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:57:2:3">
+<g transform="translate(21.3615, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Hi-Hat</tspan>
+</text>
+</g>
+<g transform="translate(22.1126, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Open</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(25.3629, 28.1371)">
+<rect x="-0.0650" y="-4.3333" width="0.1300" height="2.4130" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:48:6:7">
+<g transform="translate(36.5069, 30.6371)">
+<path transform="scale(0.0040, -0.0040)" d="M163 36l119 97c3 2 6 3 9 3s7 -1 10 -3l20 -16c3 -3 5 -8 5 -12s-2 -9 -5 -12l-115 -93l115 -93c3 -3 5 -8 5 -12s-2 -9 -5 -12l-20 -16c-3 -2 -7 -3 -10 -3s-6 1 -9 3l-119 97l-119 -97c-3 -2 -6 -3 -9 -3s-7 1 -10 3l-20 16c-3 3 -5 8 -5 12s2 9 5 12l115 93l-115 93
+c-3 3 -5 8 -5 12s2 9 5 12l20 16c3 2 7 3 10 3s6 -1 9 -3z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:58:2:3">
+<g transform="translate(33.7447, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Hi-Hat</tspan>
+</text>
+</g>
+<g transform="translate(33.6764, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>w/Foot</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(37.7461, 28.1371)">
+<rect x="-0.0650" y="-1.0000" width="0.1300" height="3.0796" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:48:10:11">
+<g transform="translate(49.3900, 25.6371)">
+<path transform="scale(0.0040, -0.0040)" d="M163 36l119 97c3 2 6 3 9 3s7 -1 10 -3l20 -16c3 -3 5 -8 5 -12s-2 -9 -5 -12l-115 -93l115 -93c3 -3 5 -8 5 -12s-2 -9 -5 -12l-20 -16c-3 -2 -7 -3 -10 -3s-6 1 -9 3l-119 97l-119 -97c-3 -2 -6 -3 -9 -3s-7 1 -10 3l-20 16c-3 3 -5 8 -5 12s2 9 5 12l115 93l-115 93
+c-3 3 -5 8 -5 12s2 9 5 12l20 16c3 2 7 3 10 3s6 -1 9 -3z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:59:2:3">
+<g transform="translate(47.7204, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Ride</tspan>
+</text>
+</g>
+<g transform="translate(46.1498, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Cymbal</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(50.6293, 28.1371)">
+<rect x="-0.0650" y="-5.0000" width="0.1300" height="2.0796" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:49:2:3">
+<g transform="translate(62.0232, 25.6371)">
+<path transform="scale(0.0050, -0.0050)" d="M14 -114c-8 0 -14 6 -14 14c0 3 1 6 3 8l149 201c3 4 7 5 11 5s8 -1 11 -5l150 -201c2 -2 2 -5 2 -8c0 -8 -6 -14 -14 -14h-298z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6034, 28.1371)">
+<rect x="-0.0650" y="-5.0000" width="0.1300" height="3.0210" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:50:6:7">
+<g transform="translate(74.9974, 22.7336)">
+<text font-family="serif" font-weight="bold" font-size="2.2000" text-anchor="start" fill="currentColor">
+<tspan>COWBELLS</tspan>
+</text>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:50:2:3">
+<g transform="translate(74.9974, 25.6371)">
+<path transform="scale(0.0040, -0.0040)" d="M194 171c107 0 194 -77 194 -171s-87 -171 -194 -171s-194 77 -194 171s87 171 194 171zM166 0l-96 84c-22 -24 -34 -54 -34 -84s12 -60 34 -84zM194 24l95 83c-27 18 -60 28 -95 28s-69 -10 -96 -28zM194 -24l-96 -83c27 -18 61 -28 96 -28s68 10 95 28zM221 0l97 -84
+c22 24 33 54 33 84s-11 60 -33 84z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:61:2:3">
+<g transform="translate(72.9048, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Crash</tspan>
+</text>
+</g>
+<g transform="translate(71.8805, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Cymbal</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(76.4834, 28.1371)">
+<rect x="-0.0650" y="-5.0000" width="0.1300" height="2.5000" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:51:2:3">
+<g transform="translate(87.8773, 25.6371)">
+<path transform="scale(0.0050, -0.0050)" d="M0 0c0 9 67 57 157 174c1 2 3 3 5 3c10 0 50 -70 161 -172c1 -1 2 -3 2 -5c0 -9 -67 -57 -157 -174c-1 -2 -4 -3 -6 -3c-10 0 -49 70 -160 172c-1 1 -2 3 -2 5z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:62:2:3">
+<g transform="translate(84.8722, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Mambo</tspan>
+</text>
+</g>
+<g transform="translate(84.5308, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Cowbell</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(89.4502, 28.1371)">
+<rect x="-0.0650" y="-5.0000" width="0.1300" height="2.5000" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:52:2:3">
+<g transform="translate(100.8442, 25.1371)">
+<path transform="scale(0.0050, -0.0050)" d="M0 0c0 9 67 57 157 174c1 2 3 3 5 3c10 0 50 -70 161 -172c1 -1 2 -3 2 -5c0 -9 -67 -57 -157 -174c-1 -2 -4 -3 -6 -3c-10 0 -49 70 -160 172c-1 1 -2 3 -2 5z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///Users/lawtonwillingham/Documents/GitHub/mrwillingham-com/content/music-technology/week-4/day-17/drum-notation-key.ly:63:2:3">
+<g transform="translate(97.5659, 33.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Cha-cha</tspan>
+</text>
+</g>
+<g transform="translate(97.4976, 36.6371)">
+<text font-family="serif" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>Cowbell</tspan>
+</text>
+</g>
+</a>
+<g transform="translate(102.4171, 28.1371)">
+<rect x="-0.0650" y="-5.5000" width="0.1300" height="2.5000" ry="0.0400" fill="currentColor"/>
+</g>
+</svg>
