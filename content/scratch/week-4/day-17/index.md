@@ -94,13 +94,13 @@ On the **falling object** sprite, set `speed` to 3 at the start. Add this to the
 
 ```scratch
 when green flag clicked
-set [speed v] to (3)
+set [speed v] to (-3)
 go to x: (pick random (-200) to (200)) y: (180)
 forever
-  change y by ((0) - (speed))
+  change y by (speed)
   if <touching [Player v]?> then
     change [score v] by (1)
-    change [speed v] by (0.5)
+    change [speed v] by (-0.5)
     go to x: (pick random (-200) to (200)) y: (180)
   end
   if <(y position) < (-170)> then
