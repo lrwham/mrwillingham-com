@@ -9,7 +9,7 @@ standards: []
 tags:
   - GarageBand
 resources: []
-draft: false
+draft: true
 toc: true
 weight: 1
 ---
@@ -59,14 +59,28 @@ In the video he uses microcontrollers and MIDI to make a drum machine.
 
 ## Work Session
 
+### Understanding MIDI Drum Mappings
 
+In GarageBand's piano roll, each drum sound is triggered by a specific MIDI note number. The note you click determines which drum sound plays. 
+
+Refer to the **[MIDI Drum Mappings](midi-mappings/)** page for the complete guide to which notes control which sounds. You'll find a quick reference table of the most commonly used drums (kick, snare, hi-hat, toms, cymbals) as well as the complete General MIDI drum map.
+
+### Programming Your First Drum Beat
+
+Using the piano roll in GarageBand:
+
+1. Open the piano roll by double-clicking a drum track.
+2. Find the note numbers you need using the MIDI mappings reference.
+3. Click on the desired note to place drum hits on your timeline.
+4. Start simple: program a basic 4-beat pattern using just the kick drum (C1), snare (D1), and closed hi-hat (F#1).
+5. Once comfortable, experiment with adding cymbals, toms, and other percussion sounds.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ]
-- [ ]
+- [ ] I can locate the MIDI mappings for at least 5 different drum sounds.
+- [ ] I have successfully programmed a drum pattern in the piano roll using at least 3 different drum sounds.
 
 {{% /checkpoint %}}
 
