@@ -156,7 +156,7 @@ If you finish early, try programming the **Add Toms** pattern, which adds toms a
 
 ### Return Your Packet
 
-The **Drum Worksheet Packet** is a class set — please return it to the bin before you leave. We'll pick it back up tomorrow to program more complex patterns and to write your own beat from scratch.
+The **Drum Worksheet Packet** is a class set. Leave it in class.
 
 ### Exit Ticket
 
