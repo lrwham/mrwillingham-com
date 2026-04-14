@@ -9,7 +9,7 @@ standards: []
 tags:
   - GarageBand
 resources: []
-draft: true
+draft: false
 toc: true
 weight: 1
 ---
@@ -65,15 +65,13 @@ In GarageBand's piano roll, each drum sound is triggered by a specific MIDI note
 
 Refer to the **[MIDI Drum Mappings](midi-mappings/)** page for the complete guide to which notes control which sounds. You'll find a quick reference table of the most commonly used drums (kick, snare, hi-hat, toms, cymbals) as well as the complete General MIDI drum map.
 
+The drum notation key shows how these sounds are notated on the staff. **[Drum Notation Key](drum-notation-key/)**.
+
 ### Programming Your First Drum Beat
 
-Using the piano roll in GarageBand:
+Use the printed packet as a reference and program the "Rock Steady" drum pattern in the piano roll. This pattern uses the kick, snare, and hi-hat sounds.
 
-1. Open the piano roll by double-clicking a drum track.
-2. Find the note numbers you need using the MIDI mappings reference.
-3. Click on the desired note to place drum hits on your timeline.
-4. Start simple: program a basic 4-beat pattern using just the kick drum (C1), snare (D1), and closed hi-hat (F#1).
-5. Once comfortable, experiment with adding cymbals, toms, and other percussion sounds.
+If you finish early, try programming the "Add Toms" pattern, which adds toms and cymbals to the mix.
 
 {{% checkpoint %}}
 
