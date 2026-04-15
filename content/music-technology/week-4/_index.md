@@ -22,6 +22,8 @@ This week we start making beats! You'll learn the parts of a drum kit, use loops
 
 {{% alert "Graded Assignments" %}}
 
-- **TBD** - This week is still in progress.
+- **Rock Steady** (due Wednesday 4/15) — Transcribe the "Rock Steady" drum pattern from the printed packet into GarageBand's piano roll using the correct MIDI drum notes.
+
+Late work will receive a one-time 20 point deduction.
 
 {{% /alert %}}
