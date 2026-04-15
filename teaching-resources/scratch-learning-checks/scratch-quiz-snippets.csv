@@ -1,0 +1,21 @@
+Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+What will the sprite do when the green flag is clicked?,Move 10 steps in the direction it is facing,Turn 10 degrees clockwise,Wait 10 seconds before moving,Move 10 sprites onto the stage
+What does this script make the sprite do?,Move back and forth across the stage forever,Move 10 steps one time and stop,Bounce only when it touches a specific color,End the program as soon as it reaches an edge
+What shape will the sprite trace out if it leaves a pen trail?,A square,A triangle,A circle,A pentagon
+When will the sprite's y position change by 50?,Every time the space key is pressed,Only once when the project starts,When the sprite is clicked,When the sprite touches the edge
+"After this script finishes running, what is the value of the score variable?",10,2,5,0
+Where will the sprite move to?,The center of the stage,The top-left corner of the stage,The bottom-right corner of the stage,Wherever it was before the flag was clicked
+When will this script stop waiting and continue?,Only when the score is greater than 10 AND the space key is pressed,When either the score is greater than 10 or the space key is pressed,When both conditions are false,As soon as the green flag is clicked
+What does the broadcast block do in this script?,Sends a message that other scripts can listen for,"Plays a sound named ""start game""","Creates a new sprite named ""start game""",Starts a new Scratch project
+When will this script run?,"When another script broadcasts ""start game""",When the green flag is clicked,When the space key is pressed,When the sprite is clicked
+What happens when this script runs?,A running copy of the sprite is created,The sprite file is permanently duplicated in the sprite list,The sprite's costume is saved,A broadcast is sent to all sprites
+What happens while the sprite is touching red?,The score decreases by 1 over and over,The score increases by 1 over and over,The score is set to -1 one time,The score variable is deleted
+"How many times will the ""move 5 steps"" block run?",10 times,5 times,Forever,1 time
+What will the sprite do?,"Show ""Hello!"" in a speech bubble for 2 seconds","Show ""Hello!"" in a speech bubble forever",Show the number 2 in a speech bubble,Nothing because the text is missing quotes
+What will the audience see and hear in order?,"""Ready?"" appears, a 1-second pause, then ""Go!"" appears","""Ready?"" and ""Go!"" appear at the exact same time","Only ""Go!"" appears because ""Ready?"" is skipped","""Go!"" appears first, then ""Ready?"" one second later"
+Where will the sprite end up on the stage?,In the upper-left area of the stage,In the lower-right area of the stage,In the exact center of the stage,In the lower-left area of the stage
+What happens when the space key is NOT pressed?,"The sprite says ""Walk.""","The sprite says ""Jump!""","The sprite says both ""Jump!"" and ""Walk.""",Nothing happens at all
+Which programming concept does this script best demonstrate?,Iteration (repeating instructions),Debugging,A conditional,A broadcast
+What number will the sprite say?,8,5,3,53
+When will this script run?,When the user clicks on this sprite,When the green flag is clicked,When any key is pressed,When the stage is clicked
+What does this block do to the sprite?,Rotates it 90 degrees clockwise,Rotates it 90 degrees counter-clockwise,Moves it 90 steps forward,Changes its size by 90
