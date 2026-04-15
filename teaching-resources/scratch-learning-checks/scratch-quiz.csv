@@ -1,0 +1,21 @@
+Question,Correct Answer,Distractor 1,Distractor 2,Distractor 3
+What is a sprite in Scratch?,A character or object that can be programmed,The background image behind the action,A sound effect in the project,A type of loop block
+What is the name of the area where sprites appear and perform?,Stage,Backdrop,Costume,Canvas
+What is an algorithm?,A step-by-step set of instructions to solve a problem,An error in a computer program,A type of sprite costume,A block in the Sound category
+What does it mean to debug a program?,Finding and fixing errors in the code,Adding new sprites to the project,Deleting the entire program,Saving the project to the cloud
+Which block makes a program start when the user clicks the green flag?,when green flag clicked,when this sprite clicked,when I start as a clone,when space key pressed
+Which block category contains the "move 10 steps" block?,Motion,Looks,Control,Sensing
+What does a "forever" loop do?,Repeats the blocks inside it over and over without stopping,Runs the blocks inside it one time,Pauses the program forever,Ends the program immediately
+Which block repeats code a specific number of times?,repeat (10) times,forever,if then,wait 1 seconds
+What is a conditional in programming?,A block that runs code only if a certain condition is true,A loop that never ends,A variable that stores a number,A costume for a sprite
+In a flow diagram, what shape is used for a decision (a yes/no question)?,Diamond,Rectangle,Oval,Arrow
+In a flow diagram, what shape is used for the start or end?,Oval,Rectangle,Diamond,Triangle
+The "and" boolean operator is true when...,both conditions are true,at least one condition is true,neither condition is true,the conditions are different
+The "or" boolean operator is true when...,at least one condition is true,both conditions are false,both conditions must be numbers,the conditions are equal
+Which block is used to detect if a sprite is touching a specific color?,touching color (?) ?,if on edge bounce,key pressed?,color is (?) ?
+What does the block "set score to 0" do?,Replaces the score variable's current value with 0,Adds 0 to the current score,Deletes the score variable,Creates a brand new variable each time
+What does the block "change score by 1" do?,Adds 1 to the current value of the score variable,Sets the score to exactly 1,Subtracts 1 from the score,Resets the score to zero
+What do the letters x and y refer to in Scratch?,The horizontal and vertical coordinates of a sprite,The size and color of a sprite,The two main sprite costumes,Two common variable names for score
+Which block creates an independent copy of a sprite while the program is running?,create clone of myself,duplicate sprite,copy costume,new sprite
+Which block runs code on a sprite after a broadcast message is sent?,when I receive [message],broadcast [message],when green flag clicked,when this sprite clicked
+What does "iteration" mean in programming?,Repeating a set of instructions,Making a decision between two choices,Storing a value in memory,Drawing a sprite on the stage
