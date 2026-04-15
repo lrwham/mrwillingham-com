@@ -59,7 +59,7 @@ We'll review the study guide together and take questions or discuss any concepts
 
 ### Learning Check Friday
 
-Here is an [example learning check](learning-check/).
+Here is an [example learning check](learning-check-code/) that focuses on code questions.
 
 {{% /worksession %}}
 
