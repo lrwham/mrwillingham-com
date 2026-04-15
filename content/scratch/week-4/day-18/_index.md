@@ -61,6 +61,8 @@ We'll review the study guide together and take questions or discuss any concepts
 
 Here is an [example learning check](learning-check-code/) that focuses on code questions.
 
+You can also try these short-answer [concept practice questions](learning-check-concepts/) to review vocabulary, booleans, and the big ideas behind what we've built.
+
 {{% /worksession %}}
 
 {{% worksession %}}
