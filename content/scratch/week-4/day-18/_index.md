@@ -71,7 +71,9 @@ You can also try these short-answer [concept practice questions](learning-check-
 
 ### The Problem
 
-Open your catch game from Monday. Click the green flag.
+Open your catch game from Monday or use [this starter project](https://scratch.mit.edu/projects/1307434289). I know some of you experience issues with Scratch logging you out. Use the starter project if you lost some work, didn't finish, etc...
+
+Click the green flag.
 
 One object falls. You catch it. Another falls. You catch it. Over and over — one at a time.
 
