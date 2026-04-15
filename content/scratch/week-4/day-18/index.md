@@ -34,7 +34,28 @@ weight: 3
 
 {{% warmup %}}
 
-## Warmup: The Problem
+## Warmup: Learning Check Friday
+
+Check out this outline of what we have learned so far: [Study Guide](https://cdn.mrwillingham.com/scratch-concepts-slides-rev-a.pdf).
+
+Here are some practice questions to test your understanding: [Learning Check Practice](https://www.gimkit.com/practice/69de3ed0d781918e7228264f).
+
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
+
+- [ ] I have reviewed the study guide.
+- [ ] I have completed the learning check practice questions.
+
+{{% /checkpoint %}}
+
+{{% /warmup %}}
+
+{{% worksession %}}
+
+## Work Session: Clones
+
+### The Problem
 
 Open your catch game from Monday. Click the green flag.
 
@@ -46,19 +67,7 @@ They didn't. They built **one**, and the program copied it.
 
 In Scratch, that tool is called **clones**. Today you'll transform your catch game from one falling object to as many as you want.
 
-{{% checkpoint %}}
-
-### Checkpoint: Warmup
-
-- [ ] I can explain in one sentence why clones are useful.
-
-{{% /checkpoint %}}
-
-{{% /warmup %}}
-
-{{% worksession %}}
-
-## Work Session: Clones
+### The Solution: Clones
 
 Clones use three special blocks:
 
