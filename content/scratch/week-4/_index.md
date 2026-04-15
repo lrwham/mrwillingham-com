@@ -20,3 +20,10 @@ Welcome back from Spring Break! This week you start a brand new project — a fa
 | 18  | Wed 4/15 | [Clones](day-18/)                     | Use clones to spawn many falling objects from a single sprite.                                  |
 | 19  | Thu 4/16 | [Game States & Sound](day-19/)        | Add start and game-over screens with broadcasts, then add sound effects.                        |
 | 20  | Fri 4/17 | [Unit Quiz, Showcase & Week 5 Preview](day-20/) | Take the **Intermediate Scratch unit quiz**, share your game with the class, and preview the group video game project. |
+
+{{% alert "Graded Assignments" %}}
+
+- **Falling-Objects Game** (due Friday 4/17) — A complete Scratch game with player movement, clones, scoring, lives, game states, and at least one sound effect. Share your project on Scratch before class.
+- **Intermediate Scratch Unit Quiz** (Friday 4/17, in class) — Short quiz covering vocabulary, booleans, loops, conditionals, variables, broadcasts, and clones. Review the study guide and practice questions linked from Day 18.
+
+{{% /alert %}}
