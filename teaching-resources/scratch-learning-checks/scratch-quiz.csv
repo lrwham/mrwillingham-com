@@ -8,8 +8,8 @@ Which block category contains the "move 10 steps" block?,Motion,Looks,Control,Se
 What does a "forever" loop do?,Repeats the blocks inside it over and over without stopping,Runs the blocks inside it one time,Pauses the program forever,Ends the program immediately
 Which block repeats code a specific number of times?,repeat (10) times,forever,if then,wait 1 seconds
 What is a conditional in programming?,A block that runs code only if a certain condition is true,A loop that never ends,A variable that stores a number,A costume for a sprite
-In a flow diagram, what shape is used for a decision (a yes/no question)?,Diamond,Rectangle,Oval,Arrow
-In a flow diagram, what shape is used for the start or end?,Oval,Rectangle,Diamond,Triangle
+"In a flow diagram, what shape is used for a decision (a yes/no question)?",Diamond,Rectangle,Oval,Arrow
+"In a flow diagram, what shape is used for the start or end?",Oval,Rectangle,Diamond,Triangle
 The "and" boolean operator is true when...,both conditions are true,at least one condition is true,neither condition is true,the conditions are different
 The "or" boolean operator is true when...,at least one condition is true,both conditions are false,both conditions must be numbers,the conditions are equal
 Which block is used to detect if a sprite is touching a specific color?,touching color (?) ?,if on edge bounce,key pressed?,color is (?) ?
