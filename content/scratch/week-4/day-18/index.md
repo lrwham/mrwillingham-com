@@ -53,7 +53,15 @@ Here are some practice questions to test your understanding: [Learning Check Pra
 
 {{% worksession %}}
 
-## Work Session: Clones
+## Work Session 1: Review
+
+We'll review the study guide together and take questions or discuss any concepts that are still unclear. This is your chance to ask about anything we've covered so far.
+
+### Learning Check Friday
+
+{{% worksession %}}
+
+## Work Session 2: Clones
 
 ### The Problem
 
