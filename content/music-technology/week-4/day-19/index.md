@@ -46,13 +46,24 @@ The **Add Toms** pattern from the packet will **not** be collected for a grade. 
 
 ## Warmup
 
-<!-- Warmup to be added -->
+Login to Clever and open BrainPOP.
+
+Watch the Reading Music Movie and complete the Reading Music Quiz.
+
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
+
+- [ ] I have watched the Reading Music Movie on BrainPOP.
+- [ ] I have completed the Reading Music Quiz.
+
+{{% /checkpoint %}}
 
 {{% /warmup %}}
 
 {{% worksession %}}
 
-## Work Session: Part 1 — Four on the Floor (Round 1)
+## Work Session: Part 1 — Four on the Floor
 
 "Four on the floor" is one of the most common drum patterns in popular music. The kick drum plays on **every** beat — 1, 2, 3, 4 — and you'll hear it in house, disco, rock, and pop. Today you'll build it up one drum at a time by **playing** the notes into GarageBand instead of clicking them in.
 
@@ -144,11 +155,11 @@ Do this for **all four tracks**.
 
 {{% worksession %}}
 
-## Work Session: Part 3 — Swap and Repeat (Round 2)
+## Work Session: Part 3 — Swap and Repeat
 
 Now **swap input methods** with your table-mate. Whoever played on the MIDI controller in Round 1 will use Musical Typing this round, and vice versa.
 
-Start a **new** GarageBand project and build the same four-on-the-floor beat again:
+Either erase your beat or start a **new** GarageBand project and build the same four-on-the-floor beat again:
 
 1. Kick (C1) — quarter notes, four measures.
 2. Snare (D1) — beats 2 and 4, four measures.
