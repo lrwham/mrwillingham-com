@@ -81,7 +81,7 @@ Musical Typing is GarageBand's on-screen MIDI controller — it turns the letter
 
 - Open it with **Window → Musical Typing** or the shortcut **Command + K**.
 - The keys `A` through `L` (and their neighbors) act like white and black keys on a piano.
-- Use the number keys to shift octaves up or down — drums live around C1, so you'll need to shift down.
+- Use the **Z** and **X** keys to shift octaves down or up — drums live around C1, so you'll need to shift down.
 
 See the [MIDI Mappings](../day-17/midi-mappings/) page if you forget a note.
 
@@ -90,7 +90,7 @@ See the [MIDI Mappings](../day-17/midi-mappings/) page if you forget a note.
 We'll follow along with Mr. Willingham. Each track is **four measures** long.
 
 1. **Track 1 — Kick drum (C1):** Quarter notes on every beat. Count "1 — 2 — 3 — 4" for four full measures.
-2. **Track 2 — Snare drum (D1):** Add a new Drummer/Software Instrument track. Play the snare on **beats 2 and 4** for four measures. This is the "backbeat."
+2. **Track 2 — Snare drum (D1):** Add a new Software Instrument track. Play the snare on **beats 2 and 4** for four measures. This is the "backbeat."
 3. **Track 3 — Closed hi-hat (F#1):** Add another track. Play **straight eighth notes** — "1 & 2 & 3 & 4 &" — for four measures.
 4. **Track 4 — Your choice:** Pick any drum or cymbal you like — crash (C#2), ride (Eb2), open hi-hat (Bb1), a tom, anything. Play a simple repeating pattern for four measures.
 
@@ -134,7 +134,7 @@ A smaller grid (1/16) leaves more of your playing intact. A larger grid (1/4) fo
 ### How to Quantize in GarageBand
 
 1. Click your recorded region to select it.
-2. Open the **Piano Roll** editor (press **E** or click the scissors icon).
+2. Open the **Piano Roll** editor (press **E** or double-click the region in the timeline).
 3. On the left side of the editor, find the **Time Quantize** menu.
 4. Pick a note value:
    - Kick and snare → **1/4 Note** works well.
@@ -188,7 +188,13 @@ Then quantize each track.
 
 ## Closing
 
-<!-- Closing to be added -->
+Answer these three questions in a Google Form, in your notebook, or by telling Mr. Willingham before you leave.
+
+1. **What did quantization do to your beat?** Describe what you heard before and after you applied it to one of your tracks.
+
+2. **Fill in the blank:** Quantization is like __________ in math, because it moves every note to the __________ point on the grid.
+
+3. **Which input method felt more natural — the MIDI controller or Musical Typing?** Give one reason why.
 
 {{% /closing %}}
 
