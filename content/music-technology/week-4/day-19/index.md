@@ -46,9 +46,13 @@ The **Add Toms** pattern from the packet will **not** be collected for a grade. 
 
 ## Warmup
 
+Next week we will be adding melodies and basslines to our beats. Some basic music reading will go a long way towards making you more successful when we start writing melodies. Today complete the BrainPOP lesson about reading music notation.
+
 Login to Clever and open BrainPOP.
 
 Watch the Reading Music Movie and complete the Reading Music Quiz.
+
+{{< clever >}}
 
 {{% checkpoint %}}
 
