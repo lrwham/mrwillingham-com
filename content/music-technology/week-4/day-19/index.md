@@ -35,8 +35,7 @@ The **Add Toms** pattern from the packet will **not** be collected for a grade. 
 
 ## Objectives
 
-- I can play a drum pattern into GarageBand using a MIDI controller.
-- I can use Musical Typing (Command+K) to play MIDI from my computer keyboard.
+- I can play a drum pattern into GarageBand using Musical Typing (Command+K).
 - I can build a four-on-the-floor beat with kick (C1), snare (D1), closed hi-hat (F#1), and one sound of my choice.
 - I can explain what quantization does and apply it to clean up the timing of a MIDI recording.
 
@@ -71,9 +70,9 @@ Watch the Reading Music Movie and complete the Reading Music Quiz.
 
 "Four on the floor" is one of the most common drum patterns in popular music. The kick drum plays on **every** beat — 1, 2, 3, 4 — and you'll hear it in house, disco, rock, and pop. Today you'll build it up one drum at a time by **playing** the notes into GarageBand instead of clicking them in.
 
-### Partner Protocol
+### Input Methods
 
-You and your table-mate will share one computer. One of you will play using the **MIDI controller**, the other will use **Musical Typing**. After Round 1, you'll swap.
+There are a limited number of MIDI controllers available. If one is free, you are welcome to use it — but **Musical Typing** works just as well for this activity and is available on every computer.
 
 ### Musical Typing
 
@@ -102,7 +101,7 @@ Listen back after each track. Don't worry if it isn't perfect — we'll fix the 
 
 - [ ] I have four tracks recorded: kick, snare, closed hi-hat, and my choice.
 - [ ] Each track is four measures long.
-- [ ] I used either the MIDI controller OR Musical Typing (Command+K) this round.
+- [ ] I used Musical Typing (Command+K) or a MIDI controller to play the notes in.
 
 {{% /checkpoint %}}
 
@@ -159,26 +158,18 @@ Do this for **all four tracks**.
 
 {{% worksession %}}
 
-## Work Session: Part 3 — Swap and Repeat
+## Work Session: Part 3 — Try the Other Input Method
 
-Now **swap input methods** with your table-mate. Whoever played on the MIDI controller in Round 1 will use Musical Typing this round, and vice versa.
+If you built your beat with Musical Typing and a MIDI controller is now free, try re-recording **one track** using the controller to feel the difference. If you used the MIDI controller first, try re-recording a track with Musical Typing.
 
-Either erase your beat or start a **new** GarageBand project and build the same four-on-the-floor beat again:
-
-1. Kick (C1) — quarter notes, four measures.
-2. Snare (D1) — beats 2 and 4, four measures.
-3. Closed hi-hat (F#1) — straight eighths, four measures.
-4. Your choice — simple repeating pattern, four measures.
-
-Then quantize each track.
+You don't need to rebuild the whole project — swapping just one track is enough to compare how each input method feels.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session 3
 
-- [ ] I used the **other** input method this round (MIDI controller if I typed before, or Musical Typing if I used the controller).
-- [ ] My new project has all four tracks recorded and quantized.
-- [ ] Both my partner and I have now built the beat with both input methods.
+- [ ] I have tried or attempted both input methods (MIDI controller and Musical Typing).
+- [ ] All four tracks are recorded and quantized.
 
 {{% /checkpoint %}}
 
@@ -194,11 +185,11 @@ Answer these three questions in a Google Form, in your notebook, or by telling M
 
 2. **Fill in the blank:** Quantization is like __________ in math, because it moves every note to the __________ point on the grid.
 
-3. **Which input method felt more natural — the MIDI controller or Musical Typing?** Give one reason why.
+3. **Which input method felt more natural — the MIDI controller or Musical Typing?** If you only used one today, describe how it felt and whether you'd want to try the other.
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (playing a four-on-the-floor pattern into GarageBand using a MIDI controller and Musical Typing).
+- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (playing a four-on-the-floor pattern into GarageBand using Musical Typing or a MIDI controller).
 - [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (refining a recorded beat by choosing appropriate quantization grid values for each track).
