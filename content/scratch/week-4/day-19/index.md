@@ -34,7 +34,22 @@ weight: 4
 
 {{% warmup %}}
 
-## Warmup: What's Missing?
+## Warmup: Prepare for Quiz
+
+Review the study guide and sample questions.
+
+[Study Guide](https://cdn.mrwillingham.com/scratch-concepts-slides-rev-a.pdf)
+
+[Sample Code Focused Questions](../day-18/learning-check-code.md)
+
+[Sample Conceptual Questions](../day-18/learning-check-concepts.md)
+
+{{% /warmup %}}
+
+
+{{% worksession %}}
+
+## What's Missing?
 
 Open your game **or** open this [starter code](https://scratch.mit.edu/projects/1307458321) if your game is lost or incomplete.
 
@@ -57,7 +72,7 @@ Using these states means it is easy to go back to `start screen` for example if 
 
 This also makes it easier to add additional features like `pause game` in the future.
 
-{{% /warmup %}}
+{{% /worksession %}}
 
 {{% worksession %}}
 
