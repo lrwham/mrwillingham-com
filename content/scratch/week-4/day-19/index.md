@@ -98,7 +98,7 @@ hide
 When the green flag is clicked, the start screen appears. When the player clicks it, it broadcasts `start game` to every sprite and then hides itself.
 
 {{< callout type="info" >}}
-That name `start game` is important. It is a label for the broadcast signal. Every sprite in the game will listen for that signal to know the game has started.`
+That name `start game` is important. It is a label for the broadcast signal. Every sprite in the game will listen for that signal to know the game has started.
 {{< /callout >}}
 
 
@@ -112,6 +112,7 @@ hide
 
 when I receive [start game v]
 set [score v] to (0)
+set [lives v] to (3)
 go to x: (0) y: (-140)
 show
 forever
@@ -185,7 +186,7 @@ stop [other scripts in sprite v]
 
 #### Broadcast Game Over from Danger Clones
 
-Update your **Danger** clone code to broadcast `game over` instead of `stop [all v]`:
+Update your **Danger** clone code so that touching the player costs one life, and the game ends only when `lives` runs out. Replace the old `stop [all v]` check with this:
 
 ```scratch
 when I start as a clone
@@ -194,12 +195,19 @@ show
 repeat until <(y position) < (-170)>
   change y by (-4)
   if <touching [Player v]?> then
-    broadcast [game over v]
+    change [lives v] by (-1)
+    if <(lives) < (1)> then
+      broadcast [game over v]
+    end
     delete this clone
   end
 end
 delete this clone
 ```
+
+{{< callout type="info" >}}
+The player still has 3 lives from Day 17. Each danger hit subtracts one. Only the hit that takes `lives` below 1 broadcasts `game over` — that's when the game-over screen appears.
+{{< /callout >}}
 
 #### Stop Everything on Game Over
 
@@ -223,7 +231,7 @@ This stops the clone factories and removes any remaining clones from the screen.
 
 #### Test the Full Flow
 
-Green flag — start screen appears. Click it — game plays. Touch a danger object — game over screen appears. Click the green flag again to restart.
+Green flag — start screen appears. Click it — game plays. Take hits from danger objects until `lives` drops to 0 — game over screen appears. Click the green flag again to restart.
 
 {{% /steps %}}
 
