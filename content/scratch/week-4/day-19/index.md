@@ -36,13 +36,29 @@ weight: 4
 
 ## Warmup: Prepare for Quiz
 
-Review the study guide and sample questions.
+Understanding our game code so far is a great way to prepare for the quiz tomorrow.
+
+Login to Clever and open the Edpuzzle video for today.
+
+After the video, review the study guide and sample questions.
 
 [Study Guide](https://cdn.mrwillingham.com/scratch-concepts-slides-rev-a.pdf)
 
 [Sample Code Focused Questions](../day-18/learning-check-code/)
 
 [Sample Conceptual Questions](../day-18/learning-check-concepts/)
+
+{{< clever >}}
+
+{{% checkpoint %}}
+
+#### Checkpoint: Quiz Preparation
+
+- [ ] I have watched the Edpuzzle video for today.
+- [ ] I have reviewed the study guide.
+- [ ] I have attempted the sample questions.
+
+{{% /checkpoint %}}
 
 {{% /warmup %}}
 
