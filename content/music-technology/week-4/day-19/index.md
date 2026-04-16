@@ -35,8 +35,8 @@ The **Add Toms** pattern from the packet will **not** be collected for a grade. 
 
 ## Objectives
 
-- I can play a drum pattern into GarageBand using a MIDI controller and Musical Typing.
-- I can build a four-on-the-floor beat with kick (C1), snare (D1), closed hi-hat (F#1), and one sound of my choice.
+- I can play a drum track into GarageBand using a MIDI controller and Musical Typing.
+- I can record a kick drum (C1) on every beat and a snare drum (D1) on beats 2 and 4.
 - I can explain what quantization does and apply it to clean up the timing of a MIDI recording.
 
 {{% /objectives %}}
@@ -72,7 +72,13 @@ Watch the Reading Music Movie and complete the Reading Music Quiz.
 
 ### Partner Protocol
 
-You and your table-mate will coordinate on the MIDI controller. One of you will use the **MIDI controller** for Round 1 while the other uses **Musical Typing** — each on your own computer. After Round 1 you'll swap, so everyone gets a turn with the controller.
+You and your table-mate will coordinate on the MIDI controller. Decide who goes first:
+
+- **Round 1 (Kick drum):** One of you uses the **MIDI controller**, the other uses **Musical Typing** — each on your own computer.
+- **Swap** after the kick is recorded.
+- **Round 2 (Snare drum):** Switch input methods. The person who typed now uses the controller, and vice versa.
+
+This way everyone gets a turn with the controller in the same project.
 
 ### Musical Typing
 
@@ -86,12 +92,12 @@ See the [MIDI Mappings](../day-17/midi-mappings/) page if you forget a note.
 
 ### Build the Beat — One Track at a Time
 
-We'll follow along with Mr. Willingham. Each track is **four measures** long.
+We'll follow along with Mr. Willingham. Each track is **four measures** long. Today we are recording Tracks 1 and 2 — Tracks 3 and 4 come on Friday.
 
-1. **Track 1 — Kick drum (C1):** Quarter notes on every beat. Count "1 — 2 — 3 — 4" for four full measures.
+1. **Track 1 — Kick drum (C1):** Quarter notes on every beat. Count "1 — 2 — 3 — 4" for four full measures. *(swap input methods after this track)*
 2. **Track 2 — Snare drum (D1):** Add a new Software Instrument track. Play the snare on **beats 2 and 4** for four measures. This is the "backbeat."
-3. **Track 3 — Closed hi-hat (F#1):** Add another track. Play **straight eighth notes** — "1 & 2 & 3 & 4 &" — for four measures.
-4. **Track 4 — Your choice:** Pick any drum or cymbal you like — crash (C#2), ride (Eb2), open hi-hat (Bb1), a tom, anything. Play a simple repeating pattern for four measures.
+3. **Track 3 — Closed hi-hat (F#1):** *(Friday)* Add another track. Play **straight eighth notes** — "1 & 2 & 3 & 4 &" — for four measures.
+4. **Track 4 — Your choice:** *(Friday)* Pick any drum or cymbal you like — crash (C#2), ride (Eb2), open hi-hat (Bb1), a tom, anything. Play a simple repeating pattern for four measures.
 
 Listen back after each track. Don't worry if it isn't perfect — we'll fix the timing in Part 2.
 
@@ -99,9 +105,9 @@ Listen back after each track. Don't worry if it isn't perfect — we'll fix the 
 
 ### Checkpoint: Work Session 1
 
-- [ ] I have four tracks recorded: kick, snare, closed hi-hat, and my choice.
+- [ ] I have two tracks recorded: kick (C1) and snare (D1).
 - [ ] Each track is four measures long.
-- [ ] I used either the MIDI controller OR Musical Typing (Command+K) this round.
+- [ ] I used one input method for the kick and **switched** for the snare.
 
 {{% /checkpoint %}}
 
@@ -137,18 +143,18 @@ A smaller grid (1/16) leaves more of your playing intact. A larger grid (1/4) fo
 3. On the left side of the editor, find the **Time Quantize** menu.
 4. Pick a note value:
    - Kick and snare → **1/4 Note** works well.
-   - Closed hi-hat → **1/8 Note** (since they were straight eighths).
-   - Your choice track → depends on what you played.
+   - Closed hi-hat → **1/8 Note** (since they are straight eighths) — you'll use this on Friday.
+   - Your choice track → depends on what you play — you'll decide on Friday.
 5. Watch the notes snap onto the grid. Press spacebar and listen — it should sound tighter.
 
-Do this for **all four tracks**.
+Do this for **both tracks today** (kick and snare). You'll quantize the hi-hat and your choice track on Friday.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session 2
 
-- [ ] I selected the right grid value for each track.
-- [ ] All four tracks have been quantized.
+- [ ] I quantized the kick track using **1/4 Note**.
+- [ ] I quantized the snare track using **1/4 Note**.
 - [ ] The beat now plays cleanly in time.
 - [ ] I can explain quantization as "rounding" for musical timing.
 
@@ -156,32 +162,6 @@ Do this for **all four tracks**.
 
 {{% /worksession %}}
 
-{{% worksession %}}
-
-## Work Session: Part 3 — Swap and Repeat
-
-Now **swap input methods** with your table-mate. Pass the MIDI controller to your partner if you used it in Round 1, or pick it up if you used Musical Typing.
-
-Start a **new** GarageBand project and build the same four-on-the-floor beat again — this time with the other input method:
-
-1. Kick (C1) — quarter notes, four measures.
-2. Snare (D1) — beats 2 and 4, four measures.
-3. Closed hi-hat (F#1) — straight eighths, four measures.
-4. Your choice — simple repeating pattern, four measures.
-
-Then quantize each track.
-
-{{% checkpoint %}}
-
-### Checkpoint: Work Session 3
-
-- [ ] I used the **other** input method this round (MIDI controller if I typed before, or Musical Typing if I used the controller).
-- [ ] My new project has all four tracks recorded and quantized.
-- [ ] Both my partner and I have now built the beat with both input methods.
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
 
 {{% closing %}}
 
