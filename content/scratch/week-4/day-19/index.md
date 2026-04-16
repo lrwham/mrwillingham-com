@@ -1,7 +1,7 @@
 ---
-title: "Day 19: Game States & Sound"
+title: "Day 19: Game States"
 date: 2026-04-16
-description: "Add start and game-over screens with broadcasts, then add sound effects to complete your falling-objects game."
+description: "Add start and game-over screens with broadcasts, then polish your game."
 day_number: 19
 units:
   - "Intermediate Scratch"
@@ -12,7 +12,6 @@ standards:
 tags:
   - Scratch
   - Broadcasts
-  - Sound
   - Events
   - Programming
 resources: []
@@ -30,7 +29,6 @@ weight: 4
 
 - I can use `broadcast` and `when I receive` to coordinate between sprites.
 - I can implement a start screen and game-over screen.
-- I can add sound effects to game events.
 
 {{% /objectives %}}
 
@@ -38,14 +36,24 @@ weight: 4
 
 ## Warmup: What's Missing?
 
-Click the green flag on your game. Objects start falling immediately — no title, no instructions. Touch a danger object — the game just freezes. No "Game Over" message, no way to play again without clicking the green flag.
+Click the green flag on your game. Objects start falling immediately — no title, no instructions. Touch a dangerous falling object — the game just freezes. No "Game Over" message, no way to play again without clicking the green flag.
 
-Real games have **states**:
+In other words, your game is difficult to enjoy. We need to add some structure to give the game more polish.
+
+Game state describes what part of the game the player is in and what the values of different variables are. 
+
+Games have **states** like:
 - **Start** — a title screen before the action begins
 - **Playing** — the actual gameplay
 - **Game Over** — a message when you lose
 
-Today you'll add all three using a tool called **broadcasts**, and then add sound to make your game feel finished.
+More advanced games may have other states like "Paused", "Level Complete", "Loading", "Main Menu", "Store", "Cutscene", etc.
+
+Today you'll add `start screen`, `playing`, and `game-over` states using a tool called **broadcasts**.
+
+Using these states means it is easy to go back to `start screen` for example if the player wants to play again.
+
+This also makes it easier to add additional features like `pause game` in the future.
 
 {{% /warmup %}}
 
@@ -69,7 +77,7 @@ when I receive [start game v]
 
 {{% steps %}}
 
-### Create a Start Screen Sprite
+#### Create a Start Screen Sprite
 
 Add a new sprite called `Start Screen`. In the costume editor, draw a large filled rectangle that covers most of the stage, then write your game's title and "Click to Start" on top of it.
 
@@ -87,9 +95,14 @@ hide
 
 When the green flag is clicked, the start screen appears. When the player clicks it, it broadcasts `start game` to every sprite and then hides itself.
 
-### Update the Player
+{{< callout type="info" >}}
+That name `start game` is important. It is a label for the broadcast signal. Every sprite in the game will listen for that signal to know the game has started.`
+{{< /callout >}}
 
-The player should be hidden until the game starts. Update your player sprite's code:
+
+#### Update the Player
+
+The player should be hidden until the game starts. Update your player sprite's code so that it listens for the `start game` broadcast before showing and allowing movement. The player should be hidden when the green flag is clicked, and only show and move after receiving the `start game` broadcast:
 
 ```scratch
 when green flag clicked
@@ -109,13 +122,13 @@ forever
 end
 ```
 
-{{< callout type="warning" >}}
+{{< callout type="info" >}}
 The player's movement code now starts from `when I receive [start game v]` instead of `when green flag clicked`. The green flag only hides the player — the broadcast tells it when to start.
 {{< /callout >}}
 
-### Update the Falling Object Clones
+#### Update the Falling Object Clones
 
-Your clone factories should only start spawning after the game begins. On your **falling object** sprite, change the factory to listen for the broadcast:
+Your clone factories should only start spawning after the game begins. Remember, the game now begins when the broadcast message `start game` is received. On your **falling object** sprite, change the factory to listen for the broadcast:
 
 ```scratch
 when green flag clicked
@@ -128,9 +141,11 @@ forever
 end
 ```
 
-Do the same for your **Danger** sprite — change its factory to start on `when I receive [start game v]` instead of `when green flag clicked`.
+#### Danger Clones
 
-### Test the Start Screen
+The dangerous falling objects should also only start after the game begins. Change the clone factory to start on `when I receive [start game v]` instead of `when green flag clicked`.
+
+#### Test the Start Screen
 
 Click the green flag. You should see the start screen. Click it — it disappears, your player shows up, and objects start falling.
 
@@ -138,7 +153,7 @@ Click the green flag. You should see the start screen. Click it — it disappear
 
 {{% checkpoint %}}
 
-### Checkpoint: Start Screen
+#### Checkpoint: Start Screen
 
 - [ ] A start screen appears when the green flag is clicked.
 - [ ] Nothing moves until the start screen is clicked.
@@ -146,9 +161,11 @@ Click the green flag. You should see the start screen. Click it — it disappear
 
 {{% /checkpoint %}}
 
+### Game Over Screen
+
 {{% steps %}}
 
-### Create a Game Over Screen
+#### Create a Game Over Screen
 
 Add a new sprite called `Game Over`. In the costume editor, draw a large filled rectangle and write "Game Over" in big text. You can add "Click green flag to play again" below it.
 
@@ -164,7 +181,7 @@ show
 stop [other scripts in sprite v]
 ```
 
-### Broadcast Game Over from Danger Clones
+#### Broadcast Game Over from Danger Clones
 
 Update your **Danger** clone code to broadcast `game over` instead of `stop [all v]`:
 
@@ -182,7 +199,7 @@ end
 delete this clone
 ```
 
-### Stop Everything on Game Over
+#### Stop Everything on Game Over
 
 Each sprite needs to react to the `game over` broadcast. On the **player** sprite, add:
 
@@ -202,7 +219,7 @@ delete this clone
 
 This stops the clone factories and removes any remaining clones from the screen.
 
-### Test the Full Flow
+#### Test the Full Flow
 
 Green flag — start screen appears. Click it — game plays. Touch a danger object — game over screen appears. Click the green flag again to restart.
 
@@ -218,112 +235,18 @@ Green flag — start screen appears. Click it — game plays. Touch a danger obj
 
 {{% /checkpoint %}}
 
-### Part 2: Sound Effects
 
-Sound makes a game feel finished. Scratch has a built-in library with hundreds of effects.
+### Finished Early? Polish Your Game!
 
-**To add a sound to a sprite:**
-1. Click the sprite
-2. Click the **Sounds** tab at the top
-3. Click the **speaker icon** (bottom-left) to open the library
-4. Search for a sound and click it to add
+Use remaining time to make your game as strong as possible for tomorrow's showcase.
 
-Two blocks for playing sound:
+- add sounds
+- add more variety to your falling objects
+- add a background costume
+- add a score display
+- add a high score display
+- etc...
 
-```scratch
-start sound [Pop v]
-```
-
-```scratch
-play sound [Pop v] until done
-```
-
-Use `start sound` for short effects — it plays in the background without pausing your code. Use `play sound until done` only when you want the script to wait for the sound to finish.
-
-{{% steps %}}
-
-### Catch Sound
-
-Add a short, positive sound to your **falling object** sprite (search "collect", "coin", or "pop"). Play it when a clone is caught:
-
-```scratch
-if <touching [Player v]?> then
-  start sound [Collect v]
-  change [score v] by (1)
-  delete this clone
-end
-```
-
-### Game Over Sound
-
-Add a dramatic sound to your **Game Over** sprite (search "lose", "wand", or "rattle"):
-
-```scratch
-when I receive [game over v]
-go to x: (0) y: (0)
-show
-start sound [Lose v]
-stop [other scripts in sprite v]
-```
-
-### Background Music (Optional)
-
-If you have time, create a tiny hidden sprite called `Music`. Add a track from the library and loop it:
-
-```scratch
-when I receive [start game v]
-set volume to (30) %
-forever
-  play sound [Dance Around v] until done
-end
-
-when I receive [game over v]
-stop all sounds
-```
-
-{{< callout type="tip" >}}
-Use `play sound until done` (not `start sound`) inside the `forever` loop. This waits for the track to finish before restarting it. If you use `start sound` in a `forever` loop, Scratch will launch thousands of overlapping sounds instantly.
-{{< /callout >}}
-
-{{% /steps %}}
-
-{{% checkpoint %}}
-
-### Checkpoint: Sound
-
-- [ ] A sound plays when the player catches an object.
-- [ ] A sound plays on game over.
-
-{{% /checkpoint %}}
-
-### Part 3: Polish
-
-Use remaining time to make your game as strong as possible for tomorrow's showcase. Bugs first, then features:
-
-| Fix / Feature | Impact |
-|---|---|
-| Fix bugs (clones not disappearing, score not resetting on restart) | High |
-| Add a backdrop that fits your game's theme | Medium |
-| Stop the player from going off the edges of the stage | Medium |
-| Make objects fall faster as the score increases | Medium |
-| Improve the look of your start screen and game-over screen | Low |
-
-{{< callout type="warning" >}}
-**Share your project** so it's ready for tomorrow's showcase:
-1. Click **Share** in the top-right corner of Scratch
-2. Give your project a clear title
-3. Add a short description explaining how to play
-{{< /callout >}}
-
-{{% checkpoint %}}
-
-### Checkpoint: Polish
-
-- [ ] My game runs from start screen to game over without crashing.
-- [ ] My game has at least one sound effect.
-- [ ] My project is shared on Scratch with a title and description.
-
-{{% /checkpoint %}}
 
 {{% /worksession %}}
 
@@ -331,7 +254,7 @@ Use remaining time to make your game as strong as possible for tomorrow's showca
 
 ## Closing
 
-In four days you built a complete game from nothing: player movement, falling objects, clone spawning, collision detection, scoring, game states, and sound. That's every major Scratch skill you've learned this year working together in one project.
+In four days you built a complete game from nothing: player movement, falling objects, clone spawning, collision detection, scoring, game states, and more. That's every major Scratch skill you've learned this year working together in one project.
 
 Tomorrow you'll share your game with the class — and get a preview of the group project starting next week.
 
