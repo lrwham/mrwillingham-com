@@ -40,9 +40,9 @@ Review the study guide and sample questions.
 
 [Study Guide](https://cdn.mrwillingham.com/scratch-concepts-slides-rev-a.pdf)
 
-[Sample Code Focused Questions](../day-18/learning-check-code.md)
+[Sample Code Focused Questions](../day-18/learning-check-code/)
 
-[Sample Conceptual Questions](../day-18/learning-check-concepts.md)
+[Sample Conceptual Questions](../day-18/learning-check-concepts/)
 
 {{% /warmup %}}
 
@@ -254,7 +254,7 @@ Green flag — start screen appears. Click it — game plays. Take hits from dan
 
 ### Checkpoint: Game Over
 
-- [ ] A game-over screen appears when the player touches a danger object.
+- [ ] A game-over screen appears when `lives` drops to 0.
 - [ ] All falling objects stop and disappear when the game ends.
 - [ ] Clicking the green flag resets and restarts the game from the start screen.
 
