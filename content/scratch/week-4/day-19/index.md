@@ -36,6 +36,8 @@ weight: 4
 
 ## Warmup: What's Missing?
 
+Open your game **or** open this [starter code](https://scratch.mit.edu/projects/1307458321) if your game is lost or incomplete.
+
 Click the green flag on your game. Objects start falling immediately — no title, no instructions. Touch a dangerous falling object — the game just freezes. No "Game Over" message, no way to play again without clicking the green flag.
 
 In other words, your game is difficult to enjoy. We need to add some structure to give the game more polish.
