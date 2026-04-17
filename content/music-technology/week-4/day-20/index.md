@@ -18,7 +18,7 @@ tags:
 resources:
   - "GarageBand"
   - "MIDI Controller"
-draft: false
+draft: true
 toc: true
 weight: 1
 ---
