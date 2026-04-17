@@ -18,7 +18,7 @@ tags:
 resources:
   - "GarageBand"
   - "MIDI Controller"
-draft: true
+draft: false
 toc: true
 weight: 1
 ---
@@ -62,9 +62,9 @@ Open the GarageBand project you started on Thursday. You should already have two
 
 Press spacebar and listen. If either track still sounds off, re-quantize using **1/4 Note** before moving on.
 
-You can also fix them using musical typing (command + K)
+You can also re-record notes using Musical Typing (**Command + K**).
 
-We will setup the MIDI controllers in a minute. Like yesterday, you will need to take turns using musical typing and the MIDI controller.
+We will set up the MIDI controllers in a minute. Like yesterday, you will need to take turns using musical typing and the MIDI controller.
 
 {{% checkpoint %}}
 
