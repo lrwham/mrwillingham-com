@@ -23,6 +23,14 @@ weight: 5
 
 {{< icon "calendar" >}} **Friday, April 17th, 2026**
 
+{{< callout type="warning" >}}
+
+The group game design project starts Monday. You will need colored pencils, markers, etc during the design phase of the project.
+
+Groups are at most 3 students.
+
+{{< /callout >}}
+
 {{% objectives %}}
 
 ## Objectives
