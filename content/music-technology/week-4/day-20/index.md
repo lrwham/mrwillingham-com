@@ -39,6 +39,16 @@ weight: 1
 
 ## Warmup
 
+Watch the video on Edpuzzle that reviews the steps for recording a beat with the MIDI controller. The video also covers how to quantize each track.
+
+{{< clever >}}
+
+{{% checkpoint %}}
+
+- [ ] I have watched the Edpuzzle video on recording and quantizing a beat.
+
+{{% /checkpoint %}}
+
 {{% /warmup %}}
 
 {{% worksession %}}
@@ -50,7 +60,11 @@ Open the GarageBand project you started on Thursday. You should already have two
 - **Track 1 — Kick drum (C1):** Quarter notes on every beat (1, 2, 3, 4).
 - **Track 2 — Snare drum (D1):** On beats 2 and 4 — the "backbeat."
 
-Press spacebar and listen. If either track still sounds off, re-open the Piano Roll (press **E**) and re-quantize using **1/4 Note** before moving on.
+Press spacebar and listen. If either track still sounds off, re-quantize using **1/4 Note** before moving on.
+
+You can also fix them using musical typing (command + K)
+
+We will setup the MIDI controllers in a minute. Like yesterday, you will need to take turns using musical typing and the MIDI controller.
 
 {{% checkpoint %}}
 
@@ -148,6 +162,12 @@ With all four tracks playing, listen to your complete four-on-the-floor beat. Ad
 {{% closing %}}
 
 ## Closing
+
+Think about these questions — you may be called on to share your answer out loud.
+
+1. **Your beat has four tracks.** Name each one and the MIDI note it uses.
+2. **Why did the hi-hat use a 1/8 Note quantize grid instead of 1/4 Note?** What would have happened if you had used 1/4?
+3. **What sound did you pick for track four, and why?** What does it add to the beat?
 
 {{% /closing %}}
 
