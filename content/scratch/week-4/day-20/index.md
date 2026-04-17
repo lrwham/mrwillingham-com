@@ -1,19 +1,19 @@
 ---
-title: "Day 20: Showcase & Week 5 Preview"
+title: "Day 20: Quiz & Share Your Game"
 date: 2026-04-17
-description: "Share your falling-objects game with the class, then get a preview of the group video game design project."
+description: "Review and take the Week 4 quiz, then tweak and share your falling-objects game on Scratch."
 day_number: 20
 units:
   - "Intermediate Scratch"
 standards:
   - MS-CS-FCP.3.1
-  - MS-CS-FCP.3.4
-  - MS-CS-FCP.4.2
+  - MS-CS-FCP.4.5
+  - MS-CS-FCP.4.6
 tags:
   - Scratch
-  - Showcase
+  - Quiz
   - Game Design
-  - Collaboration
+  - Sharing
 resources: []
 draft: false
 toc: true
@@ -27,112 +27,77 @@ weight: 5
 
 ## Objectives
 
-- I can share my game and give specific feedback on a classmate's game.
-- I can identify at least two features I am proud of in my project.
-- I can explain what a game design document is and why teams use one.
+- I can demonstrate my understanding of Scratch concepts from this week.
+- I can make final improvements to my falling-objects game.
+- I can share my project on Scratch and add it to the class studio.
 
 {{% /objectives %}}
 
 {{% warmup %}}
 
-## Warmup: Play-Test Walk
+## Warmup: Quiz Review
 
-For the first 10 minutes of class, walk around the room and play at least **two classmates' games**.
+Use the warmup time to review the materials below before the quiz.
 
-While you play, think about:
+[Study Guide](https://cdn.mrwillingham.com/scratch-concepts-slides-rev-a.pdf)
 
-- **What works well?** What mechanics feel smooth or satisfying?
-- **What is confusing?** What did you not know how to do when you started?
-- **What would you borrow?** Is there a feature you'd want in your own game?
+[Sample Code Focused Questions](../day-18/learning-check-code/)
 
-Be ready to share one piece of specific positive feedback with the class.
+[Sample Conceptual Questions](../day-18/learning-check-concepts/)
+
+{{% checkpoint %}}
+
+#### Checkpoint: Ready for the Quiz?
+
+- [ ] I have reviewed the study guide.
+- [ ] I have looked over the sample questions.
+
+{{% /checkpoint %}}
 
 {{% /warmup %}}
 
 {{% worksession %}}
 
-## Work Session 1: Showcase
+## Quiz
 
-A few volunteers will present their games to the whole class. Raise your hand if you'd like to share.
+When your teacher instructs you to begin, log in to CTLS and complete the quiz independently.
 
-When you present, tell the class:
+{{% /worksession %}}
 
-1. **Your game's name** and a one-sentence description of how it's played
-2. **One feature you are proud of** — and what Scratch code makes it work
-3. **One thing you would change** if you had more time
+{{% worksession %}}
 
-After each presentation, the class will give one round of feedback.
+## Work Session: Final Tweaks & Share
 
-{{< callout type="tip" >}}
-Specific feedback is more useful than general feedback. "The catch sound effect was satisfying" is better than "it was good." "The danger objects fell too fast for me to react" is better than "it was hard."
-{{< /callout >}}
+After the quiz, open your falling-objects game in Scratch and use the remaining time to polish it.
 
----
+Some ideas:
+- Add or adjust sounds
+- Tweak the difficulty (falling speed, spawn rate)
+- Improve your start screen or game-over screen
+- Fix any bugs you noticed while playing
 
-## Work Session 2: Week 5 Preview — Group Video Game Project
+### Share Your Game
 
-Starting **Monday**, you will work in small groups to design and build a **complete original video game** in Scratch.
+When you are happy with your game, share it so classmates can play it.
 
-This is the biggest project of the course.
+{{% steps %}}
 
-### What Are You Building?
+#### Click Share
 
-Your group will design a game from scratch — including:
+In the top-right corner of the Scratch editor, click the **Share** button. Your project will become publicly visible.
 
-- A **title** and game concept
-- A **player character** with movement and collision
-- **At least two game mechanics** (collecting, avoiding, shooting, solving, etc.)
-- A **win condition** and a **lose condition**
-- A **start screen** and **end screen**
-- **Sound effects** and music
+#### Add to Today's Studio
 
-Everything you have built this year — conditionals, loops, variables, broadcasts, clones, collision, sound — goes into this project.
+After sharing, find the **"Add to Studio"** button on your project page. Add your game to the studio for today so the class can find and play everyone's games.
 
-### Team Roles
-
-Every member of your team will have a role. In small groups, one person may hold more than one.
-
-| Role | Responsibilities |
-|---|---|
-| **Lead Programmer** | Writes the core game loop and player mechanics |
-| **Artist** | Designs sprites, costumes, and backgrounds |
-| **Level Designer** | Designs the level layout and difficulty |
-| **Sound Designer** | Finds or records sounds and music, adds them to the project |
-
-### Game Genres to Consider
-
-| Genre | Examples | Key Mechanic |
-|---|---|---|
-| Platformer | Mario, Donkey Kong | Gravity, jumping, collecting |
-| Top-Down Shooter | Galaga, Asteroids | Directional movement, clones for bullets/enemies |
-| Maze / Chase | Pac-Man | Pathfinding, collision, collectibles |
-| Catch / Dodge | (Your Week 4 game!) | Falling objects, clones, scoring |
-| Puzzle | Portal (simplified) | Logic, triggers, sequences |
-| Endless Runner | (Side-scroller) | Obstacle avoidance, scrolling background |
-
-Original ideas outside this list are welcome.
-
-### The Box Art Assignment
-
-Before your team writes a single line of code, you will design **box art** for your game — the cover it would have if it were sold in a store.
-
-{{< button text="Box Art Assignment & Rubric" >}}/scratch/reference/video-game-design-project/box-art/{{< /button >}}
-
-This is not just a drawing project. It will push your team to agree on:
-- What the game is called
-- What the player and world look like
-- What kind of game it is
-- What makes someone want to play it (your tagline)
-
-A team that cannot describe their game in one sentence is not ready to build it. The box art assignment forces that clarity before you open Scratch.
+{{% /steps %}}
 
 {{% checkpoint %}}
 
-### Checkpoint: Week 5 Preview
+### Checkpoint: Shared!
 
-- [ ] I know which team role I want.
-- [ ] I have at least one genre or concept idea for our group game.
-- [ ] I understand what the box art assignment is asking for.
+- [ ] My game is shared on Scratch.
+- [ ] My game has been added to today's studio.
 
 {{% /checkpoint %}}
 
@@ -153,5 +118,5 @@ Next week you take those same skills and apply them to something bigger, built t
 ## Standards
 
 - [**MS-CS-FCP.3.1**](/scratch/description/#ms-cs-fcp3) — Apply a design process to plan and build a computational artifact.
-- [**MS-CS-FCP.3.4**](/scratch/description/#ms-cs-fcp3) — Break a problem into smaller steps using decomposition.
-- [**MS-CS-FCP.4.2**](/scratch/description/#ms-cs-fcp4) — Collaborate with others to design and implement a computer program.
+- [**MS-CS-FCP.4.5**](/scratch/description/#ms-cs-fcp4) — Implement a simple algorithm in a computer program.
+- [**MS-CS-FCP.4.6**](/scratch/description/#ms-cs-fcp4) — Implement events and event handlers in a computer program.
