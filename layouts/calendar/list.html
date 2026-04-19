@@ -112,6 +112,23 @@
               </div>
             {{- end -}}
           </div>{{/* .cal-grid */}}
+
+          {{/* Mobile event list — hidden on desktop, shown below grid on small screens */}}
+          <ul class="cal-event-list" aria-label="Events for {{ $m.name }}">
+            {{- range hugo.Data.events.events -}}
+              {{- $t := time (printf "%sT00:00:00Z" .date) -}}
+              {{- if and (eq $t.Year $m.year) (eq (int $t.Month) $m.month) -}}
+              <li class="cal-event-list-item">
+                <span class="cal-event-list-date">{{ $t.Format "Jan 2" }}</span>
+                {{- if .link -}}
+                <a href="{{ .link }}" class="cal-event cal-event--{{ .category }}" target="_blank" rel="noopener">{{ .title }}</a>
+                {{- else -}}
+                <span class="cal-event cal-event--{{ .category }}">{{ .title }}</span>
+                {{- end -}}
+              </li>
+              {{- end -}}
+            {{- end -}}
+          </ul>
         </div>{{/* .cal-month-panel */}}
       {{- end -}}
 

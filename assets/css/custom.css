@@ -479,18 +479,50 @@ a.cal-event:hover {
   color: #d8b4fe;
 }
 
-/* Mobile: compact cells, hide event pills */
+/* Mobile: compact grid, hide pills, show agenda list instead */
+.cal-event-list {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .cal-day {
     min-height: 2.5rem;
     padding: 0.25rem;
   }
-  .cal-event {
+  .cal-day .cal-event {
     display: none;
   }
   .cal-day-number {
     font-size: 0.7rem;
     width: 1.4rem;
     height: 1.4rem;
+  }
+  .cal-event-list {
+    display: block;
+    list-style: none;
+    margin: 0.75rem 0 0;
+    padding: 0;
+  }
+  .cal-event-list-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  .dark .cal-event-list-item {
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+  .cal-event-list-date {
+    font-size: 0.72rem;
+    font-weight: 600;
+    min-width: 3.5rem;
+    opacity: 0.55;
+    flex-shrink: 0;
+  }
+  .cal-event-list .cal-event {
+    display: inline;
+    font-size: 0.78rem;
+    -webkit-line-clamp: unset;
   }
 }
