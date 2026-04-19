@@ -1,0 +1,279 @@
+events:
+  # ── Spring 2026 (current semester) ──────────────────────────────
+  - date: "2026-04-06"
+    title: "Spring Break"
+    category: holiday
+  - date: "2026-04-07"
+    title: "Spring Break"
+    category: holiday
+  - date: "2026-04-08"
+    title: "Spring Break"
+    category: holiday
+  - date: "2026-04-09"
+    title: "Spring Break"
+    category: holiday
+  - date: "2026-04-10"
+    title: "Spring Break"
+    category: holiday
+  - date: "2026-04-21"
+    title: "Milestones Begin – 8th Grade Math"
+    category: school-event
+  - date: "2026-04-21"
+    title: "8th Grade Math Sec. 1 & 2"
+    category: testing
+  - date: "2026-04-22"
+    title: "8th Grade SS Sec. 1 & 2"
+    category: testing
+  - date: "2026-04-23"
+    title: "8th Grade Sci. & HS Physical Sci."
+    category: testing
+  - date: "2026-04-27"
+    title: "8th Grade ELA Sec. 1"
+    category: testing
+  - date: "2026-04-28"
+    title: "8th Grade ELA Sec. 2 & 3"
+    category: testing
+  - date: "2026-04-29"
+    title: "6th Grade ELA Sec. 1"
+    category: testing
+  - date: "2026-04-30"
+    title: "6th Grade ELA Sec. 2 & 3"
+    category: testing
+  - date: "2026-05-01"
+    title: "6th Grade Math Sec. 1 & 2"
+    category: testing
+  - date: "2026-05-04"
+    title: "7th Grade ELA Sec. 1"
+    category: testing
+  - date: "2026-05-05"
+    title: "7th Grade ELA Sec. 2 & 3"
+    category: testing
+  - date: "2026-05-06"
+    title: "7th Grade Math Sec. 1 & 2"
+    category: testing
+  - date: "2026-05-07"
+    title: "Algebra: Concepts & Connections Sec. 1"
+    category: testing
+  - date: "2026-05-08"
+    title: "Algebra: Concepts & Connections Sec. 2"
+    category: testing
+  - date: "2026-05-12"
+    title: "8th Grade Math RETEST Sec. 1 & 2"
+    category: testing
+  - date: "2026-05-13"
+    title: "8th Grade Math RETEST Make-up Sec. 1 & 2"
+    category: testing
+  - date: "2026-05-15"
+    title: "End of GaDOE & CCSD EOG Window"
+    category: testing
+  - date: "2026-04-22"
+    title: "Administrative Professionals Day"
+    category: school-event
+  - date: "2026-04-28"
+    title: "Band Concerts – All Grades"
+    category: school-event
+  - date: "2026-04-30"
+    title: "Chorus Concerts – All Grades"
+    category: school-event
+  - date: "2026-05-01"
+    title: "7th Grade Orchestra Trip to Dollywood"
+    category: field-trip
+  - date: "2026-05-02"
+    title: "Taste of East Cobb"
+    category: school-event
+  - date: "2026-05-05"
+    title: "8th Grade Breakfast"
+    category: school-event
+  - date: "2026-05-05"
+    title: "6th Grade Orchestra Concert"
+    category: school-event
+  - date: "2026-05-06"
+    title: "Nurses' Day"
+    category: school-event
+  - date: "2026-05-06"
+    title: "7th Grade Orchestra Concert"
+    category: school-event
+  - date: "2026-05-07"
+    title: "8th Grade Orchestra Concert"
+    category: school-event
+  - date: "2026-05-08"
+    title: "Lunch on the Lawn"
+    category: school-event
+  - date: "2026-05-12"
+    title: "6th Grade Field Day"
+    category: school-event
+  - date: "2026-05-13"
+    title: "7th Grade Field Day"
+    category: school-event
+  - date: "2026-05-14"
+    title: "8th Grade Field Day"
+    category: school-event
+  - date: "2026-05-14"
+    title: "Percussion Concert"
+    category: school-event
+  - date: "2026-05-15"
+    title: "RMH Hat Day"
+    category: school-event
+  - date: "2026-05-15"
+    title: "8th Grade Dance"
+    category: school-event
+  - date: "2026-05-18"
+    title: "Yearbook Distribution"
+    category: school-event
+  - date: "2026-05-18"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2026-05-19"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2026-05-20"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2026-05-20"
+    title: "RMH Tacky Tourist & Last Day of School"
+    category: holiday
+  - date: "2026-05-21"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2026-05-22"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2026-05-25"
+    title: "Memorial Day — No School"
+    category: holiday
+
+  # ── Summer / Fall 2026 ──────────────────────────────────────────
+  - date: "2026-07-03"
+    title: "Independence Day (observed)"
+    category: holiday
+  - date: "2026-07-27"
+    title: "Teacher Pre-Planning"
+    category: school-event
+  - date: "2026-07-28"
+    title: "Teacher Pre-Planning"
+    category: school-event
+  - date: "2026-07-29"
+    title: "Teacher Pre-Planning"
+    category: school-event
+  - date: "2026-07-30"
+    title: "Teacher Pre-Planning"
+    category: school-event
+  - date: "2026-07-31"
+    title: "Teacher Pre-Planning"
+    category: school-event
+  - date: "2026-08-03"
+    title: "First Day of School"
+    category: school-event
+  - date: "2026-08-17"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2026-09-07"
+    title: "Labor Day — No School"
+    category: holiday
+  - date: "2026-10-12"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2026-10-13"
+    title: "Conference Week — Early Release"
+    category: school-event
+  - date: "2026-10-14"
+    title: "Conference Week — Early Release"
+    category: school-event
+  - date: "2026-10-15"
+    title: "Conference Week — Early Release"
+    category: school-event
+  - date: "2026-10-16"
+    title: "Conference Week — Early Release"
+    category: school-event
+  - date: "2026-11-03"
+    title: "Election Day — No School"
+    category: holiday
+  - date: "2026-11-23"
+    title: "Thanksgiving Break"
+    category: holiday
+  - date: "2026-11-24"
+    title: "Thanksgiving Break"
+    category: holiday
+  - date: "2026-11-25"
+    title: "Thanksgiving Break"
+    category: holiday
+  - date: "2026-11-26"
+    title: "Thanksgiving Day"
+    category: holiday
+  - date: "2026-11-27"
+    title: "Thanksgiving Break"
+    category: holiday
+  - date: "2026-11-30"
+    title: "School Resumes"
+    category: school-event
+  - date: "2026-12-17"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2026-12-18"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2026-12-21"
+    title: "Winter Break Begins"
+    category: holiday
+
+  # ── Spring 2027 ──────────────────────────────────────────────────
+  - date: "2027-01-04"
+    title: "Student Holiday / Staff Day"
+    category: school-event
+  - date: "2027-01-05"
+    title: "Students Return to School"
+    category: school-event
+  - date: "2027-01-18"
+    title: "MLK Day — No School"
+    category: holiday
+  - date: "2027-02-15"
+    title: "Presidents' Day — No School"
+    category: holiday
+  - date: "2027-02-16"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2027-02-17"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2027-02-18"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2027-02-19"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2027-04-05"
+    title: "Spring Break"
+    category: holiday
+  - date: "2027-04-06"
+    title: "Spring Break"
+    category: holiday
+  - date: "2027-04-07"
+    title: "Spring Break"
+    category: holiday
+  - date: "2027-04-08"
+    title: "Spring Break"
+    category: holiday
+  - date: "2027-04-09"
+    title: "Spring Break"
+    category: holiday
+  - date: "2027-04-12"
+    title: "School Resumes"
+    category: school-event
+  - date: "2027-05-17"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2027-05-18"
+    title: "Early Release Day"
+    category: school-event
+  - date: "2027-05-19"
+    title: "Last Day of School"
+    category: holiday
+  - date: "2027-05-20"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2027-05-21"
+    title: "Student Holiday / Staff Day"
+    category: holiday
+  - date: "2027-05-31"
+    title: "Memorial Day — No School"
+    category: holiday

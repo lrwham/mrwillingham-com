@@ -1,0 +1,147 @@
+{{ define "main" }}
+  {{/* ── Build months list from events data (sorted chronologically) */}}
+  {{- $monthNames := slice "" "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" -}}
+  {{- $seen := dict -}}
+  {{- $months := slice -}}
+  {{- range hugo.Data.events.events -}}
+    {{- $t := time (printf "%sT00:00:00Z" .date) -}}
+    {{- $year := $t.Year -}}
+    {{- $month := int $t.Month -}}
+    {{- $key := printf "%04d-%02d" $year $month -}}
+    {{- if not (index $seen $key) -}}
+      {{- $seen = merge $seen (dict $key true) -}}
+      {{- $name := printf "%s %d" (index $monthNames $month) $year -}}
+      {{- $months = $months | append (dict "year" $year "month" $month "key" $key "name" $name) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $months = sort $months "key" -}}
+
+  {{/* ── Days-in-month lookup (Feb 2027 is not a leap year) ──────── */}}
+  {{- $daysLookup := dict "1" 31  "2" 28  "3" 31  "4" 30  "5" 31  "6" 30  "7" 31  "8" 31  "9" 30  "10" 31  "11" 30  "12" 31 -}}
+
+  {{/* ── Find the active month (current month, or first if outside range) */}}
+  {{- $activeIndex := 0 -}}
+  {{- range $i, $m := $months -}}
+    {{- if and (eq now.Year $m.year) (eq (int now.Month) $m.month) -}}
+      {{- $activeIndex = $i -}}
+    {{- end -}}
+  {{- end -}}
+
+  <div class="hx:mx-auto hx:flex hx:max-w-[90rem]">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) }}
+    <main id="content" class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pt-4 hx:pb-8 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
+      <br class="hx:mt-1.5 hx:text-sm" />
+      {{ if .Title }}<h1 class="hx:text-center hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">{{ .Title }}</h1>{{ end }}
+
+      {{/* ── Legend ─────────────────────────────────────────────── */}}
+      <div class="cal-legend" aria-label="Event category legend">
+        <div class="cal-legend-item">
+          <span class="cal-legend-dot cal-legend-dot--holiday" aria-hidden="true"></span>
+          <span>Holiday / No School</span>
+        </div>
+        <div class="cal-legend-item">
+          <span class="cal-legend-dot cal-legend-dot--school-event" aria-hidden="true"></span>
+          <span>School Event</span>
+        </div>
+        <div class="cal-legend-item">
+          <span class="cal-legend-dot cal-legend-dot--grading" aria-hidden="true"></span>
+          <span>Grading Deadline</span>
+        </div>
+        <div class="cal-legend-item">
+          <span class="cal-legend-dot cal-legend-dot--field-trip" aria-hidden="true"></span>
+          <span>Field Trip</span>
+        </div>
+        <div class="cal-legend-item">
+          <span class="cal-legend-dot cal-legend-dot--testing" aria-hidden="true"></span>
+          <span>Testing</span>
+        </div>
+      </div>
+
+      {{/* ── Month navigation ────────────────────────────────────── */}}
+      <div class="cal-nav" role="navigation" aria-label="Month navigation">
+        <button id="cal-prev" class="cal-nav-btn" aria-label="Previous month">&#8592;</button>
+        <span id="cal-month-label" class="cal-month-title" aria-live="polite"></span>
+        <button id="cal-next" class="cal-nav-btn" aria-label="Next month">&#8594;</button>
+      </div>
+
+      {{/* ── Month panels ─────────────────────────────────────────── */}}
+      {{- range $mi, $m := $months -}}
+        {{- $firstStr := printf "%d-%02d-01T00:00:00Z" $m.year $m.month -}}
+        {{- $firstTime := time $firstStr -}}
+        {{- $startDow := int $firstTime.Weekday -}}
+        {{- $daysInMonth := index $daysLookup (string $m.month) -}}
+        {{- if and (eq $m.month 2) (eq (math.Mod $m.year 4) 0) (or (ne (math.Mod $m.year 100) 0) (eq (math.Mod $m.year 400) 0)) -}}
+          {{- $daysInMonth = 29 -}}
+        {{- end -}}
+        <div class="cal-month-panel"
+             id="cal-month-{{ $mi }}"
+             data-month-name="{{ $m.name }}"
+             data-state="{{ if eq $mi $activeIndex }}selected{{ else }}hidden{{ end }}"
+             role="grid"
+             aria-label="{{ $m.name }}"
+             aria-hidden="{{ if eq $mi $activeIndex }}false{{ else }}true{{ end }}">
+          <div class="cal-grid">
+            {{/* Day-of-week headers */}}
+            {{- range slice "Sun" "Mon" "Tue" "Wed" "Thu" "Fri" "Sat" -}}
+            <div class="cal-dow-header" role="columnheader">{{ . }}</div>
+            {{- end -}}
+
+            {{/* Leading blank cells to align day 1 to correct weekday */}}
+            {{- if gt $startDow 0 -}}
+              {{- range seq $startDow -}}
+              <div class="cal-day cal-day--empty" role="gridcell" aria-hidden="true"></div>
+              {{- end -}}
+            {{- end -}}
+
+            {{/* Day cells */}}
+            {{- range seq $daysInMonth -}}
+              {{- $day := . -}}
+              {{- $dateKey := printf "%d-%02d-%02d" $m.year $m.month $day -}}
+              {{- $isToday := and (eq now.Year $m.year) (eq (int now.Month) $m.month) (eq now.Day $day) -}}
+              <div class="cal-day{{ if $isToday }} cal-day--today{{ end }}" role="gridcell">
+                <span class="cal-day-number{{ if $isToday }} cal-day-number--today{{ end }}">{{ $day }}</span>
+                {{- range hugo.Data.events.events -}}
+                  {{- if eq .date $dateKey -}}
+                  {{- if .link -}}
+                  <a href="{{ .link }}" class="cal-event cal-event--{{ .category }}" title="{{ .title }}" target="_blank" rel="noopener">{{ .title }}</a>
+                  {{- else -}}
+                  <div class="cal-event cal-event--{{ .category }}" title="{{ .title }}">{{ .title }}</div>
+                  {{- end -}}
+                  {{- end -}}
+                {{- end -}}
+              </div>
+            {{- end -}}
+          </div>{{/* .cal-grid */}}
+        </div>{{/* .cal-month-panel */}}
+      {{- end -}}
+
+      <script>
+      (function () {
+        var panels  = Array.from(document.querySelectorAll('.cal-month-panel'));
+        var label   = document.getElementById('cal-month-label');
+        var btnPrev = document.getElementById('cal-prev');
+        var btnNext = document.getElementById('cal-next');
+        var current = panels.findIndex(function (p) { return p.dataset.state === 'selected'; });
+        if (current === -1) current = 0;
+
+        function show(index) {
+          panels.forEach(function (p, i) {
+            var active = (i === index);
+            p.dataset.state = active ? 'selected' : 'hidden';
+            p.setAttribute('aria-hidden', active ? 'false' : 'true');
+          });
+          label.textContent = panels[index].dataset.monthName;
+          btnPrev.disabled = (index === 0);
+          btnNext.disabled = (index === panels.length - 1);
+          current = index;
+        }
+
+        show(current);
+
+        btnPrev.addEventListener('click', function () { if (current > 0) show(current - 1); });
+        btnNext.addEventListener('click', function () { if (current < panels.length - 1) show(current + 1); });
+      }());
+      </script>
+    </main>
+  </div>
+{{ end }}
