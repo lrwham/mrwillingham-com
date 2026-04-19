@@ -29,8 +29,12 @@ menu:
       name: Computer Programming
       pageRef: /scratch
       weight: 3
-    - name: Search
+    - identifier: calendar
+      name: Calendar
+      pageRef: /calendar
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
 
