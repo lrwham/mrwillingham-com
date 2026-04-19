@@ -479,6 +479,9 @@ a.cal-event:hover {
   color: #d8b4fe;
 }
 
+/* Category dots — desktop: hidden */
+.cal-dot { display: none; }
+
 /* Mobile: compact grid, hide pills, show agenda list instead */
 .cal-event-list {
   display: none;
@@ -488,15 +491,32 @@ a.cal-event:hover {
   .cal-day {
     min-height: 2.5rem;
     padding: 0.25rem;
-  }
-  .cal-day .cal-event {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2px;
   }
   .cal-day-number {
     font-size: 0.7rem;
     width: 1.4rem;
     height: 1.4rem;
+    flex-shrink: 0;
   }
+  .cal-day .cal-event {
+    display: none;
+  }
+  .cal-dot {
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .cal-dot--holiday      { background: #fca5a5; }
+  .cal-dot--school-event { background: #93c5fd; }
+  .cal-dot--grading      { background: #fdba74; }
+  .cal-dot--field-trip   { background: #86efac; }
+  .cal-dot--testing      { background: #d8b4fe; }
   .cal-event-list {
     display: block;
     list-style: none;

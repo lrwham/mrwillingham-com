@@ -107,6 +107,7 @@
                   {{- else -}}
                   <div class="cal-event cal-event--{{ .category }}" title="{{ .title }}">{{ .title }}</div>
                   {{- end -}}
+                  <span class="cal-dot cal-dot--{{ .category }}" aria-hidden="true"></span>
                   {{- end -}}
                 {{- end -}}
               </div>
