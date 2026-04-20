@@ -13,6 +13,7 @@ tags:
   - teamwork
 resources:
   - Brainstorm Worksheet
+  - Exit Ticket
 draft: false
 toc: true
 scratchblocks: false
@@ -87,3 +88,10 @@ Pick up the [Brainstorm Worksheet](brainstorm-worksheet/) from Mr. Willingham an
 
 {{% /worksession %}}
 
+{{% closing %}}
+
+## Closing: Exit Ticket
+
+Before you leave, pick up an [Exit Ticket](exit-ticket/) from Mr. Willingham and complete it **on your own** — not with your team. Turn it in as you walk out.
+
+{{% /closing %}}
