@@ -40,7 +40,7 @@ weight: 1
 
 ## Warmup
 
-Watch the presentation on music reading basics. As you follow along, pay attention to the three clef types and the anchor note that each one names on the staff.
+Check out this presentation on [music reading basics](https://cdn.mrwillingham.com/MusicReading101.pptx). As you follow along, pay attention to the three clef types and the anchor note that each one names on the staff.
 
 **The three clefs:**
 
@@ -65,7 +65,9 @@ Once you know where the anchor note sits, you can count up or down the lines and
 
 ## Work Session: musictheory.net Practice
 
-Go to **musictheory.net** and work through the note-reading exercises. Focus on treble and bass clef first — these are the most common.
+Mr. Willingham will walk you through the basics behind music reading. We need some basic music reading skills to proceed with making more interesting musical projects.
+
+Work through the note-reading exercises. Focus on treble and bass clef first — these are the most common.
 
 Start with the easy set and work your way up:
 
@@ -92,7 +94,7 @@ Work at your own pace. If a note trips you up, go back to the anchor note for th
 
 ## Closing — Learning Check
 
-Your teacher will give you a short learning check. There are no wrong answers — this helps your teacher see what clicked and what to review tomorrow.
+Take a short learning check.
 
 Be ready to:
 
