@@ -23,7 +23,7 @@ weight: 1
 {{< icon "calendar" >}} **Monday, April 20th, 2026**
 
 {{< callout type="important" icon="sparkles" >}}
-Read the entire objective, warmup, and work session before you start. This is an offline, paper-based activity — no computers today.
+Read the entire objective, warmup, and work session before you start. The work session today is an offline, paper-based activity — so read the instructions now. You won't get back on the computer today.
 {{< /callout >}}
 
 {{% objectives %}}
