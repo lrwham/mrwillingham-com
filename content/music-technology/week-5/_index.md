@@ -4,7 +4,7 @@ draft: false
 toc: false
 cascade:
   type: docs
-weight: 10
+weight: 8
 ---
 
 ## Unit: Music Reading
