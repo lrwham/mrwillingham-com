@@ -183,12 +183,18 @@ draft: false
 <div class="answer-lines">
   <div class="line"></div>
   <div class="line"></div>
+    <div class="line"></div>
+  <div class="line"></div>
+
 </div>
 
 <h3>Where does the game take place? <span style="font-weight:normal;">(describe the setting and world)</span></h3>
 <div class="answer-lines">
   <div class="line"></div>
   <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+
 </div>
 
 <div class="page-break"></div>
