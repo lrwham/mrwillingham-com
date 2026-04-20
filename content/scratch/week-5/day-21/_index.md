@@ -45,7 +45,7 @@ For the next two weeks you will work in a team of up to three people to design a
 Your finished project will include:
 
 - **Concept art** (drawn on paper)
-- **Game Design Document** (written in Word)
+- **Game Design Document** (written in Word) [What is a GDD?](https://en.wikipedia.org/wiki/Game_design_document)
 - **Presentation** (in PowerPoint)
 - **Prototype** (built in Scratch)
 
@@ -80,6 +80,8 @@ Each person on your team will take a leadership role, but everyone contributes t
 {{% worksession %}}
 
 ## Work Session: Brainstorm Worksheet
+
+After the warmup, Mr. Willingham will discuss the project with the class and answer any questions. Then, you will form your teams and complete the Brainstorm Worksheet together on paper. This worksheet will help you start to develop your game concept and assign team roles.
 
 Pick up the [Brainstorm Worksheet](brainstorm-worksheet/) from Mr. Willingham and complete it with your team. You will turn it in at the end of class.
 
