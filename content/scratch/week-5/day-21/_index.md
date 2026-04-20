@@ -40,7 +40,7 @@ Read the entire objective, warmup, and work session before you start. The work s
 
 ## Warmup: The Project
 
-For the rest of this unit you will work in a team of up to three people to design and build an original video game in Scratch. Your project must be appropriate for players ages 11–14 and cannot borrow artwork or characters from existing games.
+For the next two weeks you will work in a team of up to three people to design and build an original video game in Scratch. Your project must be appropriate for players ages 11–14 and cannot borrow artwork or characters from existing games.
 
 Your finished project will include:
 
@@ -58,7 +58,7 @@ Each person on your team will take a leadership role, but everyone contributes t
 | **Lead Artist**     | Concept art, sprites, and backgrounds                    |
 | **Lead Presenter**  | The PowerPoint presentation and class demo               |
 
-> Groups have at most **three** people. If your group has three members, one person will lead two roles.
+> Groups have at most **three** people. If your group has three members, one person will lead two roles. If your group has two members, divide the four roles between you. If you work alone, you will lead all four roles.
 
 {{% /warmup %}}
 
@@ -66,7 +66,7 @@ Each person on your team will take a leadership role, but everyone contributes t
 
 ## Work Session: Brainstorm Worksheet
 
-Pick up the [Brainstorm Worksheet](brainstorm-worksheet/) from the front of the room and complete it with your team. You will turn it in at the end of class.
+Pick up the [Brainstorm Worksheet](brainstorm-worksheet/) from Mr. Willingham and complete it with your team. You will turn it in at the end of class.
 
 {{% /worksession %}}
 
