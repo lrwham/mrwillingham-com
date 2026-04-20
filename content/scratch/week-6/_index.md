@@ -1,6 +1,6 @@
 ---
 title: "Week 6: Video Game Design Project — Finish & Present"
-draft: false
+draft: true
 toc: false
 cascade:
   type: docs
