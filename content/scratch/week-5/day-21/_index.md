@@ -53,10 +53,10 @@ Each person on your team will take a leadership role, but everyone contributes t
 
 | Role               | What This Person Leads                                    |
 | ------------------ | --------------------------------------------------------- |
-| **Lead Programmer** | Writing and debugging the Scratch code                   |
-| **Lead Writer**     | The Game Design Document and story/description           |
-| **Lead Artist**     | Concept art, sprites, and backgrounds                    |
-| **Lead Presenter**  | The PowerPoint presentation and class demo               |
+| **Lead Programmer** | Writing and debugging the Scratch code. Everyone can help, but this person leads the programming efforts.                   |
+| **Lead Writer**     | The Game Design Document and story/description. Everyone writes, but this person leads the writing efforts.          |
+| **Lead Artist**     | Concept art, sprites, and backgrounds. If you need art for the game or PowerPoint, this person is in charge.                    |
+| **Lead Presenter**  | The PowerPoint presentation and class demo.               |
 
 > Groups have at most **three** people. If your group has three members, one person will lead two roles. If your group has two members, divide the four roles between you. If you work alone, you will lead all four roles.
 
