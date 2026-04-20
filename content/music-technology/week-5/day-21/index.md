@@ -42,6 +42,8 @@ weight: 1
 
 Check out this presentation on [music reading basics](https://cdn.mrwillingham.com/MusicReading101.pptx). As you follow along, pay attention to the three clef types and the anchor note that each one names on the staff.
 
+{{< button text="Music Reading Basics" >}}https://cdn.mrwillingham.com/MusicReading101.pptx{{< /button >}}
+
 **The three clefs:**
 
 | Clef | Also called | Anchor note | Where on the staff |
