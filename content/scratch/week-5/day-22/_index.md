@@ -21,10 +21,6 @@ weight: 2
 
 {{< icon "calendar" >}} **Tuesday, April 21st, 2026**
 
-{{< callout type="important" icon="sparkles" >}}
-You will need access to Word Online today. Make sure you can log in to Office 365 before class starts.
-{{< /callout >}}
-
 {{% objectives %}}
 
 ## Objectives
@@ -50,8 +46,10 @@ Professional game studios write a **Game Design Document** — sometimes called 
 A GDD keeps everyone on the team on the same page. Without one, different team members might build parts of the game that don't fit together.
 
 {{< callout type="info" >}}
-Real GDDs can be hundreds of pages long. Yours will be much shorter — but the same ideas apply.
+Professional GDDs can be long (many, many, pages...). Yours will be much shorter — but the same ideas apply.
 {{< /callout >}}
+
+We'll discuss the process together, setup a shared document, and then work together to fill in the first few sections of your GDD.
 
 {{% /warmup %}}
 
@@ -68,7 +66,7 @@ Only one person needs to set this up. Then everyone can edit the same document t
 ### Set Up the Document
 
 1. Download the [GDD Template](/downloads/game-design-document-template.docx)
-2. Open it in **Word Online** (Office 365 → Word)
+2. Open it in **Word Online** [Office 365 → Word](https://www.office.com/launch/word)
 3. Rename the file: `[Studio Name] — Game Design Document`
 4. **Share it** with all team members and with Mr. Willingham (`lwillingh@gmail.com`) — set sharing to *Can edit*
 
