@@ -38,13 +38,20 @@ weight: 1
 
 ## Warmup
 
-Watch the presentation on the piano keyboard. As you follow along, notice how the note names we learned on the staff connect to specific keys on the keyboard.
+Preview today's slide deck on the piano keyboard. The slides cover how the keyboard is laid out, how the note names connect to specific keys, and include practice exercises — take a look before Mr. Willingham presents.
 
-**Key ideas to watch for:**
+{{< button text="Piano 101 Slides" >}}https://cdn.mrwillingham.com/Piano101.pptx{{< /button >}}
+
+If you have trouble opening the slides, you can also view them as a PDF:
+
+{{< button text="Piano 101 Slides (PDF)" >}}https://cdn.mrwillingham.com/Piano101.pdf{{< /button >}}
+
+**Key ideas to watch for in the slides:**
 
 - The keyboard repeats the same seven letter names (A–G) in groups called **octaves**.
 - **Middle C** is the reference point shared by treble and bass clef — it sits right in the middle of the keyboard.
 - Black keys follow a pattern of groups of two and three, which helps you find any white key by landmark.
+- The slides include scale practice examples — look for those as you preview.
 
 {{% checkpoint %}}
 
@@ -57,26 +64,41 @@ Watch the presentation on the piano keyboard. As you follow along, notice how th
 
 {{% worksession %}}
 
-## Work Session: musictheory.net Practice
+## Work Session: Piano Keyboard Presentation & Practice
 
-Continue building your note-reading speed on musictheory.net. Today, try the exercises that connect the staff to the keyboard.
+Mr. Willingham will walk through the Piano 101 slides as a class. Follow along and ask questions as we go.
 
-Pick up where you left off yesterday and push for a harder set:
+After the presentation, practice connecting the staff to the keyboard. Press **⌘ Enter** to open links.
 
-{{< button text="All Clefs — Easy" >}}https://www.musictheory.net/exercises/note/98kkqqccqqeekkccyryyynyyyyyb{{< /button >}}
+{{< button text="Keyboard" >}}https://www.musictheory.net/exercises/keyboard/y9dyyynb6ub{{< /button >}}
 
-{{< button text="Treble, Bass & Alto" >}}https://www.musictheory.net/exercises/note/8eccokqyryyynyyyyyb{{< /button >}}
+{{< button text="Intervals" >}}https://www.musictheory.net/exercises/keyboard-interval/dyynbfwby{{< /button >}}
 
-{{< button text="All Clefs — Medium" >}}https://www.musictheory.net/exercises/note/98eccokqcogkeckqyryyynyyyyyb{{< /button >}}
-
-If you feel solid on all clefs, try beating your accuracy score from yesterday on the medium set.
+{{< button text="Mix of Both (Gimkit)" >}}https://www.gimkit.com/practice/673b447ecd445b4c6dfa5ec7{{< /button >}}
 
 {{% checkpoint %}}
 
 ### Checkpoint: Practice
 
-- [ ] I reviewed treble and bass clef note identification.
-- [ ] I attempted at least one keyboard identification exercise.
+- [ ] I completed at least one round of keyboard identification.
+- [ ] I tried the intervals or Gimkit mix.
+
+{{% /checkpoint %}}
+
+{{% /worksession %}}
+
+{{% worksession %}}
+
+## Musescore: Music Transcription Intro
+
+Mr. Willingham will pass out a piece of sheet music. We'll work through entering it into Musescore together as a class.
+
+Follow along step by step — don't get ahead. We'll talk through each note as we enter it.
+
+{{% checkpoint %}}
+
+- [ ] I opened Musescore and set up a new score.
+- [ ] I entered at least the first line of music with Mr. Willingham.
 
 {{% /checkpoint %}}
 
