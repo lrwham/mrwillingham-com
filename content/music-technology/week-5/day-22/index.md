@@ -40,7 +40,11 @@ weight: 1
 
 Preview today's slide deck on the piano keyboard. The slides cover how the keyboard is laid out, how the note names connect to specific keys, and include practice exercises — take a look before Mr. Willingham presents.
 
-{{< button text="Piano 101 Slides" >}}https://cdn.mrwillingham.com/piano101.pptx{{< /button >}}
+{{< button text="Piano 101 Slides" >}}https://cdn.mrwillingham.com/Piano101.pptx{{< /button >}}
+
+If you have trouble opening the slides, you can also view them as a PDF:
+
+{{< button text="Piano 101 Slides (PDF)" >}}https://cdn.mrwillingham.com/Piano101.pdf{{< /button >}}
 
 **Key ideas to watch for in the slides:**
 
