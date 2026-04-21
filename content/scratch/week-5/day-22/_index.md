@@ -12,7 +12,7 @@ tags:
   - word-online
 resources:
   - GDD Template
-draft: true
+draft: false
 toc: true
 scratchblocks: false
 mermaid: false
