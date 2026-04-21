@@ -87,23 +87,6 @@ After the presentation, practice connecting the staff to the keyboard. Press **â
 
 {{% /worksession %}}
 
-{{% worksession %}}
-
-## Musescore: Music Transcription Intro
-
-Mr. Willingham will pass out a piece of sheet music. We'll work through entering it into Musescore together as a class.
-
-Follow along step by step â€” don't get ahead. We'll talk through each note as we enter it.
-
-{{% checkpoint %}}
-
-- [ ] I opened Musescore and set up a new score.
-- [ ] I entered at least the first line of music with Mr. Willingham.
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
-
 {{% closing %}}
 
 ## Closing
