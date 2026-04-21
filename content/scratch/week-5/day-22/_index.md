@@ -12,7 +12,7 @@ tags:
   - word-online
 resources:
   - GDD Template
-draft: true
+draft: false
 toc: true
 scratchblocks: false
 mermaid: false
@@ -20,10 +20,6 @@ weight: 2
 ---
 
 {{< icon "calendar" >}} **Tuesday, April 21st, 2026**
-
-{{< callout type="important" icon="sparkles" >}}
-You will need access to Word Online today. Make sure you can log in to Office 365 before class starts.
-{{< /callout >}}
 
 {{% objectives %}}
 
@@ -50,8 +46,10 @@ Professional game studios write a **Game Design Document** — sometimes called 
 A GDD keeps everyone on the team on the same page. Without one, different team members might build parts of the game that don't fit together.
 
 {{< callout type="info" >}}
-Real GDDs can be hundreds of pages long. Yours will be much shorter — but the same ideas apply.
+Professional GDDs can be long (many, many, pages...). Yours will be much shorter — but the same ideas apply.
 {{< /callout >}}
+
+We'll discuss the process together, setup a shared document, and then work together to fill in the first few sections of your GDD.
 
 {{% /warmup %}}
 
@@ -59,14 +57,33 @@ Real GDDs can be hundreds of pages long. Yours will be much shorter — but the 
 
 ## Work Session: Fill In Your GDD
 
-### Step 1 — Set Up the Document
+{{< callout type="warning" >}}
+Only one person needs to set this up. Then everyone can edit the same document together.
+{{< /callout >}}
 
-1. Download the [GDD Template](/downloads/game-design-document-template.docx)
-2. Open it in **Word Online** (Office 365 → Word)
-3. Rename the file: `[Studio Name] — Game Design Document`
-4. **Share it** with all team members and with Mr. Willingham (`lwillingh@gmail.com`) — set sharing to *Can edit*
+{{% steps %}}
 
-### Step 2 — Fill In Your GDD Together
+### Log In to Office 365
+
+{{< button text="Office 365" >}}https://office365.cobbk12.org/{{< /button >}}
+
+### Download the Template
+
+{{< button text="Download GDD Template" >}}/downloads/game-design-document-template.docx{{< /button >}}
+
+### Open Word Online
+
+{{< button text="Word Online" >}}https://www.office.com/launch/word{{< /button >}}
+
+### Upload the Template
+
+![Upload Template](upload-file.png)
+
+### Share It
+
+**Share it** with all team members and with Mr. Willingham (`lawton.willingham@cobbk12.org`) — set sharing to *Can edit*
+
+### Fill In Your GDD Together
 
 Work through the document as a team. You do not have to finish every section today, but you should complete at least:
 
@@ -75,7 +92,11 @@ Work through the document as a team. You do not have to finish every section tod
 - [ ] **Overview** — Introduction, Genre, and Target Audience
 - [ ] **Gameplay** — Objectives, Scoring & Levels, and Controls
 
-Leave the Sixty Seconds of Gameplay and Artwork sections for Thursday if needed.
+### Finish Later this Week if Needed
+
+Whatever you don't finish today, you can work on together during class on Thursday. You can also work on it outside of class if you want or need.
+
+{{% /steps %}}
 
 ### Tips
 
