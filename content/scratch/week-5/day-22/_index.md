@@ -59,14 +59,20 @@ Real GDDs can be hundreds of pages long. Yours will be much shorter — but the 
 
 ## Work Session: Fill In Your GDD
 
-### Step 1 — Set Up the Document
+{{< callout type="warning" >}}
+Only one person needs to set this up. Then everyone can edit the same document together.
+{{< /callout >}}
+
+{{% steps %}}
+
+### Set Up the Document
 
 1. Download the [GDD Template](/downloads/game-design-document-template.docx)
 2. Open it in **Word Online** (Office 365 → Word)
 3. Rename the file: `[Studio Name] — Game Design Document`
 4. **Share it** with all team members and with Mr. Willingham (`lwillingh@gmail.com`) — set sharing to *Can edit*
 
-### Step 2 — Fill In Your GDD Together
+### Fill In Your GDD Together
 
 Work through the document as a team. You do not have to finish every section today, but you should complete at least:
 
@@ -75,7 +81,11 @@ Work through the document as a team. You do not have to finish every section tod
 - [ ] **Overview** — Introduction, Genre, and Target Audience
 - [ ] **Gameplay** — Objectives, Scoring & Levels, and Controls
 
-Leave the Sixty Seconds of Gameplay and Artwork sections for Thursday if needed.
+### Finish Later this Week if Needed
+
+Whatever you don't finish today, you can work on together during class on Thursday. You can also work on it outside of class if you want or need.
+
+{{% /steps %}}
 
 ### Tips
 
