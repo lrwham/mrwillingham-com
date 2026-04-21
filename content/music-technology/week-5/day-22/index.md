@@ -68,20 +68,20 @@ If you have trouble opening the slides, you can also view them as a PDF:
 
 Mr. Willingham will walk through the Piano 101 slides as a class. Follow along and ask questions as we go.
 
-After the presentation, practice connecting the staff to the keyboard on musictheory.net:
+After the presentation, practice connecting the staff to the keyboard. Press **⌘ Enter** to open links.
 
-{{< button text="All Clefs — Easy" >}}https://www.musictheory.net/exercises/note/98kkqqccqqeekkccyryyynyyyyyb{{< /button >}}
+{{< button text="Keyboard" >}}https://www.musictheory.net/exercises/keyboard/y9dyyynb6ub{{< /button >}}
 
-{{< button text="Treble, Bass & Alto" >}}https://www.musictheory.net/exercises/note/8eccokqyryyynyyyyyb{{< /button >}}
+{{< button text="Intervals" >}}https://www.musictheory.net/exercises/keyboard-interval/dyynbfwby{{< /button >}}
 
-{{< button text="All Clefs — Medium" >}}https://www.musictheory.net/exercises/note/98eccokqcogkeckqyryyynyyyyyb{{< /button >}}
+{{< button text="Mix of Both (Gimkit)" >}}https://www.gimkit.com/practice/673b447ecd445b4c6dfa5ec7{{< /button >}}
 
 {{% checkpoint %}}
 
 ### Checkpoint: Practice
 
-- [ ] I reviewed treble and bass clef note identification.
-- [ ] I attempted at least one keyboard identification exercise.
+- [ ] I completed at least one round of keyboard identification.
+- [ ] I tried the intervals or Gimkit mix.
 
 {{% /checkpoint %}}
 
