@@ -69,13 +69,9 @@ Only one person needs to set this up. Then everyone can edit the same document t
 
 ### Download the Template
 
-[GDD Template](/downloads/game-design-document-template.docx)
-
 {{< button text="Download GDD Template" >}}/downloads/game-design-document-template.docx{{< /button >}}
 
 ### Open Word Online
-
-Open **Word Online** [Office 365 → Word](https://www.office.com/launch/word)
 
 {{< button text="Word Online" >}}https://www.office.com/launch/word{{< /button >}}
 
