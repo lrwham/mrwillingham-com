@@ -71,13 +71,21 @@ Only one person needs to set this up. Then everyone can edit the same document t
 
 [GDD Template](/downloads/game-design-document-template.docx)
 
-### Open Word Online and Upload the Template
+{{< button text="Download GDD Template" >}}/downloads/game-design-document-template.docx{{< /button >}}
 
-Open it **Word Online** [Office 365 → Word](https://www.office.com/launch/word)
+### Open Word Online
 
+Open **Word Online** [Office 365 → Word](https://www.office.com/launch/word)
 
-3. Rename the file: `[Studio Name] — Game Design Document`
-4. **Share it** with all team members and with Mr. Willingham (`lwillingh@gmail.com`) — set sharing to *Can edit*
+{{< button text="Word Online" >}}https://www.office.com/launch/word{{< /button >}}
+
+### Upload the Template
+
+![Upload Template](upload-file.png)
+
+### Share It
+
+**Share it** with all team members and with Mr. Willingham (`lawton.willingham@cobbk12.org`) — set sharing to *Can edit*
 
 ### Fill In Your GDD Together
 
