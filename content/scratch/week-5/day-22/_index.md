@@ -63,6 +63,10 @@ Only one person needs to set this up. Then everyone can edit the same document t
 
 {{% steps %}}
 
+### Log In to Office 365
+
+{{< button text="Office 365" >}}https://office365.cobbk12.org/{{< /button >}}
+
 ### Set Up the Document
 
 1. Download the [GDD Template](/downloads/game-design-document-template.docx)
