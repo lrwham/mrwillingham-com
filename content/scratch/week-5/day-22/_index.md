@@ -67,10 +67,15 @@ Only one person needs to set this up. Then everyone can edit the same document t
 
 {{< button text="Office 365" >}}https://office365.cobbk12.org/{{< /button >}}
 
-### Set Up the Document
+### Download the Template
 
-1. Download the [GDD Template](/downloads/game-design-document-template.docx)
-2. Open it in **Word Online** [Office 365 → Word](https://www.office.com/launch/word)
+[GDD Template](/downloads/game-design-document-template.docx)
+
+### Open Word Online and Upload the Template
+
+Open it **Word Online** [Office 365 → Word](https://www.office.com/launch/word)
+
+
 3. Rename the file: `[Studio Name] — Game Design Document`
 4. **Share it** with all team members and with Mr. Willingham (`lwillingh@gmail.com`) — set sharing to *Can edit*
 
