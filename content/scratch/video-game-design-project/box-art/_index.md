@@ -3,6 +3,8 @@ title: "Box Art"
 toc: false
 ---
 
+Click [here for the Rubric](rubric)
+
 ## What Is Box Art?
 
 Box art is the artwork and design on the packaging of a video game. Before digital downloads existed, every game came in a physical box that sat on a store shelf. The box art was the first thing a potential buyer would see — it had to grab attention, communicate what the game was about, and convince someone to pick it up. Think of it like a movie poster combined with a product label. Even today, box art plays a big role in how games are marketed and remembered.
