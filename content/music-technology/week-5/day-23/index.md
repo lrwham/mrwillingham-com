@@ -79,7 +79,7 @@ Press **N** to enter note input mode. Use the number keys to set durations:
 | 6   | Half note |
 | 7   | Whole note |
 
-Type the letter name of each note to enter it. Ode to Joy uses only the notes **G, A, B, C, D, E, F#** — all white keys except for F#.
+Type the letter name of each note to enter it or use the mouse to click on the staff.
 
 **The melody starts on B4.**
 
