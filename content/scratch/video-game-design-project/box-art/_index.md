@@ -90,4 +90,4 @@ Your box art should include the following. Use this as a guide while you work.
 
 ## Rubric
 
-See the [Box Art Rubric](/scratch/reference/video-game-design-project/box-art/rubric/) for how your box art will be graded.
+See the [Box Art Rubric](rubric) for how your box art will be graded.
