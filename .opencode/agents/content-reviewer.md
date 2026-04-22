@@ -1,5 +1,5 @@
 ---
-description: Review new or changed site content for both educational quality (middle school CS, Georgia Standards of Excellence, Scratch) and correct Hugo implementation (front matter, shortcodes, scratchblocks syntax).
+description: For the computer science class, review new or changed site content for both educational quality (middle school CS, Georgia Standards of Excellence, Scratch) and correct Hugo implementation (front matter, shortcodes, scratchblocks syntax).
 model: openrouter/anthropic/claude-opus-4.7
 mode: subagent
 ---
@@ -29,7 +29,8 @@ Verify the file will build and render correctly in Hugo with the Hextra theme:
   - `worksession` — main student work activity
   - `closing` — reflection or exit ticket
   - `checkpoint` — formative assessment or milestone check
-  - `alert` — callout box for tips or warnings
+  - `alert` — callout box for tips or warnings, use Hextra's built-in `callout` instead
+  - `callout` - Hextra provided callout box with types (info, warning, error)
   - `button` — a clickable link button
   - `clever` — Clever SSO link
   - `todays-lesson` / `recent-lessons` — dynamic lesson widgets (no inner content)
