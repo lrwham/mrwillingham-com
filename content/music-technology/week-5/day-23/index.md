@@ -65,8 +65,8 @@ Open Musescore and create a new score. Follow the steps below to transcribe the 
 ### Set Up Your Score
 
 1. Open **Musescore** and choose **New Score**.
-2. Select a **Treble Clef** instrument (Piano or Flute works fine).
-3. Set the time signature to **4/4** and the key signature to **C major** (no sharps or flats).
+2. Select a **Piano** out of the **Keyboard** family of instruments.
+3. Set the time signature to **4/4** and the key signature to **G major** (one sharp: F#).
 4. Title the score: **Ode to Joy — [Your Name]**.
 
 ### Enter the Notes
@@ -79,9 +79,9 @@ Press **N** to enter note input mode. Use the number keys to set durations:
 | 6   | Half note |
 | 7   | Whole note |
 
-Type the letter name of each note to enter it. Ode to Joy uses only the notes **E, F, G, A, B, C, D** — all white keys, no sharps or flats.
+Type the letter name of each note to enter it. Ode to Joy uses only the notes **G, A, B, C, D, E, F#** — all white keys except for F#.
 
-**The melody starts on E4 (the E just above middle C).**
+**The melody starts on B4.**
 
 Work measure by measure. Use the sheet music below. If you lose your place, click the last correct note and continue from there.
 
