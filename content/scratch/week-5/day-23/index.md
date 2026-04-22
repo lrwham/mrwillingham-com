@@ -12,7 +12,7 @@ resources: []
 draft: false
 toc: true
 scratchblocks: false
-weight: 1
+weight: 3
 ---
 
 {{< icon "calendar" >}} **Wednesday, April 22nd, 2026**
