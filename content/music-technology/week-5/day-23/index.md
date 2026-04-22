@@ -83,7 +83,9 @@ Type the letter name of each note to enter it. Ode to Joy uses only the notes **
 
 **The melody starts on E4 (the E just above middle C).**
 
-Work measure by measure. Use the sheet music provided by your teacher. If you lose your place, click the last correct note and continue from there.
+Work measure by measure. Use the sheet music below. If you lose your place, click the last correct note and continue from there.
+
+{{< button text="View Sheet Music" >}}ode-to-joy.svg{{< /button >}}
 
 ### Check Your Work
 
