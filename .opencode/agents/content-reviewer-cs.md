@@ -1,6 +1,6 @@
 ---
 description: For the computer science class, review new or changed site content for both educational quality (middle school CS, Georgia MS-CS-FCP standards, Scratch) and correct Hugo implementation (front matter, shortcodes, scratchblocks syntax).
-model: openrouter/anthropic/claude-opus-4.7
+model: openrouter/anthropic/claude-sonnet-4.6
 mode: subagent
 ---
 
