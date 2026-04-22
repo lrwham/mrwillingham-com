@@ -4,6 +4,7 @@
 \header {
   title = \markup \normal-text \normalsize \fontsize #6.032 "Ode to Joy"
   composer = \markup \normal-text \normalsize "Ludwig van Beethoven"
+  tagline = ##f
 }
 #(set-global-staff-size 19.91442529133858)
 \layout {
