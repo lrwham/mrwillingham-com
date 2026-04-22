@@ -26,3 +26,7 @@ cascade:
 ### Box Art Assignment
 
 Click [here for the Box Art Assignment](box-art)
+
+### Presentation Rubric
+
+Click [here for the Presentation Rubric](presentation-rubric)
