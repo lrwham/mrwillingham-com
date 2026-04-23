@@ -37,7 +37,13 @@ weight: 1
 
 ## Warmup
 
-Quick music reading review. We'll use a GimKit to practice identifying notes on the treble clef, bass clef, and piano keyboard. 
+Quick music reading review. Practice identifying notes on the treble clef, bass clef, and piano keyboard.
+
+{{< button text="All Clefs — Easy" >}}https://www.musictheory.net/exercises/note/98kkqqccqqeekkccyryyynyyyyyb{{< /button >}}
+
+{{< button text="Treble, Bass & Alto" >}}https://www.musictheory.net/exercises/note/8eccokqyryyynyyyyyb{{< /button >}}
+
+{{< button text="Keyboard" >}}https://www.musictheory.net/exercises/keyboard/y9dyyynb6ub{{< /button >}}
 
 **Remember:**
 - **G clef** → anchor on line 2 from the bottom = G
