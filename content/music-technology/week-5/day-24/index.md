@@ -1,12 +1,12 @@
 ---
 title: "Day 24: Mystery Transcription"
 date: 2026-04-23
-description: "Practice music reading, then transcribe five unlabeled melodies from movies, TV, and games — and guess what they are for a prize."
+description: "Practice music reading, then transcribe six unlabeled melodies from movies, TV, and games — and guess what they are for a prize."
 day_number: 24
 units:
   - "Music Reading"
 standards:
-  - MSMTC8.CR.1
+  - MSMTC8.RE.2
   - MSMTC8.PR.1
   - MSMTC8.CN.2
 tags:
@@ -90,9 +90,8 @@ You have six short lines of music — each one is a melody from a popular movie,
 
 ### Submitting Your Guesses
 
-{{< button text="Submit Guesses" >}}
-https://forms.cloud.microsoft/r/JLPSM6yaQu
-{{< /button >}}
+{{< button text="Submit Guesses" >}}https://forms.cloud.microsoft/r/JLPSM6yaQu{{< /button >}}
+
 {{% checkpoint %}}
 
 ### Checkpoint: Mystery Transcription
@@ -120,6 +119,6 @@ After guesses are collected, your teacher will reveal the answers. Be ready to d
 
 ## Standards
 
-- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (transcribing existing melodies accurately into notation software).
+- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure and context of varied musical works inform the response (transcribing and recognizing melodies from varied media).
 - [**MSMTC8.PR.1**](/music-technology/description/#msmtc8pr1) — Select varied musical works to present based on interest, knowledge, technical skill, and context (applying music reading skills to identify and transcribe melodies).
 - [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas to varied contexts and daily life to deepen understanding (recognizing melodies from popular media by reading and transcribing them from notation).
