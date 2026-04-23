@@ -37,12 +37,11 @@ weight: 1
 
 ## Warmup
 
-Quick music reading review. Your teacher will put a few notes on the board — identify each one using the clef method we practiced this week.
+Quick music reading review. We'll use a GimKit to practice identifying notes on the treble clef, bass clef, and piano keyboard. 
 
 **Remember:**
 - **G clef** → anchor on line 2 from the bottom = G
 - **F clef** → anchor on line 4 from the bottom = F
-- **C clef** → center of the symbol = middle C
 
 Count up or down from the anchor to find any note.
 
@@ -59,7 +58,11 @@ Count up or down from the anchor to find any note.
 
 ## Work Session: Mystery Transcription
 
-You have five short lines of music — each one is a melody from a popular movie, TV show, or video game. The titles are hidden. Your job is to:
+{{< callout >}}
+Show Mr. Willingham your progress on Ode to Joy before you start the mystery transcription.
+{{< /callout >}}
+
+You have six short lines of music — each one is a melody from a popular movie, TV show, or video game. The titles are hidden. Your job is to:
 
 1. **Transcribe** each line into Musescore.
 2. **Play it back** to hear what it sounds like.
@@ -67,9 +70,9 @@ You have five short lines of music — each one is a melody from a popular movie
 
 ### Rules
 
-- Create one Musescore file with all five melodies, each on a separate line (system break between each).
+- Create one Musescore file with all six melodies, each on a separate line (system break between each).
 - Title the file: **Mystery Transcription — [Your Name]**.
-- You may hum, whistle, or play the melody quietly on Musical Typing (**Command + K** in GarageBand) to help yourself recognize it — just keep the volume low.
+- After adding all of the notes to MuseScore, listen to each and try to recognize it.
 - Work independently — no asking neighbors for the titles. You can discuss after everyone has guessed.
 
 ### Tips
@@ -81,13 +84,14 @@ You have five short lines of music — each one is a melody from a popular movie
 
 ### Submitting Your Guesses
 
-When you finish, write your title guesses on the answer sheet and turn it in. The student (or students) with the most correct guesses wins a prize.
-
+{{< button text="Submit Guesses" >}}
+https://forms.cloud.microsoft/r/JLPSM6yaQu
+{{< /button >}}
 {{% checkpoint %}}
 
 ### Checkpoint: Mystery Transcription
 
-- [ ] I have transcribed all five mystery melodies into Musescore.
+- [ ] I have transcribed all six mystery melodies into Musescore.
 - [ ] I played each one back and corrected any mistakes.
 - [ ] I wrote a title guess for each melody on the answer sheet.
 - [ ] I saved my Musescore file and turned in my answer sheet.
