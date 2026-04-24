@@ -28,7 +28,7 @@ weight: 1
 
 ## Objectives
 
-- I can identify G, F, and C clefs on sight.
+- I can identify G and F clefs on sight.
 - I can use the clef anchor note to identify notes on the staff.
 
 {{% /objectives %}}
@@ -48,7 +48,6 @@ Practice identifying notes on the treble clef, bass clef, and piano keyboard bef
 **Remember:**
 - **G clef** → anchor on line 2 from the bottom = G
 - **F clef** → anchor on line 4 from the bottom = F
-- **C clef** → anchor on the middle line = C (moves depending on clef type)
 
 Count up or down from the anchor to find any note.
 
@@ -56,7 +55,6 @@ Count up or down from the anchor to find any note.
 
 - [ ] I reviewed note names on the treble clef.
 - [ ] I reviewed note names on the bass clef.
-- [ ] I reviewed note names on the C clef.
 - [ ] I feel ready to take the quiz.
 
 {{% /checkpoint %}}
@@ -67,7 +65,7 @@ Count up or down from the anchor to find any note.
 
 ## Music Reading Quiz
 
-<!-- Add quiz instructions and distribution details here -->
+We'll practice together as a class first to review clef identification and note reading. Once everyone feels ready, we'll take the quiz.
 
 {{% /worksession %}}
 
@@ -75,7 +73,9 @@ Count up or down from the anchor to find any note.
 
 ## Early Finishers: Mystery Transcription Round 2
 
-<!-- Add second round mystery transcription details here -->
+If you finish the quiz early, continue working on the Mystery Transcription. Submit your guesses when you're done.
+
+{{< button text="Submit Guesses" >}}https://forms.cloud.microsoft/r/JLPSM6yaQu{{< /button >}}
 
 {{% /worksession %}}
 
@@ -83,7 +83,11 @@ Count up or down from the anchor to find any note.
 
 ## Closing
 
-<!-- Add closing/debrief details here -->
+Let's debrief the week:
+
+1. **Which clef felt easiest to read?** Which one still trips you up?
+2. **What strategy helped you most** — finding the anchor note, counting intervals, or something else?
+3. **Where do you want to keep improving** next week?
 
 {{% /closing %}}
 
