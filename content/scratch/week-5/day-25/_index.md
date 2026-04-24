@@ -15,7 +15,7 @@ resources:
   - Presentation Template
   - Presentation Rubric
   - Prototype Rubric
-draft: true
+draft: false
 toc: true
 scratchblocks: false
 mermaid: false
