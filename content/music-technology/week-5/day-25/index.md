@@ -6,35 +6,66 @@ day_number: 25
 units:
   - "Music Reading"
 standards:
-  - MSMTC8.RE.2
-  - MSMTC8.PR.1
+  - MSMTC8.RE.4
 tags:
   - Music Reading
   - Notation
   - Clefs
   - Quiz
 resources: []
-draft: true
+draft: false
 toc: true
 weight: 1
 ---
 
 {{< icon "calendar" >}} **Friday, April 24th, 2026**
 
+{{< callout type="warning" >}}
+**Quiz Today!** Come to class ready to identify clefs and notes on the staff.
+{{< /callout >}}
+
 {{% objectives %}}
 
 ## Objectives
 
-- I can identify G, F, and C clefs on sight.
+- I can identify G and F clefs on sight.
 - I can use the clef anchor note to identify notes on the staff.
 
 {{% /objectives %}}
+
+{{% warmup %}}
+
+## Warmup
+
+Practice identifying notes on the treble clef, bass clef, and piano keyboard before the quiz.
+
+{{< button text="All Clefs — Easy" >}}https://www.musictheory.net/exercises/note/98kkqqccqqeekkccyryyynyyyyyb{{< /button >}}
+
+{{< button text="Treble, Bass & Alto" >}}https://www.musictheory.net/exercises/note/8eccokqyryyynyyyyyb{{< /button >}}
+
+{{< button text="Keyboard" >}}https://www.musictheory.net/exercises/keyboard/y9dyyynb6ub{{< /button >}}
+
+**Remember:**
+- **G clef** → anchor on line 2 from the bottom = G
+- **F clef** → anchor on line 4 from the bottom = F
+
+Count up or down from the anchor to find any note.
+
+{{% checkpoint %}}
+
+- [ ] I reviewed note names on the treble clef.
+- [ ] I reviewed note names on the bass clef.
+- [ ] I feel ready to take the quiz.
+
+{{% /checkpoint %}}
+
+{{% /warmup %}}
 
 {{% worksession %}}
 
 ## Music Reading Quiz
 
-<!-- Add quiz instructions and distribution details here -->
+We'll practice together as a class first to review clef identification and note reading. Once everyone feels ready, we'll take the quiz.
 
 {{% /worksession %}}
 
@@ -42,7 +73,9 @@ weight: 1
 
 ## Early Finishers: Mystery Transcription Round 2
 
-<!-- Add second round mystery transcription details here -->
+If you finish the quiz early, continue working on the Mystery Transcription. Submit your guesses when you're done.
+
+{{< button text="Submit Guesses" >}}https://forms.cloud.microsoft/r/JLPSM6yaQu{{< /button >}}
 
 {{% /worksession %}}
 
@@ -50,11 +83,14 @@ weight: 1
 
 ## Closing
 
-<!-- Add closing/debrief details here -->
+Let's debrief the week:
+
+1. **Which clef felt easiest to read?** Which one still trips you up?
+2. **What strategy helped you most** — finding the anchor note, counting intervals, or something else?
+3. **Where do you want to keep improving** next week?
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure and context of varied musical works inform the response (demonstrating knowledge of notation and clef reading).
-- [**MSMTC8.PR.1**](/music-technology/description/#msmtc8pr1) — Select varied musical works to present based on interest, knowledge, technical skill, and context (applying music reading skills developed throughout the week).
+- [**MSMTC8.RE.4**](/music-technology/description/#msmtc8re4) — Support evaluations of musical works and performances based on analysis, interpretation, and established criteria (demonstrating knowledge of notation and clef reading on the quiz).
