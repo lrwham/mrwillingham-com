@@ -36,7 +36,9 @@ weight: 5
 
 ## Warmup: Presentation Expectations
 
-Your team will present your finished game to the class on **Friday, May 1st**. Before you start building, read through the full expectations below so you know what you're working toward.
+Your team will present your finished game and a PowerPoint/Canva/Prezi to the class on **Friday, May 1st**. Before you start building, read through the full expectations below so you know what you're working toward.
+
+{{< button text="OPTIONAL: Download the Presentation Template" >}}downloads/vgd-presentation-template.pptx{{< /button >}}
 
 ### Presentation Requirements
 
