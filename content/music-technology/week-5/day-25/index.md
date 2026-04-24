@@ -41,7 +41,7 @@ Practice identifying notes on the treble clef, bass clef, and piano keyboard bef
 
 {{< button text="All Clefs — Easy" >}}https://www.musictheory.net/exercises/note/98kkqqccqqeekkccyryyynyyyyyb{{< /button >}}
 
-{{< button text="Treble, Bass & Alto" >}}https://www.musictheory.net/exercises/note/8eccokqyryyynyyyyyb{{< /button >}}
+{{< button text="Treble & Bass" >}}https://www.musictheory.net/exercises/note/8eccokqyryyynyyyyyb{{< /button >}}
 
 {{< button text="Keyboard" >}}https://www.musictheory.net/exercises/keyboard/y9dyyynb6ub{{< /button >}}
 
@@ -65,7 +65,7 @@ Count up or down from the anchor to find any note.
 
 ## Music Reading Quiz
 
-We'll practice together as a class first to review clef identification and note reading. Once everyone feels ready, we'll take the quiz.
+We'll practice together as a class first to review treble clef, bass clef, and piano keyboard note reading. Once everyone feels ready, open **CTLS Assess** to take the quiz.
 
 {{% /worksession %}}
 
