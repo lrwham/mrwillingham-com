@@ -46,6 +46,8 @@ Your team will present your finished game and a PowerPoint/Canva/Prezi to the cl
 
 {{< button text="Presentation Rubric" >}}/scratch/video-game-design-project/presentation-rubric/{{< /button >}}
 
+{{< button text="Prototype Rubric" >}}/scratch/video-game-design-project/prototype-rubric/{{< /button >}}
+
 ### Presentation Requirements
 
 | Requirement | Details |
@@ -90,8 +92,6 @@ Today you will split your team's energy between two tasks. Decide together who w
 ### Task 1: Start the Prototype in Scratch
 
 One or more team members should open Scratch and begin building the game:
-
-{{< button text="Prototype Rubric" >}}/scratch/video-game-design-project/prototype-rubric/{{< /button >}}
 
 1. Create a new Scratch project and name it: `[Studio Name] — [Game Title]`
 2. Share the project so all team members can access it
