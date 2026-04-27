@@ -42,7 +42,7 @@ weight: 1
 
 ## Work Session
 
-This is **Day 2 of 5** in the final stretch. You picked up your work on Friday — today is about keeping momentum. Check in with your team right now: what did you get done last time, and what's left?
+This is the 6th day of this project. Check in with your team right now: what did you get done last time, and what's left?
 
 {{< button text="Project Schedule" >}}/scratch/video-game-design-project/{{< /button >}}
 
