@@ -47,19 +47,11 @@ Download and open this MuseScore file. Listen to it once all the way through, th
 
 {{< button text="Download MuseScore File" >}}ABA-Worksheet.mscz{{< /button >}}
 
-**As you listen, think about:**
-
-1. Where does the melody feel like it's "at home"? Which note does it keep returning to?
-2. Does the middle section sound different from the beginning and end? How?
-3. How would you describe the overall shape of the piece?
-
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
 - [ ] I downloaded and opened the MuseScore file.
-- [ ] I listened to the melody at least twice.
-- [ ] I can describe how the middle section sounds different from the opening.
 
 {{% /checkpoint %}}
 
@@ -86,44 +78,37 @@ You will write a short original melody in **C major** using **ABA form** in Muse
 | Section | Measures | Goal |
 |---|---|---|
 | **A** | 1–4 | Main melodic idea; end on or near C (the tonic) |
-| **B** | 5–8 | Contrasting idea; use different notes or a different rhythm |
+| **B** | 5–8 | Contrasting idea; use different notes or a different rhythm. End on a note other than C to create contrast. |
 | **A** | 9–12 | Return to your original idea from measures 1–4 |
 
 ---
 
 ### Setting Up Your MuseScore File
 
-1. Open **MuseScore** and create a **New Score**.
-2. Choose any treble-clef instrument (Voice, Flute, or Violin work well).
-3. Set the **key signature** to **C major** (no sharps or flats).
-4. Set the **time signature** to **4/4**.
-5. Set the score length to **12 measures**.
-6. Title your score: **ABA Melody — [Your Name]**.
+You'll use the worksheet I provided in the warmup. So, there's nothing to setup!
 
 ### Composing Your Melody
 
 - Use notes from the **C major scale**: C D E F G A B C
-- Start and end your **A sections** on or near **C** to reinforce the tonic.
-- For your **B section**, try starting on a different note (E or G work well) or changing the rhythm.
+- Start and end your **A sections** on **C** to reinforce the tonic.
+- For your **B section**, try starting on a different note (G?) and changing the rhythm.
 - Use the **Play** button frequently to hear what you've written and adjust anything that doesn't sound right.
-- Avoid using more than one note per beat until your melody is working — keep it simple first.
+- Use one note per beat only!
 
 ### Tips
 
-- If you get stuck, hum something first, then figure out which notes match what you're humming.
-- A melody doesn't have to be complicated to be good — simple and memorable is the goal.
+- A melody doesn't have to be complicated to be good — simple and memorable is good!
 - Your A section and your return-A section don't have to be identical, but they should sound related.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ] My MuseScore file is set up with the correct key, time signature, and 12 measures.
 - [ ] I have written an A section (mm. 1–4) that feels like it ends near home (C).
 - [ ] I have written a contrasting B section (mm. 5–8).
 - [ ] I have written the return A section (mm. 9–12).
 - [ ] I played it back and made corrections.
-  - [ ] I saved and submitted my file to the CTLS Discussion Post with a sentence describing a choice I made.
+- [ ] I saved and submitted my file to the CTLS Discussion Post with a sentence describing a choice I made.
 
 {{% /checkpoint %}}
 
@@ -141,7 +126,6 @@ Go to the **Discussion Post** in CTLS and upload your completed MuseScore file (
 Then listen to at least **three of your classmates' melodies** and reply to their posts using these sentence stems:
 
 - *"Your B section stood out to me because…"*
-- *"The tonic felt clear/unclear to me because…"*
 - *"One thing I'd suggest trying is…"*
 
 "Nice job!" is not enough — tell them *what* you heard and *why* it worked or didn't.
