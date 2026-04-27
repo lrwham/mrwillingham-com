@@ -123,7 +123,7 @@ You will write a short original melody in **C major** using **ABA form** in Muse
 - [ ] I have written a contrasting B section (mm. 5–8).
 - [ ] I have written the return A section (mm. 9–12).
 - [ ] I played it back and made corrections.
-- [ ] I saved and shared my file to Google Classroom.
+  - [ ] I saved and submitted my file to the CTLS Discussion Post with a sentence describing a choice I made.
 
 {{% /checkpoint %}}
 
@@ -133,13 +133,18 @@ You will write a short original melody in **C major** using **ABA form** in Muse
 
 ## Closing
 
-Open Google Classroom and listen to at least **three of your classmates' melodies**. Leave each one a comment using these sentence stems:
+Go to the **Discussion Post** in CTLS and upload your completed MuseScore file (.mscz) as an attachment. In your post, include a sentence or two describing a choice you made:
+
+- Which note did you start your B section on, and why?
+- What did you do to make your B section feel different from your A section?
+
+Then listen to at least **three of your classmates' melodies** and reply to their posts using these sentence stems:
 
 - *"Your B section stood out to me because…"*
 - *"The tonic felt clear/unclear to me because…"*
 - *"One thing I'd suggest trying is…"*
 
-Be specific — "nice job" is not useful feedback. Tell them *what* you heard and *why* it worked or didn't.
+"Nice job!" is not enough — tell them *what* you heard and *why* it worked or didn't.
 
 {{% /closing %}}
 
