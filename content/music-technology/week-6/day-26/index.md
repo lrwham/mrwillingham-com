@@ -47,6 +47,10 @@ Download and open this MuseScore file. Listen to it once all the way through, th
 
 {{< button text="Download MuseScore File" >}}ABA-Worksheet.mscz{{< /button >}}
 
+{{< button text="MusicXML Version" >}}ABA-Worksheet.xml{{< /button >}}
+
+{{< button text="MEI Version" >}}ABA-Worksheet.mei{{< /button >}}
+
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
