@@ -15,19 +15,8 @@ This week we will learn to write melodies using common musical forms. You'll lea
 
 | Day | Date     | Topic                                               | Summary                                                                                           |
 | --- | -------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 26  | Mon 4/27 | [ABA Form and the Tonic Note](day-26/) | Learn to use the tonic note as the concluding note of a melody in ABA form. |
-| 27  | Tue 4/28 | [TBD](day-27/) | TBD |
-| 28  | Wed 4/29 | [TBD](day-28/) | TBD |
-| 29  | Thu 4/30 | [TBD](day-29/) | TBD |
-| 30  | Fri 5/1  | [TBD](day-30/) | TBD |
-
-<!--
-{{% alert "Graded Assignments" %}}
-
-- **Ode to Joy** (due Wednesday 4/22) — Transcribe the Ode to Joy melody into Musescore following the video walkthrough.
-- **Mystery Transcription** (due Thursday 4/23) — Transcribe the five mystery lines and submit your title guesses.
-
-Late work will receive a one-time 20 point deduction.
-
-{{% /alert %}}
---!>
+| 26  | Mon 4/27 | [ABA Form and the Tonic Note](day-26/)              | Compose a 12-measure melody in C major using ABA form and share it for peer feedback.            |
+| 27  | Tue 4/28 | [Binary Form and Bass Lines](day-27/)               | Explore AB (binary) form and add a simple bass line to support your melody.                      |
+| 28  | Wed 4/29 | [Chord Progressions and Melody](day-28/)            | Use common chord progressions as a foundation for melody writing.                                |
+| 29  | Thu 4/30 | [32-Bar Form and Chords](day-29/)                   | Apply 32-bar (AABA) form and continue building melodies over chord progressions.                 |
+| 30  | Fri 5/1  | [Final Melody](day-30/)                             | Write and share a final melody that demonstrates the forms and techniques from the week.         |
