@@ -1,14 +1,14 @@
 ---
 title: "Day 27: Binary Form and Bass Lines"
 date: 2026-04-28
-description: "Explore AB (binary) form and add a simple bass line to support your ABA melody in MuseScore."
+description: "Choose one binary-form melody, mark its A and B sections in MuseScore, and add a simple bass line in C major or A minor."
 day_number: 27
 units:
   - "Music Reading"
 standards:
   - MSMTC8.CR.1
   - MSMTC8.CR.2
-  - MSMTC8.CR.3
+  - MSMTC8.RE.2
 tags:
   - Music Reading
   - Notation
@@ -34,9 +34,9 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Objectives
 
-- I can describe the difference between AB (binary) form and ABA (ternary) form.
-- I can add a second instrument staff in MuseScore to write a bass line below my melody.
-- I can write a simple one-note-per-measure bass line using C, G, F, and E that supports my ABA melody.
+- I can identify the A section and B section in a binary-form melody.
+- I can mark up a MuseScore file to show where each section begins and ends.
+- I can add a simple one-note-per-measure bass line that supports a melody in C major or A minor.
 
 {{% /objectives %}}
 
@@ -44,9 +44,25 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
-Download [this ZIP archive](binary-form-examples.zip) and listen to the two Musescore files inside.
+Download [this ZIP archive](binary-form-examples.zip) and listen to the two MuseScore files inside.
 
-Each file contains a melody in binary form. Try to guess what that means.
+Each file contains a melody in binary form. Today you will choose **one** of these melodies to mark up and arrange.
+
+As you listen, ask yourself:
+
+- Where does the first musical idea seem to end?
+- Where does the second musical idea begin?
+- Does the melody sound like it is in **C major** or **A minor**?
+
+{{% checkpoint %}}
+
+### Checkpoint: Warmup
+
+- [ ] I downloaded the ZIP archive and opened both MuseScore files.
+- [ ] I can hear where each melody seems to change from one idea to another.
+- [ ] I have chosen which melody I will work with today.
+
+{{% /checkpoint %}}
 
 {{% /warmup %}}
 
@@ -67,16 +83,27 @@ Each file contains a melody in binary form. Try to guess what that means.
 
 ---
 
-### ABA vs. AB — Side by Side
+### Today's Melody Choice
 
-| Feature | ABA Form (Ternary) | AB Form (Binary) |
+You will use **one of the two melodies from the warmup ZIP file**. Both melodies are written with no sharps or flats, so they are based in either **C major** or **A minor**.
+
+Choose the melody you want to develop today:
+
+- **Melody 1:** Choose this if you like its rhythm, contour, or overall mood.
+- **Melody 2:** Choose this if it feels easier to hear the A and B sections.
+
+Once you choose, keep that MuseScore file open. You will mark its binary form first, then add a bass line.
+
+---
+
+### AB Form: What to Mark
+
+| Section | What it does | What to listen for |
 |---|---|---|
-| Number of sections | Three (A, B, A) | Two (A, B) |
-| Does it return to A? | Yes | No |
-| Feeling at the end | Resolved, "home" | Open-ended or finished in a new place |
-| Common in… | Classical themes, pop songs with a bridge | Folk songs, early classical pieces, some pop verses |
+| **A section** | Introduces the first musical idea | The opening idea, usually sounding stable or memorable |
+| **B section** | Gives a contrasting second idea | A change in rhythm, pitch direction, range, or mood |
 
-> **Today's focus:** You already wrote an ABA melody. You are *not* rewriting it as AB — you're just learning the concept for comparison. Your task today is to **add a bass line** to the ABA melody you already have.
+> **Today's focus:** Before you add notes, Mr. Willingham will walk you through marking the A and B sections in MuseScore. The goal is to see the structure of the melody before you write a bass line underneath it.
 
 ---
 
@@ -85,15 +112,19 @@ Each file contains a melody in binary form. Try to guess what that means.
 A bass line lives below your melody on a separate staff. Today you'll keep it extremely simple:
 
 - **One note per measure**, played on **beat 1** only.
-- Use only these four notes: **C, E, F, G** (all belong to the C major scale and outline common chords).
-- The bass note should feel like it "matches" the melody note or notes in that measure — if the melody is moving around C, a C in the bass feels stable; if the melody feels restless, G in the bass can help.
+- Use notes that fit the key of your melody.
+- The bass note should feel like it "matches" the melody note or notes in that measure. If the melody sounds settled, use the home note. If it needs motion, use a nearby supporting note.
 
-| Bass note | Why it works |
-|---|---|
-| **C** | The tonic — feels like home; use it when the melody is settled. |
-| **G** | The dominant — creates tension and forward motion; use it before returning to C. |
-| **F** | The subdominant — a softer contrast; works well in the B section. |
-| **E** | The mediant — part of the C major chord (C–E–G); adds warmth and works well when the melody is sitting on or near C or E. |
+| If your melody sounds like... | Start with these bass notes | Why they work |
+|---|---|---|
+| **C major** | **C, F, G** | C feels like home, F gives contrast, and G creates motion back toward C. |
+| **A minor** | **A, D, E** | A feels like home, D gives contrast, and E is a fifth above A, which can make the music feel ready to return home. |
+
+You may also use other white-key notes from the melody if they sound better, but start with the simple choices above.
+
+{{< callout type="info" >}}
+Because these melodies use only white keys, **E** in A minor will not have the same strong pull as a major-key dominant chord. If E does not sound right in a measure, try **C** or **G** instead.
+{{< /callout >}}
 
 ---
 
@@ -101,48 +132,67 @@ A bass line lives below your melody on a separate staff. Today you'll keep it ex
 
 {{% steps %}}
 
-#### Step 1 — Open one of the binary form examples
+#### Step 1 — Choose and open one binary-form melody
 
-Open the MuseScore file (.mscz) you submitted yesterday. If you cannot find it, ask Mr. Willingham for the template.
+Open **one** of the two MuseScore files from the warmup ZIP archive. This is the melody you will mark up and arrange today.
 
-#### Step 2 — Add a second instrument staff
+#### Step 2 — Mark the binary form with Mr. Willingham
 
-1. Go to **Edit → Instruments** in the menu bar.
+Before adding any bass notes, follow along as Mr. Willingham shows how to mark the score in MuseScore.
+
+1. Find the beginning of the **A section** and label it **A**.
+2. Find the beginning of the **B section** and label it **B**.
+3. Add a small note or text label showing whether the melody is in **C major** or **A minor**.
+4. Listen again and check whether the B section sounds different from the A section.
+
+{{< callout type="tip" >}}
+In MuseScore, use **Add → Text → Staff Text** to add labels like **A**, **B**, **C major**, or **A minor** above the staff.
+{{< /callout >}}
+
+#### Step 3 — Add a second instrument staff
+
+1. Go to **Edit → Instruments** (or press **I**) to open the Instruments panel on the right side of the screen.
 2. In the Instruments panel, click **Add Instrument** and choose **Piano** from the list. This adds a grand staff (treble + bass clef) as a second instrument below your melody.
 3. Click **Done**. You should now see a new set of staves below your melody — use the **bass clef staff** (the lower one) for your bass line.
 
 {{< callout type="tip" >}}
-If your melody is already on a piano grand staff (treble + bass), you may already have a bass clef staff below. In that case, skip Step 2 and just click on the bass clef staff to start entering notes there.
+If your melody is already on a piano grand staff (treble + bass), you may already have a bass clef staff below. In that case, skip Step 3 and just click on the bass clef staff to start entering notes there.
 {{< /callout >}}
 
-#### Step 3 — Enter note input mode on the bass staff
+#### Step 4 — Enter note input mode on the bass staff
 
 1. Click the first measure of the **bass clef staff** (the lower staff).
 2. Press **N** to enter Note Input mode. You'll see a blue cursor.
 3. Press **5** to select a quarter note.
 
-#### Step 4 — Enter your bass notes
+#### Step 5 — Enter your bass notes
 
-For each of the 12 measures, type the letter name of your chosen bass note (**C**, **E**, **F**, or **G**).
+For each measure, type the letter name of your chosen bass note.
+
+- If your melody is in **C major**, start with **C**, **F**, and **G**.
+- If your melody is in **A minor**, start with **A**, **D**, and **E**.
+- Use the same bass note for repeated or very similar measures if it still sounds good.
+- Try making the B section use a different bass pattern than the A section.
 
 - After you type the note letter, the cursor moves to beat 2. Press **0** (zero) to insert a quarter rest — the cursor moves to beat 3. Press **0** again for beat 3, then once more for beat 4. That fills the measure with one note + three rests.
 - Repeat for each measure.
 
 {{< callout type="tip" >}}
-If your bass notes appear in the wrong octave, select the note and press **Ctrl + Down** to move it down an octave (or **Ctrl + Up** to move it up). Bass notes should sit *below* your melody — aim for the C, E, F, or G that is below middle C.
+If your bass notes appear in the wrong octave, select the note and press **Ctrl + Down** to move it down an octave (or **Ctrl + Up** to move it up). Bass notes should sit *below* your melody, usually below middle C.
 {{< /callout >}}
 
-#### Step 5 — Listen and adjust
+#### Step 6 — Listen and adjust
 
 Press **Space** (or click the Play button) to hear both parts together. Ask yourself:
 
 - Does the bass note in each measure feel like it fits, or does it clash?
 - Does the bass move in a way that makes sense — not jumping around randomly?
-- Does the B section (measures 5–8) feel different from the A sections?
+- Does the B section feel different from the A section?
+- Does the bass line help the ending feel finished?
 
 Make any changes before moving on.
 
-#### Step 6 — Save your file
+#### Step 7 — Save your file
 
 Press **Ctrl + S** (Windows) or **Cmd + S** (Mac) to save. Keep the file open for the Closing.
 
@@ -152,8 +202,11 @@ Press **Ctrl + S** (Windows) or **Cmd + S** (Mac) to save. Keep the file open fo
 
 ### Checkpoint: Work Session
 
+- [ ] I chose one of the two warmup melodies.
+- [ ] I marked the A section and B section in MuseScore.
+- [ ] I identified whether my melody is in C major or A minor.
 - [ ] I added a second staff (bass clef) to my MuseScore file.
-- [ ] I entered one bass note per measure for all 12 measures using C, E, F, or G.
+- [ ] I entered one bass note per measure using notes that fit the key.
 - [ ] My bass notes are in the correct octave (below the melody, below middle C).
 - [ ] I played back the full piece and adjusted any notes that clashed.
 - [ ] I saved my file.
@@ -171,15 +224,15 @@ Play back your complete piece one more time — melody and bass line together.
 Then answer these questions out loud (or in your head) before you submit:
 
 1. **Does the bass line make the melody feel more supported?** Where does it feel the most solid? Where does it feel like it still needs work?
-2. **Which bass note did you use the most, and why?** (Was it C? G? Did you use F or E to add variety?)
-3. **Form connection:** Your piece is in ABA form — it returns home at the end. How does your bass line reflect that? Does your bass line also feel like it "comes back" in the final A section, or does it take a different path?
+2. **Which bass note did you use the most, and why?** Was it the home note of the key, or did another note fit more often?
+3. **Form connection:** How did marking the A and B sections help you decide what to do with the bass line?
 
-When you're ready, submit your updated MuseScore file (.mscz) to the **Day 27 assignment in CTLS**. Make sure it has both the melody staff and the bass line staff visible before you export or upload.
+When you're ready, submit your updated MuseScore file (.mscz) to the **Day 27 assignment in CTLS**. Make sure it has the A/B form labels, the key label, the melody staff, and the bass line staff visible before you export or upload.
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (choosing bass notes — C, G, F, E — that support the harmony implied by the melody).
-- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (developing a simple bass line across 12 measures to complement an existing ABA melody).
-- [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine selected musical ideas to create musical work that meets appropriate criteria (using playback to identify clashing bass notes and self-correcting before submitting).
+- [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (choosing bass notes that support the harmony implied by a C major or A minor melody).
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (marking binary form and developing a simple bass line for one selected melody).
+- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure and context of varied musical works inform the response (listening to both binary-form melodies in the warmup and identifying where the A and B sections begin before choosing which melody to arrange).
