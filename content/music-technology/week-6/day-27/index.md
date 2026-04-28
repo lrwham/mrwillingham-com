@@ -52,7 +52,6 @@ As you listen, ask yourself:
 
 - Where does the first musical idea seem to end?
 - Where does the second musical idea begin?
-- Does the melody sound like it is in **C major** or **A minor**?
 
 {{% checkpoint %}}
 
@@ -60,7 +59,6 @@ As you listen, ask yourself:
 
 - [ ] I downloaded the ZIP archive and opened both MuseScore files.
 - [ ] I can hear where each melody seems to change from one idea to another.
-- [ ] I have chosen which melody I will work with today.
 
 {{% /checkpoint %}}
 
@@ -86,11 +84,6 @@ As you listen, ask yourself:
 ### Today's Melody Choice
 
 You will use **one of the two melodies from the warmup ZIP file**. Both melodies are written with no sharps or flats, so they are based in either **C major** or **A minor**.
-
-Choose the melody you want to develop today:
-
-- **Melody 1:** Choose this if you like its rhythm, contour, or overall mood.
-- **Melody 2:** Choose this if it feels easier to hear the A and B sections.
 
 Once you choose, keep that MuseScore file open. You will mark its binary form first, then add a bass line.
 
