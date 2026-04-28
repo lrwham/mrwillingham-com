@@ -35,6 +35,10 @@ weight: 2
 
 {{% /objectives %}}
 
+{{% callout %}}
+Click [here](https://cobbk12org-my.sharepoint.com/:u:/g/personal/lawton_willingham_cobbk12_org/IQCjymdAcdhkSoW1e0c2hZdDAVKo41_GbXXya7IgEX9CqkA?e=mGWPzA) for the box art!
+{{% /callout %}}
+
 {{% worksession %}}
 
 ## Work Session: Deadline Day
