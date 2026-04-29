@@ -181,17 +181,3 @@ draft: false
   <div class="line"></div>
   <div class="line"></div>
 </div>
-
----
-
-## Checklist
-
-Before you hand this to the other group, check that you answered every question:
-
-<div class="checklist">
-  <div class="checkbox-row"><input type="checkbox"> I named something specific that works well.</div>
-  <div class="checkbox-row"><input type="checkbox"> I described something that is confusing or broken.</div>
-  <div class="checkbox-row"><input type="checkbox"> I gave one concrete suggestion to improve the game.</div>
-  <div class="checkbox-row"><input type="checkbox"> I gave feedback on both the presentation and the prototype.</div>
-  <div class="checkbox-row"><input type="checkbox"> My feedback is honest, specific, and kind.</div>
-</div>
