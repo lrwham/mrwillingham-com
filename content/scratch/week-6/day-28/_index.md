@@ -45,6 +45,8 @@ weight: 3
 Start in your assigned seat.
 {{% /callout %}}
 
+<audio controls><source src="warmup.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+
 **Part 1:** Your group provided short descriptions of your game a few days ago. I want to make sure I have a good summary of your game when I setup the Studio to share your projects. Fill out this form to confirm the details.
 
 {{< button text="Game Summary Form" >}}https://forms.cloud.microsoft/r/s7ZPzWAWqm{{< /button >}}
@@ -62,6 +64,8 @@ Start in your assigned seat.
 {{% worksession %}}
 
 ## Work Session
+
+<audio controls><source src="work-session-part-1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 You have two tasks today. **Do them in order** — finish your run-through before you swap.
 
@@ -92,6 +96,8 @@ If a slide is blank, a speaker doesn't know their part, or the Scratch project d
 {{% /steps %}}
 
 ---
+
+<audio controls><source src="work-session-part-2.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 ### Task 2: Present to Another Group
 
