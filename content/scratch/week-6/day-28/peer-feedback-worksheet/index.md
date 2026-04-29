@@ -6,6 +6,9 @@ draft: false
 ---
 
 <style>
+  /* Letter portrait: 8.5in x 11in. With 0.4in top/bottom margins the
+     printable area is 10.2in tall, so each of the three panels on a
+     sheet is exactly 3.4in tall. */
   @page {
     size: letter portrait;
     margin: 0.4in 0.5in;
@@ -19,20 +22,23 @@ draft: false
   }
   .sheet {
     width: 100%;
-    height: 100vh;
+    height: 10.2in;          /* exact printable height on letter */
     display: flex;
     flex-direction: column;
   }
   .panel {
-    flex: 1 1 0;
-    min-height: 0;
-    padding: 8px 10px 6px 10px;
+    height: 3.4in;           /* exactly 1/3 of the printable sheet */
+    flex: 0 0 3.4in;
+    padding: 0.15in 0.15in 0.1in 0.15in;
     overflow: hidden;
+    page-break-inside: avoid;
+    break-inside: avoid;
   }
   .cut {
     border: none;
     border-top: 1.5px dashed #aaa;
     margin: 0;
+    height: 0;
     position: relative;
   }
   .cut::before {
@@ -45,6 +51,10 @@ draft: false
     line-height: 1;
   }
   .page-break { page-break-before: always; }
+  @media print {
+    html, body { width: 7.5in; }
+    .sheet { height: 10.2in; }
+  }
   .panel-title {
     font-size: 13px;
     font-weight: bold;
