@@ -33,15 +33,33 @@ weight: 3
 
 {{% /objectives %}}
 
+{{% warmup %}}
+
+## Warmup: Part 1
+
+Your group provided short descriptions of your game a few days ago. I want to make sure I have a good summary of your game when I setup the Studio to share your projects. Fill out this form to confirm the details.
+
+{{< button text="Game Summary Form" >}}https://forms.cloud.microsoft/r/s7ZPzWAWqm{{< /button >}}
+
+{{% /warmup %}}
+
+{{% warmup %}}
+
+## Warmup: Part 2
+
+Mr. Willingham will assign your group another group to present and get feedback from. While you wait for your assignment, read the work session below and review the rubrics so you know what to expect.
+
+{{< button text="Presentation Rubric" >}}/scratch/video-game-design-project/presentation-rubric/{{< /button >}}
+
+{{< button text="Prototype Rubric" >}}/scratch/video-game-design-project/prototype-rubric/{{< /button >}}
+
+{{% /warmup %}}
+
 {{% worksession %}}
 
 ## Work Session
 
 You have two tasks today. **Do them in order** — finish your run-through before you swap.
-
-{{< button text="Presentation Rubric" >}}/scratch/video-game-design-project/presentation-rubric/{{< /button >}}
-
-{{< button text="Prototype Rubric" >}}/scratch/video-game-design-project/prototype-rubric/{{< /button >}}
 
 ### Task 1: Rehearse Your Presentation
 
@@ -73,7 +91,7 @@ If a slide is blank, a speaker doesn't know their part, or the Scratch project d
 
 ### Task 2: Present to Another Group
 
-When your team is ready, find another group and present with them as your audience. Play their Scratch game and fill out the feedback questions below on paper.
+When your team is ready, work with your assigned group and present with them as your audience. Swap and let the other group present to you. Take notes on their presentation and play their Scratch prototype like a real player.
 
 {{< callout type="info" >}}
 **Your job as a tester:** Play the game like a real player who has never seen it before. Don't ask the other team questions — figure it out on your own, and note what confused you.
