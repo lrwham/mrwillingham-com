@@ -9,6 +9,7 @@ standards:
   - MSMTC8.CR.1
   - MSMTC8.CR.2
   - MSMTC8.CR.3
+  - MSMTC8.CR.4
 tags:
   - Music Reading
   - Notation
@@ -59,7 +60,7 @@ Yesterday you added a bass line to a binary-form melody. Before we move on, let'
 After a minute on your own, Mr. Willingham will call on a few people to share their answers.
 
 {{< callout type="info" >}}
-**Reminder:** AB form has two sections. The A section states the main idea. The B section contrasts — it may use a different pitch range, a different rhythm, or a different mood. Many binary-form pieces end the B section on the dominant (the V chord or the 5th scale degree) to make the music feel like it could start over.
+**Reminder:** AB form has two sections. The A section states the main idea. The B section contrasts — it may use a different pitch range, a different rhythm, or a different mood. In some binary-form pieces, the B section ends on an unresolved chord (like the dominant) to create forward momentum. Today's B section will end on **A** — the home note of A minor — to give the piece a clear, finished feeling.
 {{< /callout >}}
 
 {{% checkpoint %}}
@@ -170,7 +171,7 @@ When MuseScore asks you to choose an instrument at the start, pick **Piano**. Th
 
 1. Click the first measure of the **bass clef staff**.
 2. Press **N** to enter Note Input mode.
-3. For each measure, you will enter a chord. Press **5** to choose a quarter note.
+3. For each measure, you will enter a chord. Press **7** to choose a whole note — this fills the entire measure with one chord.
 4. Type the **root note** (the letter name of the first chord note). Then hold **Shift** and type each additional note to stack the chord.
 
 **A section chord sequence (repeat twice, mm. 1–8):**
@@ -247,7 +248,7 @@ Your B section melody should **contrast** with the A section. Try at least one o
 
 | Strategy | What to do |
 |---|---|
-| **Different starting note** | Begin on **A** or **E** instead of C or E. |
+| **Different starting note** | Begin on **A** — the tonic of A minor — rather than C or E. |
 | **Different direction** | If your A section mostly moved up, have the B section mostly move down. |
 | **Different rhythm** | If your A section used lots of quarter notes, try more half notes — or vice versa. |
 | **Higher or lower range** | Stay above the notes you used in the A section, or below them. |
@@ -324,3 +325,4 @@ When you're ready, submit your MuseScore file (.mscz) to the **Day 28 assignment
 - [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (using a Hooktheory chord progression as the harmonic foundation for an original melody).
 - [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (choosing melody notes that fit each chord in an 8-measure A section and an 8-measure B section).
 - [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine selected musical ideas to create musical work that meets appropriate criteria (listening back and making at least two intentional revisions before submitting).
+- [**MSMTC8.CR.4**](/music-technology/description/#msmtc8cr4) — Share creative musical work that conveys intent, demonstrates craftsmanship, and exhibits originality (submitting a finished 16-measure composition with chords and melody to the Day 28 assignment in CTLS).
