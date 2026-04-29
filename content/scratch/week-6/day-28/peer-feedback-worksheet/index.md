@@ -6,178 +6,271 @@ draft: false
 ---
 
 <style>
-  @page { margin: 0.5in; }
+  @page {
+    size: letter portrait;
+    margin: 0.4in 0.5in;
+  }
+  * { box-sizing: border-box; }
   body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0.5in;
+    margin: 0;
+    padding: 0;
     color: #000;
   }
-  h1 {
-    font-size: 22px;
-    margin: 0 0 4px 0;
-    text-align: center;
-  }
-  .subtitle {
-    font-size: 12px;
-    text-align: center;
-    margin: 0 0 12px 0;
-    color: #444;
-  }
-  h2 {
-    font-size: 15px;
-    margin: 18px 0 6px 0;
-    border-bottom: 2px solid #000;
-    padding-bottom: 2px;
-  }
-  h3 {
-    font-size: 12px;
-    margin: 12px 0 4px 0;
-  }
-  p, li {
-    font-size: 11px;
-    line-height: 1.4;
-  }
-  .name-lines {
+  .sheet {
+    width: 100%;
+    height: 100vh;
     display: flex;
-    gap: 30px;
-    margin-bottom: 14px;
-    font-size: 12px;
+    flex-direction: column;
   }
-  .name-lines span {
-    flex: 1;
-    border-bottom: 1px solid #000;
-    padding-bottom: 2px;
+  .panel {
+    flex: 1 1 0;
+    min-height: 0;
+    padding: 8px 10px 6px 10px;
+    overflow: hidden;
   }
-  .answer-lines {
-    margin: 6px 0 10px 0;
+  .cut {
+    border: none;
+    border-top: 1.5px dashed #aaa;
+    margin: 0;
+    position: relative;
   }
-  .answer-lines .line {
-    border-bottom: 1px solid #999;
-    height: 26px;
-    margin-bottom: 2px;
+  .cut::before {
+    content: "\2702";
+    position: absolute;
+    left: -18px;
+    top: -10px;
+    font-size: 13px;
+    color: #aaa;
+    line-height: 1;
   }
-  .answer-lines .line-tall {
-    border-bottom: 1px solid #999;
-    height: 36px;
-    margin-bottom: 2px;
+  .page-break { page-break-before: always; }
+  .panel-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 3px 0;
+    text-align: center;
+    letter-spacing: 0.01em;
   }
-  .feedback-box {
-    border: 1.5px solid #000;
-    min-height: 80px;
-    margin: 6px 0 12px 0;
-    padding: 6px 8px;
+  .panel-subtitle {
+    font-size: 9px;
+    text-align: center;
+    color: #555;
+    margin: 0 0 5px 0;
   }
-  .reminder {
-    border: 1.5px solid #aaa;
-    background: #f7f7f7;
-    padding: 6px 10px;
-    font-size: 10.5px;
-    margin-bottom: 14px;
-    line-height: 1.5;
+  .panel h2 {
+    font-size: 11px;
+    font-weight: bold;
+    margin: 6px 0 3px 0;
+    border-bottom: 1.5px solid #000;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
-  .section-label {
+  .panel h3 {
     font-size: 10px;
     font-weight: bold;
+    margin: 5px 0 2px 0;
+  }
+  .section-label {
+    font-size: 9px;
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #555;
-    margin-bottom: 2px;
+    letter-spacing: 0.04em;
+    color: #666;
+    margin: 0 0 2px 0;
   }
-  .page-break {
-    page-break-before: always;
+  .name-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 4px;
+    font-size: 10px;
   }
-  .checkbox-row {
+  .name-row span {
+    flex: 1;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+  }
+  .reminder {
+    border: 1px solid #bbb;
+    background: #f7f7f7;
+    padding: 4px 7px;
+    font-size: 9px;
+    line-height: 1.45;
+    margin-bottom: 5px;
+  }
+  .lines { margin: 2px 0 5px 0; }
+  .lines .ln {
+    border-bottom: 1px solid #bbb;
+    height: 20px;
+    margin-bottom: 1px;
+  }
+  .check-row {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    margin: 3px 0 5px 0;
+    flex-wrap: wrap;
+  }
+  .check-row label { display: flex; align-items: center; gap: 4px; }
+  .checklist { margin: 4px 0 0 0; }
+  .checklist .cr {
     display: flex;
     align-items: flex-start;
-    gap: 8px;
-    margin-bottom: 6px;
-    font-size: 11px;
-  }
-  .checkbox-row input[type="checkbox"] {
-    margin-top: 2px;
-    flex-shrink: 0;
-  }
-  .checklist {
-    margin: 8px 0 0 0;
+    gap: 6px;
+    font-size: 10px;
+    margin-bottom: 4px;
+    line-height: 1.3;
   }
 </style>
 
-# Peer Feedback Worksheet
-<div class="subtitle">Day 28 &mdash; Video Game Design Project &mdash; Practice &amp; Peer Feedback</div>
-
-<div class="name-lines">
-  <span><strong>Your Name:</strong> </span>
-  <span><strong>Your Group:</strong> </span>
-  <span><strong>Period:</strong> </span>
+<div class="sheet">
+  <div class="panel">
+    <div class="panel-title">Peer Feedback Worksheet</div>
+    <div class="panel-subtitle">Day 28 &mdash; Video Game Design Project</div>
+    <div class="name-row">
+      <span><strong>Your Name:</strong></span>
+      <span><strong>Your Group:</strong></span>
+      <span><strong>Period:</strong></span>
+    </div>
+    <div class="name-row">
+      <span><strong>Group You Are Reviewing:</strong></span>
+      <span><strong>Game Title:</strong></span>
+    </div>
+    <div class="reminder">
+      <strong>Reminder:</strong> Play the game like someone who has never seen it before. Don't ask the other team for help &mdash; figure it out on your own and note what confuses you. Feedback should be <strong>honest and kind</strong>. Don't say "it's bad" &mdash; say what specifically isn't working and what could fix it. Don't just say "it's good" &mdash; name something that can be improved.
+    </div>
+    <h2>Part 1: Presentation Feedback</h2>
+    <h3>1. What part of the presentation was clear and engaging?</h3>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>2. What part could be clearer or more interesting?</h3>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>3. How long did the presentation feel?</h3>
+    <div class="check-row">
+      <label><input type="checkbox"> Too short</label>
+      <label><input type="checkbox"> About right (3&ndash;5 min)</label>
+      <label><input type="checkbox"> Too long</label>
+    </div>
+  </div>
+  <hr class="cut">
+  <div class="panel">
+    <div class="panel-title">Peer Feedback Worksheet</div>
+    <div class="panel-subtitle">Day 28 &mdash; Video Game Design Project</div>
+    <div class="name-row">
+      <span><strong>Your Name:</strong></span>
+      <span><strong>Your Group:</strong></span>
+      <span><strong>Period:</strong></span>
+    </div>
+    <div class="name-row">
+      <span><strong>Group You Are Reviewing:</strong></span>
+      <span><strong>Game Title:</strong></span>
+    </div>
+    <div class="reminder">
+      <strong>Reminder:</strong> Play the game like someone who has never seen it before. Don't ask the other team for help &mdash; figure it out on your own and note what confuses you. Feedback should be <strong>honest and kind</strong>. Don't say "it's bad" &mdash; say what specifically isn't working and what could fix it. Don't just say "it's good" &mdash; name something that can be improved.
+    </div>
+    <h2>Part 1: Presentation Feedback</h2>
+    <h3>1. What part of the presentation was clear and engaging?</h3>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>2. What part could be clearer or more interesting?</h3>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>3. How long did the presentation feel?</h3>
+    <div class="check-row">
+      <label><input type="checkbox"> Too short</label>
+      <label><input type="checkbox"> About right (3&ndash;5 min)</label>
+      <label><input type="checkbox"> Too long</label>
+    </div>
+  </div>
+  <hr class="cut">
+  <div class="panel">
+    <div class="panel-title">Peer Feedback Worksheet</div>
+    <div class="panel-subtitle">Day 28 &mdash; Video Game Design Project</div>
+    <div class="name-row">
+      <span><strong>Your Name:</strong></span>
+      <span><strong>Your Group:</strong></span>
+      <span><strong>Period:</strong></span>
+    </div>
+    <div class="name-row">
+      <span><strong>Group You Are Reviewing:</strong></span>
+      <span><strong>Game Title:</strong></span>
+    </div>
+    <div class="reminder">
+      <strong>Reminder:</strong> Play the game like someone who has never seen it before. Don't ask the other team for help &mdash; figure it out on your own and note what confuses you. Feedback should be <strong>honest and kind</strong>. Don't say "it's bad" &mdash; say what specifically isn't working and what could fix it. Don't just say "it's good" &mdash; name something that can be improved.
+    </div>
+    <h2>Part 1: Presentation Feedback</h2>
+    <h3>1. What part of the presentation was clear and engaging?</h3>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>2. What part could be clearer or more interesting?</h3>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>3. How long did the presentation feel?</h3>
+    <div class="check-row">
+      <label><input type="checkbox"> Too short</label>
+      <label><input type="checkbox"> About right (3&ndash;5 min)</label>
+      <label><input type="checkbox"> Too long</label>
+    </div>
+  </div>
 </div>
 
-<div class="name-lines">
-  <span><strong>Group You Are Reviewing:</strong> </span>
-  <span><strong>Game Title:</strong> </span>
-</div>
-
-<div class="reminder">
-  <strong>Reminder:</strong> Play the game like someone who has never seen it before. Don't ask the other team for help — figure it out on your own and note what confuses you.<br>
-  Feedback should be <strong>honest and kind</strong>. Don't say "it's bad" — say what specifically isn't working and what could fix it. Don't just say "it's good" — name something that can be improved.
-</div>
-
-## Part 1: Presentation Feedback
-
-### 1. What part of the presentation was clear and engaging?
-
-<div class="answer-lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-</div>
-
-### 2. What part of the presentation could be clearer or more interesting?
-
-<div class="answer-lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-</div>
-
-### 3. How long did the presentation feel?
-
-<div style="display:flex; gap:30px; font-size:11px; margin: 6px 0 12px 0;">
-  <label><input type="checkbox"> Too short</label>
-  <label><input type="checkbox"> About right (3–5 min)</label>
-  <label><input type="checkbox"> Too long</label>
-</div>
-
-<div class="page-break"></div>
-
-## Part 2: Prototype Feedback
-
-### 4. What works well?
-
-<div class="section-label">Name one specific thing that functions correctly and feels good to play.</div>
-
-<div class="answer-lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-</div>
-
-### 5. What's confusing or broken?
-
-<div class="section-label">Describe anything that didn't make sense, got stuck, crashed, or was impossible to figure out without help.</div>
-
-<div class="answer-lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-</div>
-
-### 6. One suggestion
-
-<div class="section-label">Give one concrete, actionable idea to improve the game. Be specific.</div>
-
-<div class="answer-lines">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
+<div class="sheet page-break">
+  <div class="panel">
+    <h2>Part 2: Prototype Feedback</h2>
+    <h3>4. What works well?</h3>
+    <div class="section-label">Name one specific thing that functions correctly and feels good to play.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>5. What's confusing or broken?</h3>
+    <div class="section-label">Describe anything that didn't make sense, got stuck, crashed, or was impossible to figure out without help.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div><div class="ln"></div></div>
+    <h3>6. One suggestion</h3>
+    <div class="section-label">Give one concrete, actionable idea to improve the game. Be specific.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h2>Checklist &mdash; before you hand this to the other group</h2>
+    <div class="checklist">
+      <div class="cr"><input type="checkbox"> I named something specific that works well.</div>
+      <div class="cr"><input type="checkbox"> I described something confusing or broken.</div>
+      <div class="cr"><input type="checkbox"> I gave one concrete suggestion to improve the game.</div>
+      <div class="cr"><input type="checkbox"> I gave feedback on both the presentation and the prototype.</div>
+      <div class="cr"><input type="checkbox"> My feedback is honest, specific, and kind.</div>
+    </div>
+  </div>
+  <hr class="cut">
+  <div class="panel">
+    <h2>Part 2: Prototype Feedback</h2>
+    <h3>4. What works well?</h3>
+    <div class="section-label">Name one specific thing that functions correctly and feels good to play.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>5. What's confusing or broken?</h3>
+    <div class="section-label">Describe anything that didn't make sense, got stuck, crashed, or was impossible to figure out without help.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div><div class="ln"></div></div>
+    <h3>6. One suggestion</h3>
+    <div class="section-label">Give one concrete, actionable idea to improve the game. Be specific.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h2>Checklist &mdash; before you hand this to the other group</h2>
+    <div class="checklist">
+      <div class="cr"><input type="checkbox"> I named something specific that works well.</div>
+      <div class="cr"><input type="checkbox"> I described something confusing or broken.</div>
+      <div class="cr"><input type="checkbox"> I gave one concrete suggestion to improve the game.</div>
+      <div class="cr"><input type="checkbox"> I gave feedback on both the presentation and the prototype.</div>
+      <div class="cr"><input type="checkbox"> My feedback is honest, specific, and kind.</div>
+    </div>
+  </div>
+  <hr class="cut">
+  <div class="panel">
+    <h2>Part 2: Prototype Feedback</h2>
+    <h3>4. What works well?</h3>
+    <div class="section-label">Name one specific thing that functions correctly and feels good to play.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h3>5. What's confusing or broken?</h3>
+    <div class="section-label">Describe anything that didn't make sense, got stuck, crashed, or was impossible to figure out without help.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div><div class="ln"></div></div>
+    <h3>6. One suggestion</h3>
+    <div class="section-label">Give one concrete, actionable idea to improve the game. Be specific.</div>
+    <div class="lines"><div class="ln"></div><div class="ln"></div></div>
+    <h2>Checklist &mdash; before you hand this to the other group</h2>
+    <div class="checklist">
+      <div class="cr"><input type="checkbox"> I named something specific that works well.</div>
+      <div class="cr"><input type="checkbox"> I described something confusing or broken.</div>
+      <div class="cr"><input type="checkbox"> I gave one concrete suggestion to improve the game.</div>
+      <div class="cr"><input type="checkbox"> I gave feedback on both the presentation and the prototype.</div>
+      <div class="cr"><input type="checkbox"> My feedback is honest, specific, and kind.</div>
+    </div>
+  </div>
 </div>
