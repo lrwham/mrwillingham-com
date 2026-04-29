@@ -98,7 +98,7 @@ After a minute on your own, Mr. Willingham will call on a few people to share th
 
 [**Hooktheory TheoryTab**](https://www.hooktheory.com/theorytab) is a searchable database of over 70,000 pop songs analyzed by their chord progressions. Every song shows the chords in Roman numerals so you can see *why* they work — not just what they are.
 
-Today you will use two chord progressions drawn from songs in the Hooktheory database.
+Today you will use the two chord progressions provided below. Hooktheory is here to show you just how widely used these progressions are — you will find them behind dozens of songs you already know.
 
 ---
 
@@ -118,12 +118,12 @@ This is the single most common chord progression in pop music. Hooktheory lists 
 
 In **C major**, this progression uses these chords:
 
-| Roman numeral | Chord name | Notes in the chord |
-|---|---|---|
-| **I** | C major | C – E – G |
-| **V** | G major | G – B – D |
-| **vi** | A minor | A – C – E |
-| **IV** | F major | F – A – C |
+| Roman numeral | Chord name | Notes in the chord | Chord |
+|---|---|---|---|
+| **I** | C major | C – E – G | ![C major chord](C-major.png) |
+| **V** | G major | G – B – D | ![G major chord](G-major.png) |
+| **vi** | A minor | A – C – E | ![A minor chord](A-minor.png) |
+| **IV** | F major | F – A – C | ![F major chord](F-major.png) |
 
 One chord per measure × 8 measures = play the progression **twice** for your A section.
 
@@ -133,12 +133,12 @@ This progression appears in many minor-key pop and rock songs. It uses the natur
 
 In **A minor**, the chords are:
 
-| Roman numeral | Chord name | Notes in the chord |
-|---|---|---|
-| **i** | A minor | A – C – E |
-| **VII** | G major | G – B – D |
-| **VI** | F major | F – A – C |
-| **VII** | G major | G – B – D |
+| Roman numeral | Chord name | Notes in the chord | Chord |
+|---|---|---|---|
+| **i** | A minor | A – C – E | ![A minor chord](A-minor.png) |
+| **VII** | G major | G – B – D | ![G major chord](G-major.png) |
+| **VI** | F major | F – A – C | ![F major chord](F-major.png) |
+| **VII** | G major | G – B – D | ![G major chord](G-major.png) |
 
 One chord per measure × 8 measures = play the progression **twice** for your B section.
 
