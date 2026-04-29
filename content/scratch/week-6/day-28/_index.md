@@ -41,7 +41,7 @@ weight: 3
 
 ## Warmup
 
-{{% callout %}}
+{{% callout emoji="🪑" %}}
 Start in your assigned seat.
 {{% /callout %}}
 
