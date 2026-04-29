@@ -15,6 +15,10 @@ tags:
 resources:
   - Presentation Rubric
   - Prototype Rubric
+standards:
+  - MS-CS-FCP.4.2
+  - MS-CS-FCP.4.4
+  - MS-CS-FCP.6.3
 draft: false
 toc: true
 scratchblocks: false
@@ -35,19 +39,13 @@ weight: 3
 
 {{% warmup %}}
 
-## Warmup: Part 1
+## Warmup
 
-Your group provided short descriptions of your game a few days ago. I want to make sure I have a good summary of your game when I setup the Studio to share your projects. Fill out this form to confirm the details.
+**Part 1:** Your group provided short descriptions of your game a few days ago. I want to make sure I have a good summary of your game when I setup the Studio to share your projects. Fill out this form to confirm the details.
 
 {{< button text="Game Summary Form" >}}https://forms.cloud.microsoft/r/s7ZPzWAWqm{{< /button >}}
 
-{{% /warmup %}}
-
-{{% warmup %}}
-
-## Warmup: Part 2
-
-Mr. Willingham will assign your group another group to present and get feedback from. While you wait for your assignment, read the work session below and review the rubrics so you know what to expect.
+**Part 2:** Mr. Willingham will assign your group another group to present and get feedback from. While you wait, open the two rubrics below and read through them — you'll use both during the work session.
 
 {{< button text="Presentation Rubric" >}}/scratch/video-game-design-project/presentation-rubric/{{< /button >}}
 
@@ -97,7 +95,7 @@ When your team is ready, work with your assigned group and present with them as 
 **Your job as a tester:** Play the game like a real player who has never seen it before. Don't ask the other team questions — figure it out on your own, and note what confused you.
 {{< /callout >}}
 
-Answer these three questions for the team whose presentation you viewed and whose game you tested:
+Answer these four questions for the team whose presentation you viewed and whose game you tested:
 
 1. **What works well?** — Name one specific thing that functions correctly and feels good to play. (Example: "The character moves smoothly and the jump feels right.")
 2. **What's confusing or broken?** — Describe anything that didn't make sense, got stuck, crashed, or was impossible to figure out without help.
@@ -112,10 +110,12 @@ Also, don't just say "it's good" — name something that can be improved.
 
 {{% checkpoint %}}
 
+### Checkpoint
+
 Before the end of class, make sure your team has:
 
 - [ ] Completed at least one full timed run-through of your presentation
-- [ ] Tested another group's Scratch prototype and written down answers to all three feedback questions
+- [ ] Tested another group's Scratch prototype and written down answers to all four feedback questions
 - [ ] Received written feedback from the other group
 
 {{% /checkpoint %}}
