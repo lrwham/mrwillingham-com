@@ -41,6 +41,8 @@ weight: 3
 
 ## Warmup
 
+**Start in your assigned seat**
+
 **Part 1:** Your group provided short descriptions of your game a few days ago. I want to make sure I have a good summary of your game when I setup the Studio to share your projects. Fill out this form to confirm the details.
 
 {{< button text="Game Summary Form" >}}https://forms.cloud.microsoft/r/s7ZPzWAWqm{{< /button >}}
@@ -50,6 +52,8 @@ weight: 3
 {{< button text="Presentation Rubric" >}}/scratch/video-game-design-project/presentation-rubric/{{< /button >}}
 
 {{< button text="Prototype Rubric" >}}/scratch/video-game-design-project/prototype-rubric/{{< /button >}}
+
+**Part 3:** Done with all of that? Read the work session while you wait.
 
 {{% /warmup %}}
 
