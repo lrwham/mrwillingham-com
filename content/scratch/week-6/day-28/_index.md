@@ -41,7 +41,9 @@ weight: 3
 
 ## Warmup
 
-**Start in your assigned seat**
+{{% callout %}}
+Start in your assigned seat.
+{{% /callout %}}
 
 **Part 1:** Your group provided short descriptions of your game a few days ago. I want to make sure I have a good summary of your game when I setup the Studio to share your projects. Fill out this form to confirm the details.
 
