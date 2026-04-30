@@ -154,7 +154,7 @@ The arpeggiator takes your chord notes and plays them one at a time in a pattern
 
 1. Click on your **chord instrument track** to select it.
 2. Click the **Smart Controls** button at the bottom of the screen (the button that looks like a row of knobs), or press **B**.
-3. In the Smart Controls area, look for a button labeled **Arpeggiator**. Click it to turn it on.
+3. In the top-right corner of the Smart Controls area, look for the **Arpeggiator button** — it looks like a staircase icon. Click it to turn it on.
 
 #### Step 2 — Try different settings
 
@@ -200,6 +200,7 @@ If you have a MIDI keyboard at your station, plug it in. GarageBand should detec
 
 - **If your chord progression is major (C major):** Use notes from the C major scale — C D E F G A B C. Start and end your melody on **C**.
 - **If your chord progression is minor (A minor):** Use notes from the A natural minor scale — A B C D E F G A. Start and end on **A**.
+- **If your chord progression is in a different key:** Your scale uses the same pattern, just starting on your root note. For example, G major is G A B C D E F# G, and D minor is D E F G A B♭ C D. If you are unsure which scale fits your key, ask Mr. Willingham.
 - Your melody should follow the **AABA form** of your chords — but you can simplify it. Even a 4-measure melodic idea repeated in the right places is enough.
 - Use the **Piano Roll** to clean up any notes that did not record the way you intended.
 
@@ -228,6 +229,8 @@ You do not have to record in real time if it is not working for you. After recor
 ## Closing
 
 Play your project from beginning to end.
+
+**Peer feedback:** When you are done listening, swap with a neighbor. Listen to their project once and give them one specific piece of feedback — something that sounds good and one thing they could improve. Then listen to their feedback on your project and decide if you want to make any changes before submitting.
 
 Before you submit, listen for these three things:
 
