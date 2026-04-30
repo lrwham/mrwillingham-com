@@ -12,6 +12,14 @@ To make a new page `hugo new content music-technology/dayxx.md`. The archetype i
 
 `git submodule update --init --recursive`
 
+# Update Hextra Theme
+
+To update the Hextra theme submodule to the latest `main`:
+
+```bash
+git submodule update --remote themes/hextra
+```
+
 # Github Actions Setup
 
 Generate keys on the server that will host the website. Then add the username, host IP, and SSH key as secrets in the Github action config.
