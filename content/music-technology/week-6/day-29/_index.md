@@ -53,7 +53,7 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 **Step 2:** Unzip the file. You will find folders of MIDI files organized by key and mood. Browse the file names — each one tells you the chord progression and a mood description (for example, *C – I V vi IV – Hopeful Romantic* or *A – i VI III VII – Nostalgic Hopeful*).
 
-**Step 3:** Pick **one chord progression** you like the sound of. The file names you can preview are also listed on the [MIDI Files reference page](midi-files/).
+**Step 3:** Pick **one chord progression** you like the sound of.
 
 **Step 4:** Import your chosen MIDI file into GarageBand.
 
