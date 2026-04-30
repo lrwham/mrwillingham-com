@@ -36,9 +36,11 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
-{{< clever >}}
+Download the chord progression files.
 
-<!-- Add warmup instructions here -->
+{{< button text="Download Chord Progressions" >}}/downloads/midi-chord-progressions.zip{{< /button >}}
+
+Unzip the file and try importing some of the MIDI files into GarageBand. Listen to the chord progressions and experiment with different instruments and sounds.
 
 {{% checkpoint %}}
 
@@ -55,22 +57,15 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Work Session
 
-<!-- Add work session instructions here -->
+Use the chord progressions you imported to create a new project in GarageBand. 
 
-<!-- OPTIONAL: Use buttons for action links (worksheets, shared docs, etc.)
-{{< button text="Open Document" >}}https://...{{< /button >}}
--->
+We'll review how to arrange different sections of a song into ABA form.
 
-<!-- OPTIONAL: Use tabs for multi-step instructions
-{{< tabs >}}
-{{< tab name="Step 1" >}}
-Instructions for step 1.
-{{< /tab >}}
-{{< tab name="Step 2" >}}
-Instructions for step 2.
-{{< /tab >}}
-{{< /tabs >}}
--->
+The arpeggiator is a new tool that we'll try out today. It allows you to create arpeggios from chords, which can add interesting textures to your music.
+
+Of course we'll add drums and then make a melody too.
+
+In GarageBand, you'll make your melody with the keyboard. Try musical typing first with Command-K, and then try using a MIDI keyboard when Mr. Willingham gives you a turn.
 
 {{% checkpoint %}}
 
