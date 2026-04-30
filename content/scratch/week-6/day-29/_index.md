@@ -27,6 +27,12 @@ weight: 4
 
 {{< icon "calendar" >}} **Thursday, April 30th, 2026**
 
+{{% callout type="warning" emoji="🚨" %}}
+If any groups are ready today, we'll let two groups present today.
+
+Everyone else, will present tomorrow!
+{{% /callout %}}
+
 {{% objectives %}}
 
 ## Objectives
