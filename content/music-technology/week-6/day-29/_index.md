@@ -100,7 +100,7 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 Each MIDI file you downloaded is already a complete chord progression — it has all its chords and is ready to use as-is. Your job is to arrange it into **AABA form** by duplicating and placing the region in the timeline.
 
-AABA form has four sections. Each section is one full loop of your chord progression:
+AABA form has four sections. Each section should be **8 measures long**. If your chord progression is shorter than 8 measures, loop it to fill the full 8 measures — Option-drag copies of it end-to-end until the section reaches measure 8. For example, a 2-measure progression would be repeated 4 times to make one 8-measure A section.
 
 | Section | Role |
 |---|---|
@@ -113,9 +113,9 @@ AABA form has four sections. Each section is one full loop of your chord progres
 
 #### Step 1 — Duplicate your A section region
 
-Your imported MIDI region is your **A section**. **Option-drag** it in the timeline to create two more copies, placing them end-to-end so your timeline reads: **A – A – [gap] – A**.
+Your imported MIDI region is your first **A section**. First, if needed, Option-drag copies of it end-to-end to fill 8 measures. Then Option-drag the complete 8-measure A section two more times so your timeline reads: **A (mm. 1–8) – A (mm. 9–16) – [gap mm. 17–24] – A (mm. 25–32)**.
 
-Leave a gap equal to one region length between the second A and the third A — that gap is where the B section will go.
+Leave an 8-measure gap between the second A and the third A — that gap is where the B section will go.
 
 #### Step 2 — Create the B section
 
