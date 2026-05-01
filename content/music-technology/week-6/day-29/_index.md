@@ -1,7 +1,7 @@
 ---
 title: "Day 29: 32-Bar Form and Chords in GarageBand"
 date: 2026-04-30T08:32:28-04:00
-description: "Import MIDI chord progressions into GarageBand, arrange them into AABA (32-bar) form, add drums, explore the arpeggiator, and write a melody using Musical Typing or a MIDI keyboard."
+description: "Import MIDI chord progressions into GarageBand, arrange them into AABA (32-bar) form, add drums, explore the arpeggiator, and begin a melody — you will finish and submit the project on Day 30."
 day_number: 29
 units:
   - "Music Reading"
@@ -38,7 +38,7 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 - I can import a MIDI chord progression into GarageBand and assign it an instrument sound.
 - I can arrange chord regions into AABA (32-bar) form in the GarageBand timeline.
-- I can add a drum loop and write a simple melody using Musical Typing or a MIDI keyboard.
+- I can add a drum loop and begin writing a melody using Musical Typing or a MIDI keyboard.
 - I can use the arpeggiator to transform chords into a moving melodic pattern.
 
 {{% /objectives %}}
@@ -174,9 +174,9 @@ If the arpeggiator makes your track sound more interesting, leave it on. If it s
 
 ---
 
-### Part 3 — Write a Melody
+### Part 3 — Begin Your Melody
 
-Now add a melody on top of your chord progression. You have two options for how to record it.
+Start a melody on top of your chord progression today. You will have all of Friday (Day 30) to finish and refine it — the goal right now is to get something started. You have two options for how to record.
 
 #### Option A — Musical Typing (computer keyboard)
 
@@ -203,6 +203,7 @@ If you have a MIDI keyboard at your station, plug it in. GarageBand should detec
 - **If your chord progression is in a different key:** Your scale uses the same pattern, just starting on your root note. For example, G major is G A B C D E F# G, and D minor is D E F G A B♭ C D. If you are unsure which scale fits your key, ask Mr. Willingham.
 - Your melody should follow the **AABA form** of your chords — but you can simplify it. Even a 4-measure melodic idea repeated in the right places is enough.
 - Use the **Piano Roll** to clean up any notes that did not record the way you intended.
+- You do not need a complete melody today. Getting the first A section started is enough — you will finish on Day 30.
 
 {{< callout type="info" >}}
 You do not have to record in real time if it is not working for you. After recording a few notes, you can open the **Piano Roll** and draw in additional notes by clicking in empty space. Use whatever method gets you the notes you want.
@@ -216,8 +217,7 @@ You do not have to record in real time if it is not working for you. After recor
 - [ ] My B section sounds different from my A sections in at least one way.
 - [ ] I added a drum loop that covers the full length of my project.
 - [ ] I tried the arpeggiator and decided whether to keep it on or off.
-- [ ] I recorded or drew in at least a few measures of melody on a new track.
-- [ ] I played back the full project and fixed any obvious mistakes.
+- [ ] I started recording or drawing in melody notes on a new track.
 - [ ] I saved my GarageBand project.
 
 {{% /checkpoint %}}
@@ -228,17 +228,17 @@ You do not have to record in real time if it is not working for you. After recor
 
 ## Closing
 
-Play your project from beginning to end.
-
-**Peer feedback:** When you are done listening, swap with a neighbor. Listen to their project once and give them one specific piece of feedback — something that sounds good and one thing they could improve. Then listen to their feedback on your project and decide if you want to make any changes before submitting.
-
-Before you submit, listen for these three things:
+Play your project from beginning to end and listen for these three things before you save:
 
 1. **Does the B section sound clearly different from the A sections?** If they all sound identical, pick one thing to change in the B section — the instrument, the octave, or the chord file.
-2. **Does the melody feel like it belongs over the chords?** If a melody note sounds like it clashes, open the Piano Roll and move it up or down by one step until it fits.
+2. **Does the melody (even if incomplete) feel like it belongs over the chords?** If a note sounds like it clashes, open the Piano Roll and move it up or down by one step until it fits.
 3. **Is the overall volume balanced?** If the drums are drowning out everything else, click the drum track and pull the volume slider to the left.
 
-When your project sounds the way you want it to, save it and submit the GarageBand project folder to the **Day 29 assignment in CTLS**.
+When you are done listening, **save your GarageBand project** — you will open it again on Friday to finish and submit.
+
+{{< callout type="info" >}}
+You are not submitting today. On Day 30 (Friday) you will finish the project, export it as an MP3, and submit it to the CTLS discussion post.
+{{< /callout >}}
 
 {{% /closing %}}
 
@@ -247,4 +247,4 @@ When your project sounds the way you want it to, save it and submit the GarageBa
 - [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (importing MIDI chord progressions and adding original drums and melody in GarageBand).
 - [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (selecting a chord progression by mood and arranging it into AABA form with a contrasting B section).
 - [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine selected musical ideas to create musical work that meets appropriate criteria (using playback to identify and fix clashing melody notes, balance issues, and weak B-section contrast before submitting).
-- [**MSMTC8.CR.4**](/music-technology/description/#msmtc8cr4) — Share creative musical work that conveys intent, demonstrates craftsmanship, and exhibits originality (submitting a finished GarageBand project with chords, drums, and melody arranged in AABA form).
+- [**MSMTC8.CR.4**](/music-technology/description/#msmtc8cr4) — Share creative musical work that conveys intent, demonstrates craftsmanship, and exhibits originality (saving a GarageBand project with chords, drums, and a melody-in-progress arranged in AABA form, to be finished and submitted on Day 30).
