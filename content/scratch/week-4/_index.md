@@ -9,17 +9,17 @@ weight: 7
 
 ## Unit: Intermediate Scratch
 
-Welcome back from Spring Break! This week you start a brand new project — a falling-objects game — while reviewing the skills you learned in Weeks 1–3. The new skill for the week is **cloning**, which lets one sprite create many copies of itself.
+Welcome back from Spring Break! This week you start a brand new project — a falling-objects game — while reviewing the skills you learned in Weeks 1–3. The new skill for the week is **cloning**, which lets one sprite create many copies of itself at runtime. By Friday you will have a complete game with a start screen, game-over screen, scoring, lives, and a working clone system — then share it with the class and take the unit quiz.
 
 ## Weekly Schedule
 
 | Day | Date     | Topic                                 | Summary                                                                                        |
 | --- | -------- | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| 16  | Mon 4/13 | [Welcome Back — New Game](day-16/)    | Review key skills by starting a new falling-objects game from scratch.                          |
-| 17  | Tue 4/14 | [Variables Deep Dive](day-17/)        | Add speed and lives variables that change how the game plays, not just what's on screen.        |
-| 18  | Wed 4/15 | [Clones](day-18/)                     | Use clones to spawn many falling objects from a single sprite.                                  |
-| 19  | Thu 4/16 | [Game States & Sound](day-19/)        | Add start and game-over screens with broadcasts, then add sound effects.                        |
-| 20  | Fri 4/17 | [Unit Quiz, Showcase & Week 5 Preview](day-20/) | Take the **Intermediate Scratch unit quiz**, share your game with the class, and preview the group video game project. |
+| 16  | Mon 4/13 | [Welcome Back — New Game](day-16/)    | Build a playable falling-objects game from scratch using motion, loops, conditionals, and a score variable. |
+| 17  | Tue 4/14 | [Variables Deep Dive](day-17/)        | Add `speed` and `lives` variables so the game gets harder with each catch and ends when lives run out. |
+| 18  | Wed 4/15 | [Clones](day-18/)                     | Replace the single falling object with a clone factory that spawns multiple independent objects at once. |
+| 19  | Thu 4/16 | [Game States](day-19/)                | Use broadcasts to add a start screen and game-over screen so the game has a clear beginning and end. |
+| 20  | Fri 4/17 | [Quiz & Share Your Game](day-20/)     | Take the unit quiz on CTLS, polish your falling-objects game, then share it to the class studio on Scratch. |
 
 {{% alert "Graded Assignments" %}}
 

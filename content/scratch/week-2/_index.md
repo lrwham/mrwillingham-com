@@ -9,17 +9,17 @@ weight: 9
 
 ## Unit: Conditionals & Control Flow
 
-This week you will learn how programs make decisions using conditionals. You'll add keyboard controls and wall detection to your maze game, practice conditional logic in Scratch and on paper with flow diagrams, and discover how loops let you repeat actions efficiently.
+This week you make your maze game interactive by adding keyboard controls and wall detection using conditionals. You practice conditional logic through vocabulary, offline flow diagrams, and a deep dive into loops — then finish the week by combining loops and conditionals to build a working game mechanic in Scratch.
 
 ## Weekly Schedule
 
-| Day | Date     | Topic                               | Summary                                                                                                                                            |
-| --- | -------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 6   | Mon 3/23 | [User Input & Conditionals](day-6/) | Watch an Edpuzzle on **events** and **user input**, add keyboard controls to your maze, and use **conditionals** to make sprites bounce off walls. |
-| 7   | Tue 3/24 | [Flocabulary: Conditionals](day-7/) | Complete the Flocabulary lesson on **Coding: Conditionals** — watch the video, play the vocab game, and finish the quiz and read & respond activities. |
-| 8   | Wed 3/25 | [Flow Diagrams](day-8/)             | Complete an offline flow diagram activity to map out conditional logic using yes/no decisions on paper.                                            |
-| 9   | Thu 3/26 | [Loops](day-9/)                     | Watch a video introduction to **loops**, practice loops on Code.org, and use loops to make Scratch code more efficient.                            |
-| 10  | Fri 3/27 | [Week 2 Wrap-Up](day-10/)           | Review conditionals, loops, and control flow. Finish any incomplete work and reflect on what you've learned.                               |
+| Day | Date     | Topic                                                                  | Summary                                                                                                                                             |
+| --- | -------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6   | Mon 3/23 | [Day 6: User Input & Conditionals](day-6/)                             | Watch an Edpuzzle on user input and events, add arrow-key controls to your maze, and use an `if touching color` block to send your sprite back to the start when it hits a wall. |
+| 7   | Tue 3/24 | [Day 7: Flocabulary — Coding: Conditionals](day-7/)                   | Complete all six Flocabulary activities — video, vocab cards, vocab game, break it down, read & respond, and quiz — to build vocabulary around conditional statements. |
+| 8   | Wed 3/25 | [Day 8: Flow Diagrams](day-8/)                                         | Read and trace flow diagrams, then draw your own using ovals, rectangles, and decision diamonds to map out conditional logic on paper.               |
+| 9   | Thu 3/26 | [Day 9: Loops](day-9/)                                                 | Watch an introduction to loops, complete levels 1–10 of Code.org Lesson 12, and refactor a Scratch project to replace repeated blocks with `repeat` loops. |
+| 10  | Fri 3/27 | [Day 10: Loops + Conditionals](day-10/)                                | Build a Scratch program from scratch that uses a `forever` loop containing at least two `if` blocks, a moveable sprite, a collectable coin, and a score variable. |
 
 {{% alert "Graded Assignments" %}}
 
