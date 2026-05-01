@@ -2,6 +2,8 @@
 
 To make a new page `hugo new content music-technology/dayxx.md`. The archetype includes the front matter..
 
+See [content.md](content.md) for full guidelines on lesson structure, weekly landing pages, and CTLS calendar conventions.
+
 # Serve Local Development Site
 
 `HUGO_ENV=dev hugo serve --buildFuture --buildDrafts` will serve the site locally and include any content with a future publish date or marked as a draft.
