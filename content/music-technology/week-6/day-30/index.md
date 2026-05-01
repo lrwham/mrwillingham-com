@@ -171,7 +171,7 @@ When the timer goes off, export your project.
 
 #### Step 1
 
-Go to **File → Share → Export Song to Disk**.
+Go to **Share → Export Song to Disk**.
 
 #### Step 2
 
