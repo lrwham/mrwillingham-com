@@ -15,8 +15,8 @@ This week we will learn to write melodies using common musical forms. You'll lea
 
 | Day | Date     | Topic                                               | Summary                                                                                           |
 | --- | -------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 26  | Mon 4/27 | [ABA Form and the Tonic Note](day-26/)              | Compose a 12-measure melody in C major using ABA form and share it for peer feedback.            |
-| 27  | Tue 4/28 | [Binary Form and Bass Lines](day-27/)               | Explore AB (binary) form and add a simple bass line to support your melody.                      |
-| 28  | Wed 4/29 | [Chord Progressions and Melody](day-28/)            | Use common chord progressions as a foundation for melody writing.                                |
-| 29  | Thu 4/30 | [32-Bar Form and Chords](day-29/)                   | Apply 32-bar (AABA) form and continue building melodies over chord progressions.                 |
-| 30  | Fri 5/1  | [Final Melody](day-30/)                             | Write and share a final melody that demonstrates the forms and techniques from the week.         |
+| 26  | Mon 4/27 | [ABA Form and the Tonic Note](day-26/)              | Learn ABA form and the tonic note, then compose an original melody in C major using MuseScore.   |
+| 27  | Tue 4/28 | [Binary Form and Bass Lines](day-27/)               | Identify A and B sections in a binary-form melody, mark them up in MuseScore, and add a bass line in C major or A minor. |
+| 28  | Wed 4/29 | [Chord Progressions and Melody](day-28/)            | Explore real chord progressions on Hooktheory, then compose an 8-measure A section in C major and an 8-measure B section in A minor with a melody on top. |
+| 29  | Thu 4/30 | [32-Bar Form and Chords in GarageBand](day-29/)     | Import MIDI chord progressions, arrange them into AABA (32-bar) form in GarageBand, add a drum loop, explore the arpeggiator, and begin a melody. |
+| 30  | Fri 5/1  | [Finish Your 32-Bar Melody](day-30/)                | Finish the AABA project with chords, drums, and an original melody, then export as an MP3 and submit to the CTLS discussion post. |
