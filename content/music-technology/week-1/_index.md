@@ -19,7 +19,7 @@ In this unit, you will create your own podcast episode from start to finish. You
 | 2   | Tue 3/17 | [Sound Waves](day-2/)                        | Complete the BrainPop sound waves lesson. _(Independent work — Mr. Willingham is out.)_               |
 | 3   | Wed 3/18 | [Microphone Setup & Sound Check](day-3/)     | Watch a video on microphone setup, then practice recording a sound check in GarageBand.               |
 | 4   | Thu 3/19 | [Podcast Brainstorm](day-4/)                 | Brainstorm podcast topics across multiple categories, then write two podcast intros.                   |
-| 5   | Fri 3/20 | [Record & Choose Your Topic](day-5/)         | Record both podcast intros, practice basic editing in GarageBand, and choose a final topic.           |
+| 5   | Fri 3/20 | [Practice Recording & Choose Your Topic](day-5/) | Record both intros in GarageBand, practice trimming and splitting to edit them, and choose a final topic. |
 
 {{% alert "Graded Assignments" %}}
 

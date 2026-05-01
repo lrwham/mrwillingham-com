@@ -16,7 +16,7 @@ This is the second and final week of the Video Game Design Project. You will fin
 | Day | Date     | Topic                                                           | Summary                                                                                         |
 | --- | -------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | 26  | Mon 4/27 | [Prototype & Presentation — Day 2](day-26/)                     | Continue building your Scratch prototype and PowerPoint presentation.                            |
-| 27  | Tue 4/28 | [Finish Prototype & Presentation](day-27/)                      | Complete your prototype and presentation — these should be finished by end of class.             |
+| 27  | Tue 4/28 | [Finish Prototype & Presentation](day-27/)                      | Complete your prototype and presentation — both are due and submitted by end of class.           |
 | 28  | Wed 4/29 | [Practice & Peer Feedback](day-28/)                             | Rehearse your presentation and swap prototypes with another group for feedback.                  |
 | 29  | Thu 4/30 | [Revisions](day-29/)                                            | Use peer feedback to make final revisions to your prototype and presentation.                    |
 | 30  | Fri 5/1  | [Final Presentations & Share](day-30/)                          | Present your finished game to the class and share your Scratch project publicly.                 |

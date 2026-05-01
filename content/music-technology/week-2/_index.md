@@ -7,15 +7,19 @@ cascade:
 weight: 11
 ---
 
+## Unit: Podcasts
+
+This week students complete their podcast episodes from start to finish. You will write and refine a full script, compose original intro music in GarageBand, record your episode using a microphone and Soundtrap, and edit the final product before sharing it with the class.
+
 ## Weekly Schedule
 
-| Day | Date     | Topic                                  | Summary                                                                          |
-| --- | -------- | -------------------------------------- | -------------------------------------------------------------------------------- |
-| 6   | Mon 3/23 | [Write Your Script](day-6/)            | Review script expectations and write the full podcast script in Word Online.     |
-| 7   | Tue 3/24 | [Intro Music](day-7/)                  | Use GarageBand to create original intro music for your podcast using loops.      |
-| 8   | Wed 3/25 | [Peer Feedback & Final Script](day-8/) | Share scripts for peer feedback, revise, and finalize your script for recording. |
-| 9   | Thu 3/26 | [Record Your Podcast](day-9/)          | Set up the microphone and record your full podcast episode in Soundtrap.         |
-| 10  | Fri 3/27 | [Edit & Share](day-10/)                | Edit your podcast episode in Soundtrap and share it with the class.              |
+| Day | Date     | Topic                                  | Summary                                                                                              |
+| --- | -------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 6   | Mon 3/23 | [Write Your Script](day-6/)            | Review script expectations and write a full podcast script — intro, main content, conclusion, and audio annotations — in Word Online. |
+| 7   | Tue 3/24 | [Intro Music](day-7/)                  | Layer 2–4 loops in GarageBand to create 10–20 seconds of original intro music and export it as an MP3. |
+| 8   | Wed 3/25 | [Peer Feedback & Final Script](day-8/) | Read two peers' scripts and leave constructive feedback, then revise and finalize your own script for recording. |
+| 9   | Thu 3/26 | [Record Your Podcast](day-9/)          | Set up the microphone and audio interface, then record your full script one section at a time in Soundtrap. |
+| 10  | Fri 3/27 | [Edit & Share](day-10/)                | Rerecord any weak sections, edit out mistakes and balance levels in Soundtrap, then export and upload the finished episode. |
 
 {{% alert "Graded Assignments" %}}
 
