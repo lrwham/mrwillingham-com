@@ -1,7 +1,7 @@
 ---
-title: "Day 31: The Terminal and Pygame"
+title: "Day 31: The Terminal and VS Code"
 date: 2026-05-04
-description: "Open VS Code, navigate the file system, create a virtual environment, install Pygame, and run your first Python program."
+description: "Open VS Code, use the integrated terminal to navigate the file system, and write and run your first Python script."
 day_number: 31
 units:
   - "Python and the Terminal"
@@ -12,7 +12,6 @@ tags:
   - python
   - terminal
   - vscode
-  - pygame
   - command-line
 resources:
   - Terminal Setup
@@ -31,9 +30,7 @@ weight: 1
 
 - I can verify that Python is installed on my Mac.
 - I can open VS Code and use the integrated terminal.
-- I can navigate the file system using `ls` and `cd`.
-- I can create and activate a Python virtual environment.
-- I can install a package using `pip` and run a Pygame example.
+- I can write a Python script and run it.
 
 {{% /objectives %}}
 
@@ -53,7 +50,7 @@ Press **`⌘ Space`** (Command + Spacebar) to open Spotlight.
 
 Type `IDLE` and press **Return**.
 
-- **If IDLE opens** — Python is installed. Close IDLE and move on to the Work Session.
+- **If IDLE opens** — Python is installed. Click next to the `>>>` prompt, type `print("Hello, world!")`, and press **Return**. You should see `Hello, world!` printed on the next line. Close IDLE and move on to the Work Session.
 - **If nothing comes up** — Python is not installed. Go to Step 3.
 
 ### Open CCSD Self Service
@@ -66,8 +63,17 @@ Search for **Python** in Self Service and click **Install**. Wait for it to fini
 
 ### Confirm
 
-Once the install completes, press **`⌘ Space`** and search for `IDLE` again. It should open now. Close it — you won't use IDLE for this class.
+Once the install completes, press **`⌘ Space`** and search for `IDLE` again. It should open now.
 
+### Try It in IDLE
+
+You have Python installed — let's run one line of code right now. In the IDLE window, click next to the `>>>` prompt, type this exactly, and press **Return**:
+
+```python
+print("Hello, world!")
+```
+
+You should see `Hello, world!` appear on the next line. That's Python running.
 {{% /steps %}}
 
 {{< callout type="important" >}}
@@ -78,107 +84,47 @@ If Self Service isn't working or Python won't install, raise your hand now. We'l
 
 {{% worksession %}}
 
-## Work Session: The Terminal and Pygame
+## Work Session
 
-### Part 1 — Open VS Code
+### Python Basics in the IDLE
 
-1. Press **`⌘ Space`** and search for **VS Code**. Open it.
-2. Go to **File → Open Folder…** and open your Desktop or Documents folder. Create a new folder called `python-class` if you don't already have one, then open it.
-3. Open the integrated terminal with **Terminal → New Terminal** (or press `` ⌃` ``).
+We'll explore some Python basics. Follow along with Mr. Willingham. Some of the examples are listed below if you want to try them on your own.
 
-You should see a prompt that ends with a `$` or `%`. This is the shell — a text interface for talking to your Mac.
-
----
-
-### Part 2 — Navigate with the Terminal
-
-The terminal starts in your project folder. Let's explore.
-
-**List files and folders:**
-
-```bash
-ls
+```python
+print("Hello, world!")
+3 + 4
+"Hello, " + "Python!"
+a = 10
+b = 20
+a + b
+c = a * b
+c
+d
 ```
 
-`ls` stands for *list*. It prints the names of everything in your current folder.
+### Python in VS Code
 
-**Move into a folder:**
+It is usually easier to write Python in a code editor like VS Code instead of IDLE. Let's set that up now.
 
-```bash
-cd Documents
-```
+Use Spotlight Search to open **Visual Studio Code**. Then follow along with Mr. Willingham. We'll setup a project folder called `python-basics`.
 
-`cd` stands for *change directory*. You're now inside the `Documents` folder.
-
-**Go back up one level:**
-
-```bash
-cd ..
-```
-
-Two dots (`..`) always means "the folder above this one."
-
-**Find out where you are:**
-
-```bash
-pwd
-```
-
-`pwd` stands for *print working directory*. It shows the full path to your current location.
-
-{{< callout type="tip" >}}
-You don't have to navigate anywhere for the rest of this lesson — just stay in your `python-class` folder. These commands will be important all unit long.
-{{< /callout >}}
-
----
-
-### Part 3 — Set Up Python and Pygame
-
-Follow the [Terminal Setup](terminal-setup/) page to:
-
-1. Create a virtual environment
-2. Activate it
-3. Install Pygame
-4. Run the Pygame aliens example
-
-Work through that page step by step. Come back here when you've seen the game window open.
-
----
-
-### Part 4 — Write Your First Python File
-
-Now that Pygame is installed, let's write a tiny Python script to make sure everything works together.
-
-1. In VS Code, go to **File → New File** and save it as `hello.py` inside your `python-class` folder.
-2. Type this exactly:
+1. In VS Code, go to **File → Open Folder**.
+2. In the popup, choose your Desktop, then click **New Folder** and name it `python-class`. Click **Open** to open that folder in VS Code.
+3. In VS Code, go to **File → New File** and save it as `hello.py` inside your `python-class` folder.
+4. Type this exactly:
 
 ```python
 print("Hello, world!")
 print("Python is working.")
 ```
 
-3. In the terminal (make sure `(venv)` is still in your prompt), run:
-
-```bash
-python3 hello.py
-```
-
-You should see:
-
-```
-Hello, world!
-Python is working.
-```
-
-If you do — you're done. Python is installed, your environment is set up, and you know how to run a script.
+5. Save the File `⌘ S`
+6. Run the code by pressing the Play button.
 
 {{% checkpoint %}}
 
-- [ ] I opened VS Code and created a project folder.
-- [ ] I can use `ls`, `cd`, and `pwd` in the terminal.
-- [ ] I created and activated a virtual environment — `(venv)` appears in my prompt.
-- [ ] I installed Pygame and ran `python3 -m pygame.examples.aliens`.
-- [ ] I ran `hello.py` and saw the output printed in the terminal.
+- [ ] I opened VS Code and created a `python-class` folder.
+- [ ] I ran `hello.py` and saw both lines printed in the output terminal.
 
 {{% /checkpoint %}}
 
@@ -190,7 +136,7 @@ If you do — you're done. Python is installed, your environment is set up, and 
 
 Today you used two of the most powerful tools in programming: the **terminal** and a **code editor**. Neither one has a point-and-click interface — you have to type commands and write code. That takes getting used to, but it's how professional developers actually work.
 
-Every day this week you'll open VS Code, activate your virtual environment, and write Python. The setup you did today is the foundation for everything else.
+Every day this week you'll open VS Code and write Python. The setup you did today is the foundation for everything else.
 
 Tomorrow: `print()`, variables, and drawing shapes with the `turtle` module.
 
