@@ -17,7 +17,7 @@ Why Python? Why the terminal? They are extremely powerful tools. Python is a pro
 
 | Day | Date    | Topic                                                  | Summary                                                                                                         |
 | --- | ------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| 31  | Mon 5/4 | [The Terminal and VS Code](day-31/)                    | Open VS Code, navigate the file system with `ls`, `cd`, and `pwd`, and write and run your first Python script. |
+| 31  | Mon 5/4 | [Python and VS Code](day-31/)                    | Open VS Code and write and run your first Python script. |
 | 32  | Tue 5/5 | [Hello World and Turtles](day-32/)                     | Write your first Python script with `print()`, then use the `turtle` module to draw shapes on screen with code. |
 | 33  | Wed 5/6 | [Beautiful Patterns with Loops](day-33/)               | Use `for` loops and nested loops to draw repeating geometric patterns, and add random colors with the `random` module. |
 | 34  | Thu 5/7 | [Text Adventure Day 1](day-34/)                        | Build the opening of a text adventure game using variables, `input()`, and `if`/`elif`/`else` statements.       |

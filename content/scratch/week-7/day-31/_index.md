@@ -30,8 +30,7 @@ weight: 1
 
 - I can verify that Python is installed on my Mac.
 - I can open VS Code and use the integrated terminal.
-- I can navigate the file system using `ls`, `cd`, and `pwd`.
-- I can write a Python script and run it from the terminal.
+- I can write a Python script and run it.
 
 {{% /objectives %}}
 

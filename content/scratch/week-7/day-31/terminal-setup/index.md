@@ -1,7 +1,7 @@
 ---
 title: "Terminal and VS Code Quick Reference"
 description: "A reference card for opening VS Code, using basic terminal commands, and running Python scripts."
-draft: false
+draft: true
 toc: true
 weight: 1
 ---
