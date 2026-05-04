@@ -15,13 +15,13 @@ Why Python? Why the terminal? They are extremely powerful tools. Python is a pro
 
 ## Weekly Schedule
 
-| Day | Date     | Topic                                                           | Summary                                                                                         |
-| --- | -------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| 26  | Mon 5/4 | [The Terminal and Pygame](day-31/)                     | TODO ls, venv, source bin/venv/activate, pip install pygame, run example pygame                           |
-| 27  | Tue 5/5 | [Hello World and Turtles](day-32/)                      | TODO print("Hello, World!"), import turtle, create turtle graphics, draw shapes        |
-| 28  | Wed 5/6 | [Beautiful Patterns with Loops](day-33/)                             | TODO  loops, nested loops, random colors             |
-| 29  | Thu 5/7 | [Text Adventure Day 1](day-34/)                                            | TODO  variables, input, if statements                 |
-| 30  | Fri 5/8  | [Text Adventure Day 2](day-35/)                          | TODO    continue story, review conditionals          |
+| Day | Date    | Topic                                                  | Summary                                                                                                         |
+| --- | ------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| 31  | Mon 5/4 | [The Terminal and Pygame](day-31/)                     | Open VS Code, navigate the file system with `ls` and `cd`, create a virtual environment, install Pygame with `pip`, and run a sample Pygame window. |
+| 32  | Tue 5/5 | [Hello World and Turtles](day-32/)                     | Write your first Python script with `print()`, then use the `turtle` module to draw shapes on screen with code. |
+| 33  | Wed 5/6 | [Beautiful Patterns with Loops](day-33/)               | Use `for` loops and nested loops to draw repeating geometric patterns, and add random colors with the `random` module. |
+| 34  | Thu 5/7 | [Text Adventure Day 1](day-34/)                        | Build the opening of a text adventure game using variables, `input()`, and `if`/`elif`/`else` statements.       |
+| 35  | Fri 5/8 | [Text Adventure Day 2](day-35/)                        | Expand your text adventure with additional story branches, review conditionals, and share your finished game.   |
 
 <!-- TODO
 {{% alert "Graded Assignments" %}}
