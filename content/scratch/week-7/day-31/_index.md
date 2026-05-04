@@ -1,5 +1,5 @@
 ---
-title: "Day 31: The Terminal and VS Code"
+title: "Day 31: Python and VS Code"
 date: 2026-05-04
 description: "Open VS Code, use the integrated terminal to navigate the file system, and write and run your first Python script."
 day_number: 31
