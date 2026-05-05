@@ -84,7 +84,7 @@ You are not committing to anything today. Just listen and wonder.
 
 Follow along as Mr. Willingham demonstrates remix techniques in GarageBand. Today is about trying things out — nothing you do here is graded, and you are not building your final project yet. **Experiment freely.**
 
-{{< callout type="important" >}}
+{{< callout type="warning" >}}
 Keep up with the walkthroughs — you can always go further on your own, but try each technique as it is demonstrated before moving ahead.
 {{< /callout >}}
 

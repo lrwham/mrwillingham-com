@@ -9,7 +9,6 @@ standards:
   - MSMTC8.CR.1
   - MSMTC8.CR.2
   - MSMTC8.CR.3
-  - MSMTC8.CR.4
   - MSMTC8.CN.1.a
 tags:
   - GarageBand
@@ -166,7 +165,9 @@ Today you will begin working on your **Classical Remix Project** in GarageBand. 
 - Use an Automatic Drummer Track or create your own drum beat.
 - Use automation to control effects.
 
-### You MUST do the following
+### Project Requirements (due Wednesday)
+
+Your finished remix — due at the end of class on Wednesday — must meet all of the following criteria. Start building toward them today so you have less to do tomorrow.
 
 - Identify a song, artist, genre, or style of music that you are attempting to **fuse** with your chosen MIDI file. You need to be able to say something like:
   - "I am fusing the music of Bach and the music of Coldplay."
@@ -239,5 +240,4 @@ Ask yourself:
 - [**MSMTC8.CR.1**](/music-technology/description/#msmtc8cr1) — Generate musical ideas for various purposes and contexts (choosing instruments, adding loops, recording MIDI, and writing new regions to fuse a classical piece with a modern style).
 - [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (selecting a Mutopia MIDI file and a modern fusion style, then deliberately developing both into a unified composition).
 - [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine selected musical ideas to create musical work that meets appropriate criteria (listening back, balancing track volumes, aligning regions to measure lines, and checking that the fusion is coherent before saving).
-- [**MSMTC8.CR.4**](/music-technology/description/#msmtc8cr4) — Share creative musical work that conveys intent, demonstrates craftsmanship, and exhibits originality (producing a 90–120 second fusion piece with a logical beginning, middle, and end that is compelling and coherent).
 - [**MSMTC8.CN.1.a**](/music-technology/description/#msmtc8cn1a) — Demonstrate how interests, knowledge, and skills relate to personal choices and intent when creating music (students choose both the classical source material and the modern style based on personal musical taste and prior knowledge of genres).
