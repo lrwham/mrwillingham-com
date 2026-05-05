@@ -25,19 +25,13 @@ weight: 2
 
 {{< icon "calendar" >}} **Tuesday, May 5th, 2026**
 
-<!-- OPTIONAL: Uncomment for announcements, sub plans, schedule changes, etc.
-{{% alert "message" %}}
-Mr. Willingham is out today. Please follow the instructions below.
-{{% /alert %}}
--->
-
 {{% objectives %}}
 
 ## Objectives
 
-- I can run a Python script that accepts keyboard input using the `turtle` module.
+- I can run a Python script in Visual Studio Code without errors.
 - I can build a number guessing game that uses variables, random numbers, `input()`, and `if/elif/else` statements.
-- I can use a loop to let a player keep guessing until they find the right answer.
+- I can use a `while` loop to let a player keep guessing until they find the right answer.
 
 {{% /objectives %}}
 
@@ -89,14 +83,12 @@ screen.onkey(move_right, "Right")
 turtle.mainloop()
 ```
 
-<!-- Add warmup instructions here -->
-
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I copied the turtle keyboard control code into VS Code and ran it without errors.
-- [ ] I can move the turtle in all four directions using the arrow keys.
+- [ ] I ran the code in VS Code and a turtle window opened on screen.
+- [ ] I clicked the turtle window and used the arrow keys to move the turtle in all four directions.
 
 {{% /checkpoint %}}
 
