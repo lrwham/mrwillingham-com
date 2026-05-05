@@ -29,6 +29,10 @@ Mr. Willingham is out today. Please follow the instructions below.
 {{% /alert %}}
 -->
 
+{{< callout type="info" >}}
+**Today you start your real project.** Open a brand new GarageBand project — do not continue yesterday's exploration file. Yesterday was practice. Today counts.
+{{< /callout >}}
+
 {{% objectives %}}
 
 ## Objectives
@@ -150,7 +154,7 @@ Check out these 10 pieces from the Mutopia Project. You are not limited to these
 
 ## Work Session
 
-Today you will begin working on your **Classical Remix Project** in GarageBand. Use the pieces from the warmup (or another piece from Mutopia) as your starting point.
+Today you will begin working on your **Classical Remix Project** in GarageBand. Start a fresh project — not yesterday's exploration file. Use the pieces from the warmup (or another piece from Mutopia) as your starting point.
 
 ### You may do the following
 
@@ -226,7 +230,7 @@ Ask yourself:
 - Do your tracks start and stop cleanly on measure lines?
 - Does the overall volume feel balanced — no single instrument drowning everything else out?
 
-Tomorrow you will continue building your remix. Come in with a clear idea of the next thing you want to improve or add.
+**Tomorrow is your last day to work on this project, and you will share it with the class.** Come in with a clear idea of the next thing you want to improve or add — you will not have time to start over.
 
 {{% /closing %}}
 
