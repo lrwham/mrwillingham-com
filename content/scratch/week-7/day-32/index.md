@@ -37,7 +37,13 @@ Mr. Willingham is out today. Please follow the instructions below.
 
 ## Warmup
 
+Watch the Edpuzzle video that reviews how to setup a project in Visual Studio Code. Login to Clever to find Edpuzzle.
+
 {{< clever >}}
+
+### After the Video
+
+Start a new project in Visual Studio Code and copy the code below. This code will allow you to control a turtle using the arrow keys on your keyboard.
 
 ```python
 import turtle
@@ -92,18 +98,17 @@ turtle.mainloop()
 
 ## Work Session
 
-<!-- Add work session instructions here -->
+Follow along with Mr. Willingham. We'll work on a number guessing game together. We'll add features gradually and focus on the following skills.
 
-<!-- OPTIONAL: Use buttons for project/worksheet links
-{{< button text="Open Project" >}}https://scratch.mit.edu{{< /button >}}
--->
+1. Variables
+2. Random numbers
+3. User input
+4. Conditional statements
+5. Loops
 
-<!-- OPTIONAL: Scratch code blocks — set scratchblocks: true in frontmatter
-```scratch
-when green flag clicked
-move (10) steps
-```
--->
+### Cheat Codes
+
+If things go well, we'll have time to add some cheat codes to our game. These will allow the player to gain an advantage. What ideas can you come up with for cheat codes?
 
 {{% checkpoint %}}
 
@@ -116,21 +121,6 @@ move (10) steps
 
 {{% /worksession %}}
 
-<!-- OPTIONAL: Second work session block
-{{% worksession %}}
-
-## Work Session 2
-
-{{% checkpoint %}}
-
-### Checkpoint: Work Session 2
-
-- [ ]
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
--->
 
 {{% closing %}}
 
