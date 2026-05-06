@@ -267,6 +267,8 @@ Today you went from staring at a wall of numbers in a spreadsheet to running a f
 
 Tomorrow we'll keep working with this same dataset and ask more interesting questions of it.
 
+{{% button text="Soccer Dataset" %}}/downloads/player_info.csv.zip{{% /button %}}
+
 {{% /closing %}}
 
 ## Standards
