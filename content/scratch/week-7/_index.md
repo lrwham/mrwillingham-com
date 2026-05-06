@@ -13,15 +13,17 @@ This unit, you will learn the basics of Python programming and how to use the te
 
 Why Python? Why the terminal? They are extremely powerful tools. Python is a programming language used widely in the fields of artificial intelligence, data science, web development, and more. The terminal is an interface that allows you to control a computer with text commands. Assuming you can be reasonably fast typing (or good with agentic AI), these tools will make you way more effective than coding using Scratch alone.
 
+We start with Python basics on Monday and Tuesday, then spend the rest of the week using Python to explore **real-world data** — starting with a Pokémon dataset and finishing with a dataset of your choice.
+
 ## Weekly Schedule
 
 | Day | Date    | Topic                                                  | Summary                                                                                                         |
 | --- | ------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| 31  | Mon 5/4 | [Python and VS Code](day-31/)                    | Open VS Code and write and run your first Python script. |
-| 32  | Tue 5/5 | [Hello World and Turtles](day-32/)                     | Write your first Python script with `print()`, then use the `turtle` module to draw shapes on screen with code. |
+| 31  | Mon 5/4 | [Python and VS Code](day-31/)                          | Open VS Code and write and run your first Python script. |
+| 32  | Tue 5/5 | [Number Guessing Game](day-32/)                        | Build a number guessing game in Python using variables, random numbers, `input()`, conditionals, and a loop. |
 | 33  | Wed 5/6 | [Pokémon Data with Pandas](day-33/)                    | Open a real-world Pokémon dataset, compute basic statistics with `pandas`, and make your first plots with `matplotlib`. |
-| 34  | Thu 5/7 | [Text Adventure Day 1](day-34/)                        | Build the opening of a text adventure game using variables, `input()`, and `if`/`elif`/`else` statements.       |
-| 35  | Fri 5/8 | [Text Adventure Day 2](day-35/)                        | Expand your text adventure with additional story branches, review conditionals, and share your finished game.   |
+| 34  | Thu 5/7 | [Bigger Pokémon Questions](day-34/)                    | Filter, sort, and group the Pokémon dataset to compare types and legendaries — and learn one more `matplotlib` plot. |
+| 35  | Fri 5/8 | [Pick Your Own Dataset](day-35/)                       | Choose an interesting dataset (sports, music, movies, animals…) and apply what you learned: stats and at least one plot. |
 
 <!-- TODO
 {{% alert "Graded Assignments" %}}

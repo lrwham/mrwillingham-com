@@ -117,7 +117,7 @@ python3 -m pip install pandas matplotlib
 The terminal will scroll for a bit. When you see the prompt come back, you're done.
 
 {{< callout type="warning" >}}
-If `pip` shows an error or asks for a password, raise your hand. Do not type your password.
+If `pip` shows an error, raise your hand.
 {{< /callout >}}
 
 ### Move the CSV into your project folder
