@@ -19,7 +19,7 @@ Why Python? Why the terminal? They are extremely powerful tools. Python is a pro
 | --- | ------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | 31  | Mon 5/4 | [Python and VS Code](day-31/)                    | Open VS Code and write and run your first Python script. |
 | 32  | Tue 5/5 | [Hello World and Turtles](day-32/)                     | Write your first Python script with `print()`, then use the `turtle` module to draw shapes on screen with code. |
-| 33  | Wed 5/6 | [Beautiful Patterns with Loops](day-33/)               | Use `for` loops and nested loops to draw repeating geometric patterns, and add random colors with the `random` module. |
+| 33  | Wed 5/6 | [Pokémon Data with Pandas](day-33/)                    | Open a real-world Pokémon dataset, compute basic statistics with `pandas`, and make your first plots with `matplotlib`. |
 | 34  | Thu 5/7 | [Text Adventure Day 1](day-34/)                        | Build the opening of a text adventure game using variables, `input()`, and `if`/`elif`/`else` statements.       |
 | 35  | Fri 5/8 | [Text Adventure Day 2](day-35/)                        | Expand your text adventure with additional story branches, review conditionals, and share your finished game.   |
 
