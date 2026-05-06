@@ -47,7 +47,6 @@ Before you open GarageBand, take two minutes to honestly audit your project. Rea
 - [ ] I have at least 4 MIDI tracks with software instruments.
 - [ ] I have at least 1 Apple Loop on any track.
 - [ ] My remix is between 90 and 120 seconds long.
-- [ ] My remix has a clear beginning, middle, and end.
 - [ ] I have used automation on at least 2 tracks.
 - [ ] My tracks are balanced and nothing is drowning everything else out.
 - [ ] My remix sounds compelling and coherent.
@@ -80,15 +79,11 @@ You have approximately 20–25 minutes to complete your project before you expor
 Here are the most common things students need to fix at this stage. Check each one against your own project:
 
 **Length and structure**
-- In GarageBand, press **⌃⌘R** to toggle the ruler between bars and time. Switch to **time view** so the ruler shows minutes and seconds. Your project should end between **1:30** and **2:00** — that is 90 to 120 seconds.
+- Use a [stopwatch](http://www.google.com/search?q=stopwatch) and time your project.
 - Make sure you have a clear intro (something that sets up the style), a middle section (the main material), and a conclusion (a deliberate ending, not just a fade or an abrupt cut).
 
-**Region alignment**
-- Every region should start and stop on a **measure line** — not halfway through a beat. Zoom in and drag region edges to snap them into place.
-- Use **⌘Z** to undo any accidental moves.
-
 **Volume balance**
-- Solo each track individually (**S** key) and ask: does this track sound right on its own?
+- Listen to each track individually (**S** key to solo) and ask: does this track sound right on its own?
 - Then unsolo and listen to the full mix. Is any one track too loud or too quiet relative to the others?
 - Adjust the volume slider on each track header until the mix feels even.
 
@@ -97,7 +92,7 @@ Here are the most common things students need to fix at this stage. Check each o
 - Automation should be doing something purposeful — fading a track in at the beginning, swelling the volume on a pad, or pulling something back so the melody can be heard clearly.
 
 **The fusion check**
-- Press **Space** and listen from the top. Can you hear both the classical melody and the modern style clearly? If a stranger listened without knowing anything, could they identify both influences? If not, you may need to make the modern elements more present or the classical melody more prominent.
+- Press **Space** and listen from the beginning. Can you hear both the classical melody and the modern style clearly? If a stranger listened without knowing anything, could they identify both influences? If not, you may need to make the modern elements more present or the classical melody more prominent.
 
 ### Part 2 — Export as MP3
 
@@ -117,11 +112,11 @@ Select **Export Song to Disk…** from the Share menu. A dialog box will appear.
 
 In the export dialog:
 - **Format:** MP3
-- **Quality:** High (128 kbps is fine; choose 192 kbps if it's available and you want the best quality)
+- **Quality:** High (128 kbps is fine; 192 kbps is better)
 
 ### Name Your File
 
-Name your file using this format: **LastName-FirstName-Remix** (e.g., `Willingham-Lawton-Remix`).
+Name your file using this format: **LastName-FirstName-Remix-Final** (e.g., `Willingham-Mr-Remix-Final`).
 
 ### Choose a Save Location
 
@@ -137,10 +132,6 @@ Open **CTLS**, navigate to the **Day 33 assignment**, and upload your MP3 file. 
 
 {{% /steps %}}
 
-{{< callout type="tip" >}}
-**Can't find your MP3?** Open a Finder window and check your Desktop and Downloads folders. If you used a different save location, use **⌘Space** (Spotlight) and type the file name to locate it.
-{{< /callout >}}
-
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
@@ -155,11 +146,11 @@ Open **CTLS**, navigate to the **Day 33 assignment**, and upload your MP3 file. 
 
 {{% closing %}}
 
-## Closing — Listening Party
+## Closing — Listening
 
-We will play 3–5 remixes for the whole class. Volunteers go first — if there aren't enough, Mr. Willingham will select randomly.
+Listen to 3–5 remixes.
 
-After each remix, we will discuss briefly as a class:
+Select 1 as your favorite and tell Mr. Willingham about it using this form.
 
 - **What classical piece did you recognize?** Can you name the melody or the composer?
 - **What modern style did you hear?** Hip-hop? EDM? Cinematic? Rock? Something else?
