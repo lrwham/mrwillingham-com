@@ -55,7 +55,11 @@ Click the button above. In **Downloads**, double-click `pokemon-designer.zip`. Y
 - `designer.py` — the tool.
 - `pokemon.csv` — the dataset.
 
-Drag the whole `pokemon-designer/` folder into your `python-class` folder.
+### Open the folder in VS Code
+
+`File → Open Folder…` and pick `pokemon-designer/`.
+
+It is in your Downloads.
 
 ### OPTIONAL Install one new library
 
@@ -69,11 +73,7 @@ python3 -m pip install mplcursors
 The tool will still run if `mplcursors` doesn't install — you just won't get hover tooltips. Don't get stuck on this; ask for help and move on.
 {{< /callout >}}
 
-### Open the folder in VS Code
-
-`File → Open Folder…` and pick `pokemon-designer/`.
-
-### Run the tool once
+### Run the tool
 
 Click on the Play button at the top right of `designer.py` to run it. In the terminal, you should see:
 
