@@ -14,6 +14,7 @@ Required libraries:
     pip install pandas matplotlib mplcursors
 """
 import csv
+import random
 import sys
 from pathlib import Path
 
@@ -141,12 +142,48 @@ def show(poke):
 
 # ------------------- plots -------------------
 
-def plot_box(poke):
-    print("\nBox plot - which stat?")
-    options = [(s, s) for s in STATS] + [("ALL six stats at once", "ALL")]
-    stat = menu(options, "Stat")
+AUTO_CLOSE_SECONDS = 10
+
+
+def show_plot(fig):
+    """Display the figure, but auto-close it after AUTO_CLOSE_SECONDS.
+    Closing the window yourself still works normally - we stop the
+    timer on manual close so it doesn't fire against a dead canvas
+    (which can freeze the next plot on some backends).
+    """
+    timer = fig.canvas.new_timer(interval=AUTO_CLOSE_SECONDS * 1000)
+
+    def auto_close():
+        # single-shot: stop ourselves before closing
+        timer.stop()
+        if plt.fignum_exists(fig.number):
+            plt.close(fig)
+
+    def on_manual_close(_event):
+        # user closed the window - kill the pending timer
+        timer.stop()
+
+    timer.add_callback(auto_close)
+    fig.canvas.mpl_connect("close_event", on_manual_close)
+    timer.start()
+
+    print(f"  (window will auto-close after {AUTO_CLOSE_SECONDS} seconds)")
+    plt.show()
+
+
+def plot_box(poke, stat=None):
     if stat is None:
-        return
+        print("\nBox plot - which stat?")
+        options = [(s, s) for s in STATS] + [
+            ("ALL six stats at once", "ALL"),
+            ("Choose for Me (random)", "RANDOM"),
+        ]
+        stat = menu(options, "Stat")
+        if stat is None:
+            return
+        if stat == "RANDOM":
+            stat = random.choice(STATS + ["ALL"])
+            print(f"  Picked for you: {stat}")
 
     same = df[df["type1"] == poke["type1"]]
     fig, ax = plt.subplots()
@@ -166,18 +203,25 @@ def plot_box(poke):
 
     ax.set_ylabel("value")
     ax.legend()
-    plt.show()
+    show_plot(fig)
 
 
-def plot_scatter(poke):
-    print("\nScatter plot - pick the X-axis stat:")
-    x = pick_stat("X")
-    if x is None:
-        return
-    print("\nNow pick the Y-axis stat:")
-    y = pick_stat("Y")
-    if y is None:
-        return
+def plot_scatter(poke, x=None, y=None):
+    if x is None or y is None:
+        print("\nScatter plot - pick the X-axis stat (or 0 to let me choose both):")
+        options = [(s, s) for s in STATS + SIZE] + [("Choose for Me (random)", "RANDOM")]
+        x = menu(options, "X")
+        if x is None:
+            return
+        if x == "RANDOM":
+            pool = STATS + SIZE
+            x, y = random.sample(pool, 2)
+            print(f"  Picked for you: {x} vs {y}")
+        else:
+            print("\nNow pick the Y-axis stat:")
+            y = pick_stat("Y")
+            if y is None:
+                return
 
     fig, ax = plt.subplots()
     dots = ax.scatter(df[x], df[y], alpha=0.4)
@@ -198,14 +242,19 @@ def plot_scatter(poke):
     else:
         print("  (Install `mplcursors` to get hover tooltips here.)")
 
-    plt.show()
+    show_plot(fig)
 
 
-def plot_hist(poke):
-    print("\nHistogram - which stat?")
-    stat = pick_stat("Stat")
+def plot_hist(poke, stat=None):
     if stat is None:
-        return
+        print("\nHistogram - which stat?")
+        options = [(s, s) for s in STATS + SIZE] + [("Choose for Me (random)", "RANDOM")]
+        stat = menu(options, "Stat")
+        if stat is None:
+            return
+        if stat == "RANDOM":
+            stat = random.choice(STATS + SIZE)
+            print(f"  Picked for you: {stat}")
 
     fig, ax = plt.subplots()
     df[stat].hist(bins=20, ax=ax)
@@ -215,7 +264,36 @@ def plot_hist(poke):
     ax.set_ylabel("number of Pokemon")
     ax.set_title(f"{stat} across all Pokemon")
     ax.legend()
-    plt.show()
+    show_plot(fig)
+
+
+# ------------------- recommended plots -------------------
+
+# Each entry is (human-readable label, plot function, kwargs).
+# These are the "greatest hits" - plots that usually tell a
+# story about the Pokemon you just designed.
+RECOMMENDED_PLOTS = [
+    ("Scatter: attack vs defense",       plot_scatter, {"x": "attack",    "y": "defense"}),
+    ("Scatter: defense vs speed",        plot_scatter, {"x": "defense",   "y": "speed"}),
+    ("Scatter: sp_attack vs sp_defense", plot_scatter, {"x": "sp_attack", "y": "sp_defense"}),
+    ("Scatter: hp vs attack",            plot_scatter, {"x": "hp",        "y": "attack"}),
+    ("Scatter: speed vs attack",         plot_scatter, {"x": "speed",     "y": "attack"}),
+    ("Scatter: height_m vs weight_kg",   plot_scatter, {"x": "height_m",  "y": "weight_kg"}),
+    ("Box plot: hp",                     plot_box,     {"stat": "hp"}),
+    ("Box plot: attack",                 plot_box,     {"stat": "attack"}),
+    ("Box plot: defense",                plot_box,     {"stat": "defense"}),
+    ("Box plot: speed",                  plot_box,     {"stat": "speed"}),
+    ("Box plot: ALL six stats",          plot_box,     {"stat": "ALL"}),
+    ("Histogram: hp",                    plot_hist,    {"stat": "hp"}),
+    ("Histogram: attack",                plot_hist,    {"stat": "attack"}),
+    ("Histogram: speed",                 plot_hist,    {"stat": "speed"}),
+]
+
+
+def plot_surprise(poke):
+    label, func, kwargs = random.choice(RECOMMENDED_PLOTS)
+    print(f"\nChoose for Me picked:  {label}")
+    func(poke, **kwargs)
 
 
 # ------------------- editing + saving -------------------
@@ -277,6 +355,7 @@ def main():
             ("Box plot (stat vs same-type Pokemon)", "BOX"),
             ("Scatter plot (two stats vs every Pokemon)", "SCATTER"),
             ("Histogram (one stat across all Pokemon)", "HIST"),
+            ("Choose for Me (random recommended plot)", "SURPRISE"),
             ("Edit my Pokemon", "EDIT"),
             ("Show my Pokemon's stats", "SHOW"),
             ("Save and quit", "SAVE"),
@@ -294,6 +373,8 @@ def main():
             plot_scatter(poke)
         elif action == "HIST":
             plot_hist(poke)
+        elif action == "SURPRISE":
+            plot_surprise(poke)
         elif action == "EDIT":
             edit(poke)
             show(poke)
