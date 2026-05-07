@@ -22,7 +22,7 @@ We start with Python basics on Monday and Tuesday, then spend the rest of the we
 | 31  | Mon 5/4 | [Python and VS Code](day-31/)                          | Open VS Code and write and run your first Python script. |
 | 32  | Tue 5/5 | [Number Guessing Game](day-32/)                        | Build a number guessing game in Python using variables, random numbers, `input()`, conditionals, and a loop. |
 | 33  | Wed 5/6 | [Pokémon Data with Pandas](day-33/)                    | Open a real-world Pokémon dataset, compute basic statistics with `pandas`, and make your first plots with `matplotlib`. |
-| 34  | Thu 5/7 | [Bigger Pokémon Questions](day-34/)                    | Filter, sort, and group the Pokémon dataset to compare types and legendaries — and learn one more `matplotlib` plot. |
+| 34  | Thu 5/7 | [Design Your Own Pokémon](day-34/)                     | Use a Python tool to design a custom Pokémon, compare its stats against the dataset with box plots / scatter plots / histograms, revise, save as CSV, and sketch it on paper. |
 | 35  | Fri 5/8 | [Pick Your Own Dataset](day-35/)                       | Choose an interesting dataset (sports, music, movies, animals…) and apply what you learned: stats and at least one plot. |
 
 <!-- TODO
