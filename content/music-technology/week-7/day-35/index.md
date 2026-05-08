@@ -151,20 +151,21 @@ Open Finder, find the `.mp4` you downloaded from CTLS, and drag it directly onto
 
 ### Test playback
 
-Press **Space**. You should see the video play in a floating window. If the window doesn't appear, go to **View → Show Movie Window**.
+Press **Space**. You should see the video play in a floating window. If the window doesn't appear, go to **Window → Movie** to open the movie preview.
 
 {{% /steps %}}
 
 #### Step 2 — Create an SFX Track and Place Sound Effects
 
 1. Go to **Track → New Track** (or press **⌥⌘N**).
-2. Choose **Audio → No Input** and click **Create**.
-3. Rename the track **SFX** (right-click the track header → Rename Track).
-4. Drag each sound effect file from Finder onto the SFX track at the approximate moment it should land on screen.
-5. Play it back. Nudge the region left or right until the sound lines up exactly with the visual action.
+2. In the New Track dialog, click **Audio**.
+3. In the **Input Source** dropdown, choose **No Input**, then click **Create**.
+4. Rename the track **SFX** (right-click the track header → Rename Track).
+5. Drag each sound effect file from Finder onto the SFX track at the approximate moment it should land on screen.
+6. Play it back. Nudge the region left or right until the sound lines up exactly with the visual action.
 
 {{< callout type="tip" >}}
-Zoom in on the timeline (**⌘ →** or pinch on a trackpad) to fine-tune sound effect placement. Even a half-second off feels wrong.
+Zoom in on the timeline (**⌘ +** or pinch on a trackpad) to fine-tune sound effect placement. Even a half-second off feels wrong.
 {{< /callout >}}
 
 #### Step 3 — Open Apple Loops and Score the Scene
