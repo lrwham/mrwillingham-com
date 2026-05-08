@@ -9,7 +9,11 @@ weight: 6
 
 ## Unit: Remixing
 
-This week you will remix a piece of classical music into a new style, then shift into a group project where you compose and record original music for a short animated film.
+Monday through Wednesday you will remix a piece of classical music into a new style using GarageBand — choosing a classical MIDI file, rearranging it, changing instruments, adjusting the tempo, adding Apple Loops, and using automation.
+
+## Unit: Film Scoring
+
+Thursday and Friday launch the final group project of the year: scoring a short animated film. Your group will pick from three Blender Open Movies (*Agent 327*, *Spring*, *Lost in Time*), use **Apple Loops** for music, and add **provided sound effects** on top of the picture. No dialogue, no original MIDI melodies — just loops, sound effects, and careful syncing to the action on screen. This project will continue into next week.
 
 ## Weekly Schedule
 
