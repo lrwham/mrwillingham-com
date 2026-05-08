@@ -45,7 +45,7 @@ weight: 5
 
 ## Warmup — Find Your Assignment
 
-Open {{< clever >}} and go to today's CTLS assignment. Your group's assigned film, the video file, and the provided sound effect audio files are all linked there.
+Open **CTLS** and go to today's assignment. Your group's assigned film, the video file, and the provided sound effect audio files are all linked there.
 
 **The three films:**
 
