@@ -77,6 +77,10 @@ Work through the remaining three activities.
 
 ### Activity 4: Connected Texts (Graded Mode)
 
+{{< callout type="important" >}}
+**Due in the gradebook: Monday, May 11.** The Quiz and Connected Texts must be completed in Graded Mode by the start of class on Monday.
+{{< /callout >}}
+
 ### Key Vocabulary
 
 Keep these definitions handy. We will use them again next week when we write our first machine learning code.

@@ -50,14 +50,11 @@ weight: 1
 
 Open BrainPOP through Clever and find the **Hackers** topic.
 
-Work through the activities in this order:
+{{< callout type="important" >}}
+**Due in the gradebook: Wednesday, May 13.** Complete all Hackers activities in BrainPOP by the start of class on Wednesday.
+{{< /callout >}}
 
-1. **Vocab Builder** — Do this first. Learn the key terms before watching the movie.
-2. **Movie with Pause Points** — Watch and answer the pause-point questions as they appear.
-3. **Quiz (Graded Mode)** — Take the quiz. Your score is recorded.
-4. **Connected Texts (Graded Mode)** — Complete the reading activity.
-
-If you finish all four activities and still have time, continue with any unfinished BrainPOP work or explore code.org through Clever.
+If you finish all activities and still have time, continue with any unfinished BrainPOP work or explore code.org through Clever.
 
 {{% checkpoint %}}
 
@@ -65,9 +62,6 @@ If you finish all four activities and still have time, continue with any unfinis
 
 - [ ] I logged in through Clever and opened BrainPOP.
 - [ ] (If absent Friday) I completed the AI BrainPOP lesson first.
-- [ ] I completed the Vocab Builder for the Hackers topic.
-- [ ] I watched the Movie with Pause Points.
-- [ ] I completed the Quiz in Graded Mode.
-- [ ] I completed the Connected Texts in Graded Mode.
+- [ ] I completed the Hackers activity (or will by Wednesday).
 
 {{% /checkpoint %}}
