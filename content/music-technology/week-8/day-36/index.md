@@ -52,10 +52,6 @@ Log in through Clever if you need to get to BrainPOP.
 
 {{< clever >}}
 
-{{< callout type="warning" >}}
-**Select Graded Mode on the quiz.** If you accidentally take it in Review Mode, the score will not count. Check before you submit.
-{{< /callout >}}
-
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
@@ -74,7 +70,7 @@ Log in through Clever if you need to get to BrainPOP.
 The rest of the period is a **silent work session**. That means quiet, focused, headphones-on building time on your part of the film scoring project. No side conversations. No off-task browsing. Just you, GarageBand, and your film.
 
 {{< callout type="tip" >}}
-**Groups that work productively the whole period will receive a small treat.** Mr. Willingham is watching. Show him what you've got.
+**Groups that work productively will receive a small treat.** I am watching. Do your best work.
 {{< /callout >}}
 
 ### The Ground Rules
@@ -82,7 +78,7 @@ The rest of the period is a **silent work session**. That means quiet, focused, 
 Before you open GarageBand, review these — they apply for the rest of the project week:
 
 **Music**
-: Use **Apple Loops only**. No original MIDI melodies you compose yourself. No imported songs from Spotify, YouTube, or anywhere else. Apple Loops from GarageBand's built-in library only.
+: Use **Apple Loops only** or original MIDI melodies you compose yourself. No imported songs from Spotify, YouTube, or anywhere else.
 
 **Sound Effects**
 : Use **only the files provided on CTLS**. You do not need to find your own. Do not use sound effects from other sources.
@@ -118,12 +114,6 @@ Before class ends, **save your GarageBand file**. Use the exact format below:
 > `LastName-FirstName-Film-PartN`
 >
 > Example: `Smith-Jane-Agent327-Part1`
-
-Save to your **GarageBand folder**: `~/Music/GarageBand/`
-
-{{< callout type="warning" >}}
-**Save every time you walk away from the computer.** An unsaved GarageBand project is a gone GarageBand project. Use **⌘S** often.
-{{< /callout >}}
 
 {{% checkpoint %}}
 
