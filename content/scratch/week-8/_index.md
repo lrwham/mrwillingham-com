@@ -4,7 +4,7 @@ draft: false
 toc: false
 cascade:
   type: docs
-weight: 4
+weight: 3
 ---
 
 ## Unit: Hackers and AI
