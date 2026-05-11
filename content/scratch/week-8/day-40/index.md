@@ -43,9 +43,7 @@ weight: 5
 
 ## Warmup: How Does a Computer Learn to See?
 
-Think back to the BrainPOP lessons this week — specifically the vocabulary you built around *training data* and *machine learning*.
-
-Answer these questions in your notebook or on a piece of paper before we start:
+Answer these questions in your head:
 
 1. If you wanted to teach a computer to tell the difference between a cat and a dog, what would you give it?
 2. What do you think would happen if all your cat photos were taken in the same room with the same lighting — and then you tested the model in a different room?
