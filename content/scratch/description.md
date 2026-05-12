@@ -14,7 +14,7 @@ Missing work will receive a grade of zero until it is submitted. Late work will 
 
 ## The Standards
 
-This course uses the standards for Foundations of Computer Programming (MS-CS-FCP) provided by the state of Georgia.
+This course uses the standards for Foundations of Computer Programming (MS-CS-FCP) provided by the state of Georgia. Standards can be searched at [case.georgiastandards.org](https://case.georgiastandards.org/).
 
 
 ### MS-CS-FCP.1
