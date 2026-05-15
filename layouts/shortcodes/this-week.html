@@ -22,7 +22,11 @@
 {{ if $anchor }}
   {{ $week := $anchor.Parent }}
   <h3><a href="{{ $week.RelPermalink }}">{{ $week.Title }}</a></h3>
-  {{ $week.Content }}
+  {{/* Rewrite relative day-N/ hrefs to absolute paths so the embedded
+       weekly schedule works when surfaced on the course root. */}}
+  {{ $content := $week.Content }}
+  {{ $content = replaceRE `href="(day-[0-9]+/)` (printf `href="%s$1` $week.RelPermalink) $content }}
+  {{ $content | safeHTML }}
 {{ else }}
 <div class="recent-lesson-none">No weekly schedule available</div>
 {{ end }}
