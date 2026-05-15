@@ -44,7 +44,7 @@ weight: 5
 
 ## Warmup: How Does a Computer Learn to See?
 
-Answer these questions in your notebook:
+Answer these questions in your head:
 
 1. If you wanted to teach a computer to tell the difference between a cat and a dog, what would you give it?
 2. What do you think would happen if all your cat photos were taken in the same room with the same lighting — and then you tested the model in a different room?
