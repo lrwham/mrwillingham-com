@@ -269,6 +269,8 @@ All custom shortcodes in `layouts/shortcodes/`. Two delimiter styles exist; use 
 | `recent-lessons` | `{{< >}}` | no | `count=` (default 5) | Grid of recent lesson cards. |
 | `this-week` | `{{< >}}` | no | check the file | Used on course landing pages. Read `layouts/shortcodes/this-week.html` if needed. |
 
+**`this-week` link-rewriting behavior:** `{{< this-week >}}` (used on `content/scratch/_index.md` and `content/music-technology/_index.md`) embeds the most recent week's `_index.md` content into the course root page. Because relative links like `[Title](day-40/)` would otherwise resolve incorrectly when embedded on `/scratch/` instead of `/scratch/week-8/`, the shortcode rewrites `href="day-N/"` patterns to absolute paths at render time. Authors should keep writing relative `day-N/` links in weekly schedule tables — the shortcode handles the rest. **Caveat:** the rewrite only matches `href="day-N/"`. If you add other relative links inside a weekly `_index.md` (e.g., to a project page in `../../video-game-design-project/`), use absolute paths from the start, or they will appear broken when embedded on the course root.
+
 **Delimiter rule of thumb:** Use `{{% %}}` for shortcodes that wrap markdown content (`objectives`, `warmup`, `worksession`, `checkpoint`, `closing`, `alert`). Use `{{< >}}` for shortcodes that emit HTML directly or whose content does not need markdown rendering (`callout`, `button`, `icon`, `tabs`, `tab`, `clever`, `todays-lesson`, `recent-lessons`). Mixing these breaks rendering.
 
 ### Callout Examples
