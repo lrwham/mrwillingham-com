@@ -1,6 +1,7 @@
 ---
 title: "Computer Programming with Scratch"
 lastmod: "2026-03-10"
+toc: false
 cascade:
   type: docs
 draft: false
@@ -8,10 +9,6 @@ draft: false
 
 6th-8th Grade Computer Programming with Scratch
 
-## Today's Lessons
+## This Week
 
-{{< todays-lesson >}}
-
-## Recent Lessons
-
-{{< recent-lessons count=5 >}}
+{{< this-week >}}

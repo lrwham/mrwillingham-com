@@ -14,7 +14,7 @@ Missing work will receive a grade of zero until it is submitted. Late work will 
 
 ## The Standards
 
-This course uses the Georgia Standards of Excellence for Advanced Music Technology (MSMTC8).
+This course uses the Georgia Standards of Excellence for Advanced Music Technology (MSMTC8). Standards can be searched at [case.georgiastandards.org](https://case.georgiastandards.org/).
 
 ### Creating
 
@@ -32,7 +32,7 @@ Select and develop musical ideas for defined purposes and contexts.
 
 #### MSMTC8.CR.3
 
-Evaluate and refine selected musical ideas to create musical work that meets appropriate criteria.
+Evaluate and refine selected musical ideas to create musical work (e.g. arrangement, composition, improvisation, mixed-media project, orchestration, sound design) that meets appropriate criteria.
 
 - **MSMTC8.CR.3.a** — Develop and implement strategies to improve and refine the technical and expressive aspects of draft compositions and improvisations, drawing off the feedback from peers.
 
@@ -40,7 +40,7 @@ Evaluate and refine selected musical ideas to create musical work that meets app
 
 Share creative musical work that conveys intent, demonstrates craftsmanship, and exhibits originality.
 
-- **MSMTC8.CR.4.a** — Share musical work that demonstrates a proficient level of musical and technological craftsmanship and the use of digital tools and resources in developing and organizing musical ideas.
+- **MSMTC8.CR.4.a** — Share musical work (e.g. arrangement, composition, improvisation, mixed-media project, orchestration, sound design) that demonstrate a proficient level of musical and technological craftsmanship and the use of digital tools and resources in developing and organizing musical ideas.
 
 ### Performing
 
@@ -52,7 +52,7 @@ Select varied musical works to present based on interest, knowledge, technical s
 
 #### MSMTC8.PR.2
 
-Analyze the structure and context of varied musical works and their effects on the presentation.
+Analyze the structure and context of varied musical works (e.g. arrangement, composition, improvisation, mixed-media project, orchestration, sound design) and their effects on the presentation.
 
 - **MSMTC8.PR.2.a** — Recognize how context, structural aspects of the music, and digital media/tools inform prepared and improvised performances.
 
@@ -85,19 +85,19 @@ Choose music appropriate for a specific purpose or situation.
 
 #### MSMTC8.RE.2
 
-Analyze how the structure and context of varied musical works inform the response.
+Analyze how the structure and context of varied musical works (e.g. arrangement, composition, improvisation, mixed-media project, orchestration, sound design) inform the response.
 
-- **MSMTC8.RE.2.a** — Explain how knowledge of the structure, technological aspects, and purpose of the music informs the response.
+- **MSMTC8.RE.2.a** — Explain how knowledge of the structure (e.g. repetition, similarities, contrasts), technological aspects, and purpose of the music informs the response.
 
 #### MSMTC8.RE.3
 
-Support interpretations of musical works that reflect the expressive intent of creators/performers.
+Support interpretations of musical works (e.g. arrangement, composition, improvisation, mixed-media project, orchestration, sound design) that reflect the expressive intent of creators/performers.
 
 - **MSMTC8.RE.3.a** — Explain and support an interpretation of the expressive intent of musical selections based on treatment of the elements of music, digital and electronic features, and purpose.
 
 #### MSMTC8.RE.4
 
-Support evaluations of musical works and performances based on analysis, interpretation, and established criteria.
+Support evaluations of musical works (e.g. arrangement, composition, improvisation, mixed-media project, orchestration, sound design) and performances based on analysis, interpretation, and established criteria.
 
 - **MSMTC8.RE.4.a** — Evaluate music using criteria based on analysis, interpretation, digital and electronic features, and personal interests.
 

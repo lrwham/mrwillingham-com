@@ -20,6 +20,7 @@ tags:
   - data-collection
 resources:
   - Teachable Machine
+  - MIT RAISE Playground
 draft: false
 toc: true
 scratchblocks: false
@@ -43,7 +44,7 @@ weight: 5
 
 ## Warmup: How Does a Computer Learn to See?
 
-Answer these questions in your head:
+Answer these questions in your notebook:
 
 1. If you wanted to teach a computer to tell the difference between a cat and a dog, what would you give it?
 2. What do you think would happen if all your cat photos were taken in the same room with the same lighting — and then you tested the model in a different room?
@@ -51,11 +52,20 @@ Answer these questions in your head:
 
 We'll come back to these questions at the end of class.
 
+### Explore the MIT RAISE Playground
+
+Before we train our own model, spend **5 minutes** exploring some AI tools built by researchers at MIT.
+
+1. Open **[playground.raise.mit.edu/main/](https://playground.raise.mit.edu/main/)** in a new tab.
+2. Pick **one** project that interests you (for example, an image classifier or a chatbot demo) and try it out.
+3. In your notebook, write **one sentence** about what the tool does and **one sentence** about something that surprised you.
+
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I wrote answers to all three questions.
+- [ ] I answered all three warmup questions.
+- [ ] I tried at least one project on the MIT RAISE Playground and wrote two sentences about it.
 
 {{% /checkpoint %}}
 
@@ -88,9 +98,9 @@ Epoch
 
 ### Step 1 — Open Teachable Machine
 
-Go to **[teachablemachine.withgoogle.com](https://teachablemachine.withgoogle.com)** and click **Get Started**, then choose **Image Project → Standard image model**.
+Open **[teachablemachine.withgoogle.com/train/image](https://teachablemachine.withgoogle.com/train/image)** in a new tab. This link takes you straight to a new image project — no setup needed.
 
-You will see three empty classes. Rename them:
+You will see three empty classes at the top of the page. Rename them by clicking the pencil icon next to each name:
 
 - Class 1 → **Rock**
 - Class 2 → **Paper**

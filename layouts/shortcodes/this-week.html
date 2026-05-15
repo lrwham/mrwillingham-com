@@ -1,0 +1,28 @@
+{{/* Usage: {{< this-week >}} */}}
+{{ $today := now.Format "2006-01-02" }}
+{{ $section := .Page.CurrentSection }}
+{{ $sectionPages := where site.Pages "Section" $section.Section }}
+{{ $dayPages := (where $sectionPages "Params.day_number" "!=" nil).ByDate.Reverse }}
+
+{{/* Find today's lesson first, then fall back to most recent past lesson */}}
+{{ $anchor := false }}
+{{ range $dayPages }}
+  {{ if and (not $anchor) (eq (.Date.Format "2006-01-02") $today) }}
+    {{ $anchor = . }}
+  {{ end }}
+{{ end }}
+{{ if not $anchor }}
+  {{ range $dayPages }}
+    {{ if and (not $anchor) (.Date.Before now) }}
+      {{ $anchor = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $anchor }}
+  {{ $week := $anchor.Parent }}
+  <h3><a href="{{ $week.RelPermalink }}">{{ $week.Title }}</a></h3>
+  {{ $week.Content }}
+{{ else }}
+<div class="recent-lesson-none">No weekly schedule available</div>
+{{ end }}
