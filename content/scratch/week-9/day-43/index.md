@@ -18,9 +18,11 @@ weight: 3
 
 {{< icon "calendar" >}} **Wednesday, May 20th, 2026** — *Last Day of Class*
 
-## End-of-Year Word Search
+Today is our last class of the year. We have two end-of-year activities — a word search you tackle with a partner, then a crossword you solve on your own.
 
-Today is our last class of the year. To wrap up, you and a partner will race through a word search built from the vocabulary we have used since Day 1 — Scratch blocks, conditionals, the platformer unit, Python, and AI.
+## Activity 1 — Word Search (Partners)
+
+Pull together every vocabulary word from the year — Scratch blocks, conditionals, the platformer unit, Python, and AI.
 
 {{< button text="Download the Word Search (PDF)" >}}/downloads/end-of-year-word-search.pdf{{< /button >}}
 
@@ -30,5 +32,17 @@ Today is our last class of the year. To wrap up, you and a partner will race thr
 2. Pick up one printed worksheet for your group.
 3. Find every word from the **Word Bank**. Words run forward, backward, up, down, and diagonally.
 4. When your group finds every word, raise your hand. The first groups to finish get a treat.
+
+## Activity 2 — Crossword (Solo)
+
+A NYT-style crossword built from this year's vocabulary. No partner this time — work on your own.
+
+{{< button text="Download the Crossword (PDF)" >}}/downloads/end-of-year-crossword.pdf{{< /button >}}
+
+### How It Works
+
+1. Pick up your **own** worksheet — no partners.
+2. Read the **Across** and **Down** clues and fill in every square.
+3. When every square is correct, raise your hand. Only the **first three** finishers get a treat, so move carefully but quickly.
 
 Have a great summer!

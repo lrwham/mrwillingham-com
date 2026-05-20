@@ -6,6 +6,7 @@ Each word below appears in the printable puzzle at `static/downloads/end-of-year
 
 ## Words
 
+- LOOP
 - SCRATCH
 - PROGRAM
 - ALGORITHM
