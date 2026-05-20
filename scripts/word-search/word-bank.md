@@ -1,10 +1,8 @@
 # End-of-Year Word Search — Word Bank
 
-Source vocabulary for the Day 43 (Wed 5/20/2026) end-of-year word search worksheet in the Computer Programming with Scratch course. Pulled from Units 1–3 (Scratch fundamentals, conditionals, platformer/booleans) plus Weeks 7–8 (Python, AI/machine learning).
+Source vocabulary for the Day 43 (Wed 5/20/2026) end-of-year word search worksheets. The generator at `scripts/word-search/generate.py` reads each `## <Class> — Words` section below and writes one PDF per class to `static/downloads/`. Words are listed in ALL CAPS exactly as they are placed in the grid; multi-word terms have spaces removed (`TRAININGDATA`) so they can be placed as a single run of letters.
 
-Each word below appears in the printable puzzle at `static/downloads/end-of-year-word-search.pdf`. Words are listed in ALL CAPS exactly as they are placed in the grid. Multi-word terms have spaces removed (`TRAININGDATA`) so they can be placed as a single run of letters.
-
-## Words
+## Scratch — Words
 
 - LOOP
 - SCRATCH
@@ -31,7 +29,7 @@ Each word below appears in the printable puzzle at `static/downloads/end-of-year
 - TRAININGDATA
 - REMIX
 
-## Unit Coverage
+### Scratch — Unit Coverage
 
 | Word | Unit / Week |
 |------|-------------|
@@ -40,3 +38,40 @@ Each word below appears in the printable puzzle at `static/downloads/end-of-year
 | PYTHON, TERMINAL, PANDAS | Week 7 |
 | CLASSIFIER, TRAININGDATA | Week 8 (AI / Teachable Machine) |
 | REMIX | Whole course (Scratch community) |
+
+## Music Technology — Words
+
+- PODCAST
+- MICROPHONE
+- GARAGEBAND
+- SOUNDTRAP
+- RECORDING
+- EDITING
+- SCRIPT
+- INTERFACE
+- REVERB
+- DELAY
+- CHORUS
+- DISTORTION
+- TREMOLO
+- AUTOMATION
+- QUANTIZE
+- STAFF
+- MELODY
+- HARMONY
+- MUSESCORE
+- TEMPO
+- REMIX
+- BLENDER
+- PLUGIN
+- SCORE
+
+### Music Technology — Unit Coverage
+
+| Word | Unit / Week |
+|------|-------------|
+| PODCAST, MICROPHONE, GARAGEBAND, SOUNDTRAP, RECORDING, EDITING, SCRIPT, INTERFACE | Unit 1: Podcasts (Weeks 1–3) |
+| REVERB, DELAY, CHORUS, DISTORTION, TREMOLO, AUTOMATION, PLUGIN | Unit 2: Sound Design (Week 3) |
+| QUANTIZE, TEMPO | Unit 3: Beat Making (Week 4) |
+| STAFF, MELODY, HARMONY, MUSESCORE | Unit 4: Music Reading (Weeks 5–6) |
+| REMIX, BLENDER, SCORE | Units 5–6: Remixing & Film Scoring (Weeks 7–8) |

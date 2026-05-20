@@ -1,12 +1,14 @@
-"""Generate the end-of-year word search PDF for the Scratch programming class.
+"""Generate the end-of-year word search PDFs.
 
-Reads the word list from `word-bank.md`, places each word in a square grid in
-one of 8 directions, fills remaining cells with random letters, and renders the
-finished puzzle to a letter-sized PDF using matplotlib.
+Reads each `## <Class Name> — Words` section in `word-bank.md`, places every
+word in a square grid in one of 8 directions, fills remaining cells with random
+letters, and writes one letter-sized PDF per class to `static/downloads/`.
 
 Run from the repo root with:
     .venv/bin/python scripts/word-search/generate.py
-Output: static/downloads/end-of-year-word-search.pdf
+Output files (per class):
+    static/downloads/end-of-year-word-search.pdf                  (Scratch)
+    static/downloads/end-of-year-word-search-music-technology.pdf (Music Technology)
 """
 
 import random
@@ -20,10 +22,26 @@ from matplotlib.patches import Rectangle
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 WORD_BANK = REPO_ROOT / "scripts" / "word-search" / "word-bank.md"
-OUTPUT_PDF = REPO_ROOT / "static" / "downloads" / "end-of-year-word-search.pdf"
+DOWNLOADS_DIR = REPO_ROOT / "static" / "downloads"
 
 GRID_SIZE = 16
 SEED = 20260520  # today's date — keeps the puzzle reproducible across runs
+
+# Per-class rendering config. Keys must match the `## <Name> — Words` heading
+# in the word bank. The first class keeps the original unsuffixed filename so
+# already-printed worksheets stay reproducible.
+CLASS_CONFIG: dict[str, dict[str, str | int]] = {
+    "Scratch": {
+        "subtitle": "Computer Programming with Scratch  —  Mr. Willingham",
+        "output": "end-of-year-word-search.pdf",
+        "seed_offset": 0,  # keeps the previously printed Scratch PDF reproducible
+    },
+    "Music Technology": {
+        "subtitle": "Music Technology  —  Mr. Willingham",
+        "output": "end-of-year-word-search-music-technology.pdf",
+        "seed_offset": 1000,
+    },
+}
 
 # 8 directions as (dr, dc) deltas
 DIRECTIONS = [
@@ -38,21 +56,31 @@ DIRECTIONS = [
 ]
 
 
-def load_words(path: Path) -> list[str]:
-    """Parse the markdown word bank and return the uppercase word list."""
-    words: list[str] = []
-    in_words = False
+def load_classes(path: Path) -> dict[str, list[str]]:
+    """Parse `## <Class Name> — Words` sections into {class_name: [WORD, ...]}.
+    Ignores `### ...` sub-headings (unit-coverage tables) inside a section."""
+    sections: dict[str, list[str]] = {}
+    current: str | None = None
+    # Accept em-dash, en-dash, or hyphen as the separator
+    header_re = re.compile(r"^##\s+(.+?)\s+[—–-]\s+Words\s*$", re.IGNORECASE)
+    word_re = re.compile(r"^\s*-\s+([A-Za-z]+)\s*$")
     for line in path.read_text().splitlines():
-        if line.strip().lower().startswith("## words"):
-            in_words = True
+        h = header_re.match(line)
+        if h:
+            current = h.group(1).strip()
+            sections.setdefault(current, [])
             continue
-        if in_words and line.strip().startswith("## "):
-            break
-        if in_words:
-            m = re.match(r"^\s*-\s+([A-Za-z]+)\s*$", line)
-            if m:
-                words.append(m.group(1).upper())
-    return words
+        # A top-level `## ...` heading that isn't a `— Words` section closes
+        # the current section; sub-headings (`### ...`) stay inside it.
+        if current is not None and line.startswith("## "):
+            current = None
+            continue
+        if current is None:
+            continue
+        m = word_re.match(line)
+        if m:
+            sections[current].append(m.group(1).upper())
+    return sections
 
 
 def try_place(grid: list[list[str]], word: str, r: int, c: int, dr: int, dc: int) -> bool:
@@ -94,7 +122,8 @@ def place_words(words: list[str], size: int, rng: random.Random) -> tuple[list[l
     return grid, placed
 
 
-def render_pdf(grid: list[list[str]], words: list[str], out_path: Path) -> None:
+def render_pdf(grid: list[list[str]], words: list[str],
+               subtitle: str, out_path: Path) -> None:
     """Render the puzzle (grid + word bank) to a letter-sized PDF."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     size = len(grid)
@@ -105,7 +134,7 @@ def render_pdf(grid: list[list[str]], words: list[str], out_path: Path) -> None:
         # Header
         fig.text(0.5, 0.95, "End-of-Year Word Search",
                  ha="center", va="top", fontsize=22, fontweight="bold")
-        fig.text(0.5, 0.915, "Computer Programming with Scratch  —  Mr. Willingham",
+        fig.text(0.5, 0.915, subtitle,
                  ha="center", va="top", fontsize=12, style="italic")
         fig.text(0.08, 0.875, "Name: ______________________________",
                  ha="left", va="top", fontsize=11)
@@ -159,14 +188,26 @@ def render_pdf(grid: list[list[str]], words: list[str], out_path: Path) -> None:
 
 
 def main() -> None:
-    rng = random.Random(SEED)
-    words = load_words(WORD_BANK)
-    if not words:
-        raise SystemExit(f"No words found in {WORD_BANK}")
-    grid, placed = place_words(words, GRID_SIZE, rng)
-    render_pdf(grid, placed, OUTPUT_PDF)
-    print(f"Placed {len(placed)}/{len(words)} words in a {GRID_SIZE}x{GRID_SIZE} grid")
-    print(f"Wrote {OUTPUT_PDF.relative_to(REPO_ROOT)}")
+    sections = load_classes(WORD_BANK)
+    if not sections:
+        raise SystemExit(f"No `## <Class> — Words` sections found in {WORD_BANK}")
+    for class_name, words in sections.items():
+        if not words:
+            print(f"{class_name}: no words — skipping")
+            continue
+        cfg = CLASS_CONFIG.get(class_name)
+        if cfg is None:
+            print(f"{class_name}: no entry in CLASS_CONFIG — skipping")
+            continue
+        # Per-class seed offset so each PDF is reproducible across runs.
+        # Scratch uses offset 0 to preserve the already-printed worksheet.
+        rng = random.Random(SEED + int(cfg["seed_offset"]))
+        grid, placed = place_words(words, GRID_SIZE, rng)
+        out_path = DOWNLOADS_DIR / str(cfg["output"])
+        render_pdf(grid, placed, str(cfg["subtitle"]), out_path)
+        print(f"{class_name}: placed {len(placed)}/{len(words)} words "
+              f"in a {GRID_SIZE}x{GRID_SIZE} grid")
+        print(f"  Wrote {out_path.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":
