@@ -1,9 +1,8 @@
 ---
-title: "Podcast Unit Vocabulary"
+title: "Podcast Vocabulary"
 unit: ["Podcast"]
 weight: 1
 toc: false
-draft: true
 ---
 
 Audio Engineer

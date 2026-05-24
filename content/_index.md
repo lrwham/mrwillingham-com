@@ -5,11 +5,18 @@ draft: false
 
 <div class="mt-8"></div>
 
-Select your class to get started.
+Welcome! Both classes are currently on **summer break**. New lessons will appear here when school resumes in the fall.
 
-### Current Classes
+### Classes
 
 {{< cards >}}
-{{< card link="scratch" title="Q4 - Programming with Scratch" subtitle="Daily Instructions" >}}
-{{< card link="music-technology" title="Q4 - Music Technology" subtitle="Daily Instructions" >}}
+{{< card link="scratch" title="Computer Programming with Scratch" subtitle="6th–8th Grade" >}}
+{{< card link="music-technology" title="Music Technology" subtitle="6th–8th Grade" >}}
+{{< /cards >}}
+
+### Past Years & Reference
+
+{{< cards >}}
+{{< card link="archive/2025-26" title="2025-26 Archive" subtitle="Last year, day-by-day" >}}
+{{< card link="troubleshooting" title="Troubleshooting" subtitle="Mac lab & app help" >}}
 {{< /cards >}}
