@@ -15,10 +15,10 @@ Hugo static site for a middle-school teacher's two classes: **Computer Programmi
 | Path | What it is | Agent should... |
 |------|-----------|-----------------|
 | `content/` | All lesson and page content (markdown) | Edit freely; this is the main workspace |
-| `content/scratch/` | Scratch programming course | Edit; daily lessons in `week-N/day-NN/index.md` |
-| `content/music-technology/` | Music technology course | Edit; same structure |
+| `content/scratch/` | Scratch programming course (current year) | Edit; current-year daily lessons in `week-N/day-NN/index.md`; date-free reusable lessons in `projects/`; vocab in `reference/` |
+| `content/music-technology/` | Music technology course (current year) | Edit; same structure; reusable lessons in `projects/`; vocab in `reference/` |
 | `content/troubleshooting/` | Student self-help guides | Edit when asked |
-| `content/sub-plans/` | Substitute teacher plans | Edit when asked |
+| `content/archive/` | Frozen snapshots of past school years (`YYYY-YY/<course>/...`) | **Don't edit existing year folders.** They're frozen as taught. Create a new `YYYY-YY/` folder at end of school year to archive that year — see "Archive & Reusable Projects" below. |
 | `archetypes/` | Lesson templates used by `hugo new content` | Read for the canonical skeleton; edit only if templates change |
 | `layouts/` | Custom Hugo templates and shortcodes | Edit when changing rendering; do NOT touch `themes/hextra/` |
 | `layouts/shortcodes/` | Custom shortcode HTML | Read to understand shortcode behavior; rarely edit |
@@ -61,6 +61,8 @@ After editing a lesson, always run `hugo --quiet --renderToMemory` and confirm z
 - `_index.md` is used for week landing pages and for daily lessons that have their own sub-pages.
 - `<course>` is `scratch` or `music-technology`.
 - Day folder is `day-N` (no zero-padding, matching existing convention).
+- Past-year lessons live at `content/archive/<YYYY-YY>/<course>/week-N/day-NN/index.md` with the same structure — don't edit them.
+- Date-free reusable lesson templates live at `content/<course>/projects/<slug>/index.md` — see "Archive & Reusable Projects" below.
 
 ### Required Front Matter
 
@@ -273,6 +275,39 @@ All custom shortcodes in `layouts/shortcodes/`. Two delimiter styles exist; use 
 
 **Delimiter rule of thumb:** Use `{{% %}}` for shortcodes that wrap markdown content (`objectives`, `warmup`, `worksession`, `checkpoint`, `closing`, `alert`). Use `{{< >}}` for shortcodes that emit HTML directly or whose content does not need markdown rendering (`callout`, `button`, `icon`, `tabs`, `tab`, `clever`, `todays-lesson`, `recent-lessons`). Mixing these breaks rendering.
 
+---
+
+## Archive & Reusable Projects
+
+Beyond the current year's weekly lessons, the repo carries two parallel content trees.
+
+### `content/archive/<YYYY-YY>/<course>/...` — past-year snapshots
+
+Verbatim snapshots of past school years. Every daily lesson keeps its original `date:`, `day_number:`, `weight:`, and content — including dated assignment notes and "today we'll…" language. Lives in a separate top-level Hugo section (`archive`), so the `{{< this-week >}}` / `{{< recent-lessons >}}` / `{{< todays-lesson >}}` shortcodes on the live course landing pages can't surface archived lessons (they filter by `.Section`).
+
+- **Don't edit existing year folders.** They are frozen.
+- At end of school year, archive the year with `git mv content/<course>/week-* content/archive/<YYYY-YY>/<course>/` (also move dated project hubs and sub-plans). Add a static `_index.md` listing each week — use `content/archive/2025-26/scratch/_index.md` as the template.
+- Archived lessons' standards anchors (e.g., `/scratch/description/#ms-cs-fcp3`) still resolve to the live current-year description page. Leave them as-is.
+
+### `content/<course>/projects/<slug>/` — reusable lesson templates
+
+Date-free, generalized lesson and project guides. Future cohorts pull from here.
+
+Conventions:
+
+- **No `date:`, `day_number:`, or week-positional `weight:`** — these aren't tied to a school day.
+- **No calendar-icon long-form date line** at the top.
+- Schedules key off "Project Day 1 … Project Day N", not specific dates.
+- Page title is the topic/project name ("Platforms & Collision", "Video Game Design Project"), not "Day N: …".
+- Otherwise use the same shortcode structure (`objectives` / `warmup` / `worksession` / `checkpoint` / `closing`) as a normal daily lesson when extracting a single-day lesson.
+- The `_index.md` of a multi-day project hub doesn't need shortcode blocks — see `content/scratch/projects/video-game-design/_index.md`.
+
+To promote an archived lesson into a reusable project: copy it from the archive, strip the front-matter `date:` field and the calendar-icon line, replace year-specific references ("yesterday's project", "this Friday", "next week we'll…") with generic equivalents or a self-contained recap, and add a brief teacher-notes block at the bottom.
+
+### Course root landing pages between school years
+
+When all current-year content has been archived (summer break), the course-root `_index.md` files drop `{{< this-week >}}` and use a static "On Summer Break" headline + card grid pointing to `description/`, `projects/`, `reference/`, and the latest archive. See current `content/scratch/_index.md` and `content/music-technology/_index.md`. When the new year's first lesson lands in `content/<course>/week-1/`, swap the static block back to `## This Week` + `{{< this-week >}}`.
+
 ### Callout Examples
 
 ```markdown
@@ -406,6 +441,8 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 - **Never edit** `.env*` files (denied at the permission layer).
 - **Don't invent** assignments, due dates, project scope, or activities the user didn't ask for. Ask a focused clarifying question instead.
 - **Don't change `weight` values** on existing lessons without recalculating siblings — it silently reorders the sidebar.
+- **Don't add `date:` or `day_number:`** to pages under `content/<course>/projects/` — they are intentionally date-free templates.
+- **Don't edit `content/archive/`** existing year folders — they're frozen snapshots of past years.
 - **Don't commit** unless explicitly asked.
 - **Use the Edit tool**, not `sed` or `awk`, for file edits.
 - **Use the Write tool**, not bash heredocs or `echo` redirection, for new files.
@@ -420,4 +457,5 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 1. Read the 2–4 most recent daily lessons in the same week to match style and continuity.
 2. Read the week's `_index.md` schedule table to confirm the day's planned topic and summary.
 3. Read the relevant archetype (`archetypes/scratch/index.md` or `archetypes/music-technology/index.md`) for the canonical skeleton.
-4. For deeper context that isn't in this AGENTS.md, the human-facing docs in the repo root (`content.md`, `technical.md`, `coding-scratch.md`, `music-tech.md`) are accurate and authoritative. If anything in those docs conflicts with this AGENTS.md, prefer this file for agent operations and surface the discrepancy to the user.
+4. If no current-year lessons exist yet (e.g., start of school year, summer break), look in `content/archive/<most-recent-YYYY-YY>/<course>/` for how the same topic was taught last year, and in `content/<course>/projects/` for date-free reusable versions of standout lessons.
+5. For deeper context that isn't in this AGENTS.md, the human-facing docs in the repo root (`content.md`, `technical.md`, `coding-scratch.md`, `music-tech.md`) are accurate and authoritative. If anything in those docs conflicts with this AGENTS.md, prefer this file for agent operations and surface the discrepancy to the user.
