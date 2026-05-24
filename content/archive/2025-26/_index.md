@@ -11,5 +11,4 @@ Q4 of the 2025-26 school year ran from **March 16, 2026** through **May 20, 2026
 {{< cards >}}
 {{< card link="scratch" title="Computer Programming with Scratch" subtitle="9 weeks · Days 1–43" >}}
 {{< card link="music-technology" title="Music Technology" subtitle="9 weeks · Days 1–42" >}}
-{{< card link="sub-plans" title="Substitute Plans" subtitle="March 23–24, 2026" >}}
 {{< /cards >}}
