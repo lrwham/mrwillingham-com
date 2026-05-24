@@ -1,4 +1,7 @@
 ---
+build:
+  list: never
+  render: always
 type: bare
 ---
 
