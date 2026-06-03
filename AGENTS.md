@@ -6,7 +6,7 @@ Operational reference for AI coding agents working in this repository. Human-fac
 
 ## Project Summary
 
-Hugo static site for a middle-school teacher's two classes: **Computer Programming with Scratch** (Georgia MS-CS-FCP standards) and **Music Technology** (Georgia MSMTC8 standards). The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions deploy to an EC2 server on push: `main` → production (`mrwillingham.com`), `dev` → staging (`dev.mrwillingham.com`).
+Hugo static site for a middle-school teacher's two classes: **Computer Programming with Scratch** (Georgia MS-CS-FCP standards) and **Music Technology** (Georgia MSMTC8 standards). The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
 
 ---
 
@@ -28,7 +28,7 @@ Hugo static site for a middle-school teacher's two classes: **Computer Programmi
 | `static/` | Static files (favicon, banner, downloads, etc.) | Add binary assets here |
 | `i18n/` | Internationalization strings | Rarely touched |
 | `hugo.yaml` | Site configuration | Edit carefully; controls taxonomies, menu, theme params |
-| `readme.md`, `content.md`, `technical.md`, `coding-scratch.md`, `music-tech.md`, `weekly-checklist.md`, `deploy-dev.md` | Human-facing docs | Read for deeper context; agents should rely on this AGENTS.md first |
+| `readme.md`, `content.md`, `technical.md`, `coding-scratch.md`, `music-tech.md`, `weekly-checklist.md` | Human-facing docs | Read for deeper context; agents should rely on this AGENTS.md first |
 | `themes/hextra/` | **OFF-LIMITS** — Git submodule | Never edit. If theme behavior needs changing, override via `layouts/` |
 | `public/` | **OFF-LIMITS** — Hugo build output | Never edit; never commit; gitignored |
 | `.hugo_build.lock` | **OFF-LIMITS** — build lock file | Never edit; gitignored |
@@ -386,7 +386,7 @@ Anchor format is `#msmtc8<domain>N` (lowercased, no dots). Domains: `cr` (Creati
 - **Vocabulary** uses Markdown definition lists with a blank line between term and `:` line.
 - **Checkboxes** use `- [ ]` (unchecked) and `- [x]` (checked, for examples only).
 - **Headings:** `## Warmup: Title`, `## Work Session: Title`, `### Checkpoint: Title` — the colon-space-title format is mandatory.
-- **Links:** Prefer descriptive link text (`[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)`) over raw URLs. Use direct/deep links when they reduce clicks for students.
+- **Links:** Prefer descriptive link text (`[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)`) over raw URLs. Use direct/deep links when they reduce clicks for students. **Always use absolute paths for `{{< card >}}` links on course root `_index.md` files** (e.g. `link="/scratch/projects"`, not `link="projects"`) — CloudFront + S3 resolves bare relative links from the site root, not the page's directory, causing broken URLs in production.
 - **Numbers:** Spell out one through nine in prose; use digits for 10+ and for all measurements, counts, and step numbers.
 - **Lesson length:** Daily lessons are typically 100–250 lines. Going much longer usually means the work session is too dense for one class period.
 
@@ -426,10 +426,11 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 ## Git & Deployment
 
 - **Branches:**
-  - `main` — production. Push triggers `.github/workflows/deploy.yml` → deploys to `mrwillingham.com`.
-  - `dev` — staging. Push triggers `.github/workflows/deploy-dev.yml` → deploys to `dev.mrwillingham.com` with `HUGO_ENV=dev` (DEV ribbon shown).
+  - `main` — production. Push triggers `.github/workflows/deploy.yml` → builds Hugo in CI, syncs to S3, invalidates CloudFront (`mrwillingham.com`).
+  - No staging branch or server. Use `hugo serve` locally for previewing drafts.
 - **Submodules:** `themes/hextra` is a Git submodule. Fresh clones need `git submodule update --init --recursive` before building.
-- **Build pipeline:** Both deploy workflows `git fetch`, `git reset --hard` to the branch, update submodules, then run `hugo --minify --cleanDestinationDir` (prod) or `hugo --minify --buildFuture --buildDrafts --baseURL "https://dev.mrwillingham.com/"` with `HUGO_ENV=dev` (staging).
+- **Build pipeline:** GitHub Actions runner checks out the repo, installs Hugo Extended (pinned version — see `.github/workflows/deploy.yml`), runs `hugo --minify --cleanDestinationDir`, syncs `public/` to S3 with `aws s3 sync --delete`, then invalidates the CloudFront distribution.
+- **Hugo version:** Pinned in `.github/workflows/deploy.yml`. Must be ≥ 0.156.0 — the `hugo.Data` function used in `layouts/calendar/list.html` was introduced in that release. Local Hugo version should match or exceed the pinned CI version.
 - **Never commit** unless the user explicitly asks. The user controls when changes ship to prod.
 
 ---
