@@ -1,4 +1,4 @@
-name: Deploy Production to EC2
+name: Deploy to S3 + CloudFront
 
 on:
   push:
@@ -8,17 +8,30 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
-      - name: Deploy to EC2
-        uses: appleboy/ssh-action@v1
+      - uses: actions/checkout@v4
         with:
-          host: ${{ secrets.EC2_HOST }}
-          username: ${{ secrets.EC2_USER }}
-          key: ${{ secrets.EC2_SSH_KEY }}
-          script: |
-            cd /var/www/mrwillingham.com
-            git fetch origin main
-            git checkout main
-            git reset --hard origin/main
-            git submodule update --init --recursive
-            hugo --minify --cleanDestinationDir
+          submodules: recursive
+          fetch-depth: 0
+
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.1'
+          extended: true
+
+      - run: hugo --minify --cleanDestinationDir
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - run: aws s3 sync public/ s3://${{ secrets.S3_BUCKET }}/ --delete
+
+      - run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CF_DISTRIBUTION_ID }} \
+            --paths "/*"
