@@ -16,8 +16,8 @@ Class is on break. Daily lessons will appear here when school resumes in the fal
 In the meantime:
 
 {{< cards >}}
-{{< card link="description" title="Course Description" subtitle="What we cover & standards" >}}
-{{< card link="projects" title="Project Library" subtitle="Video Game Design, Platformer, Teachable Machine" >}}
-{{< card link="reference" title="Vocabulary" subtitle="Terms by unit" >}}
+{{< card link="/scratch/description" title="Course Description" subtitle="What we cover & standards" >}}
+{{< card link="/scratch/projects" title="Project Library" subtitle="Video Game Design, Platformer, Teachable Machine" >}}
+{{< card link="/scratch/reference" title="Vocabulary" subtitle="Terms by unit" >}}
 {{< card link="/archive/2025-26/scratch" title="2025-26 Archive" subtitle="Last year, day-by-day" >}}
 {{< /cards >}}
