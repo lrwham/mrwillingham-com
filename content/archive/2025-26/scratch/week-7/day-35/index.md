@@ -19,7 +19,7 @@ tags:
   - Clever
 resources:
   - BrainPOP
-  - code.org
+  - Code.org
   - Clever
 draft: false
 toc: true

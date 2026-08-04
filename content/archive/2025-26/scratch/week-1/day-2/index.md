@@ -14,10 +14,10 @@ tags:
   - Programming with Angry Birds
   - Sequences
   - Bugs
-  - BrainPop
+  - BrainPOP
 resources:
   - Code.org
-  - BrainPop
+  - BrainPOP
 draft: false
 toc: true
 scratchblocks: false

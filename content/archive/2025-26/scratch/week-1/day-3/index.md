@@ -11,7 +11,7 @@ standards:
 tags:
   - Scratch
   - Programming
-  - Art tools
+  - Art Tools
 resources: []
 draft: false
 toc: true

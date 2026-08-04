@@ -13,7 +13,7 @@ standards:
   - MS-CS-FCP.4.9
 tags:
   - video-game-design
-  - scratch
+  - Scratch
   - powerpoint
   - prototype
   - presentation

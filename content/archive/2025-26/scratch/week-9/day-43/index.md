@@ -8,7 +8,7 @@ units:
 standards: []
 tags:
   - vocabulary
-  - review
+  - Review
 resources: []
 draft: false
 toc: false

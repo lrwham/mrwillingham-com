@@ -12,11 +12,11 @@ standards:
 tags:
   - Music Reading
   - Notation
-  - Musescore
+  - MuseScore
   - Binary Form
   - Bass Line
 resources:
-  - "Musescore"
+  - "MuseScore"
 draft: false
 toc: true
 weight: 2

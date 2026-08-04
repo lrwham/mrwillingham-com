@@ -12,10 +12,10 @@ standards:
 tags:
   - Music Reading
   - Transcription
-  - Musescore
+  - MuseScore
   - Notation
 resources:
-  - "Musescore"
+  - "MuseScore"
 draft: false
 toc: true
 weight: 1

@@ -12,9 +12,9 @@ standards:
   - MS-CS-FCP.4.9
 tags:
   - python
-  - variables
-  - loops
-  - conditionals
+  - Variables
+  - Loops
+  - Conditionals
   - input
 resources: []
 draft: false

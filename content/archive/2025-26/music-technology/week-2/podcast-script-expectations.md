@@ -3,7 +3,7 @@ title: "Podcast Script Expectations"
 date: 2026-03-04
 description: "Podcasts Unit: The expectations for writing and formatting a podcast script."
 units: ["Podcast"]
-tags: ["brainstorming", "scripting", "recording"]
+tags: ["Brainstorming", "Scripting", "Recording"]
 resources: ["Soundtrap", "Microphone", "Audio Interface"]
 toc: false
 draft: false

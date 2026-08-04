@@ -17,7 +17,7 @@ tags:
   - matplotlib
   - mplcursors
   - data
-  - design
+  - Design
 resources: []
 draft: false
 toc: true

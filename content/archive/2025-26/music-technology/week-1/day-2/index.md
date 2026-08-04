@@ -8,10 +8,10 @@ units:
   - "Podcasts"
 tags:
   - Sound Waves
-  - BrainPop
+  - BrainPOP
   - GarageBand
 resources:
-  - BrainPop
+  - BrainPOP
 draft: false
 toc: true
 ---
