@@ -12,10 +12,10 @@ standards:
 tags:
   - Music Reading
   - Notation
-  - Musescore
+  - MuseScore
   - ABA Form
 resources:
-  - "Musescore"
+  - "MuseScore"
 draft: false
 toc: true
 weight: 1

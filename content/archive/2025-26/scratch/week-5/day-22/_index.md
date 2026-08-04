@@ -7,7 +7,7 @@ units:
   - "Video Game Design Project"
 tags:
   - video-game-design
-  - writing
+  - Writing
   - game-design-document
   - word-online
 resources:

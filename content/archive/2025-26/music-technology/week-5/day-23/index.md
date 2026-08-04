@@ -12,11 +12,11 @@ standards:
 tags:
   - Music Reading
   - Transcription
-  - Musescore
+  - MuseScore
   - Notation
   - Edpuzzle
 resources:
-  - "Musescore"
+  - "MuseScore"
   - "Edpuzzle"
   - "Clever"
 draft: false

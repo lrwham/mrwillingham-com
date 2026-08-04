@@ -10,7 +10,7 @@ standards:
   - MS-CS-FCP.3.4
   - MS-CS-FCP.4.1
 tags:
-  - conditionals
+  - Conditionals
   - flow-diagrams
   - unplugged
   - offline

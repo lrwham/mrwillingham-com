@@ -7,11 +7,11 @@ units:
   - "Video Game Design Project"
 tags:
   - video-game-design
-  - scratch
+  - Scratch
   - powerpoint
   - prototype
   - presentation
-  - peer-feedback
+  - Peer Feedback
 resources:
   - Presentation Rubric
   - Prototype Rubric

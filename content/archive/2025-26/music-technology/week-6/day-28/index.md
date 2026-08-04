@@ -13,13 +13,13 @@ standards:
 tags:
   - Music Reading
   - Notation
-  - Musescore
+  - MuseScore
   - Binary Form
   - Chords
   - Chord Progressions
   - Melody
 resources:
-  - "Musescore"
+  - "MuseScore"
   - "Hooktheory"
 draft: false
 toc: true

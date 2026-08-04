@@ -3,7 +3,7 @@ title: "Podcast Recording & Editing Guide"
 date: 2026-03-30
 description: "Best practices for recording and editing a podcast in Soundtrap."
 units: ["Podcast"]
-tags: ["recording", "editing", "Soundtrap", "podcasting"]
+tags: ["Recording", "Editing", "Soundtrap", "Podcasting"]
 resources: ["Soundtrap", "Microphone"]
 toc: true
 draft: false

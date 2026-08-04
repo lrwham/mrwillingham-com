@@ -7,7 +7,7 @@ units:
   - "Video Game Design Project"
 tags:
   - video-game-design
-  - brainstorming
+  - Brainstorming
   - unplugged
   - offline
   - teamwork
