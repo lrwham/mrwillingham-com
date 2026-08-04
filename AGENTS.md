@@ -51,6 +51,15 @@ Use these to check work after editing content or templates.
 
 After editing a lesson, always run `hugo --quiet --renderToMemory` and confirm zero output before considering the task done. Never commit `public/` or `.hugo_build.lock`.
 
+### Future-dated lessons are invisible in production
+
+Neither `hugo.yaml` nor `.github/workflows/deploy.yml` sets `buildFuture`, so **Hugo's default applies: a lesson dated later than the build time is not rendered at all.** Consequences an agent must not misread as bugs:
+
+- Scaffolding a full week ahead of time is normal, but only the days whose `date:` has already passed appear in `public/` or on the live site. The rest 404 until their date arrives, at which point the next deploy publishes them.
+- A weekly schedule table therefore contains links that are legitimately dead in prod. **Do not "fix" these by deleting rows or rewriting links.** Verify with `hugo serve --buildFuture` instead.
+- `{{< this-week >}}` anchors on the most recent lesson whose `date` is in the past (falling back from an exact today match), then renders that lesson's `.Parent` week. So a newly scaffolded week does not surface on the course root until at least one of its days has arrived.
+- This is the mechanism that reveals lessons to students day by day. It is intentional — leave it alone.
+
 ---
 
 ## Daily Lesson Files
@@ -96,12 +105,22 @@ weight: 5
 - `date` — Full ISO timestamp with `-04:00` offset (America/New_York). Bare `YYYY-MM-DD` works for some existing music-tech files but new lessons should use the full form.
 - `description` — One sentence, active voice, student perspective. Mirrors the weekly schedule table's Summary column.
 - `day_number` — Integer, continuous across the course. Must strictly exceed the previous lesson's `day_number`.
-- `units` — List. Exact spelling/casing must match sibling lessons (taxonomy is case-sensitive).
+- `units` — List. Exact spelling must match sibling lessons (see "Taxonomy values" below).
 - `standards` — Real standard codes (see Standards section below). Each code listed here must also appear in the `## Standards` section at the bottom of the file.
 - `tags` — Topical tags. Scratch lessons always include `- Scratch`. Music Tech lessons typically include the primary DAW tag (`- GarageBand`, `- Soundtrap`, etc.).
-- `resources` — Tools students will use. Match exact casing of existing entries (taxonomy is case-sensitive).
+- `resources` — Tools students will use. Match existing entries (see "Taxonomy values" below). Printed handouts follow the `"Drum Worksheet Packet (printed)"` pattern — lowercase `printed` in parentheses.
 - `weight` — Sort order within the week (1–5 for Mon–Fri). Don't change existing values without recalculating siblings.
 - `scratchblocks` — Scratch course only. Set `true` to enable ```scratch fenced code blocks.
+
+### Taxonomy values (`units`, `tags`, `resources`)
+
+What actually creates a duplicate term page is **spelling, not casing.** Hugo normalizes case when keying terms, so `Loops` and `loops` collapse into a single `/tags/loops/` page listing both lessons — only the display title differs, decided by whichever page Hugo reads first. Verified behavior, not theory.
+
+- **Real risk: singular vs. plural and reworded variants.** `Podcast` and `Podcasts` are both live `units` terms today, splitting the same unit across two pages. Check for an existing near-match before inventing a value.
+- **Casing convention differs by course.** Music Tech uses TitleCase tags (`Soundtrap`, `Podcast`, `Recording`, `Microphones`); Scratch uses lowercase (`loops`, `variables`, `conditionals`). Match the course you're editing so display titles stay consistent.
+- **The front-matter key is `units`, plural.** Two files use singular `unit:`, which Hugo ignores entirely — those pages are missing from the taxonomy. Don't copy that pattern.
+- To see every existing term, run `hugo --quiet` and list `public/units/`, `public/tags/`, and `public/resources/`.
+- An ampersand slugifies to a double dash: `"Loops & Layering"` → `/units/loops--layering/`. Prefer `and` in new term values.
 
 ### Required Page Structure
 
@@ -208,6 +227,7 @@ weight: 100   # descending — Week 1 has highest weight, later weeks lower
 ```
 
 - `weight` decreases as week number increases (Week 1 = 100, Week 2 = 90, etc.). This makes Week 1 appear last in sidebar ordering, with the newest week first.
+- **The 100-based scale above is authoritative for new content.** Past years used a smaller scale (2025-26 Music Tech ran 12→4, Scratch 10→2). Only the *relative order* matters to Hugo, so both work — but don't copy the old numbers when starting a new year, and don't renumber a frozen archive to match.
 - `toc: false` because the landing page has no in-page TOC.
 - `cascade.type: docs` propagates the docs layout to all child pages.
 
@@ -392,6 +412,43 @@ Anchor format is `#msmtc8<domain>N` (lowercased, no dots). Domains: `cr` (Creati
 
 ---
 
+## Converting a Teacher Lesson Plan into a Lesson Page
+
+The user often supplies a teacher-facing lesson plan (timed agenda, materials list, teacher notes) and asks for a lesson page. **Site pages are student-facing.** Convert, don't transcribe.
+
+**Drop entirely:**
+
+- Timed agendas (`| 5 min | Welcome, attendance |`). Students don't need minute budgets, and they go stale the first time a period runs long.
+- Teacher notes about classroom management, prep, staffing, seating charts, or which students to watch.
+- Materials lists — these are the teacher's setup checklist. Student-needed tools belong in front-matter `resources:` instead.
+- Anything naming individual students.
+
+**Promote into student content:**
+
+- Teacher notes that are really instructions in disguise. "Set the tempo expectation up front" becomes a step in the walkthrough; "circulate for headphone volume" becomes a `{{< callout type="warning" >}}`.
+- Pacing reassurance the student benefits from ("most people will finish Sets 1–3 today") — as a `{{< callout type="info" >}}`.
+- Grading criteria and due dates. Students should know what "finished" means.
+
+**Rewrite:**
+
+- Objectives from "Students will…" to the `- I can…` pattern.
+- Agenda blocks into the required section order — the agenda's warmup/mini-lesson/work-time/share-out maps cleanly onto `warmup` → `worksession` → `closing`. A long work block often splits into two `worksession` blocks (instruction, then application).
+
+**Supply what the plan omits:**
+
+- **Standards.** Teacher plans usually list none. Choose real codes from the course `description.md`, tie each to a specific activity in *this* lesson, and mirror them in front matter. Verify anchors resolve.
+- Front matter generally — `units`, `tags`, `resources`, `description`, `day_number`, `weight`.
+
+**Reconcile before writing.** Plans drift from the site: check grade level, unit names, and dates against `description.md` and the week's `_index.md`, and surface conflicts rather than silently picking one. If a plan links a handout at a path that doesn't exist on this site, ask where it should live or whether it's print-only — don't invent a URL.
+
+---
+
+## Known Issues
+
+- **The 2025-26 Music Tech archive is incomplete.** `week-8/_index.md` links `day-37/`–`day-40/` and `week-9/_index.md` links `day-43/`, but those folders were never committed. 37 lessons exist, while `content/archive/2025-26/_index.md` advertises "Days 1–42." Those schedule links are dead. **Don't try to repair them** — archives are frozen, and fixing the count requires the user's explicit OK. Scratch's archive (days 1–43) is complete.
+
+---
+
 ## Course Context (Quick Reference)
 
 ### Computer Programming with Scratch
@@ -448,7 +505,8 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 - **Use the Edit tool**, not `sed` or `awk`, for file edits.
 - **Use the Write tool**, not bash heredocs or `echo` redirection, for new files.
 - **Verify with `hugo --quiet --renderToMemory`** after any edit before declaring done. Zero output = success.
-- **Match existing casing** for `units`, `tags`, and `resources` values exactly — these are case-sensitive taxonomies and a typo creates an orphan term page.
+- **Check for an existing near-match** before inventing a `units`, `tags`, or `resources` value — singular/plural and reworded variants split a term across two pages. See "Taxonomy values" above; casing alone does not split a term.
+- **Don't delete or rewrite weekly schedule links that 404 in prod.** Future-dated lessons are excluded from production builds by design — see "Future-dated lessons are invisible in production."
 - **Don't rely on stale planning files.** Current schedule lives in each course's week-`N` `_index.md`. Treat any informal notes files as potentially out of date.
 
 ---

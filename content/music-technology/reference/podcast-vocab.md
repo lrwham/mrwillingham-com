@@ -1,6 +1,6 @@
 ---
 title: "Podcast Vocabulary"
-unit: ["Podcast"]
+units: ["Podcast"]
 weight: 1
 toc: false
 ---
