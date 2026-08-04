@@ -1,18 +1,19 @@
 ---
 title: "Music Technology"
-lastmod: "2026-05-24"
+lastmod: "2026-08-04"
 toc: false
 cascade:
   type: docs
+draft: false
 ---
 
-6th–8th Grade Music Technology
+8th Grade Music Technology — Daily Instructions
 
-## On Summer Break
+## This Week
 
-Class is on break. Daily lessons will appear here when school resumes in the fall.
+{{< this-week >}}
 
-In the meantime:
+## More
 
 {{< cards >}}
 {{< card link="/music-technology/description" title="Course Description" subtitle="What we cover & standards" >}}
