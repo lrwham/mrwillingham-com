@@ -24,7 +24,7 @@ in plain student-facing language. If the week spans two units, add a second
 
 | Day | Date    | Topic                                                     | Summary                                                                                          |
 | --- | ------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 1   | Mon 8/3 | [Day 1: TBD](day-1/)                                      | TBD                                                                                              |
+| 1   | Mon 8/3 | [Day 1: Welcome to Music Technology](day-1/)              | Log in to your accounts, review the syllabus and classroom procedures, complete the About Me activity, and set up Soundtrap. |
 | 2   | Tue 8/4 | [Day 2: Soundtrap Loop Scavenger Hunt](day-2/)            | Explore the Soundtrap Sound library and build five projects, each with four loops that fit together. |
 | 3   | Wed 8/5 | [Day 3: TBD](day-3/)                                      | TBD                                                                                              |
 | 4   | Thu 8/6 | [Day 4: TBD](day-4/)                                      | TBD                                                                                              |
