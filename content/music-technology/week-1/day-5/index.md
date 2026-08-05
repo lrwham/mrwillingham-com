@@ -58,7 +58,7 @@ Listen to both, then be ready to answer out loud:
 
 ## Work Session: One Loop Per Job
 
-Yesterday you learned that layers need their own register. Today you learn how to pick them in the first place.
+Yesterday you gave your loops space by spreading them out over time. Today you learn how to pick them in the first place.
 
 Every category of loop has a job. A set works when each job is filled once:
 

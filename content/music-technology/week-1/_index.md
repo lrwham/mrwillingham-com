@@ -9,7 +9,7 @@ weight: 100
 
 ## Unit: Loops & Layering
 
-Welcome to Music Technology. This week you get set up on the classroom Macs and in Soundtrap, then start making music immediately — no instrument required. You will dig through Soundtrap's loop library on a scavenger hunt, build five short sets of four loops each, and share your best one with the class. From there you learn what separates four loops piled on top of each other from an actual arrangement: **layering** them so each one has its own space, using **dynamics** so nothing gets buried, and choosing loops by category and genre so they sound like they belong together.
+Welcome to Music Technology. This week you get set up on the classroom Macs and in Soundtrap, then start making music immediately — no instrument required. You will dig through Soundtrap's loop library on a scavenger hunt, build five short sets of four loops each, and share your best one with the class. From there you learn what separates four loops piled on top of each other from an actual arrangement: **layering** them so they come in and out over time instead of all at once, using **dynamics** so nothing gets buried, and choosing loops by category and genre so they sound like they belong together.
 
 ## Weekly Schedule
 
