@@ -1,6 +1,6 @@
 ---
 title: "Day 4: Layering and Dynamics"
-date: 2026-08-06T08:00:00-04:00
+date: 2026-08-06T08:00:00-02:00
 description: "Share one loop set with the class, then learn how layering and dynamics turn four stacked loops into an arrangement."
 day_number: 4
 units:
