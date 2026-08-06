@@ -1,6 +1,6 @@
 ---
 title: "Day 4: Layering and Dynamics"
-date: 2026-08-06T08:00:00-02:00
+date: 2026-08-06T08:00:00-04:00
 description: "Share one loop set with the class, then learn how layering and dynamics turn four stacked loops into an arrangement."
 day_number: 4
 units:
@@ -72,7 +72,7 @@ When it is not your turn think about the following?
 "It sounds cool" is nice, but not useful feedback.
 {{< /callout >}}
 
-<video controls src="/videos/Soundtrap-Export-and-CTLS-Upload-480p.mp4" title="{{< button text="Open the Music Tech Syllabus" ></video>
+<video controls src="/videos/Soundtrap-Export-and-CTLS-Upload-480p.mp4"></video>
 
 {{% /worksession %}}
 
