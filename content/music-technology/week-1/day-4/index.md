@@ -31,9 +31,8 @@ weight: 4
 - I can play one of my loop sets for the class and explain why those four loops belong together.
 - I can listen to a classmate's set and name something specific that works in it.
 - I can explain what layering means and why loops need space to be heard.
-- I can bring loops in and out over time instead of playing all four at once.
-- I can use dynamics to keep one loop from burying the others.
-- I can adjust track volume in Soundtrap to improve my own arrangement.
+- I can arrange loops over time instead of playing all four at once.
+- I can use dynamics to keep one loop from being louder than the others.
 
 {{% /objectives %}}
 
@@ -41,16 +40,15 @@ weight: 4
 
 ## Warmup: Get Your Pick Ready
 
-Log in, open the project you circled on your worksheet yesterday, and play it once through with your headphones on. Set your track volumes so it is ready to hear on the classroom speakers.
+Log in, open the project you circled on your worksheet yesterday, and check it. You may make small adjustments as needed.
 
-Have your one sentence ready: **what the four loops are, and why they belong together.**
+Think of a short sentence to describe your piece of music. Memorize the name of your piece. You'll be asked to stand, name your piece, and say your one sentence description.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] My chosen project is open and saved.
-- [ ] I played it through once and it sounds the way I want.
+- [ ] I checked my work and it sounds the way I want.
 - [ ] I know what I am going to say about it.
 
 {{% /checkpoint %}}
@@ -61,28 +59,20 @@ Have your one sentence ready: **what the four loops are, and why they belong tog
 
 ## Work Session: Share Out
 
-Everyone plays their one set. When it is your turn, play it and give your sentence.
+We'll turn in and share everyone's project. Mr. Willingham will play each piece on the big speakers.
 
-When it is not your turn, you are listening — not editing, not browsing. For each set you hear, find one specific thing:
+When it is not your turn think about the following?
 
-- Which loop is holding down the beat?
-- Which loop is carrying the melody?
-- Do all four loops start at the same time, or does the set build?
-- Is anything getting buried?
+- Which loop is most important to the other student's project?
+- Do all four loops start at the same time, or different times?
+- Is anything hard to hear?
+- Do all of the loops work together?
 
 {{< callout type="info" >}}
-"It sounds cool" is not feedback. Use the category names from your worksheet — drums, bass, harmony, melody, FX — and say what the loop is doing.
+"It sounds cool" is nice, but not useful feedback.
 {{< /callout >}}
 
-{{% checkpoint %}}
-
-### Checkpoint: Work Session
-
-- [ ] I played my set for the class and gave my sentence.
-- [ ] I listened to my classmates without editing my own project.
-- [ ] I named one specific thing that worked in someone else's set.
-
-{{% /checkpoint %}}
+<video controls src="/videos/Soundtrap-Export-and-CTLS-Upload-480p.mp4" title="{{< button text="Open the Music Tech Syllabus" ></video>
 
 {{% /worksession %}}
 
@@ -90,36 +80,33 @@ When it is not your turn, you are listening — not editing, not browsing. For e
 
 ## Work Session: Layering and Dynamics
 
-You have heard 20-plus sets now. Some of them were four good loops that still sounded like mud. Here is why.
-
 ### Layering
 
-Layering is giving each loop its own space so the listener can actually hear it.
+Layering is combing loops carefully to build up a cohesive musical idea over time.
 
-Almost every set you heard today started the same way: all four loops, playing from the very first beat, all the way to the end. Nothing has space in a set like that. The listener gets one wall of sound and cannot pick out any single part.
 
-The fix is to spread the loops out **over time**. Bring them in one at a time, and take one away when things get crowded:
+It is often best to spread your loops out **over time**. Bring them in one at a time, and take one away when things get busy.
+
+It also helps to use a variety of loops. Two loops with a guitar that sound similar may not work well together at the same time. Instead a loop with guitar and a loop with drums may work together best.
+
+The two guitar loops that sound similar may work better if one comes in first, and the other comes in later. The listener can hear the first guitar loop by itself, then notice the second guitar loop as a change.
 
 | Measures | What is playing | Why |
 | --- | --- | --- |
-| 1–2 | One loop, alone. | The listener gets to hear it by itself. |
-| 3–4 | The first loop plus one or two more. | Each new loop arrives as a change the listener notices. |
-| 5–6 | A fourth loop comes in — and one of the earlier three drops out. | The new part gets space instead of being piled on top. |
-
-That last row is the part people skip. When something new comes in, something else can leave. Taking a loop away is a musical decision, not a mistake.
-
-You already know how to do this in Soundtrap: drag the ends of a region on the timeline to set where it starts and stops, and copy a region forward to make it repeat.
+| 1–2 | One loop, alone. Guitar | The listener gets to hear it by itself. |
+| 3–4 | The first loop plus one or two more. Drums, Piano | Each new loop arrives as a change the listener notices. |
+| 5–6 | A fourth loop comes in — and one of the earlier three drops out. New guitar loop replaces the old | The new part gets space instead of being piled on top. |
 
 ### Dynamics
 
-Dynamics means how loud or soft something is. In a DAW you control it with each track's **volume fader**.
+Dynamics means how loud or soft something is. In Soundtrap you control loudness with each track's **volume fader**.
 
-Four loops imported at full volume are four loops all shouting at once. The fix is not to make things louder — it is to decide what should be quietest. Pull the supporting loops down until the part you want people to follow is clearly on top.
+Four loops at full volume are four loops all shouting at once. The fix is not to make things louder — it is to decide what is important.  The important loop can stay at original volume. Pull the supporting loops down quieter until the part you want people to follow is clearly on top.
 
 ### Key Vocabulary
 
 Layering
-: Bringing loops in and out over time so each one has space to be heard.
+: Carefully arranging loops so they build up a cohesive musical idea over time.
 
 Measure
 : One unit of time on the timeline. Most Soundtrap loops are two or four measures long.
