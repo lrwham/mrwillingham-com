@@ -219,7 +219,9 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  transition: background-color 0.15s, color 0.15s;
+  transition:
+    background-color 0.15s,
+    color 0.15s;
 }
 
 .dark .sidebar-toggle-btn {
@@ -280,11 +282,21 @@
   flex-shrink: 0;
 }
 
-.cal-legend-dot--holiday     { background: #fca5a5; }
-.cal-legend-dot--school-event { background: #93c5fd; }
-.cal-legend-dot--grading     { background: #fdba74; }
-.cal-legend-dot--field-trip  { background: #86efac; }
-.cal-legend-dot--testing     { background: #d8b4fe; }
+.cal-legend-dot--holiday {
+  background: #fca5a5;
+}
+.cal-legend-dot--school-event {
+  background: #93c5fd;
+}
+.cal-legend-dot--grading {
+  background: #fdba74;
+}
+.cal-legend-dot--field-trip {
+  background: #86efac;
+}
+.cal-legend-dot--testing {
+  background: #d8b4fe;
+}
 
 /* Month navigation */
 .cal-nav {
@@ -332,8 +344,12 @@
 }
 
 /* Month panel show/hide */
-.cal-month-panel[data-state="hidden"]   { display: none; }
-.cal-month-panel[data-state="selected"] { display: block; }
+.cal-month-panel[data-state="hidden"] {
+  display: none;
+}
+.cal-month-panel[data-state="selected"] {
+  display: block;
+}
 
 /* Calendar grid */
 .cal-grid {
@@ -480,7 +496,9 @@ a.cal-event:hover {
 }
 
 /* Category dots — desktop: hidden */
-.cal-dot { display: none; }
+.cal-dot {
+  display: none;
+}
 
 /* Mobile: compact grid, hide pills, show agenda list instead */
 .cal-event-list {
@@ -512,11 +530,21 @@ a.cal-event:hover {
     border-radius: 2px;
     flex-shrink: 0;
   }
-  .cal-dot--holiday      { background: #fca5a5; }
-  .cal-dot--school-event { background: #93c5fd; }
-  .cal-dot--grading      { background: #fdba74; }
-  .cal-dot--field-trip   { background: #86efac; }
-  .cal-dot--testing      { background: #d8b4fe; }
+  .cal-dot--holiday {
+    background: #fca5a5;
+  }
+  .cal-dot--school-event {
+    background: #93c5fd;
+  }
+  .cal-dot--grading {
+    background: #fdba74;
+  }
+  .cal-dot--field-trip {
+    background: #86efac;
+  }
+  .cal-dot--testing {
+    background: #d8b4fe;
+  }
   .cal-event-list {
     display: block;
     list-style: none;
@@ -544,5 +572,18 @@ a.cal-event:hover {
     display: inline;
     font-size: 0.78rem;
     -webkit-line-clamp: unset;
+  }
+}
+
+@media print {
+  nav,
+  aside,
+  footer,
+  .no-print {
+    display: none;
+  }
+  body {
+    font-size: 12pt;
+    color: #000;
   }
 }
