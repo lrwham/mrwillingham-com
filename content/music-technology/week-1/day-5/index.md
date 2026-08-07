@@ -36,19 +36,20 @@ weight: 5
 
 ## Warmup: Which One Is More Cohesive?
 
-Mr. Willingham will play two loop sets back to back. Both are four loops. One holds together and one does not.
+Open Soundtrap
 
-Listen to both, then be ready to answer out loud:
+Find 5 Guitar loops and put them all together in one project at the same time.
 
-1. Which one is more **cohesive**?
-2. What is actually different about them — not "it sounds better," but what is different?
+Listen to it.
+
+How does it sound? Good? Bad? Why?
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I listened to both sets.
-- [ ] I can point to a specific difference between them.
+- [ ] I made a Soundtrap project with 5 Guitar loops.
+- [ ] I can describe how it sounds.
 
 {{% /checkpoint %}}
 
