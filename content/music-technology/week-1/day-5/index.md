@@ -56,24 +56,25 @@ Listen to both, then be ready to answer out loud:
 
 {{% worksession %}}
 
-## Work Session: One Loop Per Job
+## Work Session: Loop Types
 
-Yesterday you gave your loops space by spreading them out over time. Today you learn how to pick them in the first place.
+Every category of loop has a job. A piece of music works when each musical role is filled clearly:
 
-Every category of loop has a job. A set works when each job is filled once:
+| Category           | Job it does                                 | What happens if it is missing                                       |
+| ------------------ | ------------------------------------------- | ------------------------------------------------------------------- |
+| Drums / Percussion | Sets the beat and the energy.               | No pulse                                                            |
+| Bass               | Anchors the harmony at the bottom.          | The music sounds thin and hollow.                                   |
+| Harmony            | Fills in the chords in the middle.          | There is nothing filling the space between the bass and the melody. |
+| Melody / Main Lead | This is the main part people sing along to. | The music doesn't have a clear focus.                               |
 
-| Category | Job it does | What happens if it is missing |
-| --- | --- | --- |
-| Drums / Percussion | Sets the beat and the energy. | Nothing has a pulse — the set floats. |
-| Bass | Anchors the harmony at the bottom. | The set sounds thin and hollow. |
-| Harmony (keys, guitar, pads, strings) | Fills in the chords in the middle. | The set sounds empty between the bass and the melody. |
-| Melody / FX | Carries the part people follow. | Nothing to listen *to* — it is a backing track. |
+
+### What happens if you fill a role many times?
 
 This is why four drum loops do not make a song. Four drum loops is one job done four times, and three jobs left undone. The same is true of four bass loops or four synth leads.
 
-{{< callout type="info" >}}
-Look back at Set 1 from the scavenger hunt — Drums, Bass, Synth, and Piano. That set was built to fill four different jobs on purpose. That is why it was the easiest one to make sound good.
-{{< /callout >}}
+### Is this a rule?
+
+No, not every great piece of music has one clear drum, one clear bass, one clear harmony, and one clear melody. This is the simplest recipe though for making a good song using loops.
 
 ### Key Vocabulary
 
@@ -90,16 +91,13 @@ Arrangement
 
 ### Checkpoint: Work Session
 
-- [ ] I can name the four jobs a loop set needs filled.
-- [ ] I can explain why four loops from one category does not work.
+- [ ] I can name four musical roles a loop can fill
+- [ ] I can explain why having four loops from the same category does not work.
+- [ ] I can explain why missing a musical role makes a song sound incomplete.
 
 {{% /checkpoint %}}
 
-{{% /worksession %}}
-
-{{% worksession %}}
-
-## Work Session: Why Genre Makes It Cohesive
+## Genre
 
 Filling every job is not enough on its own. A cinematic string loop, a lo-fi drum loop, a metal bass, and a salsa piano fill all four jobs — and still sound like four different songs playing at once.
 
