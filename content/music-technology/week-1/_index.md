@@ -30,10 +30,6 @@ Late work will receive a one-time 20 point deduction.
 
 {{% /alert %}}
 
-<!-- TODO: Week 2 Preview — needs the Week 2 topic before it can be written.
-     This section belongs on Week 1 only. Uncomment and fill in once Week 2 is planned.
-
 ## Week 2 Preview
 
-One paragraph previewing next week.
--->
+Next week you start making beats. You will learn the parts of a drum kit, build a beat from individual loops, and then learn what MIDI is and program your own drum pattern in Soundtrap's Patterns Beatmaker. By the end of the week you will play a live beat using a MIDI controller and clean up the timing with quantization.
