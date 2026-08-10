@@ -37,7 +37,7 @@ weight: 1
 
 ### Levels of Complexity on the Drums
 
-Watch the Edpuzzle video where drummer Larnell Lewis breaks down the levels of complexity of the drum kit. Pay attention to the order he adds each part and how the beat builds.
+We will watch the video where drummer Larnell Lewis breaks down the levels of complexity of the drum kit together. Pay attention to the order he adds each part and how the beat builds.
 
 As you watch, think about these questions:
 
@@ -47,10 +47,6 @@ As you watch, think about these questions:
 4. **What is the difference between an open and closed hi-hat?**
 
 **After the video**, open Soundtrap and explore the **Sound library**. Search for "drums" and listen to a few drum loops. Try to hear the kick, snare, and hi-hat in each one.
-
-The video is on Edpuzzle. Login to Clever first!
-
-{{< clever >}}
 
 {{% checkpoint %}}
 
@@ -78,8 +74,8 @@ Mr. Willingham will walk through the parts of the drum set. Here are the main pa
 We will also introduce:
 
 - **Crash Cymbal** — Used for accents, often at the start of a new section.
-- **Ride Cymbal** — Similar role to the hi-hat but with a different tone; common in jazz and rock.
-- **Toms** — Melodic drums used in fills and transitions.
+- **Ride Cymbal** — Similar role to the hi-hat but with a different tone.
+- **Toms** — Pitched drums.
 - **Other accessories** — Cowbell, tambourine, claps, and more.
 
 ### Building a Beat from Loops
@@ -129,7 +125,9 @@ Mute and unmute tracks to hear how each part contributes. Try swapping out a loo
 
 ### What Did You Hear?
 
-Before you pack up, think about this: the next time you listen to a song, try to pick out the kick, snare, and hi-hat individually. Once you start hearing them, you won't be able to stop.
+The next time you listen to a song, try to pick out the kick, snare, and hi-hat individually. Once you start hearing them, you won't be able to stop.
+
+If time allows, we'll share out some of the beats we built today. You can also continue experimenting with your beat at home.
 
 Tomorrow we will learn what MIDI is and start programming a beat of our own using Soundtrap's **Patterns Beatmaker**.
 
