@@ -66,22 +66,19 @@ As you watch, answer these questions in your head:
 Soundtrap has a built-in drum machine called the **Patterns Beatmaker**. Instead of dragging in pre-made loops, you build a beat one hit at a time on a grid — kind of like filling in boxes on a piece of graph paper. Each row is a drum sound, and each column is a moment in time. Click a box, and that drum plays at that moment.
 
 {{< tabs >}}
-{{< tab name="1. Add a Patterns track" >}}
+{{< tab name="1. Add the track" >}}
 From a new project, simply click the **Patterns Beatmaker** option in the middle of the screen.
 
 **OR**
 
 Add a new track and choose the pattern option.
 {{< /tab >}}
-{{< tab name="2. Configure for 1/8th notes" >}}
+{{< tab name="2. 1/8th Note Step" >}}
 Change the rhythm option from the default **1/16th** to **1/8th** notes. This will give you 8 steps per measure.
 
 For length, choose **2 measures**. This will give you 16 steps total — 2 steps per beat, 8 beats per measure.
 
 ![Patterns Beatmaker configuration screenshot](./patterns-beatmaker-1-8-2-bars.png)
-{{< /tab >}}
-{{< tab name="3. Add drum sounds" >}}
-Click the **+** button to add drum elements to your grid — start with **Kick**, **Snare**, and **Closed Hi-Hat**.
 {{< /tab >}}
 {{< tab name="4. Program the pattern" >}}
 Click boxes in the grid to turn steps on and off for each drum sound. Press play to hear it loop.
