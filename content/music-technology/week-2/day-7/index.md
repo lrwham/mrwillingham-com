@@ -96,9 +96,6 @@ Today you are going to program the **Rock Beat** — a pattern built from a stea
 | Snare         |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |
 | Measure       | 1   | -   | -   | -   | -   | -   | -   | -   | 2   | -   | -   | -   | -   | -   | -   | -   |
 
-{{< callout type="info" >}}
-Today you are only programming the **hi-hat** and **kick** rows. You will add the **snare** and finish the pattern tomorrow.
-{{< /callout >}}
 
 Work one drum at a time:
 
@@ -141,8 +138,6 @@ Before you leave, be ready to answer:
 
 1. What is MIDI, in your own words?
 2. In the Rock Beat pattern, which steps does the kick play on?
-
-Tomorrow we will add the snare and finish the Rock Beat pattern — it is due for a grade tomorrow, so save your project before you log off.
 
 {{% /closing %}}
 
