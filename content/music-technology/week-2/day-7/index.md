@@ -94,7 +94,6 @@ Today you are going to program the **Rock Beat** — a pattern built from a stea
 | Closed Hi-Hat | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   |
 | Kick          | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     |
 | Snare         |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |
-| ---           | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Measure       | 1   | -   | -   | -   | -   | -   | -   | -   | 2   | -   | -   | -   | -   | -   | -   | -   |
 
 {{< callout type="info" >}}
