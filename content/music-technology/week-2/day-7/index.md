@@ -89,12 +89,13 @@ Click boxes in the grid to turn steps on and off for each drum sound. Press play
 
 Today you are going to program the **Rock Beat** — a pattern built from a steady hi-hat, a kick on beats 1 and 3, and a snare on beats 2 and 4. The grid below has 16 steps — two steps per beat. An **X** means click that box.
 
-| Measure | 1 | - | - | - | - | - | - | - | 2 | - | - | - | - | - | - | - |
-| Step | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Closed Hi-Hat | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
-| Kick | X | | | | X | | | | X | | | | X | | | |
-| Snare | | | X | | | | X | | | X | | | X | | X | |
+| Step          | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Closed Hi-Hat | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   |
+| Kick          | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     |
+| Snare         |     |     | X   |     |     |     | X   |     |     | X   |     |     | X   |     | X   |     |
+| ---           | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Measure       | 1   | -   | -   | -   | -   | -   | -   | -   | 2   | -   | -   | -   | -   | -   | -   | -   |
 
 {{< callout type="info" >}}
 Today you are only programming the **hi-hat** and **kick** rows. You will add the **snare** and finish the pattern tomorrow.
