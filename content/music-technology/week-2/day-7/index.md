@@ -36,17 +36,15 @@ weight: 1
 
 ## Warmup
 
-Login to Clever and watch the Edpuzzle video about MIDI. In the video Colin explains what MIDI is. The Musical Instrument Digital Interface (MIDI) is a way for electronic instruments and computers to communicate. It allows you to control virtual instruments — like the drum sounds in Soundtrap — using a MIDI controller or by programming a pattern directly into a grid.
+We'll watch a video together about MIDI. In the video Colin explains what MIDI is. The Musical Instrument Digital Interface (MIDI) is a way for electronic instruments and computers to communicate. It allows you to control virtual instruments — like the drum sounds in Soundtrap — using a MIDI controller or by programming a pattern directly into a grid.
 
 In the video he uses microcontrollers and MIDI to make a drum machine.
 
-{{< clever >}}
-
-As you watch, jot a quick answer to these in your notebook:
+As you watch, answer these questions in your head:
 
 1. What do the letters **M-I-D-I** stand for?
-2. Is MIDI *audio* (actual sound) or *instructions* (telling an instrument what to play)?
-3. Name one thing MIDI lets you do that a plain audio recording cannot.
+2. Is MIDI *sound* (aka audio) or *instructions* (telling an instrument what to play)?
+3. What is *velocity*?
 
 {{% checkpoint %}}
 
@@ -65,16 +63,27 @@ As you watch, jot a quick answer to these in your notebook:
 
 ### Introducing Patterns Beatmaker
 
-Soundtrap has a built-in drum machine called **Patterns Beatmaker**. Instead of dragging in pre-made loops, you build a beat one hit at a time on a grid — kind of like filling in boxes on a piece of graph paper. Each row is a drum sound, and each column is a moment in time. Click a box, and that drum plays at that moment.
+Soundtrap has a built-in drum machine called the **Patterns Beatmaker**. Instead of dragging in pre-made loops, you build a beat one hit at a time on a grid — kind of like filling in boxes on a piece of graph paper. Each row is a drum sound, and each column is a moment in time. Click a box, and that drum plays at that moment.
 
 {{< tabs >}}
 {{< tab name="1. Add a Patterns track" >}}
-Click **Add track**, then choose **Drums & Machines**, then choose **Patterns**.
+From a new project, simply click the **Patterns Beatmaker** option in the middle of the screen.
+
+**OR**
+
+Add a new track and choose the pattern option.
 {{< /tab >}}
-{{< tab name="2. Add drum sounds" >}}
+{{< tab name="2. Configure for 1/8th notes" >}}
+Change the rhythm option from the default **1/16th** to **1/8th** notes. This will give you 8 steps per measure.
+
+For length, choose **2 measures**. This will give you 16 steps total — 2 steps per beat, 8 beats per measure.
+
+![Patterns Beatmaker configuration screenshot](./patterns-beatmaker-1-8-2-bars.png)
+{{< /tab >}}
+{{< tab name="3. Add drum sounds" >}}
 Click the **+** button to add drum elements to your grid — start with **Kick**, **Snare**, and **Closed Hi-Hat**.
 {{< /tab >}}
-{{< tab name="3. Program the pattern" >}}
+{{< tab name="4. Program the pattern" >}}
 Click boxes in the grid to turn steps on and off for each drum sound. Press play to hear it loop.
 {{< /tab >}}
 {{< /tabs >}}
@@ -110,6 +119,14 @@ If you finish early, try muting the hi-hat row for one loop through the pattern 
 - [ ] I programmed the kick on steps 1 and 9.
 
 {{% /checkpoint %}}
+
+### Extras
+
+You can experiment by adding additional sounds to your pattern, like a **Crash Cymbal** or **Open Hi-Hat**.
+
+You can change the rhythm from 1/8th to 1/16th to get more steps for more control.
+
+You can increase the length from 2 measures to 4 measures to make a longer pattern.
 
 {{% /worksession %}}
 
