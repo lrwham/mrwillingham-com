@@ -102,8 +102,8 @@ Today you are only programming the **hi-hat** and **kick** rows. You will add th
 
 Work one drum at a time:
 
-1. Program the closed hi-hat first — click every other box (steps 1, 3, 5, 7, 9, 11, 13, 15).
-2. Program the kick next — click step 1 and step 9 only.
+1. Program the closed hi-hat first — click every box (steps 1, 2, 3, etc.) in the hi-hat row.
+2. Program the kick next — click step 1, 5, 9, and 13.
 3. Press play and listen. Does it sound like a steady groove yet?
 
 If you finish early, try muting the hi-hat row for one loop through the pattern — how does the beat feel without it?
@@ -113,8 +113,9 @@ If you finish early, try muting the hi-hat row for one loop through the pattern 
 ### Checkpoint: Work Session
 
 - [ ] I added a Patterns Beatmaker track with Kick, Snare, and Closed Hi-Hat sounds.
-- [ ] I programmed the closed hi-hat on steps 1, 3, 5, 7, 9, 11, 13, and 15.
-- [ ] I programmed the kick on steps 1 and 9.
+- [ ] I programmed the closed hi-hat on every step
+- [ ] I programmed the kick on steps 1, 5, 9, and 13.
+- [ ] I programmed the snare on steps 3, 7, 11, and 15.
 
 {{% /checkpoint %}}
 
