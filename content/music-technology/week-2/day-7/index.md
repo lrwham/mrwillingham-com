@@ -128,6 +128,8 @@ You can change the rhythm from 1/8th to 1/16th to get more steps for more contro
 
 You can increase the length from 2 measures to 4 measures to make a longer pattern.
 
+You can try **velocity** mode which gives you control over the loudness of each step.
+
 {{% /worksession %}}
 
 {{% closing %}}
