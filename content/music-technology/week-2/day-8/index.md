@@ -36,20 +36,22 @@ weight: 1
 
 ## Warmup: Edpuzzle Video
 
-Watch the Edpuzzle video titled **"Rock Beat Walkthrough."** In the video, Mr. Willingham programs the first few steps of the Rock Beat pattern into Patterns Beatmaker, one drum at a time.
+Open yesterday's project in Soundtrap. Listen to it. It should contain the basic rock beat pattern and possibly some additional sounds.
 
-After the video, open your project from yesterday so you are ready to keep going.
+If the basic rock beat pattern is missing or broken, fix that now.
 
-Access Edpuzzle by logging into Clever.
-
-{{< clever >}}
+| Step          | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Closed Hi-Hat | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   |
+| Kick          | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     |
+| Snare         |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I have watched the "Rock Beat Walkthrough" video on Edpuzzle.
-- [ ] I have my Rock Beat project open in Soundtrap.
+- [ ] I have opened and listened to my Rock Beat project in Soundtrap.
+- [ ] I have fixed any missing or broken parts of the basic rock beat pattern.
 
 {{% /checkpoint %}}
 
@@ -57,58 +59,47 @@ Access Edpuzzle by logging into Clever.
 
 {{% worksession %}}
 
-## Work Session: Review
+## Work Session
 
-Before adding the snare, check your hi-hat and kick against yesterday's grid.
+We're going to add some fills to the Rock Beat pattern.
 
-| Step | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Closed Hi-Hat | X |  | X |  | X |  | X |  | X |  | X |  | X |  | X |  |
-| Kick | X |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |
-| Snare |  |  |  |  | X |  |  |  |  |  |  |  | X |  |  |  |
+### Fills
+
+Fills are short musical phrases that add interest to a beat. They are often used to transition between sections of a song.
+
+#### Add Sounds
+
+One option for fill is to add some new sounds like toms and crash cymbals.
+
+| Step          | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Closed Hi-Hat | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   |
+| Kick          | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     |
+| Snare         |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |
+| Tom           |     |     |     |     |     |     |     |     |     |     |     |     | X   | X   | X   | X   |
+| Crash Cymbal  |     |     |     |     |     |     |     |     |     |     |     |     | X   |     |     |     |
+
+#### Take Away or Move Sounds
+
+Another option for fill is to take away or move some of the existing sounds in the pattern.
+
+| Step          | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| ------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Closed Hi-Hat | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   | X   |     |     |     |
+| Kick          | X   |     |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     |
+| Snare         |     |     | X   |     |     |     | X   |     |     |     | X   |     |     |     |     | X   |
+
+
+#### A Bit of Both
+
+Obviosuly you can combine these ideas. Try making your own drum pattern with a fill.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Review
 
-- [ ] My closed hi-hat plays on steps 1, 3, 5, 7, 9, 11, 13, and 15.
-- [ ] My kick plays on steps 1 and 9.
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
-
-{{% worksession %}}
-
-## Work Session: Finish the Pattern
-
-{{< callout type="important" >}}
-The **Rock Beat** pattern is due today for a grade. Save your project before you log off.
-{{< /callout >}}
-
-Add the **Snare** row to your grid and click steps **5** and **13**. Press play and listen to all three drums together — kick, snare, and hi-hat should now sound like a complete rock groove.
-
-Go step by step through the whole grid one more time and fix anything that does not match:
-
-1. Check the hi-hat row against the packet grid above.
-2. Check the kick row.
-3. Check the snare row.
-4. Play the full pattern back and listen for anything that sounds off.
-
-If you finish early, try the **Add a Tom Fill** enrichment below. This is **not graded** — it is just for practice.
-
-{{< callout type="info" icon="sparkles" >}}
-**Add a Tom Fill (not graded):** Add Low Tom, Mid Tom, and High Tom to your grid. Program Low Tom on step 14, Mid Tom on step 15, and High Tom on step 16 — a quick three-hit fill right before the pattern loops back to step 1.
-{{< /callout >}}
-
-{{% checkpoint %}}
-
-### Checkpoint: Finish the Pattern
-
-- [ ] My snare plays on steps 5 and 13.
-- [ ] All three drums (kick, snare, hi-hat) match the reference grid.
-- [ ] I saved my project.
-- [ ] (If early) I tried the Add a Tom Fill enrichment.
+- [ ] I have tried both fill examples listed above.
+- [ ] I have tried making my own drum pattern with a fill.
 
 {{% /checkpoint %}}
 
@@ -118,14 +109,18 @@ If you finish early, try the **Add a Tom Fill** enrichment below. This is **not 
 
 ## Closing
 
-### Exit Ticket
+### Share Out
 
-Before you leave, be ready to answer:
+Export one drum pattern with a fill as an MP3 track and turn it in.
 
-1. Which steps does the snare play on?
-2. What is one thing that changed about the beat once you added the snare?
+{{% checkpoint %}}
 
-Tomorrow we will play a beat live using a MIDI controller and learn about quantization.
+### Checkpoint: Share Out
+
+- [ ] I have exported one drum pattern with a fill as an MP3 track.
+- [ ] My pattern is based on the basic rock pattern.
+
+{{% /checkpoint %}}
 
 {{% /closing %}}
 
