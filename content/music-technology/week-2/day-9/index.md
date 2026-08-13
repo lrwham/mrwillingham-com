@@ -19,7 +19,7 @@ resources:
   - "MIDI Controller"
 draft: false
 toc: true
-weight: 9
+weight: 1
 ---
 
 {{< icon "calendar" >}} **Thursday, August 13th, 2026**
