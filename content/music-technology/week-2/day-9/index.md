@@ -19,7 +19,7 @@ resources:
   - "MIDI Controller"
 draft: false
 toc: true
-weight: 1
+weight: 9
 ---
 
 {{< icon "calendar" >}} **Thursday, August 13th, 2026**
@@ -36,22 +36,22 @@ weight: 1
 
 {{% warmup %}}
 
-## Warmup - MIDI Controller Scavenger Hunt
+## Warmup: MIDI Controller Scavenger Hunt
 
 Visit a common music equipment retailer like [Sweetwater](https://www.sweetwater.com/) or [Guitar Center](https://www.guitarcenter.com/). Search for "MIDI controller".
 
 Find at least one example of each of the following types of MIDI controllers:
 
-- **Pad controller** - ussually a grid of squishy square buttons that can be tapped with your fingers
-- **Keyboard controller** - looks like a piano - may also contain pads or knobs
-- **Pedal controller** - looks like a big piano played with your feet
-- **Drum controller** - looks like a drum kit made of plastic and foam, played with drumsticks
+- **Pad controller** — usually a grid of squishy square buttons that can be tapped with your fingers
+- **Keyboard controller** — looks like a piano; may also contain pads or knobs
+- **Pedal controller** — played with your feet. Some look like a row of stomp switches; some look like a big piano laid on the floor. _(Try searching "MIDI foot controller.")_
+- **Drum controller** — looks like a drum kit made of plastic and foam, played with drumsticks. _(Try searching "electronic drum kit" or "drum pad controller.")_
 
 ### Warmup Form
 
 Submit your findings in the form. Simply name each controller you found.
 
-<iframe width="640px" height="480px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=-x3OL5-ROEmquMR_D8kYLaF8AO3iXm9Ho39KOx_GABVUQkNWWkREN0xSVEFWQ1gwMVBFVlRQMTIxTi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<iframe title="MIDI Controller Scavenger Hunt form" width="640" height="480" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=-x3OL5-ROEmquMR_D8kYLaF8AO3iXm9Ho39KOx_GABVUQkNWWkREN0xSVEFWQ1gwMVBFVlRQMTIxTi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 [Backup Link](https://forms.cloud.microsoft/r/34dAEpgFp7)
 
@@ -73,30 +73,32 @@ Submit your findings in the form. Simply name each controller you found.
 
 ### Partner Protocol
 
-You and your table-mate will coordinate on the MIDI controller. Decide who goes first:
+You and your table-mate will share one MIDI controller. Each of you works in **your own project on your own computer**. Decide who goes first:
 
-- **Round 1 (Kick drum):** One of you uses the **MIDI controller**, the other uses the **assigned computer keys** — each on your own computer.
-- **Swap** after the kick is recorded.
-- **Round 2 (Snare drum):** Switch input methods. The person who used the assigned keys now uses the controller, and vice versa.
+1. **Round 1 — Kick drum:** One of you uses the **MIDI controller**, the other uses the **assigned computer keys**.
+2. **Swap** the controller after the kick is recorded.
+3. **Round 2 — Snare drum:** The person who used the assigned keys now uses the controller, and vice versa.
 
-This way everyone gets a turn with the controller in the same project.
+This way everyone gets a turn with the controller, and everyone finishes with both tracks in their own project.
 
 ### Recording a Live Drum Track
 
 Soundtrap lets you play drum sounds live and record them, instead of clicking them into a step grid.
+
+The **assigned computer keys** are the keys on your laptop that trigger drum sounds when the on-screen keyboard is active in Soundtrap. <!-- TODO: list the exact keys you assigned, e.g. "Use A, S, D, and F for kick, snare, closed hi-hat, and crash." -->
 
 {{< tabs >}}
 {{< tab name="1. Open the Instrument tab" >}}
 Click **Add track**, choose **Drums & Machines**, choose **Patterns**, then click the **Instrument** tab.
 {{< /tab >}}
 {{< tab name="2. Arm the track" >}}
-Click the record-enable button on the track so it is ready to record.
+Check that the record-enable button on the track is lit, so the track is ready to record.
 {{< /tab >}}
 {{< tab name="3. Play the notes" >}}
 Use the **MIDI controller**, or the **assigned keys** on your computer keyboard, to play the drum sound.
 {{< /tab >}}
 {{< tab name="4. Record" >}}
-Press **Ctrl+Space** (or click the Record button) to start recording, and the **spacebar** to stop.
+Press **Cmd/Ctrl+Space** (or click the Record button) to start recording, and the **spacebar** to stop.
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -138,16 +140,18 @@ Think of quantization as **rounding for music**.
 
 The grid value you choose is like the **place value** you're rounding to:
 
-- **1/4 note grid** = big rounding. Every note jumps to the nearest quarter note. Tight, locked-in, robotic.
-- **1/8 note grid** = medium rounding. Good for hi-hats and most grooves.
-- **1/16 note grid** = small rounding. Keeps more of the human feel but still fixes bad hits.
+- **1/4 note grid** = the coarsest grid, so the biggest rounding. Every note jumps to the nearest quarter note. Tight, locked-in, robotic.
+- **1/8 note grid** = a finer grid, so smaller rounding. Good for hi-hats and most grooves.
+- **1/16 note grid** = the finest grid, so the smallest rounding. Keeps more of the human feel, but it also leaves sloppy hits closer to where you played them.
 
-A smaller grid (1/16) leaves more of your playing intact. A larger grid (1/4) forces everything into place.
+{{< callout type="warning" >}}
+Match the grid to what you actually played. Everything you recorded today lands on quarter notes, so a **1/4 Note** grid is the right choice — a 1/16 grid would leave your timing mistakes almost exactly where they are. Tomorrow's hi-hat plays eighth notes, so it will need a **1/8 Note** grid.
+{{< /callout >}}
 
 ### How to Quantize in Soundtrap
 
 1. Select your recorded track, then click **Piano Roll**.
-2. Select the notes you want to fix — click and drag to select a range, or click once and press **Cmd/Ctrl+A** to select all of them.
+2. Select the notes you want to fix — click and drag to select a range, or click any note and press **Cmd/Ctrl+A** to select all of them.
 3. **Right-click** and select **Quantize**, then choose a subdivision.
 4. Watch the notes snap onto the grid. Press spacebar and listen — it should sound tighter.
 
@@ -172,13 +176,24 @@ Quantize kick and snare using a **1/4 Note** subdivision today. You'll quantize 
 
 {{% closing %}}
 
-## Closing - Build the Rest of the Beat
+## Closing: Save Your Project
 
-If you have time, you can add the hi-hat and your choice track to complete the four-on-the-floor beat. Use the same process as above — record, then quantize.
+**We open this same project tomorrow.** Save your project and give it a name you will recognize — if you can't find your file on Friday, you lose the whole period.
 
-For the hihat, try playing **eighth notes** (1 & 2 & 3 & 4 &) for four measures. Quantize the hi-hat using a **1/8 Note** subdivision.
+### If You Finish Early
 
-For your choice sound, try adding a few **toms** or a single**crash cymbal** to each measure. Quantize your choice track using a **1/4 Note** or **1/8 Note** subdivision.
+Try recording your beat a second time at a **different tempo** — same kick and snare, four measures each, quantized to **1/4 Note**. Save it as a separate project. We'll compare how tempo changes the feel of a four-on-the-floor beat.
+
+You'll add the hi-hat and a fourth sound of your choice on Friday.
+
+{{% checkpoint %}}
+
+### Checkpoint: Closing
+
+- [ ] I have saved my project with a name I will recognize tomorrow.
+- [ ] I know where to find my project on Friday.
+
+{{% /checkpoint %}}
 
 {{% /closing %}}
 
