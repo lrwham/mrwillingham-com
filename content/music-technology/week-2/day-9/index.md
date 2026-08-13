@@ -29,29 +29,37 @@ weight: 1
 ## Objectives
 
 - I can play a drum track into Soundtrap using a MIDI controller or the assigned computer keys.
-- I can record a kick drum on every beat and a snare drum on beats 2 and 4.
 - I can explain what quantization does and apply it to clean up the timing of a recording.
+- I can identify a variety of MIDI controller styles: pad, keyboard, pedal, and drums.
 
 {{% /objectives %}}
 
 {{% warmup %}}
 
-## Warmup
+## Warmup - MIDI Controller Scavenger Hunt
 
-Next week we will be adding melodies and basslines to our beats. Some basic music reading will go a long way toward making you more successful when we start writing melodies. Today complete the BrainPOP lesson about reading music notation.
+Visit a common music equipment retailer like [Sweetwater](https://www.sweetwater.com/) or [Guitar Center](https://www.guitarcenter.com/). Search for "MIDI controller".
 
-Login to Clever and open BrainPOP.
+Find at least one example of each of the following types of MIDI controllers:
 
-Watch the Reading Music Movie and complete the Reading Music Quiz.
+- **Pad controller** - ussually a grid of squishy square buttons that can be tapped with your fingers
+- **Keyboard controller** - looks like a piano - may also contain pads or knobs
+- **Pedal controller** - looks like a big piano played with your feet
+- **Drum controller** - looks like a drum kit made of plastic and foam, played with drumsticks
 
-{{< clever >}}
+### Warmup Form
+
+Submit your findings in the form. Simply name each controller you found.
+
+<iframe width="640px" height="480px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=-x3OL5-ROEmquMR_D8kYLaF8AO3iXm9Ho39KOx_GABVUQkNWWkREN0xSVEFWQ1gwMVBFVlRQMTIxTi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[Backup Link](https://forms.cloud.microsoft/r/34dAEpgFp7)
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I have watched the Reading Music Movie on BrainPOP.
-- [ ] I have completed the Reading Music Quiz.
+- [ ] I have completed the MIDI Controller Scavenger Hunt and submitted my findings in the form.
 
 {{% /checkpoint %}}
 
@@ -96,7 +104,7 @@ Press **Ctrl+Space** (or click the Record button) to start recording, and the **
 
 We'll follow along with Mr. Willingham. Each track is **four measures** long. Today we are recording two tracks — kick and snare. You will add two more tracks on Friday.
 
-1. **Track 1 — Kick drum:** Quarter notes on every beat. Count "1 — 2 — 3 — 4" for four full measures. *(swap input methods after this track)*
+1. **Track 1 — Kick drum:** Quarter notes on every beat. Count "1 — 2 — 3 — 4" for four full measures. _(swap input methods after this track)_
 2. **Track 2 — Snare drum:** Play the snare on **beats 2 and 4** for four measures. This is the "backbeat."
 
 Listen back after each track. Don't worry if it isn't perfect — we'll fix the timing in Part 2.
@@ -164,15 +172,13 @@ Quantize kick and snare using a **1/4 Note** subdivision today. You'll quantize 
 
 {{% closing %}}
 
-## Closing
+## Closing - Build the Rest of the Beat
 
-Answer these three questions in a Google Form, in your notebook, or by telling Mr. Willingham before you leave.
+If you have time, you can add the hi-hat and your choice track to complete the four-on-the-floor beat. Use the same process as above — record, then quantize.
 
-1. **What did quantization do to your beat?** Describe what you heard before and after you applied it to one of your tracks.
+For the hihat, try playing **eighth notes** (1 & 2 & 3 & 4 &) for four measures. Quantize the hi-hat using a **1/8 Note** subdivision.
 
-2. **Fill in the blank:** Quantization is like __________ in math, because it moves every note to the __________ point on the grid.
-
-3. **Which input method felt more natural — the MIDI controller or the assigned computer keys?** Give one reason why.
+For your choice sound, try adding a few **toms** or a single**crash cymbal** to each measure. Quantize your choice track using a **1/4 Note** or **1/8 Note** subdivision.
 
 {{% /closing %}}
 
