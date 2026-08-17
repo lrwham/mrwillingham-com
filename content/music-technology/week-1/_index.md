@@ -15,11 +15,11 @@ Welcome to Music Technology. This week you get set up on the classroom Macs and 
 
 | Day | Date    | Topic                                                            | Summary                                                                                          |
 | --- | ------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 1   | Mon 8/3 | [Day 1: Welcome to Music Technology](day-1/)                     | Log in to your accounts, review the syllabus and classroom procedures, complete the About Me activity, and set up Soundtrap. |
-| 2   | Tue 8/4 | [Day 2: Soundtrap Loop Scavenger Hunt](day-2/)                   | Explore the Soundtrap Sound library and build five projects, each with four loops that fit together. |
-| 3   | Wed 8/5 | [Day 3: Finish the Scavenger Hunt](day-3/)                       | Use 20 minutes of work time to finish the scavenger hunt, then pick the one set you will share tomorrow. |
-| 4   | Thu 8/6 | [Day 4: Layering and Dynamics](day-4/)                           | Share one loop set with the class, then learn how layering and dynamics turn four stacked loops into an arrangement. |
-| 5   | Fri 8/7 | [Day 5: Choosing Loops by Category and Genre](day-5/)            | Learn why a set needs one loop per job, and how picking a genre first makes every choice after it more cohesive. |
+| 1   | Mon 8/3 | Day 1: Welcome to Music Technology                     | Log in to your accounts, review the syllabus and classroom procedures, complete the About Me activity, and set up Soundtrap. |
+| 2   | Tue 8/4 | Day 2: Soundtrap Loop Scavenger Hunt                 | Explore the Soundtrap Sound library and build five projects, each with four loops that fit together. |
+| 3   | Wed 8/5 | Day 3: Finish the Scavenger Hunt                       | Use 20 minutes of work time to finish the scavenger hunt, then pick the one set you will share tomorrow. |
+| 4   | Thu 8/6 | Day 4: Layering and Dynamics                           | Share one loop set with the class, then learn how layering and dynamics turn four stacked loops into an arrangement. |
+| 5   | Fri 8/7 | Day 5: Choosing Loops by Category and Genre            | Learn why a set needs one loop per job, and how picking a genre first makes every choice after it more cohesive. |
 
 {{% alert "Graded Assignments" %}}
 
