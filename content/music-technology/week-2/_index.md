@@ -15,11 +15,11 @@ This week you start making beats. You will learn the parts of a drum kit, build 
 
 | Day | Date     | Topic                                             | Summary                                                                              |
 | --- | -------- | -------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 6   | Mon 8/10 | [Day 6: Introduction to Drums](day-6/)             | Learn the parts of a drum kit and build a beat from individual Sound library loops.  |
-| 7   | Tue 8/11 | [Day 7: MIDI & the Beat Grid](day-7/)              | Learn what MIDI is, then start programming a rock beat pattern in Patterns Beatmaker. |
-| 8   | Wed 8/12 | [Day 8: Writing a Drum Beat](day-8/)               | Finish programming the rock beat pattern and turn it in for a grade.                  |
-| 9   | Thu 8/13 | [Day 9: Four on the Floor & Quantization](day-9/)  | Play a four-on-the-floor beat using a MIDI controller, then clean it up with quantization. |
-| 10  | Fri 8/14 | [Day 10: Finish Your Beat](day-10/)                | Add the hi-hat and a choice sound to complete the four-on-the-floor beat, then quantize all four tracks. |
+| 6   | Mon 8/10 | Day 6: Introduction to Drums            | Learn the parts of a drum kit and build a beat from individual Sound library loops.  |
+| 7   | Tue 8/11 | Day 7: MIDI & the Beat Grid                       | Learn what MIDI is, then start programming a rock beat pattern in Patterns Beatmaker. |
+| 8   | Wed 8/12 | Day 8: Writing a Drum Beat                        | Finish programming the rock beat pattern and turn it in for a grade.                  |
+| 9   | Thu 8/13 | Day 9: Four on the Floor & Quantization           | Play a four-on-the-floor beat using a MIDI controller, then clean it up with quantization. |
+| 10  | Fri 8/14 | Day 10: Finish Your Beat                          | Add the hi-hat and a choice sound to complete the four-on-the-floor beat, then quantize all four tracks. |
 
 {{% alert "Graded Assignments" %}}
 
