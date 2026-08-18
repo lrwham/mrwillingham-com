@@ -39,21 +39,20 @@ weight: 1
 
 {{% warmup %}}
 
-## Warmup: The Keyboard You Have Been Using All Along
+## Warmup: Music Reading Pretest
 
-Open any Soundtrap project with a melodic instrument and click **Piano Roll**. Look at the keyboard running down the left side.
+Complete the music reading pretest on CTLS Student Coursework.
 
-- Find every group of **two** black keys. How many groups are there?
-- Find every group of **three** black keys.
-- Look at the white key immediately to the left of any group of two black keys. Every one of those is the same note. We are about to learn its name.
+It is 20 questions and is not a grade.
 
-You have been staring at a piano keyboard for two weeks. Today it stops being decoration.
+When you finish, check out these slides. [PDF of Music Reading Slides](/downloads/MusicReading101.pdf)
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I found the groups of two and three black keys in the Piano Roll.
+- [ ] I completed the music reading pretest on CTLS Student Coursework.
+- [ ] I have the Music Reading 101 slides open and ready to follow along.
 
 {{% /checkpoint %}}
 
