@@ -1,6 +1,6 @@
 ---
 title: "Day 15: Mystery Transcription"
-date: 2026-08-21T08:00:00-04:00
+date: 2026-08-21T06:00:00-04:00
 description: "Transcribe an untitled melody into MuseScore, play it back, and figure out what song it is — then title your score and turn it in."
 day_number: 15
 units:

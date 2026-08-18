@@ -1,6 +1,6 @@
 ---
 title: "Day 12: Music Reading 101"
-date: 2026-08-18T08:00:00-04:00
+date: 2026-08-18T06:00:00-04:00
 description: "Learn the staff, the treble and bass clefs, the grand staff, and the layout of the piano keyboard — then practice note identification on musictheory.net."
 day_number: 12
 units:

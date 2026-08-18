@@ -1,6 +1,6 @@
 ---
 title: "Day 14: Ode to Joy Transcription"
-date: 2026-08-20T08:00:00-04:00
+date: 2026-08-20T06:00:00-04:00
 description: "Read Beethoven's Ode to Joy from notation and enter all eight measures into MuseScore, then export it as a PDF and turn it in."
 day_number: 14
 units:

@@ -1,6 +1,6 @@
 ---
 title: "Day 13: Rhythm Primer & Meet MuseScore"
-date: 2026-08-19T08:00:00-04:00
+date: 2026-08-19T06:00:00-04:00
 description: "Short BEACON schedule. Learn note values and rests, then open MuseScore for the first time and enter four notes."
 day_number: 13
 units:
