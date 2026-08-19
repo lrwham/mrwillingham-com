@@ -37,7 +37,7 @@ weight: 1
 
 ## Warmup: Two Minutes of Note Names
 
-**Today is a short period.** We move fast and nothing is submitted.
+**Today is a short period.**
 
 Open [musictheory.net note identification](https://www.musictheory.net/exercises/note/brwyryyynybyfy) and run it until the timer goes off. Just keep yesterday's practice warm.
 
