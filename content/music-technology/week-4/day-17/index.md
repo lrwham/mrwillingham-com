@@ -54,15 +54,7 @@ Write a guess next to every number on your sheet — including the ones you neve
 
 | Melody | Listen |
 | --- | --- |
-| **1** | <audio controls preload="none"><source src="mp3-files/1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **2** | <audio controls preload="none"><source src="mp3-files/2.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **3** | <audio controls preload="none"><source src="mp3-files/3.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **4** | <audio controls preload="none"><source src="mp3-files/4.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **5** | <audio controls preload="none"><source src="mp3-files/5.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **6** | <audio controls preload="none"><source src="mp3-files/6.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **7** | <audio controls preload="none"><source src="mp3-files/7.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **8** | <audio controls preload="none"><source src="mp3-files/8.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| **9** | <audio controls preload="none"><source src="mp3-files/9.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| **1** | <audio controls preload="none"><source src="all-mysteries.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
 {{< callout type="warning" >}}
 Headphones on, and keep your guesses to yourself until we go through them together.
