@@ -45,9 +45,7 @@ Friday's technical problems cost us most of the work session, so Ode to Joy is o
 
 ## Warmup: Watch the Video
 
-<!-- VIDEO PLACEHOLDER — drop the file in static/videos/ and replace this comment with the embed:
-<video controls src="/videos/FILENAME.mp4"></video>
--->
+<video controls src="/videos/Mystery-Transcription.mp4"></video>
 
 Watch the video before you open MuseScore. We will move to transcribing right after.
 
