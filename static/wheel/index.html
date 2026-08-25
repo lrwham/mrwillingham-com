@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wheel of Names</title>
+<meta name="description" content="Paste a class roster, spin the wheel, and pick a student at random.">
+<link rel="icon" href="/favicon.svg">
+<style>
+  :root {
+    --bg: #f4f6fb;
+    --panel: #ffffff;
+    --text: #16203a;
+    --muted: #5a6784;
+    --border: #d6dcea;
+    --accent: #1a237e;
+    --accent-2: #00bcd4;
+    --danger: #c62828;
+    --shadow: 0 10px 30px rgba(22, 32, 58, .12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11151f;
+      --panel: #1a2030;
+      --text: #eef2fb;
+      --muted: #9aa7c2;
+      --border: #2c3448;
+      --accent: #7c8cff;
+      --accent-2: #00bcd4;
+      --danger: #ff6b6b;
+      --shadow: 0 10px 30px rgba(0, 0, 0, .45);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  header {
+    padding: 1.25rem 1.25rem .5rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    letter-spacing: -.02em;
+  }
+  header p {
+    margin: .25rem 0 0;
+    color: var(--muted);
+    font-size: .95rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: minmax(260px, 340px) 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 1.25rem 3rem;
+  }
+  @media (max-width: 800px) {
+    main { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+  }
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: .35rem;
+  }
+  .hint {
+    color: var(--muted);
+    font-size: .85rem;
+    margin: 0 0 .5rem;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 260px;
+    resize: vertical;
+    padding: .6rem .7rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  textarea:focus-visible,
+  button:focus-visible {
+    outline: 3px solid var(--accent-2);
+    outline-offset: 2px;
+  }
+
+  .row {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: .6rem;
+  }
+  .count {
+    margin-left: auto;
+    color: var(--muted);
+    font-size: .88rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  button {
+    font: inherit;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    padding: .5rem .9rem;
+    cursor: pointer;
+  }
+  button:hover:not(:disabled) { border-color: var(--accent-2); }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+
+  button.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    font-size: 1.15rem;
+    padding: .7rem 2.2rem;
+  }
+  button.danger {
+    background: var(--danger);
+    border-color: var(--danger);
+    color: #fff;
+  }
+
+  .stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .wheel-wrap {
+    position: relative;
+    width: min(70vw, 460px);
+    aspect-ratio: 1 / 1;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: drop-shadow(0 8px 22px rgba(0, 0, 0, .22));
+  }
+  .pointer {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 28px solid var(--danger);
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4));
+    pointer-events: none;
+  }
+
+  dialog {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--panel);
+    color: var(--text);
+    box-shadow: var(--shadow);
+    padding: 1.75rem;
+    max-width: min(92vw, 420px);
+    text-align: center;
+  }
+  dialog::backdrop { background: rgba(0, 0, 0, .55); }
+  dialog .eyebrow {
+    margin: 0;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: .75rem;
+  }
+  dialog .winner {
+    margin: .5rem 0 1.25rem;
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+  dialog .actions {
+    display: flex;
+    gap: .6rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    canvas { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Wheel of Names</h1>
+  <p>Paste your roster, spin, and pick a student at random.</p>
+</header>
+
+<main>
+  <section class="panel">
+    <label for="names">Student names</label>
+    <p class="hint">One per line or separated by commas.</p>
+    <textarea id="names" spellcheck="false" placeholder="Ada Lovelace&#10;Grace Hopper&#10;Alan Turing&#10;&#10;…or: Ada, Grace, Alan"></textarea>
+    <div class="row">
+      <button type="button" id="shuffle">Shuffle</button>
+      <button type="button" id="clear">Clear</button>
+      <span class="count" id="count">0 names</span>
+    </div>
+  </section>
+
+  <section class="stage">
+    <div class="wheel-wrap">
+      <canvas id="wheel" role="img" aria-label="Wheel of student names"></canvas>
+      <div class="pointer" aria-hidden="true"></div>
+    </div>
+    <button type="button" class="primary" id="spin">Spin</button>
+    <p class="hint" id="status" role="status" aria-live="polite">Add names to get started.</p>
+  </section>
+</main>
+
+<dialog id="result">
+  <p class="eyebrow">And the winner is</p>
+  <p class="winner" id="winner-name"></p>
+  <div class="actions">
+    <button type="button" class="danger" id="remove">Remove from list</button>
+    <button type="button" id="keep" autofocus>Keep in list</button>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "wheel-of-names:roster";
+  var PALETTE = [
+    "#1a237e", "#00838f", "#c62828", "#2e7d32", "#ef6c00", "#6a1b9a",
+    "#0277bd", "#ad1457", "#4e342e", "#00695c", "#f9a825", "#283593"
+  ];
+
+  var textarea = document.getElementById("names");
+  var canvas = document.getElementById("wheel");
+  var ctx = canvas.getContext("2d");
+  var spinBtn = document.getElementById("spin");
+  var shuffleBtn = document.getElementById("shuffle");
+  var clearBtn = document.getElementById("clear");
+  var countEl = document.getElementById("count");
+  var statusEl = document.getElementById("status");
+  var dialog = document.getElementById("result");
+  var winnerEl = document.getElementById("winner-name");
+  var removeBtn = document.getElementById("remove");
+  var keepBtn = document.getElementById("keep");
+
+  var names = [];
+  var rotation = 0;       // current wheel rotation, radians
+  var spinning = false;
+  var winnerIndex = -1;
+  var size = 400;         // CSS pixels, square
+  var labels = [];        // pre-truncated label text, one per name
+  var labelFont = "";
+  var labelSize = 0;
+
+  /* ---------- names ---------- */
+
+  function parseNames(text) {
+    return text
+      .split(/[\n,]+/)
+      .map(function (n) { return n.trim(); })
+      .filter(function (n) { return n.length > 0; });
+  }
+
+  function syncFromTextarea() {
+    names = parseNames(textarea.value);
+    countEl.textContent = names.length + (names.length === 1 ? " name" : " names");
+    spinBtn.disabled = names.length === 0 || spinning;
+    if (!spinning) {
+      statusEl.textContent = names.length === 0
+        ? "Add names to get started."
+        : "Ready to spin.";
+    }
+    try { localStorage.setItem(STORAGE_KEY, textarea.value); } catch (e) { /* ignore */ }
+    render();
+  }
+
+  function writeNames(list) {
+    textarea.value = list.join("\n");
+    syncFromTextarea();
+  }
+
+  /* ---------- random ---------- */
+
+  function randomInt(max) {
+    if (window.crypto && window.crypto.getRandomValues) {
+      // Rejection sampling keeps every name equally likely.
+      var limit = Math.floor(0xffffffff / max) * max;
+      var buf = new Uint32Array(1);
+      do { window.crypto.getRandomValues(buf); } while (buf[0] >= limit);
+      return buf[0] % max;
+    }
+    return Math.floor(Math.random() * max);
+  }
+
+  /* ---------- drawing ---------- */
+
+  function resize() {
+    var rect = canvas.getBoundingClientRect();
+    size = Math.max(200, Math.round(rect.width));
+    var dpr = window.devicePixelRatio || 1;
+    canvas.width = Math.round(size * dpr);
+    canvas.height = Math.round(size * dpr);
+    render();
+  }
+
+  function fontOf(px) {
+    return "600 " + px.toFixed(1) + "px system-ui, -apple-system, Segoe UI, Roboto, sans-serif";
+  }
+
+  // Truncating and measuring every label on every animation frame is wasteful,
+  // so the layout is worked out once whenever the roster or the canvas changes.
+  function layoutLabels() {
+    labels = [];
+    var n = names.length;
+    if (n === 0) return;
+
+    var r = size / 2 - 6;
+    var maxWidth = r - 46;
+    var seg = (Math.PI * 2) / n;
+    labelSize = Math.max(9, Math.min(26, seg * r * 0.5));
+
+    ctx.font = fontOf(labelSize);
+    var longest = 0;
+    for (var i = 0; i < n; i++) {
+      longest = Math.max(longest, ctx.measureText(names[i]).width);
+    }
+    // Shrink to fit the longest name, but stop before it becomes unreadable.
+    if (longest > maxWidth) {
+      labelSize = Math.max(Math.min(labelSize, 11), labelSize * maxWidth / longest);
+    }
+
+    labelFont = fontOf(labelSize);
+    ctx.font = labelFont;
+    for (var j = 0; j < n; j++) {
+      labels.push(fitLabel(names[j], maxWidth));
+    }
+  }
+
+  function render() {
+    layoutLabels();
+    draw();
+  }
+
+  function fitLabel(text, maxWidth) {
+    if (ctx.measureText(text).width <= maxWidth) return text;
+    var trimmed = text;
+    while (trimmed.length > 1 && ctx.measureText(trimmed + "…").width > maxWidth) {
+      trimmed = trimmed.slice(0, -1);
+    }
+    return trimmed + "…";
+  }
+
+  function draw() {
+    var dpr = window.devicePixelRatio || 1;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, size, size);
+
+    var cx = size / 2;
+    var cy = size / 2;
+    var r = size / 2 - 6;
+
+    if (names.length === 0) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(128,140,170,.18)";
+      ctx.fill();
+      ctx.strokeStyle = "rgba(128,140,170,.5)";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      return;
+    }
+
+    var n = names.length;
+    var seg = (Math.PI * 2) / n;
+    var showLabels = n <= 200 && labelSize >= 9 && labels.length === n;
+
+    for (var i = 0; i < n; i++) {
+      var start = i * seg + rotation;
+      var end = start + seg;
+
+      ctx.beginPath();
+      if (n === 1) {
+        ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      } else {
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, r, start, end);
+        ctx.closePath();
+      }
+      var colour = i % PALETTE.length;
+      // The last wedge touches the first one, so nudge it if they match.
+      if (n > 1 && i === n - 1 && colour === 0) colour = 1;
+      ctx.fillStyle = PALETTE[colour];
+      ctx.fill();
+
+      if (n <= 60) {
+        ctx.strokeStyle = "rgba(255,255,255,.45)";
+        ctx.lineWidth = n <= 24 ? 2 : 1;
+        ctx.stroke();
+      }
+
+      if (showLabels) {
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(start + seg / 2);
+        ctx.font = labelFont;
+        ctx.fillStyle = "#ffffff";
+        ctx.textAlign = "right";
+        ctx.textBaseline = "middle";
+        ctx.shadowColor = "rgba(0,0,0,.35)";
+        ctx.shadowBlur = 3;
+        ctx.fillText(labels[i], r - 14, 0);
+        ctx.restore();
+      }
+    }
+
+    // Hub
+    ctx.beginPath();
+    ctx.arc(cx, cy, Math.max(16, r * 0.11), 0, Math.PI * 2);
+    ctx.fillStyle = "#ffffff";
+    ctx.fill();
+    ctx.strokeStyle = "rgba(0,0,0,.2)";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  }
+
+  /* ---------- spinning ---------- */
+
+  function easeOutQuart(t) {
+    return 1 - Math.pow(1 - t, 4);
+  }
+
+  function normalize(angle) {
+    var twoPi = Math.PI * 2;
+    return ((angle % twoPi) + twoPi) % twoPi;
+  }
+
+  function spin() {
+    if (spinning || names.length === 0) return;
+
+    spinning = true;
+    spinBtn.disabled = true;
+    textarea.readOnly = true;
+    statusEl.textContent = "Spinning…";
+
+    winnerIndex = randomInt(names.length);
+
+    var seg = (Math.PI * 2) / names.length;
+    // Land the winner's segment centre under the pointer at 12 o'clock.
+    var target = -Math.PI / 2 - (winnerIndex + 0.5) * seg;
+    var turns = 5 + randomInt(3);
+    var from = rotation;
+    var delta = normalize(target - from) + turns * Math.PI * 2;
+
+    var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var duration = reduced ? 300 : 3200;
+    var startTime = null;
+
+    function frame(now) {
+      if (startTime === null) startTime = now;
+      var t = Math.min(1, (now - startTime) / duration);
+      rotation = from + delta * easeOutQuart(t);
+      draw();
+      if (t < 1) {
+        requestAnimationFrame(frame);
+      } else {
+        rotation = normalize(from + delta);
+        draw();
+        spinning = false;
+        textarea.readOnly = false;
+        showWinner();
+      }
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function showWinner() {
+    var name = names[winnerIndex];
+    if (!name) {
+      spinBtn.disabled = names.length === 0;
+      statusEl.textContent = "The list changed mid-spin — spin again.";
+      return;
+    }
+    winnerEl.textContent = name;
+    removeBtn.textContent = "Remove " + name;
+    statusEl.textContent = "Winner: " + name;
+    if (typeof dialog.showModal === "function") {
+      dialog.showModal();
+    } else {
+      dialog.setAttribute("open", "");
+    }
+  }
+
+  function closeDialog() {
+    if (dialog.open && typeof dialog.close === "function") {
+      dialog.close();
+    } else {
+      dialog.removeAttribute("open");
+    }
+    spinBtn.disabled = names.length === 0;
+    spinBtn.focus();
+  }
+
+  /* ---------- events ---------- */
+
+  textarea.addEventListener("input", syncFromTextarea);
+  spinBtn.addEventListener("click", spin);
+
+  keepBtn.addEventListener("click", function () {
+    closeDialog();
+    statusEl.textContent = names[winnerIndex] + " stays in the list.";
+  });
+
+  removeBtn.addEventListener("click", function () {
+    var removed = names[winnerIndex];
+    var remaining = names.slice();
+    remaining.splice(winnerIndex, 1);
+    closeDialog();
+    writeNames(remaining);
+    statusEl.textContent = "Removed " + removed + ". " + names.length +
+      (names.length === 1 ? " name left." : " names left.");
+  });
+
+  // Esc / backdrop dismiss keeps the student in the list.
+  dialog.addEventListener("cancel", function () {
+    spinBtn.disabled = names.length === 0;
+  });
+  dialog.addEventListener("click", function (event) {
+    if (event.target === dialog) closeDialog();
+  });
+
+  shuffleBtn.addEventListener("click", function () {
+    if (spinning || names.length < 2) return;
+    var list = names.slice();
+    for (var i = list.length - 1; i > 0; i--) {
+      var j = randomInt(i + 1);
+      var tmp = list[i];
+      list[i] = list[j];
+      list[j] = tmp;
+    }
+    writeNames(list);
+    statusEl.textContent = "Shuffled.";
+  });
+
+  clearBtn.addEventListener("click", function () {
+    if (spinning) return;
+    if (names.length > 0 && !window.confirm("Clear all names?")) return;
+    writeNames([]);
+  });
+
+  window.addEventListener("resize", resize);
+
+  /* ---------- init ---------- */
+
+  try {
+    var saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) textarea.value = saved;
+  } catch (e) { /* ignore */ }
+
+  resize();
+  syncFromTextarea();
+})();
+</script>
+</body>
+</html>
