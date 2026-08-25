@@ -52,9 +52,7 @@ Write a guess next to every number on your sheet — including the ones you neve
 **Nothing gets submitted today.** The guess form is closed and these guesses are not graded. Prizes were already decided by the timestamps on last night's submissions. This round is for you.
 {{< /callout >}}
 
-| Melody | Listen |
-| --- | --- |
-| **1** | <audio controls preload="none"><source src="all-mysteries.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+<audio controls preload="none"><source src="all-mysteries.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 {{< callout type="warning" >}}
 Headphones on, and keep your guesses to yourself until we go through them together.
