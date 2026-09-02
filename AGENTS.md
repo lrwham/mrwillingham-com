@@ -6,7 +6,7 @@ Operational reference for AI coding agents working in this repository. Human-fac
 
 ## Project Summary
 
-Hugo static site for a middle-school teacher's two classes: **Computer Programming with Scratch** (Georgia MS-CS-FCP standards) and **Music Technology** (Georgia MSMTC8 standards). The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
+Hugo static site for a middle-school teacher's classes. Live for 2026-27: **PLTW Design and Modeling** (Georgia MS-ENGR-II standards) and **Music Technology** (Georgia MSMTC8 standards). **Computer Programming with Scratch** (Georgia MS-CS-FCP standards) is no longer taught; its `content/scratch/` section stays on disk but is unlinked from the menu and homepage. The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
 
 ---
 
@@ -15,7 +15,8 @@ Hugo static site for a middle-school teacher's two classes: **Computer Programmi
 | Path | What it is | Agent should... |
 |------|-----------|-----------------|
 | `content/` | All lesson and page content (markdown) | Edit freely; this is the main workspace |
-| `content/scratch/` | Scratch programming course (current year) | Edit; current-year daily lessons in `week-N/day-NN/index.md`; date-free reusable lessons in `projects/`; vocab in `reference/` |
+| `content/design-modeling/` | PLTW Design and Modeling course (current year) | Edit; current-year daily lessons in `week-N/day-NN/index.md`; date-free reusable lessons in `projects/`; vocab and the design-process reference in `reference/` |
+| `content/scratch/` | Scratch programming course (no longer taught; unlinked from nav) | Leave alone unless asked; reusable lessons in `projects/`, vocab in `reference/` |
 | `content/music-technology/` | Music technology course (current year) | Edit; same structure; reusable lessons in `projects/`; vocab in `reference/` |
 | `content/troubleshooting/` | Student self-help guides | Edit when asked |
 | `content/archive/` | Frozen snapshots of past school years (`YYYY-YY/<course>/...`) | **Don't edit existing year folders.** They're frozen as taught. Create a new `YYYY-YY/` folder at end of school year to archive that year — see "Archive & Reusable Projects" below. |
@@ -68,7 +69,7 @@ Neither `hugo.yaml` nor `.github/workflows/deploy.yml` sets `buildFuture`, so **
 
 - A daily lesson is `content/<course>/week-N/day-NN/index.md` (use `index.md` — singular `_index.md` is reserved for branch bundles).
 - `_index.md` is used for week landing pages and for daily lessons that have their own sub-pages.
-- `<course>` is `scratch` or `music-technology`.
+- `<course>` is `design-modeling` or `music-technology` (`scratch` exists but is no longer taught).
 - Day folder is `day-N` (no zero-padding, matching existing convention).
 - Past-year lessons live at `content/archive/<YYYY-YY>/<course>/week-N/day-NN/index.md` with the same structure — don't edit them.
 - Date-free reusable lesson templates live at `content/<course>/projects/<slug>/index.md` — see "Archive & Reusable Projects" below.
@@ -107,7 +108,7 @@ weight: 5
 - `day_number` — Integer, continuous across the course. Must strictly exceed the previous lesson's `day_number`.
 - `units` — List. Exact spelling must match sibling lessons (see "Taxonomy values" below).
 - `standards` — Real standard codes (see Standards section below). Each code listed here must also appear in the `## Standards` section at the bottom of the file.
-- `tags` — Topical tags. Scratch lessons always include `- Scratch`. Music Tech lessons typically include the primary DAW tag (`- GarageBand`, `- Soundtrap`, etc.).
+- `tags` — Topical tags. Scratch lessons always include `- Scratch`. Music Tech lessons typically include the primary DAW tag (`- GarageBand`, `- Soundtrap`, etc.). Design and Modeling lessons use TitleCase topic tags (`- Sketching`, `- Multiview`, `- Dimensioning`, `- Statistics`, `- Tinkercad`, `- Quiz Review`).
 - `resources` — Tools students will use. Match existing entries (see "Taxonomy values" below). Printed handouts follow the `"Drum Worksheet Packet (printed)"` pattern — lowercase `printed` in parentheses.
 - `weight` — Sort order within the week (1–5 for Mon–Fri). Don't change existing values without recalculating siblings.
 - `scratchblocks` — Scratch course only. Set `true` to enable ```scratch fenced code blocks.
@@ -117,7 +118,8 @@ weight: 5
 What actually creates a duplicate term page is **spelling, not casing.** Hugo normalizes case when keying terms, so `Loops` and `loops` collapse into a single `/tags/loops/` page listing both lessons — only the display title differs, decided by whichever page Hugo reads first. Verified behavior, not theory.
 
 - **Real risk: singular vs. plural and reworded variants.** `Podcast` and `Podcasts` are both live `units` terms today, splitting the same unit across two pages. Check for an existing near-match before inventing a value.
-- **Casing convention differs by course.** Music Tech uses TitleCase tags (`Soundtrap`, `Podcast`, `Recording`, `Microphones`); Scratch uses lowercase (`loops`, `variables`, `conditionals`). Match the course you're editing so display titles stay consistent.
+- **Casing convention differs by course.** Music Tech and Design and Modeling use TitleCase tags (`Soundtrap`, `Podcast`, `Sketching`, `Dimensioning`); Scratch uses lowercase (`loops`, `variables`, `conditionals`). Match the course you're editing so display titles stay consistent.
+- **Design and Modeling `units` values** are the PLTW lesson names: `"Introduction to Design"` (Lesson 1), `"Modeling"` (Lesson 2), `"Design Challenge"` (Lesson 3). Common `resources` values: `"Engineering Notebook"`, `"Linking Cubes"`, `"Dial Caliper"`, `"Ruler"`, `"Tinkercad"`, `"myPLTW"`, `"Excel"`, `"BrainPOP"`.
 - **The front-matter key is `units`, plural.** Two files use singular `unit:`, which Hugo ignores entirely — those pages are missing from the taxonomy. Don't copy that pattern.
 - To see every existing term, run `hugo --quiet` and list `public/units/`, `public/tags/`, and `public/resources/`.
 - An ampersand slugifies to a double dash: `"Loops & Layering"` → `/units/loops--layering/`. Prefer `and` in new term values.
@@ -357,6 +359,25 @@ Click **Copy Link**.
 
 ## Standards
 
+### Design and Modeling (MS-ENGR-II)
+
+Full list with descriptions: `content/design-modeling/description.md`. The framework is Georgia's Middle School Engineering and Technology course 21.02200, *Invention and Innovation — Grade 7*. Anchor pattern:
+
+```markdown
+[**MS-ENGR-II-4.5**](/design-modeling/description/#ms-engr-ii-4) — Description here (parenthetical ties to today's activity).
+```
+
+The anchor is `#ms-engr-ii-N` where N is the top-level standard (1–6), not the sub-number. So `MS-ENGR-II-5.4` links to `#ms-engr-ii-5`. Cite sub-elements (`MS-ENGR-II-4.5`) in front matter and in the `## Standards` list; the description page lists every sub-element under its parent heading.
+
+Standard groups:
+
+- **MS-ENGR-II-1** — Employability skills (1.1 communicate, 1.5 teamwork are the ones lessons use most)
+- **MS-ENGR-II-2** — Lab safety and tool usage (2.4 select the right tool, 2.5 safe use)
+- **MS-ENGR-II-3** — Inventions, innovations, and their impact (career connections)
+- **MS-ENGR-II-4** — The Engineering Design Process (4.1 the steps, 4.2 construct a system, 4.3 explain it, 4.4 reverse engineer, 4.5 the notebook)
+- **MS-ENGR-II-5** — Invent/innovate for a societal need (5.1 research, 5.2 EDP evidence in the notebook, 5.3 prototype, 5.4 mathematical and scientific reasoning — measurement, statistics, dimensioning, CAD)
+- **MS-ENGR-II-6** — Technology Student Association
+
 ### Scratch (MS-CS-FCP)
 
 Full list with descriptions: `content/scratch/description.md`. Anchor pattern for links from a lesson's `## Standards` section:
@@ -451,7 +472,20 @@ The user often supplies a teacher-facing lesson plan (timed agenda, materials li
 
 ## Course Context (Quick Reference)
 
-### Computer Programming with Scratch
+### Design and Modeling (PLTW Gateway)
+
+- **Audience:** Grade 7, no prior experience.
+- **Length:** One quarter — 45 days across 9 weeks, 50-minute periods. Started Mon 8/3/2026.
+- **Framework:** Georgia MS-ENGR-II standards (Invention and Innovation — Grade 7). PLTW's own unit structure is Lesson 1 Introduction to Design → Lesson 2 Modeling → Lesson 3 Design Challenge.
+- **Primary tools:** Engineering Notebook (composition book), linking cubes, rulers, dial calipers, isometric and square graph paper, myPLTW (`my.pltw.org`, via Clever), Tinkercad (class join links in the Day 22 lesson), Excel, BrainPOP.
+- **Day numbering:** Mon 8/17 (digital learning day) counts as Day 11 and has no lesson page; the Week 3 schedule table lists it without a link.
+- **Units to date:**
+  - Lesson 1 — Introduction to Design (Days 1–21): Activity 1.1 Foot Orthosis Instant Design Challenge; 1.2 A Picture Is Worth a Thousand Words (thumbnail, isometric, multiview); 1.3 Measuring Matters (rulers, paper skimmer build and launch); 1.4 Skimmer Statistics (mean/median/mode/range, quartiles, box plots — class data measured in **feet**); 1.5 Dialed In (dial caliper, dimensioning conventions). Project 1.6 (mechanical dissection) has not been taught yet.
+  - Lesson 2 — Modeling (Day 22 on): Activity 2.1 Taking Modeling to Another Dimension (Tinkercad). Next: 2.2 For Good Measure, 2.3 It's for the Birds, Project 2.4 Puzzle Cube.
+- **Assessment:** Unit 1 Quiz Fri 9/4 (Day 25), paper only. **Quiz content, answer keys, and study-guide practice objects never go on the site** — that material stays in CTLS and the teacher's folder. Warmup answer checks for in-class practice items are fine.
+- **Recurring lesson pattern:** headed notebook page (name/period · date · title), a warmup that doubles as quiz review (ruler reading with the "zero trap," quartiles by hand), a work session that often lives on myPLTW (say so and give the navigation path — the site page is a map, not the steps), a partner check, a closing sentence.
+
+### Computer Programming with Scratch (no longer taught)
 
 - **Audience:** 6th–8th graders, no prior programming experience.
 - **Length:** 45 days across 9 weeks.
@@ -515,6 +549,6 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 
 1. Read the 2–4 most recent daily lessons in the same week to match style and continuity.
 2. Read the week's `_index.md` schedule table to confirm the day's planned topic and summary.
-3. Read the relevant archetype (`archetypes/scratch/index.md` or `archetypes/music-technology/index.md`) for the canonical skeleton.
+3. Read the relevant archetype (`archetypes/design-modeling/index.md`, `archetypes/music-technology/index.md`, or `archetypes/scratch/index.md`) for the canonical skeleton.
 4. If no current-year lessons exist yet (e.g., start of school year, summer break), look in `content/archive/<most-recent-YYYY-YY>/<course>/` for how the same topic was taught last year, and in `content/<course>/projects/` for date-free reusable versions of standout lessons.
 5. For deeper context that isn't in this AGENTS.md, the human-facing docs in the repo root (`content.md`, `technical.md`, `coding-scratch.md`, `music-tech.md`) are accurate and authoritative. If anything in those docs conflicts with this AGENTS.md, prefer this file for agent operations and surface the discrepancy to the user.

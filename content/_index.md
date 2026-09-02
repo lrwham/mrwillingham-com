@@ -5,13 +5,13 @@ draft: false
 
 <div class="mt-8"></div>
 
-Welcome! Both classes are currently on **summer break**. New lessons will appear here when school resumes in the fall.
+Welcome! Pick your class below — each page has this week's schedule and today's lesson.
 
 ### Classes
 
 {{< cards >}}
-{{< card link="/scratch/" title="Computer Programming with Scratch" subtitle="6th–8th Grade" >}}
-{{< card link="/music-technology/" title="Music Technology" subtitle="6th–8th Grade" >}}
+{{< card link="/design-modeling/" title="Design and Modeling" subtitle="PLTW Gateway · 7th Grade" >}}
+{{< card link="/music-technology/" title="Music Technology" subtitle="8th Grade" >}}
 {{< /cards >}}
 
 ### Past Years & Reference
