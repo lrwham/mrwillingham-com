@@ -2,6 +2,8 @@
 
 Starting **Fall 2026**. This file tracks everything needed to launch the course — both curriculum research and repo infrastructure. Delete or move into an archive note once the course is live.
 
+> **Status (9/2/2026):** The course is live on the site at `content/design-modeling/` — Days 1–25 (Weeks 1–5), `description.md` with the Georgia MS-ENGR-II standards, `reference/` (design process + Unit 1 vocab), an empty `projects/` hub, `archetypes/design-modeling/`, the menu entry, the homepage card, and the AGENTS.md sections. Slug chosen: `design-modeling`. Standards chosen: Georgia 21.02200 *Invention and Innovation — Grade 7* (MS-ENGR-II), anchor `#ms-engr-ii-N`. Remaining from the lists below: signature-project write-ups for `projects/`, and deciding what to do with `content/scratch/` (now unlinked from nav, still on disk).
+
 ## What this course is
 
 PLTW Gateway **Design and Modeling** — a Project Lead The Way middle-school engineering unit. Students apply the engineering design process, build technical sketching and measurement skills, learn 3D modeling software, and prototype solutions to design challenges.

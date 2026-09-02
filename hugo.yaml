@@ -25,9 +25,9 @@ menu:
       name: Music Technology
       pageRef: /music-technology
       weight: 2
-    - identifier: computer-programming
-      name: Computer Programming
-      pageRef: /scratch
+    - identifier: design-modeling
+      name: Design and Modeling
+      pageRef: /design-modeling
       weight: 3
     - identifier: calendar
       name: Calendar
