@@ -72,12 +72,17 @@ Clever → **myPLTW** → **Activity 2.1**, sections **Get It in Writing** and *
 This is a design brief in miniature. Requirements first, build second, evaluate against the requirements last. A gorgeous tag that misses a required dimension is a failed design; a plain tag that hits every number is a successful one. Same rule as the AFO challenge, same rule forever.
 {{< /callout >}}
 
+{{< callout type="important" >}}
+**Notebook rule — every day, every activity:** every reflection question, Check Your Understanding, and notebook prompt in myPLTW must **also be written by hand in your Engineering Notebook** — question and answer. Typing it into the platform does not count. Your notebook is the graded record.
+{{< /callout >}}
+
 {{% checkpoint %}}
 
 ### Checkpoint: Name Tag
 
 - [ ] Name tag meets every design requirement, checked one by one.
 - [ ] Notebook prompt answered: met requirements? what to improve?
+- [ ] Every myPLTW reflection question and Check Your Understanding copied into the Engineering Notebook.
 
 {{% /checkpoint %}}
 

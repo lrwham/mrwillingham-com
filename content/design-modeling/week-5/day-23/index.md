@@ -75,6 +75,10 @@ Work down these three sections, in order. Follow the steps in myPLTW; here is wh
 **Same habit as sketching:** check every change from at least two views. Centered from the top can be floating from the front. Trust views, not vibes.
 {{< /callout >}}
 
+{{< callout type="important" >}}
+**Notebook rule — every day, every activity:** every reflection question, Check Your Understanding, and notebook prompt in myPLTW must **also be written by hand in your Engineering Notebook** — question and answer. Typing it into the platform does not count. Your notebook is the graded record.
+{{< /callout >}}
+
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
@@ -83,6 +87,7 @@ Work down these three sections, in order. Follow the steps in myPLTW; here is wh
 - [ ] 2D-to-3D build done and checked against the example.
 - [ ] Both resize methods tried; notebook prompt answered.
 - [ ] Hole cut, aligned, and grouped.
+- [ ] Every myPLTW reflection question and Check Your Understanding copied into the Engineering Notebook.
 
 {{% /checkpoint %}}
 
