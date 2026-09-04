@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dial Caliper Practice</title>
+<link rel="stylesheet" href="caliper.css">
+</head>
+<body>
+
+<div class="dc-app" id="dc-app">
+
+  <header class="dc-head">
+    <h1>Dial Caliper Practice</h1>
+    <p>Read the caliper, then type what it measures.</p>
+  </header>
+
+  <div class="dc-grid">
+
+    <section class="dc-card dc-stage-card">
+      <div class="dc-stage" id="dc-stage-wrap" aria-label="Animated dial caliper measuring a three-cube object" role="img"></div>
+      <p class="dc-caption" id="dc-caption">Measuring: total width (2 cubes)</p>
+    </section>
+
+    <aside class="dc-side">
+
+      <section class="dc-card">
+        <h2>Cube color</h2>
+        <div class="dc-swatches" id="dc-swatches" role="radiogroup" aria-label="Cube color"></div>
+      </section>
+
+      <section class="dc-card">
+        <h2>What to measure</h2>
+        <div class="dc-toggle" role="radiogroup" aria-label="What to measure">
+          <button type="button" id="dc-mode-total" class="is-on" role="radio" aria-checked="true">Total width</button>
+          <button type="button" id="dc-mode-one" role="radio" aria-checked="false">One cube</button>
+        </div>
+      </section>
+
+      <section class="dc-card">
+        <button type="button" class="dc-dice" id="dc-dice" aria-label="Randomize the cube size">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect x="1.5" y="1.5" width="21" height="21" rx="5"/>
+            <circle cx="7" cy="7" r="2"/><circle cx="17" cy="7" r="2"/><circle cx="12" cy="12" r="2"/>
+            <circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>
+          </svg>
+          <span>New random size</span>
+        </button>
+      </section>
+
+      <section class="dc-card">
+        <h2>Your reading</h2>
+        <div class="dc-answer">
+          <input id="dc-guess" type="text" inputmode="decimal" autocomplete="off"
+                 placeholder="0.000" aria-label="Your reading in inches">
+          <span class="dc-unit">in.</span>
+        </div>
+        <div class="dc-answer">
+          <button type="button" class="dc-check" id="dc-check">Check</button>
+          <span class="dc-hint-small">three decimals</span>
+        </div>
+      </section>
+
+      <section class="dc-card">
+        <div class="dc-feedback is-idle" id="dc-feedback" role="status" aria-live="polite">
+          <strong>Read the caliper.</strong>
+          <span>Beam first, then the dial.</span>
+        </div>
+        <h2 class="dc-howto">How to read it</h2>
+        <ol class="dc-steps">
+          <li>Beam: the last tenth the index passed.</li>
+          <li>Dial: needle value &times; 0.001 in.</li>
+          <li>Add them. Write three decimals.</li>
+        </ol>
+      </section>
+
+    </aside>
+  </div>
+</div>
+
+<script src="caliper.js"></script>
+</body>
+</html>
