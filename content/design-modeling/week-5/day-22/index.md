@@ -63,7 +63,7 @@ Find Q1, Q2, and Q3, then the width of the middle 50%. Show your ordered list.
 ## Work Session: Join the Tinkercad Class
 
 {{< callout type="warning" >}}
-**STOP — use the link for your class period.** There are two different join links, one for each class. Click only the one that matches your period. Check the top of your schedule if you are not sure — then check it again before you click. Join the wrong class and your work lands where Mr. Willingham cannot see it, and it cannot be graded. If you think you clicked the wrong link, raise your hand immediately. It takes ten seconds to fix now and much longer later.
+**STOP — use the link for your class period.** There are two different join links, one for each class, and both are in the CTLS post for today. Click only the one that matches your period. Check the top of your schedule if you are not sure — then check it again before you click. Join the wrong class and your work lands where Mr. Willingham cannot see it, and it cannot be graded. If you think you clicked the wrong link, raise your hand immediately. It takes ten seconds to fix now and much longer later.
 {{< /callout >}}
 
 ### What Lesson 2 is about
@@ -76,10 +76,9 @@ Nothing from Lesson 1 gets thrown away. A CAD model is built from multiview thin
 
 1. **Join the Tinkercad class — with the link for YOUR period.** Open Clever → **myPLTW** → **Activity 2.1: Taking Modeling to Another Dimension** and follow the login steps on the board. When it is time to join the class, use your period's link — not a personal Tinkercad account.
 
-   {{< button text="Class 7-1 — join here" >}}https://www.tinkercad.com/joinclass/HQTRYZMFK{{< /button >}}
-   {{< button text="Class 7-2 — join here" >}}https://www.tinkercad.com/joinclass/VWM25UJH3{{< /button >}}
+   {{< button text="Tinkercad" >}}https://www.tinkercad.com{{< /button >}}
 
-   Read the class name on the screen before you finish joining. If it does not match your period, stop and raise your hand.
+   **The join link for your period is in today's CTLS post** — class join links are not posted on this site. Read the class name on the screen before you finish joining. If it does not match your period, stop and raise your hand.
 
 2. **Create → 3D Design.** Spend two minutes just hovering over the toolbar icons to learn what each one does. Undo is your friend; nothing you do here can break anything.
 3. **Open the Learning Center** (directions are in Activity 2.1) and work through the **Tinker Time!** tutorials in order: **Place It, View It, Move It, Rotate It, Size It, Group It, Align It.** Finish each one before clicking to the next.
