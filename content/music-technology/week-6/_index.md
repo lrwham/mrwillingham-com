@@ -15,7 +15,7 @@ This week the class becomes the entire soundtrack. Everyone scores the same sile
 
 | Day | Date     | Topic                                        | Summary                                                                                                              |
 | --- | -------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 26  | Tue 9/8  | Day 26: Sound for Screen — Intro & Ambience  | Load the Urban Runner clip in Soundtrap, sync a coin sound to the picture, then lay an ambience bed under the scene.  |
-| 27  | Wed 9/9  | Day 27: Volume Automation — Approaching Vehicles | Place a sound on each vehicle, then automate volume so the vehicles approach and pass the way real ones do.       |
-| 28  | Thu 9/10 | Day 28: Footsteps, Jumps & Foley             | Chop a footstep recording into individual steps and sync footsteps and jumps to the runner.                          |
+| 26  | Tue 9/8  | [Day 26: Sound for Screen — Intro & Ambience](day-26/) | Load the Urban Runner clip in Soundtrap, sync a coin sound to the picture, then lay an ambience bed under the scene.  |
+| 27  | Wed 9/9  | [Day 27: Volume Automation — Approaching Vehicles](day-27/) | Place a sound on each vehicle, then automate volume so the vehicles approach and pass the way real ones do.       |
+| 28  | Thu 9/10 | [Day 28: Footsteps, Jumps & Foley](day-28/) | Chop a footstep recording into individual steps and sync footsteps and jumps to the runner.                          |
 | 29  | Fri 9/11 | Day 29: Finish the Scene                     | Short class — 8th grade magnet presentations. Finish and submit all six required elements of the Urban Runner scene. |

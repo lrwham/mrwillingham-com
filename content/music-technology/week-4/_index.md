@@ -9,14 +9,14 @@ weight: 70
 
 ## Unit: Music Reading
 
-This week you stop reading other people's music and start writing your own. Monday and Tuesday finish Mystery Transcription — nine untitled melodies, a timestamped guess form, and a reveal with prizes for the fastest correct answers. From Tuesday on you build the tools a composer actually needs: the **C major scale**, then the **A minor scale** along with the **tonic** and **dominant** — the note a melody calls home and the note that pulls back to it — and finally **ABA form**, the plan that decides which part of a melody comes back and when. You finish the week with an original melody of your own that you share with the class.
+This week you stop reading other people's music and start writing your own. Monday and Tuesday finish Mystery Transcription — nine untitled melodies, a timestamped guess form, and a reveal with prizes for the fastest correct answers — then you write the **C major scale** and your first melody. Wednesday brings the **A minor scale**, the **tonic**, and the routine for turning in every MuseScore assignment. Thursday is **form**: one piece built in both **binary (AB)** and **ternary (ABA)** with copy and paste. Friday adds the **dominant** and **cadences**, and you write a binary melody that pauses on the dominant and ends on the tonic.
 
 ## Weekly Schedule
 
 | Day | Date     | Topic                                    | Summary                                                                                                                  |
 | --- | -------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| 16  | Mon 8/24 | Day 16: Mystery Transcription            | Transcribe one of the nine untitled melodies into MuseScore, then submit your guess for what it is.                       |
-| 17  | Tue 8/25 | Day 17: Mystery Transcription Reveal     | Make your final guesses, find out what the nine melodies were and who won, then write the C major scale and your first melody. |
-| 18  | Wed 8/26 | Day 18: A Minor, Tonic and Dominant      | Learn the A minor scale and the tonic and dominant — the note a melody calls home and the note that pulls back to it — then write a melody in A minor. |
-| 19  | Thu 8/27 | Day 19: ABA Form                         | Review tonic and dominant, then learn ABA form and plan your own melody around a section that repeats and a section that contrasts. |
-| 20  | Fri 8/28 | Day 20: Finish and Share Your Melody     | Finalize your original melody in MuseScore and share it with the class.                                                    |
+| 16  | Mon 8/24 | [Day 16: Mystery Transcription](day-16/) | Transcribe one of the nine untitled melodies into MuseScore, then submit your guess for what it is.                       |
+| 17  | Tue 8/25 | [Day 17: Mystery Transcription Reveal](day-17/) | Make your final guesses, find out what the nine melodies were and who won, then write the C major scale and your first melody. |
+| 18  | Wed 8/26 | [Day 18: A Minor and the Tonic](day-18/) | Learn the turn-in routine, write the A minor scale, and compose an eight-measure melody that ends on the tonic. |
+| 19  | Thu 8/27 | [Day 19: Form — Binary and Ternary](day-19/) | Build one piece in both binary and ternary form by copying your A section and changing it. |
+| 20  | Fri 8/28 | [Day 20: Tonic, Dominant, and Cadence](day-20/) | Find the tonic and dominant, then write a binary melody that pauses on the dominant and ends on the tonic. |

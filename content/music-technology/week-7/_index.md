@@ -15,10 +15,10 @@ Urban Runner wraps up on Monday with uploads and peer voting. The rest of the we
 
 | Day | Date     | Topic                                  | Summary                                                                                                  |
 | --- | -------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 30  | Mon 9/14 | Day 30: Upload & Vote                  | Export Urban Runner as a video, watch six assigned classmates, and vote for a top three.                  |
-| 31  | Tue 9/15 | Day 31: Recording Day                  | Learn how analog and digital recording work, then set up, test, and tear down the microphones.            |
-| 32  | Wed 9/16 | Day 32: Take Out the Trash             | Clean up your computer's storage, then set mic gain and headroom.                                         |
-| 33  | Thu 9/17 | Day 33: Effects Practice               | Use reverb, delay, EQ, distortion, and modulation on the Ryze Realm Warp clip.                            |
+| 30  | Mon 9/14 | [Day 30: Upload & Vote](day-30/) | Export Urban Runner as a video, watch six assigned classmates, and vote for a top three.                  |
+| 31  | Tue 9/15 | [Day 31: Recording Day](day-31/) | Learn how analog and digital recording work, then set up, test, and tear down the microphones.            |
+| 32  | Wed 9/16 | [Day 32: Take Out the Trash](day-32/) | Clean up your computer's storage, then set mic gain and headroom.                                         |
+| 33  | Thu 9/17 | [Day 33: Effects Practice](day-33/) | Use reverb, delay, EQ, distortion, and modulation on the Ryze Realm Warp clip.                            |
 | 34  | Fri 9/18 | [Day 34: Sound Design Project](day-34/) | Pick a silent clip and build its soundtrack from your found sound, effects, automation, and the library. |
 
 {{% alert "Graded Assignments" %}}
