@@ -111,6 +111,28 @@ A Soundtrap link or an MP3 is not a submission. Upload the video.
 
 {{% /worksession %}}
 
+{{% worksession %}}
+
+## Early Finishers: Podcast Brainstorm
+
+Video uploaded? Get a head start on the podcast project.
+
+1. Start a new **Word** document named **Podcast Brainstorm**.
+2. Pick **at least four** categories. For each one, write a possible episode title and 1–2 sentences about it.
+
+| Category | Ideas |
+| --- | --- |
+| **Sports** | A player, a rivalry, a rule you'd change, predictions |
+| **Books** | A book you love, a character you relate to, a genre breakdown |
+| **Food** | A recipe, a ranking, a food debate |
+| **School subjects** | A favorite element, a history event, a math trick |
+| **Music** | An artist spotlight, a genre breakdown, how a song was made |
+| **Your own interests** | Sneakers, animals, space, cars, fashion, technology |
+
+Choose something you could talk about for three minutes. Keep it school-appropriate. You'll use this list on Wednesday.
+
+{{% /worksession %}}
+
 {{% closing %}}
 
 ## Closing
