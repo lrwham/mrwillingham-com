@@ -25,10 +25,6 @@ menu:
       name: Music Technology
       pageRef: /music-technology
       weight: 2
-    - identifier: design-modeling
-      name: Design and Modeling
-      pageRef: /design-modeling
-      weight: 3
     - identifier: calendar
       name: Calendar
       pageRef: /calendar

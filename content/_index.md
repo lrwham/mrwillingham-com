@@ -10,7 +10,6 @@ Welcome! Pick your class below — each page has this week's schedule and today'
 ### Classes
 
 {{< cards >}}
-{{< card link="/design-modeling/" title="Design and Modeling" subtitle="PLTW Gateway · 7th Grade" >}}
 {{< card link="/music-technology/" title="Music Technology" subtitle="8th Grade" >}}
 {{< /cards >}}
 
