@@ -54,7 +54,7 @@ Look at yesterday's two times on your Data Sheet. Your teammates helped design t
 Use the same [Puzzle Cube Data Sheet](/design-modeling/week-8/day-35/DM_PuzzleCube_TestingDataSheet.pdf) you started Monday. Lost it? Ask for a new one and copy Trials 1 and 2 from a teammate.
 
 1. **Set up your station** — your wooden cube taken apart with the pieces on the desk, your Data Sheets, a timer.
-2. **One teammate stays at the station as the timer.** Everyone else leaves to test other teams' cubes. When Mr. Willingham calls the switch, a different teammate takes over as timer.
+2. **Three timer rounds.** Your number on the team slide is the round you time. On a team of two, the first name times Rounds 1 and 3. Everyone else leaves to test other teams' cubes. Mr. Willingham calls each switch, about every 8 minutes.
 3. **Testers:** one try per cube. Do not watch a cube get solved before your turn — it changes the data. No hints from anyone.
 4. **Timer:** say "Go," start the clock, and stop it when the 3×3×3 cube is closed. Record the tester's **name**, their **team number**, and the **time in whole seconds**, starting at Trial 3. Take the cube apart before the next tester sits down.
 5. **Goal: at least 9 times total**, counting Monday's two. More is better.
