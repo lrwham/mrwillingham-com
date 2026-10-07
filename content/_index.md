@@ -11,6 +11,7 @@ Welcome! Pick your class below — each page has this week's schedule and today'
 
 {{< cards >}}
 {{< card link="/music-technology/" title="Music Technology" subtitle="8th Grade" >}}
+{{< card link="/scratch/" title="Computer Programming with Scratch" subtitle="6th–8th Grade" >}}
 {{< /cards >}}
 
 ### Past Years & Reference

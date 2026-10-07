@@ -1,23 +1,22 @@
 ---
 title: "Computer Programming with Scratch"
-lastmod: "2026-05-24"
 toc: false
 cascade:
   type: docs
 draft: false
 ---
 
-6th–8th Grade Computer Programming with Scratch
+6th–8th Grade Computer Programming with Scratch — Daily Instructions
 
-## On Summer Break
+## This Week
 
-Class is on break. Daily lessons will appear here when school resumes in the fall.
+{{< this-week >}}
 
-In the meantime:
+## More
 
 {{< cards >}}
 {{< card link="/scratch/description/" title="Course Description" subtitle="What we cover & standards" >}}
-{{< card link="/scratch/projects/" title="Project Library" subtitle="Video Game Design, Platformer, Teachable Machine" >}}
-{{< card link="/scratch/reference/" title="Vocabulary" subtitle="Terms by unit" >}}
+{{< card link="/scratch/reference/" title="Reference" subtitle="Code patterns, logins, practice, vocabulary" >}}
+{{< card link="/scratch/projects/" title="Project Library" subtitle="Maze, Platformer, Falling Objects, Video Game Design" >}}
 {{< card link="/archive/2025-26/scratch/" title="2025-26 Archive" subtitle="Last year, day-by-day" >}}
 {{< /cards >}}

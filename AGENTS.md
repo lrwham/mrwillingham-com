@@ -6,7 +6,7 @@ Operational reference for AI coding agents working in this repository. Human-fac
 
 ## Project Summary
 
-Hugo static site for a middle-school teacher's classes. Live for 2026-27: **Music Technology** (Georgia MSMTC8 standards). **Computer Programming with Scratch** (Georgia MS-CS-FCP standards) is no longer taught; its `content/scratch/` section stays on disk but is unlinked from the menu and homepage. The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
+Hugo static site for a middle-school teacher's classes. Live for 2026-27: **Music Technology** (Georgia MSMTC8 standards) and, for Q2 (Oct 12 – Dec 18, 2026), **Computer Programming with Scratch** (Georgia MS-CS-FCP standards). The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
 
 ---
 
@@ -15,7 +15,7 @@ Hugo static site for a middle-school teacher's classes. Live for 2026-27: **Musi
 | Path | What it is | Agent should... |
 |------|-----------|-----------------|
 | `content/` | All lesson and page content (markdown) | Edit freely; this is the main workspace |
-| `content/scratch/` | Scratch programming course (no longer taught; unlinked from nav) | Leave alone unless asked; reusable lessons in `projects/`, vocab in `reference/` |
+| `content/scratch/` | Computer Programming with Scratch (current quarter) | Edit; daily lessons in `week-N/day-NN/index.md`; date-free project hubs in `projects/`; code patterns, logins, practice, and vocab in `reference/`. Daily pages are short maps that link to `projects/` and `reference/` for the steps — keep it that way. |
 | `content/music-technology/` | Music technology course (current year) | Edit; same structure; reusable lessons in `projects/`; vocab in `reference/` |
 | `content/troubleshooting/` | Student self-help guides | Edit when asked |
 | `content/archive/` | Frozen snapshots of past school years (`YYYY-YY/<course>/...`) | **Don't edit existing year folders.** They're frozen as taught. Create a new `YYYY-YY/` folder at end of school year to archive that year — see "Archive & Reusable Projects" below. |
@@ -68,7 +68,7 @@ Neither `hugo.yaml` nor `.github/workflows/deploy.yml` sets `buildFuture`, so **
 
 - A daily lesson is `content/<course>/week-N/day-NN/index.md` (use `index.md` — singular `_index.md` is reserved for branch bundles).
 - `_index.md` is used for week landing pages and for daily lessons that have their own sub-pages.
-- `<course>` is `music-technology` (`scratch` exists but is no longer taught).
+- `<course>` is `scratch` or `music-technology`.
 - Day folder is `day-N` (no zero-padding, matching existing convention).
 - Past-year lessons live at `content/archive/<YYYY-YY>/<course>/week-N/day-NN/index.md` with the same structure — don't edit them.
 - Date-free reusable lesson templates live at `content/<course>/projects/<slug>/index.md` — see "Archive & Reusable Projects" below.
@@ -102,7 +102,7 @@ weight: 5
 **Field rules:**
 
 - `title` — `"Day N: Title"` format. Must match the link text in the week's `_index.md` schedule table exactly.
-- `date` — Full ISO timestamp with `-04:00` offset (America/New_York). Bare `YYYY-MM-DD` works for some existing music-tech files but new lessons should use the full form.
+- `date` — Full ISO timestamp with the America/New_York offset: `-04:00` while daylight saving time is in effect, `-05:00` otherwise. DST ends **Sun Nov 1, 2026** and resumes **Sun Mar 14, 2027**, so Scratch Days 1–15 use `-04:00` and Days 16–44 use `-05:00`. Bare `YYYY-MM-DD` works for some existing music-tech files but new lessons should use the full form.
 - `description` — One sentence, active voice, student perspective. Mirrors the weekly schedule table's Summary column.
 - `day_number` — Integer, continuous across the course. Must strictly exceed the previous lesson's `day_number`.
 - `units` — List. Exact spelling must match sibling lessons (see "Taxonomy values" below).
@@ -318,15 +318,21 @@ Conventions:
 - **No `date:`, `day_number:`, or week-positional `weight:`** — these aren't tied to a school day.
 - **No calendar-icon long-form date line** at the top.
 - Schedules key off "Project Day 1 … Project Day N", not specific dates.
-- Page title is the topic/project name ("Platforms & Collision", "Video Game Design Project"), not "Day N: …".
+- Page title is the topic/project name ("Platforms and Collision", "Video Game Design Project"), not "Day N: …".
 - Otherwise use the same shortcode structure (`objectives` / `warmup` / `worksession` / `checkpoint` / `closing`) as a normal daily lesson when extracting a single-day lesson.
-- The `_index.md` of a multi-day project hub doesn't need shortcode blocks — see `content/scratch/projects/video-game-design/_index.md`.
+- The `_index.md` of a multi-day project hub doesn't need shortcode blocks — see `content/scratch/projects/video-game-design/_index.md`. Multi-day hubs use `## Project Day N: Title` headings; daily lessons deep-link to them (`/scratch/projects/maze-game/#project-day-2-controls-and-walls`), so don't rename those headings without updating the lessons that link to them. Avoid `+`, `&`, and other punctuation in headings that are link targets — Goldmark drops them and the anchor becomes hard to predict.
 
 To promote an archived lesson into a reusable project: copy it from the archive, strip the front-matter `date:` field and the calendar-icon line, replace year-specific references ("yesterday's project", "this Friday", "next week we'll…") with generic equivalents or a self-contained recap, and add a brief teacher-notes block at the bottom.
 
+### `content/<course>/reference/` — quick-reference pages
+
+Date-free pages for anything lessons would otherwise repeat: login steps, code patterns, tool guides, practice questions, vocabulary. The Scratch course keeps the canonical set — `daily-routine/`, `scratch-login/`, `share-to-studio/`, `code-patterns/` (one `## Pattern Name` heading per Scratch script, deep-linked from lessons), `art-tools/`, `boolean-operators/`, `flowcharts/` (with the printable worksheet as a `type: bare` sub-page), `python-setup/`, `datasets/` (page bundle holding the zips), `practice/` (hub plus one page per practice set), and `unit-N-vocab/`. Printable worksheets are `type: bare` leaf pages (`layouts/bare/single.html`), kept next to the project or reference page that uses them.
+
+**Lesson pages are maps.** A daily lesson states objectives, says what to open and which project day or pattern to follow, carries the checkpoints and the closing, and links out for the actual steps and code. If a work session is pasting in code that already lives on `code-patterns/` or a project hub, link instead. Per-quarter links that change (class studio, Forms, Gimkit) live on one reference page (`share-to-studio/` for the studio) or are flagged `<!-- TODO: new link -->` in the lesson.
+
 ### Course root landing pages between school years
 
-When all current-year content has been archived (summer break), the course-root `_index.md` files drop `{{< this-week >}}` and use a static "On Summer Break" headline + card grid pointing to `description/`, `projects/`, `reference/`, and the latest archive. See current `content/scratch/_index.md` and `content/music-technology/_index.md`. When the new year's first lesson lands in `content/<course>/week-1/`, swap the static block back to `## This Week` + `{{< this-week >}}`.
+When all current-year content has been archived (summer break), the course-root `_index.md` files drop `{{< this-week >}}` and use a static "On Summer Break" headline + card grid pointing to `description/`, `projects/`, `reference/`, and the latest archive. See `content/archive/2025-26/scratch/_index.md` for the archive-side pattern; the live course roots (`content/scratch/_index.md`, `content/music-technology/_index.md`) currently show the in-session form: `## This Week` + `{{< this-week >}}` followed by a `## More` card grid. When a new year's first lesson lands in `content/<course>/week-1/`, swap the static block back to that form.
 
 ### Callout Examples
 
@@ -451,18 +457,21 @@ The user often supplies a teacher-facing lesson plan (timed agenda, materials li
 
 ## Course Context (Quick Reference)
 
-### Computer Programming with Scratch (no longer taught)
+### Computer Programming with Scratch (Q2 2026-27)
 
 - **Audience:** 6th–8th graders, no prior programming experience.
-- **Length:** 45 days across 9 weeks.
+- **Length:** One quarter — 44 class days across 9 weeks, Mon 10/12/2026 – Fri 12/18/2026. Day 1 (Mon 10/12) is a digital learning day with an at-home lesson page. Tue 10/13 – Fri 10/16 are conference-week early-release days. Tue 11/3 is a student holiday (Week 4 has four days). Thanksgiving week (11/23–27) is off. Thu 12/17 and Fri 12/18 are early release.
 - **Framework:** Georgia MS-CS-FCP standards (Foundations of Computer Programming).
-- **Primary tool:** MIT Scratch (`scratch.mit.edu`).
-- **Units to date:**
-  - Unit 1: Introduction to Scratch (interface, sequencing, events, motion, sprite art, maze design)
-  - Unit 2: Conditionals & Control Flow (keyboard events, `if`, collision, flow diagrams, loops, efficiency)
-  - Unit 3: Boolean Operators & Platformer (and/or/not, velocity, gravity, platform/wall collision, variables, game state, CLI/Minecraft intro)
-  - Additional units in weeks 4–8 covering animation, data, and AI/machine learning (see `content/scratch/week-*/` for current scope).
-- **Major projects:** Maze Game, Platformer Game, Video Game Design Project (see `content/scratch/video-game-design-project/`), Box Art Project.
+- **Primary tools:** MIT Scratch (`scratch.mit.edu`, class accounts emailed to students — see `reference/scratch-login/`), Code.org, BrainPOP, Edpuzzle, and Flocabulary via Clever; Python 3 with VS Code (Weeks 7+); Teachable Machine; VEXcode VR (`vr.vex.com`, Weeks 8–9).
+- **Promoted from the 2025-26 archive.** Lessons were copied from `content/archive/2025-26/scratch/`, re-dated, renumbered, and slimmed so the steps and code live in `projects/` and `reference/`. The archive stays frozen.
+- **Units:**
+  - Week 1 — Intro to Scratch (Days 1–5): DLD sequencing/debugging on Code.org, lab basics, Scratch login and art tools, motion and sequences, maze design. Project hub: `projects/maze-game/`.
+  - Weeks 2–3 — Conditionals and Control Flow (Days 6–15): keyboard events and `if touching color`, Flocabulary, flow diagrams, loops, the game loop; boolean operators, gravity with velocity, platforms and collision, objective and score; terminal and Minecraft. Hubs: `projects/maze-game/`, `projects/platformer/`.
+  - Week 4 — Intermediate Scratch (Days 16–19): falling-objects catch game — variables, clones, broadcasts and game states. Hub: `projects/falling-objects-game/`. Quiz and share on Day 20.
+  - Weeks 5–6 — Video Game Design Project (Days 21–29): nine days; Project Days 8 and 9 (peer feedback, revisions) are merged into Day 28. Presentations Fri 11/20. Hub: `projects/video-game-design/`.
+  - Week 7 — Python and the Terminal (Days 30–34): VS Code setup, number guessing game, Pokémon data with pandas and matplotlib, Pokémon Designer, BrainPOP AI. Hub: `projects/python-pokemon-data/`; setup on `reference/python-setup/`.
+  - Weeks 8–9 — AI and VEXcode VR (Days 35–44): BrainPOP Hackers, Teachable Machine (`projects/teachable-machine-rock-paper-scissors/`), then seven **scaffolded** VEXcode VR days (37–42, 44) with `draft: true` and TODO stubs — the user fills these in. Day 43 is the end-of-quarter word search.
+- **Per-quarter links to replace:** class studio (`reference/share-to-studio/`), About Me form (Day 2), learning checks (Days 11, 12), Gimkit (Day 18), VGD forms (Days 25, 28), Pokémon stats form (Day 33), and the Scratch starter projects on the hubs. Each is marked `<!-- TODO: new link -->`.
 
 ### Music Technology
 
@@ -507,7 +516,8 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 - **Verify with `hugo --quiet --renderToMemory`** after any edit before declaring done. Zero output = success.
 - **Check for an existing near-match** before inventing a `units`, `tags`, or `resources` value — singular/plural and reworded variants split a term across two pages. See "Taxonomy values" above; casing alone does not split a term.
 - **Don't delete or rewrite weekly schedule links that 404 in prod.** Future-dated lessons are excluded from production builds by design — see "Future-dated lessons are invisible in production."
-- **Don't rely on stale planning files.** Current schedule lives in each course's week-`N` `_index.md`. Treat any informal notes files as potentially out of date.
+- **Don't rely on stale planning files.** Current schedule lives in each course's week-`N` `_index.md`. Treat any informal notes files as potentially out of date. `TODO-archive-cs-to-live.md` is the promotion checklist for the Scratch course; delete it once the course is fully live.
+- **Keep Scratch daily lessons as maps.** Steps and code go on `projects/` hubs and `reference/` pages; a lesson links to them. Don't paste pattern code back into a daily page.
 
 ---
 
