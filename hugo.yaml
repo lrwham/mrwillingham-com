@@ -25,6 +25,10 @@ menu:
       name: Music Technology
       pageRef: /music-technology
       weight: 2
+    - identifier: scratch
+      name: Computer Programming
+      pageRef: /scratch
+      weight: 3
     - identifier: calendar
       name: Calendar
       pageRef: /calendar

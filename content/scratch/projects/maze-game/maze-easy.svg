@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360">
+
+  <!-- === OUTER WALLS (2 cells = 16px thick) === -->
+
+  <!-- Top wall — gap at x=32‑64 for Start -->
+  <rect x="0"  y="0" width="32"  height="16" fill="black"/>
+  <rect x="64" y="0" width="416" height="16" fill="black"/>
+
+  <!-- Bottom wall — gap at x=416‑448 for Finish -->
+  <rect x="0"   y="344" width="416" height="16" fill="black"/>
+  <rect x="448" y="344" width="32"  height="16" fill="black"/>
+
+  <!-- Left wall -->
+  <rect x="0" y="0" width="16" height="360" fill="black"/>
+
+  <!-- Right wall -->
+  <rect x="464" y="0" width="16" height="360" fill="black"/>
+
+  <!-- === INTERNAL WALLS (all 2 cells = 16px thick) === -->
+
+  <!-- Wall A: horizontal, from left border going right, ~1/3 down -->
+  <rect x="16" y="112" width="304" height="16" fill="black"/>
+
+  <!-- Wall B: horizontal, from right border going left, ~2/3 down -->
+  <rect x="160" y="240" width="304" height="16" fill="black"/>
+
+  <!-- Wall C: vertical dead-end wall, connects Wall A area to Wall B -->
+  <!-- Creates dead-end room to the right (x=336‑464, y=176‑240) -->
+  <rect x="320" y="176" width="16" height="64" fill="black"/>
+
+  <!-- === START / FINISH MARKERS === -->
+
+  <!-- Green square at Start entrance -->
+  <rect x="36" y="0" width="24" height="12" fill="#22c55e"/>
+
+  <!-- Red square at Finish exit -->
+  <rect x="420" y="348" width="24" height="12" fill="#ef4444"/>
+
+</svg>

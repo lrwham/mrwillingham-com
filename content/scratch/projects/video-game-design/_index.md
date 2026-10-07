@@ -25,6 +25,9 @@ A two-week capstone where student teams design an original game from concept to 
 
 ## Components
 
+- [Brainstorm Worksheet](brainstorm-worksheet/) — Project Day 1, on paper: team roles and the game concept.
+- [Exit Ticket](exit-ticket/) — Project Day 1, individual.
+- [Peer Feedback Worksheet](peer-feedback-worksheet/) — Project Day 8: three feedback panels per sheet.
 - [Box Art Assignment](box-art/) — what to draw on the front and back covers.
 - [Box Art Rubric](box-art/rubric/) — how box art is graded (100 pts).
 - [Prototype Rubric](prototype-rubric/) — how the Scratch prototype is graded (100 pts).

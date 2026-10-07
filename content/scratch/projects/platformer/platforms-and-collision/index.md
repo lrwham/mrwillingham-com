@@ -1,5 +1,8 @@
 ---
-title: "Platforms & Collision"
+title: "Platforms and Collision"
+aliases:
+  - /scratch/projects/platformer-collision/
+weight: 2
 description: "Add solid platforms to a gravity-based platformer and use boolean operators to detect landing, wall, and ceiling collisions."
 units:
   - "Conditionals"
@@ -19,7 +22,7 @@ toc: true
 scratchblocks: true
 ---
 
-A reusable one-day lesson that turns a basic gravity sprite into a real platformer. Assumes students already have a sprite that falls under gravity and jumps; if not, complete the "Prerequisite — Gravity Setup" section first.
+Project Day 2 of the [Platformer](/scratch/projects/platformer/). Turns a basic gravity sprite into a real platformer. Assumes you already have a sprite that falls under gravity and jumps from [Project Day 1](/scratch/projects/platformer/#project-day-1-gravity); if not, do the "Prerequisite — Gravity Setup" section first.
 
 {{% objectives %}}
 
