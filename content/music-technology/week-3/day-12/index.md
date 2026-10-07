@@ -1,7 +1,7 @@
 ---
 title: "Day 12: Music Reading 101"
-date: 2026-08-18T06:00:00-04:00
-description: "Learn the staff, the treble and bass clefs, the grand staff, and the layout of the piano keyboard — then practice note identification on musictheory.net."
+date: 2026-10-27T08:00:00-04:00
+description: "Learn the staff, the clefs, the grand staff, and the piano keyboard, then practice note identification."
 day_number: 12
 units:
   - "Music Reading"
@@ -11,20 +11,18 @@ standards:
 tags:
   - Music Reading
   - Notation
-  - Staff
-  - Clefs
   - Keyboard
   - musictheory.net
 resources:
   - "Music Reading 101 slides"
   - "musictheory.net"
-  - "Soundtrap"
+  - "CTLS"
 draft: false
 toc: true
-weight: 1
+weight: 2
 ---
 
-{{< icon "calendar" >}} **Tuesday, August 18th, 2026**
+{{< icon "calendar" >}} **Tuesday, October 27th, 2026**
 
 {{% objectives %}}
 
@@ -32,27 +30,23 @@ weight: 1
 
 - I can name the parts of the staff and explain what a clef does.
 - I can identify notes on the treble clef and the bass clef.
-- I can find any white key on a piano keyboard by using the black key groups.
+- I can find any white key on a keyboard using the black-key groups.
 - I can explain the difference between a whole step and a half step.
 
 {{% /objectives %}}
 
 {{% warmup %}}
 
-## Warmup: Music Reading Pretest
+## Warmup: Pretest
 
-Complete the music reading pretest on CTLS Student Coursework.
-
-It is 20 questions and is not a grade.
-
-When you finish, check out these slides. [PDF of Music Reading Slides](/downloads/MusicReading101.pdf)
+Complete the music reading pretest in CTLS Student Coursework. Twenty questions, not a grade. Then open the [Music Reading 101 slides](/downloads/MusicReading101.pdf).
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I completed the music reading pretest on CTLS Student Coursework.
-- [ ] I have the Music Reading 101 slides open and ready to follow along.
+- [ ] Pretest done.
+- [ ] Slides open.
 
 {{% /checkpoint %}}
 
@@ -60,41 +54,18 @@ When you finish, check out these slides. [PDF of Music Reading Slides](/download
 
 {{% worksession %}}
 
-## Work Session: Part 1 — Reading the Staff
+## Work Session: Reading the Staff and the Keyboard
 
-Follow along with the **Music Reading 101** slides. Take notes — the practice at the end goes much faster if you do.
-
-### The Staff
-
-The staff is **five lines**. Notes sit on the lines and in the spaces between them.
-
-- Notes move in **alphabetical order**: A B C D E F G, and then it starts over at A.
-- **Low notes are at the bottom.** High notes are at the top.
-
-### The Clef
-
-Five bare lines do not tell you anything. A **clef** gives the staff meaning by locking one specific note to one specific line. Everything else is counted from there.
-
-There are only four clefs in common use, and you are learning two.
-
-| Clef | Also called | What it locks down |
-| --- | --- | --- |
-| **G clef** | Treble clef | Shows where **G** is |
-| **F clef** | Bass clef | Shows where **F** is |
-
-### The Grand Staff
-
-Put the treble clef on top and the bass clef underneath and you get the **grand staff**. This is what piano music looks like.
-
-The two staves meet in the middle at a note called **middle C**. Middle C sits on a short line of its own — one ledger line — below the treble staff and above the bass staff. It is the same note either way. It is the hinge the whole system swings on.
+Follow along with the slides and take notes. The reference version is [Music Reading 101](/music-technology/reference/music-reading-101/): the staff, the two clefs, the grand staff and middle C, the four keyboard landmarks (D, E, F, B), octaves, and whole and half steps — only **B–C** and **E–F** are half steps between white keys. That last idea is what scales are built on.
 
 {{% checkpoint %}}
 
-### Checkpoint: Reading the Staff
+### Checkpoint: Staff and Keyboard
 
-- [ ] I can explain in one sentence what a clef does.
-- [ ] I can name both clefs I am learning.
+- [ ] I can say in one sentence what a clef does and name both clefs.
 - [ ] I can find middle C on the grand staff.
+- [ ] I can find D, E, F, and B without counting from C.
+- [ ] I can name the only two white-key pairs that are a half step apart.
 
 {{% /checkpoint %}}
 
@@ -102,77 +73,17 @@ The two staves meet in the middle at a note called **middle C**. Middle C sits o
 
 {{% worksession %}}
 
-## Work Session: Part 2 — The Piano Keyboard
+## Work Session: Practice
 
-A keyboard looks like a wall of identical keys. It is not. The black keys come in groups of **two** and **three**, and that pattern repeats forever. Once you can see the groups, you can find any note.
-
-Memorize these four. They are the whole trick.
-
-| Note | How to find it |
-| --- | --- |
-| **D** | D is in "duh" middle of the pair of black keys. |
-| **E** | E is always next to the group of two black keys, on the right. |
-| **F** | F is in "front" of the group of three black keys. |
-| **B** | B is "behind" the group of three black keys. |
-
-### Octaves
-
-There are dozens of keys but only **seven note names**. So the names have to repeat — and they do, every eight notes.
-
-The distance from one C to the next C is an **octave**. Both keys are called C. The higher one sounds like the same note, only higher. That is why the pattern of black keys repeats: each repetition is one octave.
-
-### Whole Steps and Half Steps
-
-This is the last idea today, and it is the one everything next week is built on.
-
-- A **half step** is the distance from one key to the very next key, with **nothing** in between. Count the black keys too.
-- A **whole step** is the distance from one key to another with **exactly one key** in between.
-
-Look at the keyboard while you read these:
-
-- **B and C** are a **half step** apart. There is no black key between them.
-- **E and F** are a **half step** apart. Same reason.
-- **C and D** are a **whole step** apart. There is a black key sitting between them.
-- **F and G** are a **whole step** apart.
-
-Most pairs of neighboring white keys are a whole step. Only two pairs — **B–C** and **E–F** — are half steps. Those two exceptions are why scales work the way they do, which is where we are headed on Monday.
-
-{{% checkpoint %}}
-
-### Checkpoint: The Keyboard
-
-- [ ] I can find D, E, F, and B on a keyboard without counting from C.
-- [ ] I can explain what an octave is.
-- [ ] I can name the only two pairs of white keys that are a half step apart.
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
-
-{{% worksession %}}
-
-## Work Session: Part 3 — Practice
-
-Reading notes is a skill, not a fact. You do not learn it by understanding it, you learn it by doing it a few hundred times. Start now.
-
-Go to **musictheory.net** and work through these in order.
-
-1. **Note Identification — Treble Clef.** [Open the exercise](https://www.musictheory.net/exercises/note/brwyryyynybyfy) — try for a **perfect score twice**.
-2. **Note Identification — Bass Clef.** [Open the exercise](https://www.musictheory.net/exercises/note/nrwyryyynybyfy) — try for a **perfect score twice**.
-3. **Keyboard Identification.** [Open the exercise](https://www.musictheory.net/exercises/keyboard/y9dyyynbyfy) — you are shown a note name and you click the key.
-4. **Keyboard Reverse.** [Open the exercise](https://www.musictheory.net/exercises/keyboard-reverse/drwrwyryybnykyyyy) — you are shown a key and you name the note.
-
-If you finish all four, go back to treble clef and beat your own time.
-
-You are going to need the bass clef. Next Thursday you will write a **bass line**, and it gets written in bass clef. Learning it today is not busywork.
+Reading notes is a skill, not a fact. Work through the trainers on [Note Reading Practice](/music-technology/reference/note-reading-practice/) in order: treble clef, bass clef, keyboard, keyboard reverse. Aim for a perfect score twice on each clef. You will need the bass clef — your bass lines get written in it.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Practice
 
-- [ ] I scored 100% on treble clef note identification **twice**.
-- [ ] I scored 100% on bass clef note identification **twice**.
-- [ ] I completed both keyboard exercises.
+- [ ] 100% on treble clef twice.
+- [ ] 100% on bass clef twice.
+- [ ] Both keyboard exercises done.
 
 {{% /checkpoint %}}
 
@@ -182,26 +93,13 @@ You are going to need the bass clef. Next Thursday you will write a **bass line*
 
 ## Closing
 
-Tomorrow is a **short period** because of BEACON testing. We will cover rhythm quickly and then open a new program called **MuseScore**, which is what we will write music in for the rest of this unit.
+Closing question: if a staff is just five lines and notes go in alphabetical order, why can't you read notes without a clef?
 
-### Closing Question
-
-Think about this — you may be called on to share your answer out loud.
-
-If a staff is just five lines, and the notes go in alphabetical order, why can't you read the notes without a clef?
-
-{{% checkpoint %}}
-
-### Checkpoint: Closing
-
-- [ ] My musictheory.net practice is done.
-- [ ] My notes from the slides are somewhere I can find them tomorrow.
-
-{{% /checkpoint %}}
+Tomorrow: rhythm, and a new program called MuseScore.
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure and context of varied musical works inform the response (reading pitch notation and keyboard layout as organized systems).
-- [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas and works to varied contexts and daily life to deepen understanding (connecting written notation to the piano roll students already use).
+- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure of musical works informs the response (reading pitch notation and keyboard layout as organized systems).
+- [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas to varied contexts and daily life (connecting written notation to the piano roll you already use).

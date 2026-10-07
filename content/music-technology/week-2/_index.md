@@ -1,5 +1,5 @@
 ---
-title: "Week 2: Beat Making"
+title: "Week 2: Loops to Beats"
 draft: false
 toc: false
 cascade:
@@ -7,23 +7,27 @@ cascade:
 weight: 90
 ---
 
+## Unit: Loops and Layering
+
+Monday finishes the loops unit: why a set needs one loop per job, and how picking a genre first makes every choice after it more cohesive.
+
 ## Unit: Beat Making
 
-This week you start making beats. You will learn the parts of a drum kit, build a beat out of individual loops, and then move into Soundtrap's **Patterns Beatmaker** to program your own drum pattern step by step. By the end of the week you will also get hands-on with a MIDI controller, recording live drum tracks and cleaning up the timing with quantization.
+Tuesday you start making beats. You learn the parts of a drum kit, build a beat out of individual loops, and then move into Soundtrap's **Patterns Beatmaker** to program your own drum pattern step by step. By Friday you are hands-on with a MIDI controller, recording a live drum track and cleaning up the timing with quantization.
 
 ## Weekly Schedule
 
-| Day | Date     | Topic                                             | Summary                                                                              |
-| --- | -------- | -------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 6   | Mon 8/10 | Day 6: Introduction to Drums            | Learn the parts of a drum kit and build a beat from individual Sound library loops.  |
-| 7   | Tue 8/11 | Day 7: MIDI & the Beat Grid                       | Learn what MIDI is, then start programming a rock beat pattern in Patterns Beatmaker. |
-| 8   | Wed 8/12 | Day 8: Writing a Drum Beat                        | Finish programming the rock beat pattern and turn it in for a grade.                  |
-| 9   | Thu 8/13 | Day 9: Four on the Floor & Quantization           | Play a four-on-the-floor beat using a MIDI controller, then clean it up with quantization. |
-| 10  | Fri 8/14 | Day 10: Finish Your Beat                          | Add the hi-hat and a choice sound to complete the four-on-the-floor beat, then quantize all four tracks. |
+| Day | Date      | Topic                                                 | Summary                                                                                              |
+| --- | --------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 6   | Mon 10/19 | [Choosing Loops by Category and Genre](day-6/)        | Learn why a set needs one loop per job, then build a set by picking a genre first.                   |
+| 7   | Tue 10/20 | [Introduction to Drums](day-7/)                       | Learn the parts of a drum kit and build a beat from individual Sound library loops.                  |
+| 8   | Wed 10/21 | [MIDI and the Beat Grid](day-8/)                      | Learn what MIDI is, then program the rock beat pattern in Patterns Beatmaker.                        |
+| 9   | Thu 10/22 | [Writing a Drum Beat](day-9/)                         | Fix the rock beat, add a fill, export it as an MP3, and turn it in.                                  |
+| 10  | Fri 10/23 | [Four on the Floor and Quantization](day-10/)         | Play a four-on-the-floor beat on a MIDI controller, then clean it up with quantization.              |
 
 {{% alert "Graded Assignments" %}}
 
-- **Rock Beat** (due Wednesday 8/12) — Program the rock beat pattern into Soundtrap's Patterns Beatmaker, matching the pattern given in class.
+- **Rock Beat with a Fill** (due Thursday 10/22) — Programmed in Patterns Beatmaker on the rock beat pattern, exported as an MP3, uploaded to CTLS.
 
 Late work will receive a one-time 20 point deduction.
 

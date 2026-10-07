@@ -1,10 +1,10 @@
 ---
-title: "Day 28: Footsteps, Jumps & Foley"
-date: 2026-09-10T08:00:00-04:00
-description: "Download the footstep library, chop it into individual steps, and sync footsteps and jumps to the runner. Required elements are due Friday."
+title: "Day 28: Footsteps, Jumps, and Foley"
+date: 2026-11-19T08:00:00-05:00
+description: "Chop a footstep recording into individual steps and sync footsteps and jumps to the runner."
 day_number: 28
 units:
-  - "Sound for TV, Film & Games"
+  - "Sound for Screen"
 standards:
   - MSMTC8.CR.2
   - MSMTC8.PR.5
@@ -19,10 +19,10 @@ resources:
   - "Soundtrap"
 draft: false
 toc: true
-weight: 1
+weight: 4
 ---
 
-{{< icon "calendar" >}} **Thursday, September 10th, 2026**
+{{< icon "calendar" >}} **Thursday, November 19th, 2026**
 
 {{% objectives %}}
 
@@ -38,36 +38,14 @@ weight: 1
 
 ## Warmup: Download and Listen
 
-{{< callout type="info" >}}
-**Download the Footstep Sound Pack from CTLS.** The link is on today's CTLS post.
-{{< /callout >}}
-
-The pack has ten files. Each one is a **continuous walk or run**, 18–55 seconds long:
-
-| File | Surface |
-|---|---|
-| `Concrete_Shoes_Walking` | Pavement, walking |
-| `Concrete_Shoes_Running` | Pavement, running |
-| `Gravel_Ice_Shoes_Walking` | Gravel |
-| `NormalWood_Shoes_Walking` | Wood floor |
-| `CreakyWood_Boots_Walking` | Old creaky wood |
-| `Sand_Boots_Walking` | Sand |
-| `Puddle_Walking` | Water |
-| `SoftCarpet_Barefeet_Walking` | Carpet, barefoot |
-| `Glass_Walking` | Broken glass |
-| `Leaves_Rustling` | Leaves |
-
-1. Download the pack and unzip it.
-2. Play each file. Pick the one that matches the surface the runner is actually on.
-3. Drag and drop your pick into **Urban Runner – Sound Design**.
+Download the **Footstep Sound Pack** from today's CTLS post and unzip it. The ten files and their surfaces are listed on [Project Day 3](/music-technology/projects/urban-runner/#project-day-3-footsteps-and-foley). Play each, pick the surface the runner is actually on, and drag it into **Urban Runner – Sound Design**.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] The footstep pack is downloaded and unzipped.
-- [ ] I listened to all ten and picked a surface that matches the video.
-- [ ] My file is dragged into my Soundtrap project.
+- [ ] Pack downloaded and unzipped; I listened to all ten.
+- [ ] The matching file is in my project.
 
 {{% /checkpoint %}}
 
@@ -78,50 +56,16 @@ The pack has ten files. Each one is a **continuous walk or run**, 18–55 second
 ## Work Session: Chop It Up
 
 {{< callout type="warning" >}}
-**These files are NOT ready to use.**
-
-Every file is **one long walk** — dozens of steps in a row at somebody else's pace. Drag the whole file onto the timeline and it will **not** line up. It cannot line up. The runner's feet are not walking at the same speed as the recording.
-
-**You have to split the recording into individual steps and place each step one at a time.**
+These files are **not** ready to use. Each is one long walk at somebody else's pace. The whole file will not line up and cannot line up.
 {{< /callout >}}
 
-### How to chop a step out
-
-1. Drag the audio file onto its own track.
-2. Zoom in until you can see the shape of the waveform. Each footstep is a **spike** — a tall burst with quiet in between.
-3. Use **Split** (or `Ctrl/Cmd + T`) to cut just before a spike and just after it. That single spike is one step.
-4. Delete the rest, or drag the leftover pieces out of the way.
-5. Copy that one step. Now you have a step you can paste anywhere.
-
-### How to sync a step
-
-1. Watch the clip frame by frame until you find the moment a **foot hits the ground**. That is the sync point — not when the leg swings, not when it lifts.
-2. Paste a step there and nudge it until it lands.
-3. Repeat for the next footfall.
-
-### Make it sound human
-
-Real people don't take identical steps. If every step is the same copy, it sounds like a machine.
-
-- Chop out **three or four different steps** from the recording and alternate them.
-- Vary the volume slightly. Some steps are heavier than others.
-- Running steps are closer together than walking steps. Match the pace on screen.
-
-### Jumps
-
-A jump is **two** sounds, not one:
-
-- **Takeoff** — a scuff, a push, maybe a grunt.
-- **Landing** — heavier than a footstep. Use a running step, turn it up, or double it.
-
-The landing is the one the audience feels. Get that one exactly right.
+Follow [Foley](/music-technology/reference/sound-design/#foley): split out single steps, place each on the frame a foot hits the ground, alternate three or four different steps so it does not sound like a machine, match the pace on screen. Every jump is two sounds — a takeoff and a landing — and the landing is the one the audience feels.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ] I split the recording into individual steps.
-- [ ] I am using more than one step so it doesn't sound like a machine.
+- [ ] I split the recording into individual steps and use more than one.
 - [ ] Every footstep lands on the frame the foot hits the ground.
 - [ ] Each jump has a takeoff and a landing.
 
@@ -133,51 +77,14 @@ The landing is the one the audience feels. Get that one exactly right.
 
 ## Closing
 
-## Required Elements — Due Friday
+The six [Required Elements](/music-technology/projects/urban-runner/#required-elements) are due tomorrow — the last day before break. Know which ones you still owe.
 
-Your **Urban Runner – Sound Design** project must have all six of these:
-
-- [ ] **1.** A coin sound on the **first four coins**.
-- [ ] **2.** A sound on the **first bus**, with a **volume curve**.
-- [ ] **3.** A sound on the **first truck**, with a **volume curve**.
-- [ ] **4.** A sound on the **first car**, with a **volume curve**.
-- [ ] **5.** **All footsteps** up until the **green bus**.
-- [ ] **6.** **All jumps** up until the **green bus**.
-
-Your ambience bed should still be running under the whole clip from Day 26.
-
-### About the coin sound
-
-Your coin sound is an **original sound effect**. It does not have to sound like a real coin — a coin spinning in mid-air makes no sound at all. You are inventing what a coin sounds like. A chime, a bell, a glockenspiel hit, a bright synth blip: if it reads as *you got something*, it works.
-
-### About the vehicle curves
-
-![Volume automation on a vehicle track: flat and low, a fast rise to a peak where the vehicle passes, then a fast drop.](automation-curve.png)
-
-Each vehicle needs **volume automation shaped like a curve**, not a straight line: low and flat for a long time, a fast rise into the moment it passes, then a fast drop. That is the **inverse square law** — sound spreads out in every direction, so a vehicle stays quiet for most of its trip and gets loud fast at the very end. A straight ramp sounds fake.
-
-A vehicle with a sound on it but no curve is not finished.
-
-{{< callout type="warning" >}}
-**Friday is a short class.** Eighth grade has magnet presentations, so you will not get a full work session tomorrow. Finish today. Anything left undone Friday is homework.
-{{< /callout >}}
-
-**Exit ticket:** Why can't you just drag the whole footstep recording onto the timeline?
-
-{{% checkpoint %}}
-
-### Checkpoint: Closing
-
-- [ ] My project is saved as Urban Runner – Sound Design.
-- [ ] I know which of the six required elements I still owe.
-- [ ] I answered the exit ticket.
-
-{{% /checkpoint %}}
+Exit ticket: why can't you drag the whole footstep recording onto the timeline?
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (editing and placing Foley to match the action on screen).
-- [**MSMTC8.PR.5**](/music-technology/description/#msmtc8pr5) — Perform expressively, with appropriate interpretation and technical accuracy, and in a manner appropriate to the audience and context (technical accuracy in syncing Foley to the frame).
-- [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas to varied contexts and daily life (Foley as a working craft in film, TV, and games).
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas (editing and placing Foley to match the action).
+- [**MSMTC8.PR.5**](/music-technology/description/#msmtc8pr5) — Perform with technical accuracy (syncing Foley to the frame).
+- [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas to varied contexts (Foley as a working craft in film, TV, and games).

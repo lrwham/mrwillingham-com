@@ -6,7 +6,7 @@ Operational reference for AI coding agents working in this repository. Human-fac
 
 ## Project Summary
 
-Hugo static site for a middle-school teacher's classes. Live for 2026-27: **Music Technology** (Georgia MSMTC8 standards) and, for Q2 (Oct 12 – Dec 18, 2026), **Computer Programming with Scratch** (Georgia MS-CS-FCP standards). The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
+Hugo static site for a middle-school teacher's classes. Live for Q2 of 2026-27 (Oct 12 – Dec 18, 2026): **Music Technology** (Georgia MSMTC8 standards) and **Computer Programming with Scratch** (Georgia MS-CS-FCP standards). Both courses run on the same 44-day calendar. The site uses the [Hextra](https://github.com/imfing/hextra) theme via a Git submodule. Lesson content lives in `content/<course>/week-N/day-NN/index.md`, organized by week. GitHub Actions build Hugo in CI and deploy to S3 + CloudFront on push to `main`. There is no staging server — use local `hugo serve` for previewing drafts.
 
 ---
 
@@ -16,7 +16,7 @@ Hugo static site for a middle-school teacher's classes. Live for 2026-27: **Musi
 |------|-----------|-----------------|
 | `content/` | All lesson and page content (markdown) | Edit freely; this is the main workspace |
 | `content/scratch/` | Computer Programming with Scratch (current quarter) | Edit; daily lessons in `week-N/day-NN/index.md`; date-free project hubs in `projects/`; code patterns, logins, practice, and vocab in `reference/`. Daily pages are short maps that link to `projects/` and `reference/` for the steps — keep it that way. |
-| `content/music-technology/` | Music technology course (current year) | Edit; same structure; reusable lessons in `projects/`; vocab in `reference/` |
+| `content/music-technology/` | Music Technology (current quarter) | Edit; same structure as Scratch — daily lessons are short maps; project hubs in `projects/`, skills and procedures in `reference/` |
 | `content/troubleshooting/` | Student self-help guides | Edit when asked |
 | `content/archive/` | Frozen snapshots of past school years (`YYYY-YY/<course>/...`) | **Don't edit existing year folders.** They're frozen as taught. Create a new `YYYY-YY/` folder at end of school year to archive that year — see "Archive & Reusable Projects" below. |
 | `archetypes/` | Lesson templates used by `hugo new content` | Read for the canonical skeleton; edit only if templates change |
@@ -326,7 +326,7 @@ To promote an archived lesson into a reusable project: copy it from the archive,
 
 ### `content/<course>/reference/` — quick-reference pages
 
-Date-free pages for anything lessons would otherwise repeat: login steps, code patterns, tool guides, practice questions, vocabulary. The Scratch course keeps the canonical set — `daily-routine/`, `scratch-login/`, `share-to-studio/`, `code-patterns/` (one `## Pattern Name` heading per Scratch script, deep-linked from lessons), `art-tools/`, `boolean-operators/`, `flowcharts/` (with the printable worksheet as a `type: bare` sub-page), `python-setup/`, `datasets/` (page bundle holding the zips), `practice/` (hub plus one page per practice set), and `unit-N-vocab/`. Printable worksheets are `type: bare` leaf pages (`layouts/bare/single.html`), kept next to the project or reference page that uses them.
+Date-free pages for anything lessons would otherwise repeat: login steps, code patterns, tool guides, practice questions, vocabulary. Music Technology has `daily-routine/`, `soundtrap-basics/`, `turning-in-work/` (the three rules and every export procedure — link it from every graded day), `arranging-loops/`, `beat-making/`, `music-reading-101/`, `note-reading-practice/`, `musescore-basics/`, `melody-and-form/`, `sound-design/`, `recording-setup/`, `peer-voting/`, and `podcast-vocab/`. The Scratch course keeps a parallel set — `daily-routine/`, `scratch-login/`, `share-to-studio/`, `code-patterns/` (one `## Pattern Name` heading per Scratch script, deep-linked from lessons), `art-tools/`, `boolean-operators/`, `flowcharts/` (with the printable worksheet as a `type: bare` sub-page), `python-setup/`, `datasets/` (page bundle holding the zips), `practice/` (hub plus one page per practice set), and `unit-N-vocab/`. Printable worksheets are `type: bare` leaf pages (`layouts/bare/single.html`), kept next to the project or reference page that uses them.
 
 **Lesson pages are maps.** A daily lesson states objectives, says what to open and which project day or pattern to follow, carries the checkpoints and the closing, and links out for the actual steps and code. If a work session is pasting in code that already lives on `code-patterns/` or a project hub, link instead. Per-quarter links that change (class studio, Forms, Gimkit) live on one reference page (`share-to-studio/` for the studio) or are flagged `<!-- TODO: new link -->` in the lesson.
 
@@ -473,17 +473,23 @@ The user often supplies a teacher-facing lesson plan (timed agenda, materials li
   - Weeks 8–9 — AI and VEXcode VR (Days 35–44): BrainPOP Hackers, Teachable Machine (`projects/teachable-machine-rock-paper-scissors/`), then seven **scaffolded** VEXcode VR days (37–42, 44) with `draft: true` and TODO stubs — the user fills these in. Day 43 is the end-of-quarter word search.
 - **Per-quarter links to replace:** class studio (`reference/share-to-studio/`), About Me form (Day 2), learning checks (Days 11, 12), Gimkit (Day 18), VGD forms (Days 25, 28), Pokémon stats form (Day 33), and the Scratch starter projects on the hubs. Each is marked `<!-- TODO: new link -->`.
 
-### Music Technology
+### Music Technology (Q2 2026-27)
 
 - **Audience:** Grade 8.
-- **Length:** 45 days across 9 weeks.
-- **Framework:** Georgia MSMTC8 standards (Creating, Performing, Responding, Connecting).
-- **Primary tools:** GarageBand (primary DAW), Soundtrap (podcast recording), Musescore, Hooktheory, musictheory.net, Edpuzzle, Flocabulary, BrainPop.
-- **Hardware:** Mac computers, XLR microphones, audio interfaces, portable audio recorders.
-- **Units to date:**
-  - Unit 1: Podcasts (Days 1–11) — wave science, mic setup, scripting, intro music, recording, editing, distribution
-  - Unit 2: Sound Design (Days 12–15) — effects (Pitch Shift, Reverb, EQ, Distortion, Delay, Chorus, Tremolo), automation, layering with video
-  - Additional units in weeks 4–8 covering MIDI, music reading, beat making, remixing (see `content/music-technology/week-*/` for current scope).
+- **Length:** One quarter — 44 class days across 9 weeks, Mon 10/12/2026 – Fri 12/18/2026, the same calendar as Scratch: Day 1 is a digital learning day with an at-home page; Days 2–5 are conference-week early release; Tue 11/3 is off (Week 4 has four days); Thanksgiving 11/23–27; Thu 12/17 and Fri 12/18 early release.
+- **Framework:** Georgia MSMTC8 standards (Creating, Performing, Responding, Connecting). Anchors `#msmtc8<domain>N`.
+- **Primary tools:** Soundtrap (primary DAW — login is student email + lunch number), MuseScore (notation), musictheory.net (note reading), CTLS (every submission), BrainPOP via Clever. GarageBand only in the two legacy project hubs (film scoring, classical remix).
+- **Hardware:** Mac computers, XLR microphones on desktop stands, AudioBox interfaces, a shared MIDI controller per table.
+- **Re-dated in place from Q1 2026-27.** Q1's Day 11 DLD placeholder was dropped and Q1 Days 1–10 shifted to Q2 Days 2–11; Days 12–44 kept their numbers. Q1 as taught lives in git history only. Lessons were slimmed so steps live in `projects/` and `reference/`.
+- **Units** (`units:` values exactly as written):
+  - `Loops and Layering` (Days 1–6) — DLD, welcome and Soundtrap setup, loop scavenger hunt, layering and dynamics, genre first. Hub: `projects/loops-and-layering/`.
+  - `Beat Making` (Days 7–11) — drum kit, MIDI, Patterns Beatmaker rock beat and fills, four on the floor on a controller, quantization, the graded Loop Song. Reference: `reference/beat-making/`.
+  - `Music Reading` (Days 12–17) — staff and keyboard, rhythm, MuseScore, Ode to Joy, mystery melodies and the reveal. Hub: `projects/mystery-transcription/`.
+  - `Melody and Form` (Days 18–25) — A minor and the tonic, binary and ternary, dominant and cadence, the summative One Piece One Period (Day 21), listening party, ABA chords in Soundtrap (`projects/aba-chords/`), review, quiz on Day 25. Hub: `projects/melody-project/`.
+  - `Sound for Screen` (Days 26–36) — Urban Runner (`projects/urban-runner/`, Days 26–30, with Thanksgiving between finishing and uploading), recording setup and found sounds, effects, the Sound Design Project (`projects/sound-design-project/`, Days 34–36).
+  - `Podcasts` (Days 37–44) — written fresh for Q2 from the 2025-26 archive, adapted to Soundtrap. Hub: `projects/podcast/` with `sample-script/`. Script due Day 41, episode due Day 44.
+- **Assessment:** quiz on music reading and form (Day 25, CTLS, paper-free). Quiz content never on the site. The practice quiz in CTLS is referenced, not reproduced.
+- **Per-quarter links to replace:** MIDI controller scavenger hunt form (Day 10), Mystery Transcription guess form (Day 16), Computer Check-in form (Day 32), and the assigned drum keys TODO on Day 10. Each is marked `<!-- TODO -->`. Assignment charts, voting forms, the footstep pack, and Ryze-Realm-Warp.zip are posted on CTLS, not the site.
 
 When in doubt about course content beyond what's in this AGENTS.md, read the relevant week's `_index.md` and the most recent 2–3 daily lessons in that week.
 
@@ -516,8 +522,9 @@ When in doubt about course content beyond what's in this AGENTS.md, read the rel
 - **Verify with `hugo --quiet --renderToMemory`** after any edit before declaring done. Zero output = success.
 - **Check for an existing near-match** before inventing a `units`, `tags`, or `resources` value — singular/plural and reworded variants split a term across two pages. See "Taxonomy values" above; casing alone does not split a term.
 - **Don't delete or rewrite weekly schedule links that 404 in prod.** Future-dated lessons are excluded from production builds by design — see "Future-dated lessons are invisible in production."
-- **Don't rely on stale planning files.** Current schedule lives in each course's week-`N` `_index.md`. Treat any informal notes files as potentially out of date. `TODO-archive-cs-to-live.md` is the promotion checklist for the Scratch course; delete it once the course is fully live.
-- **Keep Scratch daily lessons as maps.** Steps and code go on `projects/` hubs and `reference/` pages; a lesson links to them. Don't paste pattern code back into a daily page.
+- **Don't rely on stale planning files.** Current schedule lives in each course's week-`N` `_index.md`. Treat any informal notes files as potentially out of date. `TODO-archive-cs-to-live.md` and `TODO-music-tech-q2.md` are the Q2 build checklists; delete them once the courses are fully live.
+- **Keep daily lessons as maps** in both courses. Steps, code, grids, requirements, and rubrics go on `projects/` hubs and `reference/` pages; a lesson links to them. Don't paste them back into a daily page.
+- **Music Tech unit values** are `Loops and Layering`, `Beat Making`, `Music Reading`, `Melody and Form`, `Sound for Screen`, `Podcasts`. No ampersands.
 
 ---
 

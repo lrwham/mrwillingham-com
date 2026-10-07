@@ -1,10 +1,10 @@
 ---
-title: "Day 24: Review Day — Note Reading, Form, Tonic and Dominant"
-date: 2026-09-03T08:00:00-04:00
-description: "Review day. Run the note-reading trainers, then take the practice quiz in CTLS. The real quiz is tomorrow."
+title: "Day 24: Review Day: Note Reading, Form, Tonic and Dominant"
+date: 2026-11-13T08:00:00-05:00
+description: "Run the trainers and take the practice quiz in CTLS. The real quiz is Monday."
 day_number: 24
 units:
-  - "Melody & Form"
+  - "Melody and Form"
 standards:
   - MSMTC8.RE.2
   - MSMTC8.CR.2
@@ -20,10 +20,10 @@ resources:
   - "CTLS"
 draft: false
 toc: true
-weight: 4
+weight: 5
 ---
 
-{{< icon "calendar" >}} **Thursday, September 3rd, 2026**
+{{< icon "calendar" >}} **Friday, November 13th, 2026**
 
 {{% objectives %}}
 
@@ -39,18 +39,13 @@ weight: 4
 
 ## Warmup: Note Reading
 
-Three links. Click all three. Start with the clef you are worse at and finish on the mixed one — that is the one that looks like tomorrow's quiz.
-
-1. [Bass Clef Practice](https://www.musictheory.net/exercises/note/ngwyryyynyydwbb)
-2. [Treble Clef Practice](https://www.musictheory.net/exercises/note/bg1yryyynyydwbb)
-3. [Mixed Treble and Bass Practice](https://www.musictheory.net/exercises/note/dg1gwyryyynyydwbb)
+All three trainers on [Note Reading Practice](/music-technology/reference/note-reading-practice/). Worse clef first, mixed last.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I practiced bass clef and treble clef.
-- [ ] I finished on the mixed exercise.
+- [ ] Bass, treble, and mixed.
 
 {{% /checkpoint %}}
 
@@ -58,32 +53,20 @@ Three links. Click all three. Start with the clef you are worse at and finish on
 
 {{% worksession %}}
 
-## Work Session: Practice Quiz in CTLS
+## Work Session: Practice Quiz
 
-Open **CTLS** and take the **practice quiz**. It covers the same three things as tomorrow's real quiz:
+Open CTLS and take the **practice quiz**. It covers the same three things as Monday's real one — note reading, binary versus ternary, tonic and dominant — and does not count. Look at what you missed, then review it on [Music Reading 101](/music-technology/reference/music-reading-101/) and [Melody and Form](/music-technology/reference/melody-and-form/) and drill it.
 
-- **Note reading** — naming notes in treble and bass clef.
-- **Form** — binary (AB) vs. ternary (ABA).
-- **Tonic and dominant** — tonic is home, dominant pulls back home.
-
-The practice quiz does not count for a grade. Take it, look at what you missed, then go back to the trainers above and drill that.
+Done early? Open Soundtrap or MuseScore and finish an old project or start something new.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ] I finished the practice quiz in CTLS.
+- [ ] Practice quiz done.
 - [ ] I went back and practiced what I missed.
 
 {{% /checkpoint %}}
-
-{{% /worksession %}}
-
-{{% worksession %}}
-
-## Early Finishers
-
-Done early? Open **Soundtrap** or **MuseScore** and keep working — finish an old project, or start something new.
 
 {{% /worksession %}}
 
@@ -91,21 +74,11 @@ Done early? Open **Soundtrap** or **MuseScore** and keep working — finish an o
 
 ## Closing
 
-Nothing is turned in today.
-
-**The quiz is tomorrow, Friday, September 4th.**
-
-{{% checkpoint %}}
-
-### Checkpoint: Closing
-
-- [ ] I know the quiz is tomorrow and what is on it.
-
-{{% /checkpoint %}}
+Nothing is turned in. **The quiz is Monday, November 16th.**
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure and context of varied musical works inform the response (identifying pitches in notation and distinguishing binary from ternary form).
-- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (reviewing the role of tonic and dominant within a form).
+- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how structure informs the response (identifying pitches and distinguishing binary from ternary).
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas (the role of tonic and dominant within a form).

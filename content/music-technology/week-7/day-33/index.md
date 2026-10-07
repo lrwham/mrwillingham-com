@@ -1,10 +1,10 @@
 ---
 title: "Day 33: Effects Practice"
-date: 2026-09-17T08:00:00-04:00
-description: "Add the Ryze Realm Warp clip to Soundtrap, line up its sounds with the warp, and try reverb, delay, EQ, distortion, and modulation."
+date: 2026-12-03T08:00:00-05:00
+description: "Use reverb, delay, EQ, distortion, and modulation on the Ryze Realm Warp clip."
 day_number: 33
 units:
-  - "Sound for TV, Film & Games"
+  - "Sound for Screen"
 standards:
   - MSMTC8.CR.2
   - MSMTC8.CN.2
@@ -20,13 +20,13 @@ toc: true
 weight: 4
 ---
 
-{{< icon "calendar" >}} **Thursday, September 17th, 2026**
+{{< icon "calendar" >}} **Thursday, December 3rd, 2026**
 
 {{% objectives %}}
 
 ## Objectives
 
-- I can add a video to a Soundtrap project.
+- I can add a downloaded video to a Soundtrap project.
 - I can use reverb, delay, EQ, distortion, and modulation to change a sound.
 - I can line sounds up with the action on screen.
 
@@ -34,25 +34,15 @@ weight: 4
 
 {{% warmup %}}
 
-## Warmup: Set Up the Project (10 min)
+## Warmup: Set Up the Project
 
-{{< callout type="info" >}}
-**Download Ryze-Realm-Warp.zip from CTLS.** The link is on today's CTLS post.
-{{< /callout >}}
-
-1. Look in your **Downloads** and double-click the ZIP to unzip it.
-2. In Soundtrap, start a new project named **Ryze Realm Warp**.
-3. Drag the **.mp4** into the project, then drag the three **.wav** files onto their own tracks.
-
-{{< callout type="warning" >}}
-**Unzip first.** Soundtrap cannot open a .zip file. Use the files inside the **Ryze-Realm-Warp** folder.
-{{< /callout >}}
+Download **Ryze-Realm-Warp.zip** from today's CTLS post and **unzip it** — Soundtrap cannot open a zip. New project named **Ryze Realm Warp**: drag in the `.mp4`, then the three `.wav` files onto their own tracks.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] Video and all three sounds are in the Ryze Realm Warp project.
+- [ ] Video and all three sounds are in the project.
 
 {{% /checkpoint %}}
 
@@ -62,39 +52,20 @@ weight: 4
 
 ## Work Session: Effects
 
-Follow along as I demo each effect. After each one, try it on your sounds. **Trim your sounds first** — they are longer than the video. Click **Effects** on a track → **Add effect**. Turn it off and on to hear the difference.
+Follow along as each effect is demoed, then try it on your sounds. Trim the sounds first — they are longer than the video. Definitions and what each one does: [Effects](/music-technology/reference/sound-design/#effects).
 
-1. Move the sounds so they hit when the warp happens on screen.
-2. Try each effect: **reverb**, **delay**, **EQ**, **distortion**, **modulation**. Change one setting at a time and listen.
-3. Keep the effects that fit the video. Remove the ones that don't.
-4. Save.
+1. Move the sounds so they hit when the warp happens.
+2. Try each of the five — reverb, delay, EQ, distortion, modulation — one setting at a time.
+3. Keep what fits the video; remove what does not. Save.
 
-### Key Vocabulary
-
-Reverb
-: Makes a sound feel like it's in a room. Small room → big hall → cave. Too much on everything sounds muddy.
-
-Delay
-: Echoes. Short time is a quick double; long time is canyon echoes. **Feedback** is how many echoes.
-
-EQ
-: Turns low, middle, and high sounds up or down. Low = rumble, middle = body, high = sparkle and hiss.
-
-Distortion
-: Adds grit and crunch. It also makes things louder — turn the volume down to compare fairly.
-
-Modulation
-: Sounds that move and wobble: chorus (wide shimmer), flanger (jet swoosh), phaser (bubbly sweep), tremolo (volume wobble). **Rate** is how fast; **depth** is how much.
-
-**Done early?** Stack two effects on one sound and compare the order.
+Done early? Stack two effects on one sound and compare the order.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
 - [ ] Sounds lined up with the warp.
-- [ ] All five effects tried.
-- [ ] Project saved.
+- [ ] All five effects tried; project saved.
 
 {{% /checkpoint %}}
 
@@ -104,13 +75,13 @@ Modulation
 
 ## Closing
 
-Which effect fit the warp best, and why?
+Which effect fit the warp best, and why? Tomorrow: the same effects on your own found sound, and the Sound Design Project begins.
 
-Tomorrow: the same effects on your own found sounds.
+Found sound homework is due today on CTLS.
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (transforming sounds with effects to fit an on-screen event).
-- [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas to varied contexts and daily life (how effects are used in game and film sound design).
+- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas (transforming sounds with effects to fit an on-screen event).
+- [**MSMTC8.CN.2**](/music-technology/description/#msmtc8cn2) — Relate musical ideas to varied contexts (how effects are used in game and film sound).
