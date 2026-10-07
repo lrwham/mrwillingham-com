@@ -1,17 +1,20 @@
 ---
-title: "Day 5: Choosing Loops by Category and Genre"
-date: 2026-08-07T08:00:00-04:00
-description: "Learn why a loop set needs one loop per job, and how picking a genre first makes every choice after it more cohesive."
+title: "Day 5: Layering and Dynamics"
+date: 2026-10-16T08:00:00-04:00
+description: "Share one loop set with the class, then rebuild it so the loops enter over time and stay balanced."
 day_number: 5
 units:
-  - "Loops & Layering"
+  - "Loops and Layering"
 standards:
-  - MSMTC8.CR.2
-  - MSMTC8.RE.1
+  - MSMTC8.CR.3
+  - MSMTC8.CR.4
+  - MSMTC8.RE.2
 tags:
   - Soundtrap
   - Loops
-  - Genre
+  - Layering
+  - Dynamics
+  - Peer Feedback
 resources:
   - "Soundtrap"
 draft: false
@@ -19,37 +22,35 @@ toc: true
 weight: 5
 ---
 
-{{< icon "calendar" >}} **Friday, August 7th, 2026**
+{{< icon "calendar" >}} **Friday, October 16th, 2026**
+
+{{% alert "Short Class" %}}
+Early release. The share-out comes first; whatever rebuilding you do not finish today carries into Monday's warmup.
+{{% /alert %}}
 
 {{% objectives %}}
 
 ## Objectives
 
-- I can name the job each category of loop does in a set.
-- I can explain why four loops from the same category do not make a song.
-- I can explain how choosing a genre first makes the rest of my choices more cohesive.
-- I can build a set by choosing a genre and then filling each job from it.
+- I can play one of my loop sets for the class and explain why those four loops belong together.
+- I can name something specific that works in a classmate's set.
+- I can arrange loops over time instead of playing all four at once.
+- I can use dynamics so no loop buries another.
 
 {{% /objectives %}}
 
 {{% warmup %}}
 
-## Warmup: Which One Is More Cohesive?
+## Warmup: Get Your Pick Ready
 
-Open Soundtrap
-
-Find 5 Guitar loops and put them all together in one project at the same time.
-
-Listen to it.
-
-How does it sound? Good? Bad? Why?
+Open the project you circled yesterday and check it. Small adjustments are fine. Memorize its name and your one-sentence description — you will stand, say the name, and say the sentence.
 
 {{% checkpoint %}}
 
 ### Checkpoint: Warmup
 
-- [ ] I made a Soundtrap project with 5 Guitar loops.
-- [ ] I can describe how it sounds.
+- [ ] My pick sounds the way I want.
+- [ ] I know what I am going to say about it.
 
 {{% /checkpoint %}}
 
@@ -57,84 +58,39 @@ How does it sound? Good? Bad? Why?
 
 {{% worksession %}}
 
-## Work Session: Loop Types
+## Work Session: Share Out
 
-Every category of loop has a job. A piece of music works when each musical role is filled clearly:
-
-| Category           | Job it does                                 | What happens if it is missing                                       |
-| ------------------ | ------------------------------------------- | ------------------------------------------------------------------- |
-| Drums / Percussion | Sets the beat and the energy.               | No pulse                                                            |
-| Bass               | Anchors the harmony at the bottom.          | The music sounds thin and hollow.                                   |
-| Harmony            | Fills in the chords in the middle.          | There is nothing filling the space between the bass and the melody. |
-| Melody / Main Lead | This is the main part people sing along to. | The music doesn't have a clear focus.                               |
-
-
-### What happens if you fill a role many times?
-
-This is why four drum loops do not make a song. Four drum loops is one job done four times, and three jobs left undone. The same is true of four bass loops or four synth leads.
-
-### Is this a rule?
-
-No, not every great piece of music has one clear drum, one clear bass, one clear harmony, and one clear melody. This is the simplest recipe though for making a good song using loops.
-
-### Key Vocabulary
-
-Cohesive
-: Holding together as one piece, so the parts sound like they were meant for each other.
-
-Genre
-: A category of music that shares a sound — hip hop, rock, EDM, cinematic, lo-fi.
-
-Arrangement
-: Which parts play, when they play, and how they fit together.
+Mr. Willingham plays each set on the big speakers. When it is not your turn: which loop is most important? Do the loops start together or at different times? Is anything hard to hear? Do they all work together? "It sounds cool" is nice but not useful.
 
 {{% checkpoint %}}
 
-### Checkpoint: Work Session
+### Checkpoint: Share Out
 
-- [ ] I can name four musical roles a loop can fill
-- [ ] I can explain why having four loops from the same category does not work.
-- [ ] I can explain why missing a musical role makes a song sound incomplete.
+- [ ] I played my set and said my sentence.
+- [ ] I can name one specific thing that worked in someone else's set.
 
 {{% /checkpoint %}}
 
-## Genre
+{{% /worksession %}}
 
-Filling every job is not enough on its own. A cinematic string loop, a lo-fi drum loop, a metal bass, and a salsa piano fill all four jobs — and still sound like four different songs playing at once.
+{{% worksession %}}
 
-Loops in the same genre were built with the same assumptions: similar tempo, similar instruments, similar production, similar feel. Choosing a genre **before** you start browsing narrows thousands of loops down to a few dozen that already agree with each other. You are not limiting yourself — you are letting the earlier decision do the work of the later ones.
+## Work Session: Layering and Dynamics
 
-That is the order that works:
+Four loops starting together is a pile. Read the **Layering** and **Dynamics and Balance** sections of [Arranging Loops](/music-technology/reference/arranging-loops/), then rebuild the set you just shared following the four steps on [Project Day 3](/music-technology/projects/loops-and-layering/#project-day-3-share-out-then-layer): spread it out, make room, balance it, listen and save.
 
-{{< tabs >}}
-{{< tab name="1. Pick a genre" >}}
-Open the **Genres** menu and commit to one before you preview anything. This is the decision that makes every choice after it easier.
-{{< /tab >}}
-{{< tab name="2. Set key and tempo" >}}
-Set them to match the genre you picked. Loops stretched far from their original tempo sound warped.
-{{< /tab >}}
-{{< tab name="3. Fill each job once" >}}
-Drums, then bass, then harmony, then melody — one loop per job, all from inside that genre.
-{{< /tab >}}
-{{< tab name="4. Balance it" >}}
-Faders down, then bring each layer up one at a time the way you did yesterday.
-{{< /tab >}}
-{{< /tabs >}}
-
-### Build One
-
-Make a new project and build a four-loop set this way, start to finish. Pick a genre you did **not** use in Set 2 of your scavenger hunt.
-
-Name it after your genre so you can find it later.
+{{< callout type="warning" >}}
+If you keep raising faders to fix a problem you will run out of room and everything distorts. Lower the loop that is in the way.
+{{< /callout >}}
 
 {{% checkpoint %}}
 
 ### Checkpoint: Work Session
 
-- [ ] I picked a genre before I previewed any loops.
-- [ ] I set my key and tempo before adding loops.
-- [ ] My set has one loop for each of the four jobs, all from that genre.
-- [ ] I balanced the tracks and saved the project.
+- [ ] My loops do not all start at the same time.
+- [ ] At least one loop ends before the project does.
+- [ ] I rebalanced the faders one track at a time.
+- [ ] I saved the project.
 
 {{% /checkpoint %}}
 
@@ -142,18 +98,16 @@ Name it after your genre so you can find it later.
 
 {{% closing %}}
 
-## Closing: Cohesion Check
+## Closing: What Changed
 
-Play your new set for a neighbor and answer:
+Play the rebuilt set for a neighbor. Which loop starts alone, and why that one? Which loop did you end early, and what came in when it left? Which loop did you turn down the most, and what was it burying?
 
-1. What genre did you choose, and which loop makes that genre obvious?
-2. Is this set more cohesive than the one you shared yesterday? What made the difference — the genre, the four jobs, or the balance?
-
-Save your project and log off.
+Save, log off, headphones away.
 
 {{% /closing %}}
 
 ## Standards
 
-- [**MSMTC8.CR.2**](/music-technology/description/#msmtc8cr2) — Select and develop musical ideas for defined purposes and contexts (building a set by choosing a genre first and then filling each job once from inside it).
-- [**MSMTC8.RE.1**](/music-technology/description/#msmtc8re1) — Choose music appropriate for a specific purpose or situation (citing the category a loop belongs to and the genre it comes from as the reasons for choosing it).
+- [**MSMTC8.CR.4**](/music-technology/description/#msmtc8cr4) — Share creative musical work that conveys intent and demonstrates craftsmanship (playing one set for the class and explaining the choice).
+- [**MSMTC8.CR.3**](/music-technology/description/#msmtc8cr3) — Evaluate and refine selected musical ideas (rebuilding the set so loops enter and exit over time, then rebalancing it).
+- [**MSMTC8.RE.2**](/music-technology/description/#msmtc8re2) — Analyze how the structure of musical works informs the response (a set that builds over time versus four loops that start at once).
