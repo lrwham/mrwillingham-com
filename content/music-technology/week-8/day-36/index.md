@@ -1,7 +1,7 @@
 ---
 title: "Day 36: Sound Design Project — Share & Vote"
 date: 2026-09-29T08:00:00-04:00
-description: "Watch six assigned classmates' Sound Design Projects and rank a top three on the voting form."
+description: "Watch six assigned classmates' Sound Design Projects and rank a top four on the voting form."
 day_number: 36
 units:
   - "Sound for TV, Film & Games"
@@ -27,7 +27,7 @@ weight: 2
 
 - I can watch my six assigned classmates' projects.
 - I can judge each one against the rubric.
-- I can rank my top three on the voting form.
+- I can rank my top four on the voting form.
 
 {{% /objectives %}}
 
@@ -55,10 +55,12 @@ Open the **Sound Design Project** discussion on CTLS and find your own post.
 ## Work Session: Watch & Vote
 
 1. Open the assignment chart for **your class period** on today's CTLS post. Find your name and watch the **six** clips listed beside it. These are not the same six as Urban Runner.
-2. Pick your three favorites **from those six**, in order — **1** = favorite, **2** = second, **3** = third.
+2. Pick your four favorites **from those six**, in order — **1** = favorite, **2** = second, **3** = third, **4** = fourth.
 3. Submit them on the voting form linked in today's CTLS post. One form, one time.
 
 **Only the six clips on your list count.** A vote for anyone else is thrown out.
+
+You only need **four** of your six posted to vote. If a clip isn't posted, skip it. Fewer than four posted? Tell Mr. Willingham.
 
 ### What to listen for
 
@@ -70,9 +72,7 @@ Use the same five rows you were graded on:
 - Is there sound from the first frame to the last?
 - Does every big moment land on a big sound?
 
-Vote for the sound design, not the person. A **1** is worth the most competition points, a **3** the fewest. The top three go up on the big screen. Competition points do not affect your grade.
-
-If a name on your list has not posted yet, check back later in the period.
+Vote for the sound design, not the person. Competition points: **1st = 10**, **2nd = 6**, **3rd = 3**, **4th = 1**. The top three go up on the big screen. Competition points do not affect your grade.
 
 **Done early?** Watch past your six — but submit the form only once.
 
@@ -80,9 +80,9 @@ If a name on your list has not posted yet, check back later in the period.
 
 ### Checkpoint: Vote
 
-- [ ] All six assigned clips watched.
-- [ ] Voting form submitted with my 1, 2, and 3.
-- [ ] All three votes went to names on my own list.
+- [ ] All six assigned clips watched (or every one that's posted).
+- [ ] Voting form submitted with my 1, 2, 3, and 4.
+- [ ] All four votes went to names on my own list.
 
 {{% /checkpoint %}}
 
