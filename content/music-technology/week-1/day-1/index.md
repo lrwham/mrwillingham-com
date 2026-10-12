@@ -1,7 +1,7 @@
 ---
-title: "Day 1: Digital Learning Day: Syllabus, About Me, and Sound Waves"
+title: "Day 1: Digital Learning Day: Syllabus and Sound Waves"
 date: 2026-10-12T08:00:00-04:00
-description: "From home: read the syllabus, complete About Me in CTLS, and do the BrainPOP Sound Waves lesson."
+description: "From home: read the syllabus and do the BrainPOP Sound Waves lesson."
 day_number: 1
 units:
   - "Loops and Layering"
@@ -34,7 +34,6 @@ Everything opens through CTLS or Clever with your school login. If you cannot lo
 ## Objectives
 
 - I can explain how grades and late work are handled in this class.
-- I can complete the About Me activity.
 - I can describe what sound waves are and how they travel.
 
 {{% /objectives %}}
@@ -62,25 +61,9 @@ Read the syllabus and the [Daily Routine](/music-technology/reference/daily-rout
 
 {{% worksession %}}
 
-## Work Session: About Me
-
-Open the **About Me** activity in CTLS ([ctlslearn.cobbk12.org](https://ctlslearn.cobbk12.org)) and complete it. This is how Mr. Willingham learns what you listen to, what you have played or made before, and what you want out of this class. Answer every question. "idk" is not an answer.
-
-{{% checkpoint %}}
-
-### Checkpoint: About Me
-
-- [ ] I answered every question and submitted About Me in CTLS.
-
-{{% /checkpoint %}}
-
-{{% /worksession %}}
-
-{{% worksession %}}
-
 ## Work Session: BrainPOP — Sound Waves
 
-Everything in this class is sound waves. Log in to Clever, open **BrainPOP**, and complete the **Sound Waves** lesson: the movie, the Vocab Builder, and the quiz. The quiz is a daily grade.
+Everything in this class is sound waves. Log in to Clever, open **BrainPOP**, and complete the **Sound Waves** lesson: the movie, the Vocab Builder, and the quiz. The quiz is a daily grade. **Due Wednesday, October 14.**
 
 {{< clever >}}
 

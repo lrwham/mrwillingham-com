@@ -34,6 +34,7 @@ Your instructions are posted here every day. Read the whole page before you touc
 - I can log in to a Mac computer with my school account.
 - I can describe what to do during a safety drill.
 - I can log in to Soundtrap and open a new project.
+- I can complete the About Me activity.
 
 {{% /objectives %}}
 
@@ -97,6 +98,22 @@ Once you are in, click **Enter Studio**, start a blank project, press play, and 
 - [ ] I logged in to Soundtrap.
 - [ ] I opened a new project in the studio.
 - [ ] I can hear sound through my headphones.
+
+{{% /checkpoint %}}
+
+{{% /worksession %}}
+
+{{% worksession %}}
+
+## Work Session: About Me
+
+Open the **About Me** activity in CTLS ([ctlslearn.cobbk12.org](https://ctlslearn.cobbk12.org)) and complete it. This is how Mr. Willingham learns what you listen to, what you have played or made before, and what you want out of this class. Answer every question. "idk" is not an answer.
+
+{{% checkpoint %}}
+
+### Checkpoint: About Me
+
+- [ ] I answered every question and submitted About Me in CTLS.
 
 {{% /checkpoint %}}
 
